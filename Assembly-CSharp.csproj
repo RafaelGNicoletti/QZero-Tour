@@ -62,8 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BasicCameraFollow.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCTalk.cs" />
     <Compile Include="Assets\Scripts\NPC\TalkTextBox.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCharacterRenderer.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInteract.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />

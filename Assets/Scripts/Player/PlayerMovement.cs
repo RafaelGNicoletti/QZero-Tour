@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     public void GetInputMovement()
     {
-        // Fonte: Isometric Starter Kit do próprio Unity
+        // FONTE: Isometric Starter Kit do próprio Unity
 
         Vector2 currentPos = rbody.position;
         float horizontalInput = Input.GetAxis("Horizontal");
