@@ -62,6 +62,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Drag.cs" />
+    <Compile Include="Assets\EntidadeEncaixe.cs" />
+    <Compile Include="Assets\EntidadeEncaixeManager.cs" />
+    <Compile Include="Assets\EntidadeObjInterativo.cs" />
+    <Compile Include="Assets\InfoList.cs" />
     <Compile Include="Assets\Scripts\BasicCameraFollow.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCTalk.cs" />
     <Compile Include="Assets\Scripts\NPC\TalkTextBox.cs" />
