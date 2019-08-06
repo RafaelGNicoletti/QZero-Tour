@@ -7,6 +7,8 @@ TagManager:
   - EntidadeNome
   - EntidadeLogo
   - NPC_Talk
+  - EncaixeLogo
+  - EncaixeNome
   layers:
   - Default
   - TransparentFX

@@ -132,6 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: bruxinha
+  objectTag: EncaixeNome
+  targetSpace: {fileID: 0}
 --- !u!61 &3981887016290781154
 BoxCollider2D:
   m_ObjectHideFlags: 0

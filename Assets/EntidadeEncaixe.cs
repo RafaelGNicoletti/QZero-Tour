@@ -7,14 +7,7 @@ public class EntidadeEncaixe : MonoBehaviour
     public string objectTag;
     public string id = "-1";
     public GameObject insideObject = null;
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag(objectTag) && id == "-1")
-        {  
-            SetObjectInside(collision.gameObject);
-        }
-    }
+    private bool locked = false;
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -24,11 +17,35 @@ public class EntidadeEncaixe : MonoBehaviour
         }
     }
 
+    public void PutObjectInside(GameObject gameObject)
+    {
+        bool correctTag = gameObject.CompareTag(objectTag);
+        if (!locked)
+        {
+            if (correctTag && id == "-1")
+            {
+                SetObjectInside(gameObject);
+            }
+            else if (correctTag)
+            {
+                Debug.Log("Entrou aqui");
+                GetOutObject(insideObject);
+                SetObjectInside(gameObject);
+            }
+        }
+    }
+
     private void SetObjectInside(GameObject gameObject)
     {
         insideObject = gameObject;
         gameObject.GetComponent<EntidadeObjInterativo>().SetRespawnPoint(transform.position);
         id = gameObject.GetComponent<EntidadeObjInterativo>().nome;
+    }
+
+    private void GetOutObject(GameObject gameObject)
+    {
+        SetObjectOutside(gameObject);
+        gameObject.GetComponent<EntidadeObjInterativo>().BackToPosition();
     }
 
     private void SetObjectOutside(GameObject gameObject)
@@ -42,8 +59,8 @@ public class EntidadeEncaixe : MonoBehaviour
     {
         if (insideObject != null)
         {
-            Debug.Log("Lockou");
             insideObject.GetComponent<EntidadeObjInterativo>().SetInteractable(false);
+            locked = true;
         }
     }
 }

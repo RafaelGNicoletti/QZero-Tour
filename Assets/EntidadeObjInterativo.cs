@@ -6,7 +6,8 @@ public class EntidadeObjInterativo : Drag
 {
     [Tooltip ("Nome da entidade a qual o logo pertence")]
     public string nome;
-    public GameObject currentSpace;
+    public string objectTag;
+    public GameObject targetSpace;
     private Vector3 originPoint;
     private Vector3 respawnPoint;
     private bool moveable = true;
@@ -30,15 +31,27 @@ public class EntidadeObjInterativo : Drag
 
     public override void OnMouseUp()
     {
+        if (targetSpace != null)
+        {
+            targetSpace.GetComponent<EntidadeEncaixe>().PutObjectInside(gameObject);
+        }
 
         BackToPosition();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Encaixe"))
+        if (collision.CompareTag(objectTag))
         {
-            currentSpace = collision.gameObject;
+            targetSpace = collision.gameObject;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject == targetSpace)
+        {
+            targetSpace = null;
         }
     }
 
@@ -69,7 +82,7 @@ public class EntidadeObjInterativo : Drag
     }
 
 
-    private void BackToPosition()
+    public void BackToPosition()
     {
         transform.position = respawnPoint;
     }
