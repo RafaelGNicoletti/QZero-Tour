@@ -44,7 +44,11 @@ public class QuizManager : MonoBehaviour
     public GameObject tela2;
     [Tooltip("Tela de video de feedback/fim do quiz")]
     public GameObject tela3;
-    
+
+    public VideoClip selecionarDificuldadeVideo;
+    public VideoClip instrucoesVideo;
+    public VideoClip textoFimDoQuiz;
+
     public Text scoreText;
     private TimeManager timeManager;
 
@@ -76,7 +80,7 @@ public class QuizManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        timeManager = GameObject.Find("TimeManager").GetComponent<TimeManager>();
+        //timeManager = GameObject.Find("TimeManager").GetComponent<TimeManager>();
 
         /// Cria uma lista de perguntas realizadas e respostas dadas pelo player
         questionAndAnswer = new List<QuestionAndAnswer>();
@@ -93,7 +97,8 @@ public class QuizManager : MonoBehaviour
 
     private void Start()
     {
-        
+        SetQuestionsToDo();
+        PrepareNewQuestion();
     }
 
     /// <summary>
@@ -149,7 +154,7 @@ public class QuizManager : MonoBehaviour
 
         UnblockButtons();
         
-        timeManager.StartTimer();
+        //timeManager.StartTimer();
     }
 
     /// <summary>
@@ -160,7 +165,7 @@ public class QuizManager : MonoBehaviour
     {
         BlockButtons();
 
-        timeManager.EndTimer();
+        //timeManager.EndTimer();
 
         StartCoroutine(VerifyAnswer(value));
     }
@@ -210,14 +215,22 @@ public class QuizManager : MonoBehaviour
     /// </summary>
     public void EndQuiz()
     {
-        int scoreTemp = CalculateScore();
+        TurnOnTela3();
 
-        int indexOfText;
+        int scoreTemp = CalculateScore();
+        //if (scoreTemp >= SaveManager.instance.player.GetScore(2))
+        //{
+        //    SaveManager.instance.player.SetQnA(questionAndAnswer);
+        //    SaveManager.instance.player.SetScore(2, scoreTemp);
+        //}
+
+        int indexOfText = 0;
 
         if (correctAnswers == 0)
         {
             indexOfText = 0;
-        } else if (correctAnswers == qtyQuestionsDone)
+        }
+        else if (correctAnswers == qtyQuestionsDone)
         {
             indexOfText = 1;
         }
@@ -230,8 +243,12 @@ public class QuizManager : MonoBehaviour
 
         string tempMsg = correctAnswers + "/" + qtyQuestionsToDo;
         scoreText.text = tempMsg;
-        
-        GameObject.Find("Canvas").GetComponent<Animator>().SetTrigger("EndQuiz");
+
+        //SaveManager.instance.player.SetBeatPartTrue(3);
+
+        //AddQuizResultsToFile();
+        //GameObject.Find("Canvas").GetComponent<Animator>().SetTrigger("EndQuiz");
+        //StartCoroutine(VideoManager.instance.PlayVideo(endOfQuizText[indexOfText].video));
     }
 
     /// <summary>
@@ -250,7 +267,33 @@ public class QuizManager : MonoBehaviour
     {
         return correctAnswers * scoreIncrease[dificulty];
     }
-    
+
+    public void TurnOnTela1()
+    {
+        tela1.SetActive(true);
+        tela2.SetActive(false);
+        tela3.SetActive(false);
+    }
+
+    public void TurnOnTela2()
+    {
+        tela1.SetActive(false);
+        tela2.SetActive(true);
+        tela3.SetActive(false);
+    }
+
+    public void TurnOnTela3()
+    {
+        tela1.SetActive(false);
+        tela2.SetActive(false);
+        tela3.SetActive(true);
+    }
+
+    public void PlayInstructionVideo()
+    {
+        //StartCoroutine(VideoManager.instance.PlayVideo(instrucoesVideo));
+    }
+
     public void SetQuestionsToDo()
     {
         qtyQuestionsToDo = questionGroup[dificulty].GetLenght();
@@ -263,14 +306,22 @@ public class QuizManager : MonoBehaviour
     /// <returns></returns>
     public int RandomQuestionNumber()
     {
-        /// Seleciona o número aleatório
-        int numberSelected = numbersList[Random.Range(0, numbersList.Count-1)];
-        /// Remove da lisata para não ser selecionado novamente
-        numbersList.Remove(numberSelected);
+        int numberSelected;
+
+        if (numbersList.Count > 1)
+        {
+            /// Seleciona o número aleatório
+            numberSelected = numbersList[Random.Range(0, numbersList.Count - 1)];
+            /// Remove da lisata para não ser selecionado novamente
+            numbersList.Remove(numberSelected);
+        } else
+        {
+            numberSelected = 0;
+        }
         /// Retorna o valor selecionado
         return numberSelected;
     }
-    
+
     /// <summary>
     /// Função que reseta a lista de questões que podem ser utilizadas. Esta lista contém o número das queestões apenas
     /// </summary>
@@ -300,6 +351,32 @@ public class QuizManager : MonoBehaviour
         {
             buttonText.transform.parent.GetComponent<UnityEngine.UI.Button>().interactable = true;
         }
+    }
+
+    private void AddQuizResultsToFile()
+    {
+        //string tempPath = Application.persistentDataPath + "/" + SaveManager.instance.player.GetNome() + ".csv";
+        //FileManager.instance.SetPath(tempPath);
+
+        //if (FileManager.instance.VerifyFile())
+        //{
+        //    FileManager.instance.LoadFile();
+        //}
+        //else
+        //{
+        //    FileManager.instance.CreateFile();
+
+        //    string tempMsg = "Data e Hora,Dificuldade,Pergunta Escolhida,Resposta Escolhida\n";
+
+        //    FileManager.instance.SetHeader(tempMsg);
+        //    FileManager.instance.AddHeaderToFile();
+        //}
+
+        //for (int i = 0; i < questionAndAnswer.Count; i++)
+        //{
+        //    FileManager.instance.SetData(questionAndAnswer[i].ToString());
+        //    FileManager.instance.AddDataToFile();
+        //}
     }
     #endregion
 }

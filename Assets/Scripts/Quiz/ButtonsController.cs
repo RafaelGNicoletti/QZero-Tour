@@ -21,9 +21,16 @@ public class ButtonsController : ScriptableObject
         GameObject.Find("StartPanel").GetComponent<Animator>().SetTrigger("FadeOut");
     }
 
-    public void StartQuiz()
+    public void StartQuiz(GameObject quizManager)
     {
-        GameObject.Find("QuizManager").GetComponent<QuizManager>().PrepareNewQuestion();
+        quizManager.GetComponent<QuizManager>().TurnOnTela2();
+        quizManager.GetComponent<QuizManager>().PrepareNewQuestion();
+        //GameObject.Find("QuizManager").GetComponent<QuizManager>().PrepareNewQuestion();
+    }
+
+    public void SimpleChangeScreen()
+    {
+
     }
 
     #region Funções auxiliares
