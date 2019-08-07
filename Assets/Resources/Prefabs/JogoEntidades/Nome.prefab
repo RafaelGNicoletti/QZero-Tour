@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Nome da Entidade
 --- !u!1 &3981887016290781167
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5c08212e324ba4ca59e8c13f97bb0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: bruxinha
+  nome: 
   objectTag: EncaixeNome
   targetSpace: {fileID: 0}
 --- !u!61 &3981887016290781154
@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 3981887016377602774}
   - component: {fileID: 3981887016377602773}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Fundo do nome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

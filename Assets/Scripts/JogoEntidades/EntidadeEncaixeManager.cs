@@ -5,13 +5,17 @@ using UnityEngine.UI;
 
 public class EntidadeEncaixeManager : MonoBehaviour
 {
-    public GameObject encaixeNome;
-    public GameObject encaixeLogo;
-    public GameObject encaixeDescricao;
-    public InfoList entidadeInfoList;
+    public GameObject encaixeNome; //Encaixe de nome que será verificado
+    public GameObject encaixeLogo; //Encaixe de logo que será verificado
+    public GameObject encaixeDescricao; //Encaixe de descrição que será atualizado.
+    public InfoList entidadeInfoList; //ScriptableObject que possui a lista das entidades e a informação delas.
+    public SceneEntidadeController sceneEntidadeController;
 
     private bool duoComplete = false;
 
+    /// <summary>
+    /// Verifica se o logo e o nome possuem o mesmo id;
+    /// </summary>
     private void CheckNames()
     {
         string encaixeLogoString = encaixeLogo.GetComponent<EntidadeEncaixe>().id;
@@ -23,6 +27,7 @@ public class EntidadeEncaixeManager : MonoBehaviour
             encaixeNome.GetComponent<EntidadeEncaixe>().LockObject();
             encaixeLogo.GetComponent<EntidadeEncaixe>().LockObject();
             duoComplete = true;
+            sceneEntidadeController.CorrectAnswer();
         }
     }
 
