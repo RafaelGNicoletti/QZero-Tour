@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - EntidadeNome
+  - EntidadeLogo
+  - NPC_Talk
+  - EncaixeLogo
+  - EncaixeNome
   layers:
   - Default
   - TransparentFX
