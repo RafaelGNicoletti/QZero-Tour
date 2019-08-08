@@ -8,8 +8,8 @@ public class EntidadeObjInterativo : Drag
     public string nome; //Nome da entidade a qual o logo pertence
     public string objectTag; //Tag que o objeto irá procurar (EncaixeLogo, para logos, EncaixeNome, para nomes)
     public GameObject targetSpace; //Referência ao espaço que o objeto está interagindo.
-    public Vector3 originPoint; //Ponto em que o objeto é instânciado pela primeira vez
-    public Vector3 respawnPoint; //Ponto para qual o objeto irá voltar, caso seja pedido isso
+    private Vector3 originPoint; //Ponto em que o objeto é instânciado pela primeira vez
+    private Vector3 respawnPoint; //Ponto para qual o objeto irá voltar, caso seja pedido isso
     private bool moveable = true; //Booleano que indica se é possível mover o objeto (verificado em OnMouseDown() e OnMouseDrag()
 
     public void Start()
