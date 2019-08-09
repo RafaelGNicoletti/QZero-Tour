@@ -590,14 +590,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 2079984403}
-    - target: {fileID: 1842506228, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
-      propertyPath: m_Name
-      value: Timer
-      objectReference: {fileID: 0}
-    - target: {fileID: 1026925795, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
-      propertyPath: m_Name
-      value: TimeBar
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
 --- !u!1001 &8582294357551310877

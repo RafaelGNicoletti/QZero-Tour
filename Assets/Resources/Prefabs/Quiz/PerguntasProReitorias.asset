@@ -18,7 +18,25 @@ MonoBehaviour:
       para solicitar o seu passe escolar?"
     alternative:
     - DEAT
-    - CAE
     - DAC
+    - CAE
     - DPAG
-    correctAnswer: 1
+    correctAnswer: 2
+  - theme: PROGRAD
+    question: "Qual \xE9 a divis\xE3o da PROGRAD que emitir\xE1 os documentos necess\xE1rios
+      para solicitar o seu passe escolar?"
+    alternative:
+    - DAC
+    - DEAT
+    - CAE
+    - DPAG
+    correctAnswer: 2
+  - theme: PROGRAD
+    question: "Qual \xE9 a divis\xE3o da PROGRAD que emitir\xE1 os documentos necess\xE1rios
+      para solicitar o seu passe escolar?"
+    alternative:
+    - DEAT
+    - DAC
+    - CAE
+    - DPAG
+    correctAnswer: 2
