@@ -80,7 +80,7 @@ public class QuizManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        //timeManager = GameObject.Find("TimeManager").GetComponent<TimeManager>();
+        timeManager = GameObject.Find("TimeManager").GetComponent<TimeManager>();
 
         /// Cria uma lista de perguntas realizadas e respostas dadas pelo player
         questionAndAnswer = new List<QuestionAndAnswer>();
@@ -92,13 +92,14 @@ public class QuizManager : MonoBehaviour
         numberOfAnswers = questionGroup[dificulty].GetQuestion(0).GetNumberOfAlternatives();
 
         /// Reinicia a lista de valores que podem ser sorteados
-        RestartNumberList();
+        RestartNumberList(ref numbersList, questionGroup[dificulty].GetLenght());
     }
 
     private void Start()
     {
         SetQuestionsToDo();
-        PrepareNewQuestion();
+        RandomizeAlternatives();
+        //PrepareNewQuestion();
     }
 
     /// <summary>
@@ -154,7 +155,7 @@ public class QuizManager : MonoBehaviour
 
         UnblockButtons();
         
-        //timeManager.StartTimer();
+        timeManager.StartTimer();
     }
 
     /// <summary>
@@ -165,7 +166,7 @@ public class QuizManager : MonoBehaviour
     {
         BlockButtons();
 
-        //timeManager.EndTimer();
+        timeManager.EndTimer();
 
         StartCoroutine(VerifyAnswer(value));
     }
@@ -200,9 +201,11 @@ public class QuizManager : MonoBehaviour
             questionAndAnswer[index].SetIsCorrect(false);
             if (value != -1)
             {
-                GameObject tempCorrectFeedback = Instantiate(wrongFeedback, answerMeshText[value].transform.parent);
+                GameObject tempCorrectFeedback = Instantiate(correctFeedback, answerMeshText[selectedQuestion.GetCorrectAnswer()].transform.parent);
+                GameObject tempWrongFeedback = Instantiate(wrongFeedback, answerMeshText[value].transform.parent);
                 yield return new WaitForSeconds(3f);
                 Destroy(tempCorrectFeedback);
+                Destroy(tempWrongFeedback);
             }
         }
 
@@ -263,43 +266,46 @@ public class QuizManager : MonoBehaviour
         instance.StartCoroutine(instance.VerifyAnswer(-1));
     }
 
-    public int CalculateScore()
-    {
-        return correctAnswers * scoreIncrease[dificulty];
-    }
-
-    public void TurnOnTela1()
-    {
-        tela1.SetActive(true);
-        tela2.SetActive(false);
-        tela3.SetActive(false);
-    }
-
-    public void TurnOnTela2()
-    {
-        tela1.SetActive(false);
-        tela2.SetActive(true);
-        tela3.SetActive(false);
-    }
-
-    public void TurnOnTela3()
-    {
-        tela1.SetActive(false);
-        tela2.SetActive(false);
-        tela3.SetActive(true);
-    }
-
-    public void PlayInstructionVideo()
-    {
-        //StartCoroutine(VideoManager.instance.PlayVideo(instrucoesVideo));
-    }
-
-    public void SetQuestionsToDo()
-    {
-        qtyQuestionsToDo = questionGroup[dificulty].GetLenght();
-    }
-
     #region Funções Auxiliares
+    private Pergunta RandomizeAlternatives()
+    {
+        Pergunta tempQuestion = new Pergunta(questionGroup[dificulty].GetQuestion(0).GetNumberOfAlternatives());
+
+        List<int> alt = new List<int>();
+        int selNumb;
+
+        for (int i = 0; i < questionGroup[dificulty].GetLenght(); i++)
+        {
+            tempQuestion = new Pergunta(questionGroup[dificulty].GetQuestion(0).GetNumberOfAlternatives());
+
+            RestartNumberList(ref alt, answerMeshText.Length);
+
+            for (int j = 0; j < answerMeshText.Length; j++)
+            {
+                if (alt.Count != 0)
+                {
+                    selNumb = alt[Random.Range(0, alt.Count - 1)];
+                } else
+                {
+                    selNumb = alt[0];
+                }
+
+                alt.Remove(selNumb);
+
+                if (j == questionGroup[dificulty].GetQuestion(i).GetCorrectAnswer())
+                {
+                    tempQuestion.SetCorrectanswer(selNumb);
+                }
+
+                tempQuestion.SetAlternative(selNumb, questionGroup[dificulty].GetQuestion(i).GetAlternative(j));
+            }
+
+            questionGroup[dificulty].GetQuestion(i).OverrideQuestion(tempQuestion);
+        }
+
+        return tempQuestion;
+    }
+
     /// <summary>
     /// Função que seleciona um número aleatório da lista de perguntas que ainda não foram realizadas
     /// </summary>
@@ -308,7 +314,7 @@ public class QuizManager : MonoBehaviour
     {
         int numberSelected;
 
-        if (numbersList.Count > 1)
+        if (numbersList.Count != 0)
         {
             /// Seleciona o número aleatório
             numberSelected = numbersList[Random.Range(0, numbersList.Count - 1)];
@@ -325,15 +331,21 @@ public class QuizManager : MonoBehaviour
     /// <summary>
     /// Função que reseta a lista de questões que podem ser utilizadas. Esta lista contém o número das queestões apenas
     /// </summary>
-    private void RestartNumberList()
+    private void RestartNumberList(ref List<int> list, int lenght)
     {
-        /// Cria uma nova lista
-        numbersList = new List<int>();
+        ///// Cria uma nova lista
+        //numbersList = new List<int>();
 
-        /// Completa a lista com todas as opções possíveis
-        for (int i = 0; i < questionGroup[dificulty].GetLenght(); i++)
+        ///// Completa a lista com todas as opções possíveis
+        //for (int i = 0; i < questionGroup[dificulty].GetLenght(); i++)
+        //{
+        //    numbersList.Add(i);
+        //}
+
+        list = new List<int>();
+        for (int i = 0; i < lenght; i++)
         {
-            numbersList.Add(i);
+            list.Add(i);
         }
     }
 
@@ -377,6 +389,42 @@ public class QuizManager : MonoBehaviour
         //    FileManager.instance.SetData(questionAndAnswer[i].ToString());
         //    FileManager.instance.AddDataToFile();
         //}
+    }
+
+    public int CalculateScore()
+    {
+        return correctAnswers * scoreIncrease[dificulty];
+    }
+
+    public void TurnOnTela1()
+    {
+        tela1.SetActive(true);
+        tela2.SetActive(false);
+        tela3.SetActive(false);
+    }
+
+    public void TurnOnTela2()
+    {
+        tela1.SetActive(false);
+        tela2.SetActive(true);
+        tela3.SetActive(false);
+    }
+
+    public void TurnOnTela3()
+    {
+        tela1.SetActive(false);
+        tela2.SetActive(false);
+        tela3.SetActive(true);
+    }
+
+    public void PlayInstructionVideo()
+    {
+        //StartCoroutine(VideoManager.instance.PlayVideo(instrucoesVideo));
+    }
+
+    public void SetQuestionsToDo()
+    {
+        qtyQuestionsToDo = questionGroup[dificulty].GetLenght();
     }
     #endregion
 }
