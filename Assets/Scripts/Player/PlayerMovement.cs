@@ -6,9 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public float movementSpeed = 1f;
-    PlayerCharacterRenderer isoRenderer;
-
-    Rigidbody2D rbody;
+    private PlayerCharacterRenderer isoRenderer;
+    private Rigidbody2D rbody;
 
     private void Awake()
     {

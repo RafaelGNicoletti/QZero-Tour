@@ -46,3 +46,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor0
+    uniqueID: 2226419243
+    locked: 0
+  - name: Wall0
+    uniqueID: 888677205
+    locked: 0
+  - name: Floor1Behind
+    uniqueID: 1356899483
+    locked: 0
+  - name: Bloco
+    uniqueID: 4021436535
+    locked: 0
+  - name: Floor1
+    uniqueID: 1256366121
+    locked: 0
+  - name: Jogador
+    uniqueID: 6019851
+    locked: 0
+  - name: Wall1
+    uniqueID: 1379839235
+    locked: 0
