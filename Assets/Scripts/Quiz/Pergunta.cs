@@ -13,6 +13,11 @@ public class Pergunta
     [SerializeField] private string[] alternative;
     [SerializeField] private int correctAnswer;
 
+    public Pergunta(int i)
+    {
+        alternative = new string[i];
+    }
+
     /// <summary>
     /// Função que verifica se ovalor passado corresponde a resposta correta
     /// </summary>
@@ -33,6 +38,11 @@ public class Pergunta
         return question;
     }
 
+    public void SetQuestion(string value)
+    {
+        question = value;
+    }
+
     /// <summary>
     /// Retorna a alternativa correspondente ao índice passado
     /// </summary>
@@ -44,6 +54,16 @@ public class Pergunta
     }
 
     /// <summary>
+    /// Sobreescreve a alternativa em index pela passada em value
+    /// </summary>
+    /// <param name="index"></param>
+    /// <param name="value"></param>
+    public void SetAlternative(int index, string value)
+    {
+        alternative[index] = value;
+    }
+
+    /// <summary>
     /// Retorna o número total de alternativas
     /// </summary>
     /// <returns></returns>
@@ -52,5 +72,23 @@ public class Pergunta
         return alternative.Length;
     }
 
+    public void SetCorrectanswer(int value)
+    {
+        correctAnswer = value;
+    }
+
+    public int GetCorrectAnswer()
+    {
+        return correctAnswer;
+    }
     #endregion
+
+    public void OverrideQuestion(Pergunta newQuestion)
+    {
+        correctAnswer = newQuestion.GetCorrectAnswer();
+        for (int i = 0; i < alternative.Length; i++)
+        {
+            alternative[i] = newQuestion.GetAlternative(i);
+        }
+    }
 }
