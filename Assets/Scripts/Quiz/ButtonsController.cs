@@ -23,8 +23,10 @@ public class ButtonsController : ScriptableObject
 
     public void StartQuiz(GameObject quizManager)
     {
-        quizManager.GetComponent<QuizManager>().TurnOnTela2();
-        quizManager.GetComponent<QuizManager>().PrepareNewQuestion();
+        QuizManager manager = quizManager.GetComponent<QuizManager>();
+        manager.SetDificulty(0);
+        manager.TurnOnTela2();
+        manager.PrepareNewQuestion();
         //GameObject.Find("QuizManager").GetComponent<QuizManager>().PrepareNewQuestion();
     }
 
