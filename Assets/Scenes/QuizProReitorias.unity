@@ -475,6 +475,88 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuizCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3901455569871276439, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570312014466, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570312014466, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570312014466, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570162812933, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570162812933, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570162812933, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570481448495, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570481448495, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570481448495, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570585006651, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570585006651, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570585006651, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 801053525, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 801053525, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
+      propertyPath: m_fontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 801053525, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455571661458722, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3901455569877314628, guid: 4c4626bd6db46374d860f454ccdbbf25,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -590,6 +672,44 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 2079984403}
+    - target: {fileID: 3901455570679815114, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570679815114, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455569822906260, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455569822906260, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455571083995098, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455571083995098, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 287732510, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 287732510, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
 --- !u!1001 &8582294357551310877
@@ -709,5 +829,20 @@ PrefabInstance:
       propertyPath: endOfQuizBalloon
       value: 
       objectReference: {fileID: 855529420}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
+      propertyPath: endOfQuizText.Array.data[0]
+      value: "Parece que alguem pulou as informa\xE7\xF5es..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
+      propertyPath: endOfQuizText.Array.data[1]
+      value: Mandou bem! Mas podemos melhorar...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
+      propertyPath: endOfQuizText.Array.data[2]
+      value: "Parab\xE9ns! T\xE1 sabendo dos paranau\xEA tudo!"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e83603be7b8c874a931d4855dc4b681, type: 3}
