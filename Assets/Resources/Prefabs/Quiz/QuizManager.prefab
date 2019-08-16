@@ -46,7 +46,7 @@ MonoBehaviour:
   correctAnswers: 0
   scoreIncrease: 01000000
   dificulty: 0
-  qtyQuestionsToDo: 5
+  qtyQuestionsToDo: 11
   qtyQuestionsDone: 0
   questionGroup:
   - {fileID: 11400000, guid: 63ce38c7a5f558448a1382a1238cab67, type: 2}
