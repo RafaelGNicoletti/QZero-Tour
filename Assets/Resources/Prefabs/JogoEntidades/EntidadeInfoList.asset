@@ -13,11 +13,90 @@ MonoBehaviour:
   m_Name: EntidadeInfoList
   m_EditorClassIdentifier: 
   entidadeInfoList:
-  - id: PROPES
-    info: "Ol\xE1, sou a propes"
-  - id: netel
-    info: "Ol\xE1, sou o netel"
-  - id: bruxinha
-    info: "Algu\xE9m chamou bruxinha?"
-  - id: cmcc
-    info: Tem semana do cmcc
+  - id: Leprechauns
+    info: "\xC9 a equipe de Rugby da UFABC que tamb\xE9m promove eventos sociais,
+      e tem como princ\xEDpio a solidariedade. Mais informa\xE7\xF5es: https://www.facebook.com/LeprechaunsRugby/"
+  - id: CAN
+    info: "O CAN \xE9 o Centro acad\xEAmico do curso de Bacharelado em Neuroci\xEAncia,
+      representando os discentes nas quest\xF5es do curso e no mercado de trabalho.
+      Mais inforla\xE7\xF5es: https://www.facebook.com/neuroufabc/ "
+  - id: Clube de Anime
+    info: "O Clube de Anime \xE9 um grupo que discute e apresenta aspectos gerais
+      da cultura japonesa, com foco em animes e mang\xE1s. Mais informa\xE7\xF5es:
+      https://www.facebook.com/clubedeanimeufabc/"
+  - id: IEEE
+    info: "\xC9 uma entidade que promove atividades que visam o desenvolvimento t\xE9cnico
+      e pessoal considerando cursos de gradua\xE7\xE3o da UFABC. Mais informa\xE7\xF5es:
+      https://www.facebook.com/RamoUFABC/"
+  - id: TamanduTech
+    info: "\xC9 a equipe de rob\xF3tica que dissemina o ensino e aplica\xE7\xE3o da
+      rob\xF3tica, que tamb\xE9m participa de competi\xE7\xF5es nacionais de rob\xF3tica.
+      Mais informa\xE7\xF5es: https://www.facebook.com/tamandutech/"
+  - id: Coletiva
+    info: "O Coletiva \xE9 um coletivo feminista criado por mulheres e para mulheres,
+      para se organizarem coletivamente contra o machismo institucional na UFABC.
+      Mais informa\xE7\xF5es: https://www.facebook.com/COLETIVA.UFABC/"
+  - id: InseRI
+    info: "O InseRI \xE9 uma entidade conduzida por alunos do Bacharelado em Rela\xE7\xF5es
+      Internacionais e foi criada aumentar o escopo das atividades e auxiliar na integra\xE7\xE3o
+      ao mercado de trabalho. Mais informa\xE7\xF5es: https://www.facebook.com/inseriufabc/"
+  - id: CARI
+    info: "\xC9 o \xF3rg\xE3o oficial de associa\xE7\xE3o, coordena\xE7\xE3o e representa\xE7\xE3o
+      dos estudantes do curso de Rela\xE7\xF5es Internacionais da UFABC. Mais informa\xE7\xF5es:
+      https://www.facebook.com/cariufabc/"
+  - id: Arandu
+    info: "\xC9 um projeto de extens\xE3o, voltado para o ensino da engenharia b\xE1sica
+      aos alunos de 9\xBA ano do Ensino Fundamental e do Ensino M\xE9dio de escolas
+      p\xFAblicas. Mais informa\xE7\xF5es: https://www.facebook.com/ufabcarandu/"
+  - id: Green Reapers
+    info: "\xC9 uma entidade que promove o Futebol Americano na UFABC, e vem participando
+      de diversos campeonatos no pa\xEDs. Mais informa\xE7\xF5es: https://www.facebook.com/greenreapers"
+  - id: Harpia
+    info: "A Harpia \xE9 um grupo que desenvolve projetos no setor de avia\xE7\xE3o
+      e participa de campeonatos como a SAE Aerodesign. Mais informa\xE7\xF5es: https://www.facebook.com/HarpiaAeroDesign/"
+  - id: Green Team
+    info: "\xC9 uma comunidade para fomenta\xE7\xE3o da cultura hacker. Mais informa\xE7\xF5es:
+      https://www.facebook.com/greenteamhc"
+  - id: SOOI
+    info: "Tem como objetivo principal simular o \xE2mbito das organiza\xE7\xF5es
+      internacionais, incentivando os alunos participantes a estudar, refletir, negociar
+      e construir opini\xE3o sobre a Agenda Global. Mais informa\xE7\xF5es: https://www.facebook.com/sooiufabc/"
+  - id: Prisma
+    info: "Dissemina informa\xE7\xF5es sobre diversidade sexual, e de g\xEAnero e
+      a integra\xE7\xE3o todos os tipos de minorias sociais e pol\xEDticas, e promove
+      atividades sociais, acad\xEAmicas e de entretenimento. Mais informa\xE7\xF5es:
+      https://www.facebook.com/prismaufabc/"
+  - id: Project Neon
+    info: "Busca promover inova\xE7\xE3o e desenvolvimento no cen\xE1rio de rob\xF3tica
+      no Brasil atrav\xE9s da cultura de c\xF3digo aberto. Mais informa\xE7\xF5es:
+      https://www.facebook.com/ufabc.neon/"
+  - id: GEB
+    info: "Grupo de estudantes que se re\xFAnem para discutir a f\xE9 e a espiritualidade
+      na contemporaneidade por meio da B\xEDblia. Mais informa\xE7\xF5es: https://www.facebook.com/GEBUFABC/"
+  - id: AXIS
+    info: "\xC9 respons\xE1vel pelo suporte aos esportes associados, incentivando
+      e promovendo a pr\xE1tica de esporte na UFABC. Mais informa\xE7\xF5es: https://www.facebook.com/AXISUFABC/"
+  - id: Seiva Jr
+    info: "\xC9 uma empresa j\xFAnior de car\xE1ter volunt\xE1rio que preza pela proatividade,
+      dedica\xE7\xE3o e efici\xEAncia, bem como a interdisciplinaridade, integra\xE7\xE3o
+      e sustentabilidade em seus projetos. Mais informa\xE7\xF5es: https://www.facebook.com/seivajr/"
+  - id: CAPLAN
+    info: "\xC9 uma entidade representativa dos estudantes e filiados ao Bacharelado
+      em Planejamento Territorial da UFABC. Mais informa\xE7\xF5es: https://www.facebook.com/caplan.ufabc/"
+  - id: CACE
+    info: "\xC9 respons\xE1vel pela representa\xE7\xE3o estudantil dos alunos de Economia
+      da UFABC. Mais informa\xE7\xF5es: https://www.facebook.com/caceufabc/"
+  - id: CAPOL
+    info: "\xC9 o \xF3rg\xE3o oficial de associa\xE7\xE3o, coordena\xE7\xE3o e representa\xE7\xE3o
+      dos estudantes do curso de Pol\xEDticas P\xFAblicas da UFABC. Mais informa\xE7\xF5es:
+      https://www.facebook.com/capolufabc/"
+  - id: UFABC Finance
+    info: "Liga de Mercado Financeiro. Mais informa\xE7\xF5es: https://www.facebook.com/ufabc.finance/"
+  - id: NELIE
+    info: "O NELIE \xE9 uma entidade empreendedora formada por alunos da UFABC que
+      tem como miss\xE3o fomentar a mentalidade empreendedora dentro do ideal de liberdade
+      econ\xF4mica. Mais informa\xE7\xF5es: https://www.facebook.com/nelie.org/"
+  - id: PET
+    info: "Programa de Educa\xE7\xE3o Tutorial que desenvolve uma s\xE9rie de atividade
+      tanto na UFABC quanto extra-muros para aproximar a comunidade ao ambiente acad\xEAmico.
+      Mais informa\xE7\xF5es: https://www.facebook.com/petufabcCTI/"
