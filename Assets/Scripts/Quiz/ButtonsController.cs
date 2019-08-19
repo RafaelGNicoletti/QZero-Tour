@@ -36,24 +36,13 @@ public class ButtonsController : ScriptableObject
         SceneManager.LoadScene(name);
     }
 
-    public void SelectAvatar()
+    public void SelectAvatar(int index)
     {
-
+        GameManager.instance.SetAvatarSelectedIndex(index);
     }
 
-    #region Funções auxiliares
-    /// <summary>
-    /// Função que desmarca todos os botões da tela
-    /// </summary>
-    private void UnselectAllButtons()
+    public void FillPlayerName(GameObject gameObject)
     {
-        UnityEngine.UI.Button[] buttons = GameObject.FindObjectsOfType<UnityEngine.UI.Button>();
-
-        foreach (UnityEngine.UI.Button button in buttons)
-        {
-            button.interactable = true;
-        }
+        GameManager.instance.SetPlayerName(gameObject.GetComponent<UnityEngine.UI.Text>().text);
     }
-
-    #endregion
 }
