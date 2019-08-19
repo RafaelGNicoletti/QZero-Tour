@@ -201,11 +201,12 @@ GameObject:
   - component: {fileID: 5004987696830647210}
   - component: {fileID: 5004987696830647209}
   - component: {fileID: 675342689552966288}
+  - component: {fileID: 222698162020813982}
   - component: {fileID: 5004987696830647213}
   - component: {fileID: 5004987696830647212}
   - component: {fileID: 5004987696830647211}
   m_Layer: 0
-  m_Name: PlayerModel 2
+  m_Name: PlayerModel-Dog
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,6 +260,18 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &222698162020813982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5004987696830647208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0601f5b47cfbf534a8a4513f5086c555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5004987696830647213
 MonoBehaviour:
   m_ObjectHideFlags: 0
