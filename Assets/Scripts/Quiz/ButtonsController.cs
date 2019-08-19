@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [CreateAssetMenu(fileName = "ButtonsController", menuName = "My Assets/Controlador de Botões")]
 public class ButtonsController : ScriptableObject
@@ -30,7 +31,12 @@ public class ButtonsController : ScriptableObject
         //GameObject.Find("QuizManager").GetComponent<QuizManager>().PrepareNewQuestion();
     }
 
-    public void SimpleChangeScreen()
+    public void SimpleLoadScene(string name)
+    {
+        SceneManager.LoadScene(name);
+    }
+
+    public void SelectAvatar()
     {
 
     }
