@@ -72,5 +72,4 @@ public class PlayerInteract : MonoBehaviour
     {
         playerController.SetStatus("walking");
     }
-
 }

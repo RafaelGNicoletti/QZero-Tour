@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6f3fbb560bd6041a202ea918fa4f23, type: 3}
+  m_Name: TileDeAgua
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: 21300000, guid: 25626e2f19cd0d34c9bab7a17117efb6, type: 3}
+  m_DefaultGameObject: {fileID: 0}
+  m_DefaultColliderType: 1
+  m_TilingRules:
+  - m_Neighbors: 0000000000000000000000000000000000000000000000000000000000000000
+    m_Sprites:
+    - {fileID: 21300000, guid: 672c442817193f4439b732a1ac8544b0, type: 3}
+    - {fileID: 21300000, guid: 20f461e3973ddab47bcedb590220c0c0, type: 3}
+    - {fileID: 21300000, guid: 1be4a6f1852d0a14190daf620e27da44, type: 3}
+    - {fileID: 21300000, guid: 84534ded126603c40ab140e57cc91786, type: 3}
+    - {fileID: 21300000, guid: c078db9df4cb16c43abcb0f1890a156a, type: 3}
+    m_GameObject: {fileID: 0}
+    m_AnimationSpeed: 2
+    m_PerlinScale: 0.5
+    m_RuleTransform: 0
+    m_Output: 2
+    m_ColliderType: 1
+    m_RandomTransform: 0
