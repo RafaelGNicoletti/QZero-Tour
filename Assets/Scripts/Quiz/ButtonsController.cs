@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [CreateAssetMenu(fileName = "ButtonsController", menuName = "My Assets/Controlador de Botões")]
 public class ButtonsController : ScriptableObject
@@ -30,24 +31,26 @@ public class ButtonsController : ScriptableObject
         //GameObject.Find("QuizManager").GetComponent<QuizManager>().PrepareNewQuestion();
     }
 
-    public void SimpleChangeScreen()
+    public void SimpleLoadScene(string name)
     {
-
+        SceneManager.LoadScene(name);
     }
 
-    #region Funções auxiliares
-    /// <summary>
-    /// Função que desmarca todos os botões da tela
-    /// </summary>
-    private void UnselectAllButtons()
+    public void SelectAvatar(int index)
     {
-        UnityEngine.UI.Button[] buttons = GameObject.FindObjectsOfType<UnityEngine.UI.Button>();
+        GameManager.instance.SetAvatarSelectedIndex(index);
+    }
 
-        foreach (UnityEngine.UI.Button button in buttons)
+    public void FillPlayerName(GameObject gameObject)
+    {
+        GameManager.instance.SetPlayerName(gameObject.GetComponent<UnityEngine.UI.Text>().text);
+    }
+
+    public void UnblockButton(string buttonName)
+    {
+        if (GameManager.instance.GetPlayerName() != "" && GameManager.instance.GetAvatarSelectedIndex() != -1)
         {
-            button.interactable = true;
+            GameObject.Find(buttonName).GetComponent<UnityEngine.UI.Button>().interactable = true;
         }
     }
-
-    #endregion
 }
