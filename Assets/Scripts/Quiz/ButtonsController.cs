@@ -45,4 +45,12 @@ public class ButtonsController : ScriptableObject
     {
         GameManager.instance.SetPlayerName(gameObject.GetComponent<UnityEngine.UI.Text>().text);
     }
+
+    public void UnblockButton(string buttonName)
+    {
+        if (GameManager.instance.GetPlayerName() != "" && GameManager.instance.GetAvatarSelectedIndex() != -1)
+        {
+            GameObject.Find(buttonName).GetComponent<UnityEngine.UI.Button>().interactable = true;
+        }
+    }
 }

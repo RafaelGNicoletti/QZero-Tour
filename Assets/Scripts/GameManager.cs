@@ -9,8 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameObject gameManager;
 
     private int avatatarSelected = -1;
-    [SerializeField]
-    private string playerName;
+    private string playerName = "";
 
     private void Awake()
     {
@@ -30,9 +29,19 @@ public class GameManager : MonoBehaviour
         avatatarSelected = index;
     }
 
+    public int GetAvatarSelectedIndex()
+    {
+        return avatatarSelected;
+    }
+
     public void SetPlayerName(string name)
     {
         playerName = name;
+    }
+
+    public string GetPlayerName()
+    {
+        return playerName;
     }
 
     #region Loader
