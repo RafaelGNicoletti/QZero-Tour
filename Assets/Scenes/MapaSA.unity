@@ -6345,6 +6345,11 @@ PrefabInstance:
       propertyPath: m_SpriteSortPoint
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5004987695110580655, guid: 87e21dc5d0685f244bcd9a0a4756dccf,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 222698162020813982, guid: 87e21dc5d0685f244bcd9a0a4756dccf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 87e21dc5d0685f244bcd9a0a4756dccf, type: 3}
