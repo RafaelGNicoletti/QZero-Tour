@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.InteropServices;
 
 [CreateAssetMenu(fileName = "ButtonsController", menuName = "My Assets/Controlador de Botões")]
 public class ButtonsController : ScriptableObject
@@ -53,4 +54,19 @@ public class ButtonsController : ScriptableObject
             GameObject.Find(buttonName).GetComponent<UnityEngine.UI.Button>().interactable = true;
         }
     }
+
+    //public void OpenChannel(string siteName)
+    //{
+    //    Application.OpenURL("www.google.com.br");
+    //}
+
+    //public void OpenLinkJSPlugin()
+    //{
+    //    #if !UNITY_EDITOR
+		  //  openWindow(Field.text);
+    //    #endif
+    //}
+
+    //[DllImport("__Internal")]
+    //private static extern void openWindow(string url);
 }
