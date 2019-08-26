@@ -54,19 +54,21 @@ public class ButtonsController : ScriptableObject
             GameObject.Find(buttonName).GetComponent<UnityEngine.UI.Button>().interactable = true;
         }
     }
+    
+    public void OpenLinkJSPlugin(string siteName)
+    {
+#if !UNITY_EDITOR
+      openWindow("http://"+siteName);
+#endif
+    }
 
-    //public void OpenChannel(string siteName)
-    //{
-    //    Application.OpenURL("www.google.com.br");
-    //}
-
-    //public void OpenLinkJSPlugin()
-    //{
-    //    #if !UNITY_EDITOR
-		  //  openWindow(Field.text);
-    //    #endif
-    //}
-
-    //[DllImport("__Internal")]
-    //private static extern void openWindow(string url);
+    public void OpenLinkJSPluginTeste()
+    {
+#if !UNITY_EDITOR
+      openWindow("http://www.youtube.com.br");
+#endif
+    }
+    
+    [DllImport("__Internal")]
+    private static extern void openWindow(string url);
 }
