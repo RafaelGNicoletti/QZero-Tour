@@ -13,5 +13,5 @@ public class GlossaryElement
     public string sigla;
     public string descricao;
     public string link;
-    public Sprite logo;
+    public Sprite logo = null;
 }

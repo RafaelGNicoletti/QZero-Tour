@@ -8,14 +8,15 @@ using UnityEngine;
 public class GlossaryManager : MonoBehaviour
 {
     public GlossaryManager instance;
-    public GlossaryItems glossaryList;
+    public GlossaryItems[] glossaryList;
 
     public GameObject glossaryPrefab;
-    public GameObject glossaryWindow;
+    public GameObject[] glossaryWindow;
 
     public UnityEngine.UI.Text searchBarText;
 
     private List<GameObject> glossaryItems = new List<GameObject>();
+    private int index = 0;
     
     void Start()
     {
@@ -28,8 +29,8 @@ public class GlossaryManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        SortGlossaryItemList(glossaryList);
-        UpdateGlossaryWindow(glossaryList.glossary);
+        SortGlossaryItemList(glossaryList[index]);
+        UpdateGlossaryWindow(glossaryList[index].glossary);
     }
 
     /// <summary>
@@ -52,7 +53,7 @@ public class GlossaryManager : MonoBehaviour
         for (int i = 0; i < glossaryListToShow.Count; i++)
         {
             // Instancia um novo prefab
-            GameObject temp = Instantiate(glossaryPrefab, glossaryWindow.transform);
+            GameObject temp = Instantiate(glossaryPrefab, glossaryWindow[index].transform);
             // Atualiza os valores da prefab
             temp.GetComponent<GlossaryPrefabSelfManager>().UpdatePrefabs(glossaryListToShow[i]);
             // Adiciona o elemento instânciado a lista de elementos existentes
@@ -113,7 +114,7 @@ public class GlossaryManager : MonoBehaviour
     public void Search()
     {
         // Gera uma lista com as expressões encontradas
-        List<GlossaryElement> temp = SearchExpression(glossaryList, searchBarText.text);
+        List<GlossaryElement> temp = SearchExpression(glossaryList[index], searchBarText.text);
         
         // PARA TESTES
         //foreach (GlossaryElement g in temp)
@@ -122,6 +123,16 @@ public class GlossaryManager : MonoBehaviour
         //}
 
         // Atualiza a tela com as expressões encontradas
-        UpdateGlossaryWindow(SearchExpression(glossaryList, searchBarText.text));
+        UpdateGlossaryWindow(SearchExpression(glossaryList[index], searchBarText.text));
+    }
+
+    public void GetFolderIndex(int i)
+    {
+        index = i;
+    }
+
+    public void ChangeFolder()
+    {
+        Debug.Log("mudou pra aba " + index);
     }
 }

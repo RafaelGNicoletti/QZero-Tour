@@ -55,6 +55,10 @@ public class ButtonsController : ScriptableObject
         }
     }
     
+    /// <summary>
+    /// Função para abrir um link no navegador em uma nova aba
+    /// </summary>
+    /// <param name="siteName"></param>
     public void OpenLinkJSPlugin(string siteName)
     {
 #if !UNITY_EDITOR
@@ -62,13 +66,6 @@ public class ButtonsController : ScriptableObject
 #endif
     }
 
-    public void OpenLinkJSPluginTeste()
-    {
-#if !UNITY_EDITOR
-      openWindow("http://www.youtube.com.br");
-#endif
-    }
-    
     [DllImport("__Internal")]
     private static extern void openWindow(string url);
 }
