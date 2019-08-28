@@ -46,10 +46,13 @@ MonoBehaviour:
   instance: {fileID: 0}
   glossaryList:
   - {fileID: 11400000, guid: 3582fc190b275df47a00315cdc09a3d2, type: 2}
-  - {fileID: 11400000, guid: 3582fc190b275df47a00315cdc09a3d2, type: 2}
+  - {fileID: 11400000, guid: cf414ac14c7452c48b974fe94be308a4, type: 2}
   glossaryPrefab: {fileID: 7759522932647729399, guid: e9fdb3d1602a1f54ba0a3e5073c55cba,
     type: 3}
   glossaryWindow:
+  - {fileID: 0}
+  - {fileID: 0}
+  glossaryFolder:
   - {fileID: 0}
   - {fileID: 0}
   searchBarText: {fileID: 0}

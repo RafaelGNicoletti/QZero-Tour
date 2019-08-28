@@ -12,11 +12,13 @@ public class GlossaryManager : MonoBehaviour
 
     public GameObject glossaryPrefab;
     public GameObject[] glossaryWindow;
+    public GameObject[] glossaryFolder;
 
     public UnityEngine.UI.Text searchBarText;
 
     private List<GameObject> glossaryItems = new List<GameObject>();
     private int index = 0;
+    private int prevIndex = 0;
     
     void Start()
     {
@@ -77,7 +79,7 @@ public class GlossaryManager : MonoBehaviour
         temp.Sort(delegate (GlossaryElement a, GlossaryElement b)
         {
             // Compara as expressões (string da classe GlossaryElement)
-            return a.nome.CompareTo(b.nome);
+            return a.sigla.CompareTo(b.sigla);
         });
 
         return temp;
@@ -101,7 +103,7 @@ public class GlossaryManager : MonoBehaviour
         {
             // Se a expressão do GlossaryElement conter a expressão procurada, armazena
             // Ignora maiúsculas e minúsculas
-            if (a.nome.ToUpper().Contains(expressionToFind.ToUpper())) return true;
+            if (a.sigla.ToUpper().Contains(expressionToFind.ToUpper())) return true;
             else return false;
         });
 
@@ -128,11 +130,14 @@ public class GlossaryManager : MonoBehaviour
 
     public void GetFolderIndex(int i)
     {
+        prevIndex = index;
         index = i;
     }
 
     public void ChangeFolder()
     {
-        Debug.Log("mudou pra aba " + index);
+        glossaryFolder[prevIndex].transform.GetChild(0).gameObject.SetActive(false);
+        glossaryFolder[index].transform.GetChild(0).gameObject.SetActive(true);
+        UpdateGlossaryWindow(glossaryList[index].glossary);
     }
 }
