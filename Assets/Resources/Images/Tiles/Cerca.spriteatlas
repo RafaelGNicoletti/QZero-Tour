@@ -42,16 +42,18 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: d49e65a47051ede42b1e0d616a6886fd, type: 3}
-    totalSpriteSurfaceArea: 95543
+    totalSpriteSurfaceArea: 112926
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 0b363a32826306d4e8c00ed8fef797db, type: 3}
   - {fileID: 21300000, guid: c5541eb29e3791847a2d0b9e8a25a09a, type: 3}
-  - {fileID: 21300000, guid: 40bef453f0d46a943b8636c27dca051c, type: 3}
   - {fileID: 21300000, guid: 6b3924c56e7c8394d91e7b34ec19405f, type: 3}
   - {fileID: 21300000, guid: 52e18f8611c9ff84f9458337a2321b61, type: 3}
+  - {fileID: 21300000, guid: 6ccfd5f6a13988642b924a823c73e349, type: 3}
+  - {fileID: 21300000, guid: 2e3ec8076fde0a14c9de6d873ad798f8, type: 3}
   - {fileID: 21300000, guid: 77ec14382fbb0f740aaa3d5b03cd6004, type: 3}
+  - {fileID: 21300000, guid: 965a951902f8c154b9348e3de23295d0, type: 3}
   - {fileID: 21300000, guid: 276033699b3a02240ac193a9b37b535c, type: 3}
   - {fileID: 21300000, guid: d03a808a58fed85499ed7a1935b4bb3e, type: 3}
   - {fileID: 21300000, guid: 0e0e331c477191442a53304a93b88714, type: 3}
@@ -61,10 +63,12 @@ SpriteAtlas:
   m_PackedSpriteNamesToIndex:
   - cerca (68 px)
   - cerca corner right 1 (68 px)
-  - cerca vertical (9 px)
   - cerca horizontal corner 3
   - cerca 2 (68 px)
+  - cerca vertical
+  - cerca vertical corner
   - cerca corner down (136 px)
+  - cerca vertical corner 5
   - cerca horizontal corner 2 (68 px)
   - cerca horizontal corner (68 px)
   - cerca horizontal corner 4
