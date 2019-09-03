@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: d49e65a47051ede42b1e0d616a6886fd, type: 3}
-    totalSpriteSurfaceArea: 112926
+    totalSpriteSurfaceArea: 121758
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -55,6 +55,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 77ec14382fbb0f740aaa3d5b03cd6004, type: 3}
   - {fileID: 21300000, guid: 965a951902f8c154b9348e3de23295d0, type: 3}
   - {fileID: 21300000, guid: 276033699b3a02240ac193a9b37b535c, type: 3}
+  - {fileID: 21300000, guid: 512a6989d6e111143848a8aad599866b, type: 3}
   - {fileID: 21300000, guid: d03a808a58fed85499ed7a1935b4bb3e, type: 3}
   - {fileID: 21300000, guid: 0e0e331c477191442a53304a93b88714, type: 3}
   - {fileID: 21300000, guid: 5d04013e28b898741bf2af9e73729d9c, type: 3}
@@ -70,6 +71,7 @@ SpriteAtlas:
   - cerca corner down (136 px)
   - cerca vertical corner 5
   - cerca horizontal corner 2 (68 px)
+  - cerca vertical corner 6
   - cerca horizontal corner (68 px)
   - cerca horizontal corner 4
   - cerca horizontal (70 px)
