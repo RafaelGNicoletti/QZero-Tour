@@ -67,3 +67,9 @@ TagManager:
   - name: Wall
     uniqueID: 888677205
     locked: 0
+  - name: Collider
+    uniqueID: 3788170173
+    locked: 0
+  - name: 
+    uniqueID: 1856677067
+    locked: 0
