@@ -1,54 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ClassRoomBoard : MonoBehaviour
 {
-    [System.Serializable]
-    public class ClassRoom
+    public ClassRoomGetter classRoomGetter;
+    [SerializeField]
+    private ClassRoomCollection salas;
+    private int currentClass;
+    public TextMeshProUGUI text;
+
+    private void Awake()
     {
-        public string codSala;
-        [SerializeField]
-        private string bloco;
-        [SerializeField]
-        private string torre;
-        [SerializeField]
-        private string andar;
-        [SerializeField]
-        private string sala;
-
-        public (bool, List<string>) GetVerification(string bloco, string torre, string andar, string sala)
-        {
-            List<string> camposErrados = new List<string>();
-            bool errado = false;
-
-            if (!bloco.Equals(this.bloco))
-            {
-                errado = true;
-                camposErrados.Add("bloco");
-            }
-            if (!torre.Equals(this.torre))
-            {
-                errado = true;
-                camposErrados.Add("torre");
-            }
-            if (!andar.Equals(this.andar))
-            {
-                errado = true;
-                camposErrados.Add("andar");
-            }
-            if (!sala.Equals(this.sala))
-            {
-                errado = true;
-                camposErrados.Add("sala");
-            }
-
-            return (!errado, camposErrados);
-        }
+        salas = classRoomGetter.LoadClassRoom();
+        ChoiceRandomNumber();
+    }
+        
+    private void Start()
+    {
+        text.text = "Estou procurando a sala <color=#FF0000>" + salas.classRooms[currentClass].codSala.ToString() + "</color>";
+    }
+    private void ChoiceRandomNumber()
+    {
+        currentClass = Random.Range(0, salas.classRooms.Count);
     }
 
-    public List<ClassRoom> salas;
-    private int currentClass;
-
+    public ClassRoom GetCurrentClassRoom()
+    {
+        return salas.classRooms[currentClass];
+    }
 
 }
