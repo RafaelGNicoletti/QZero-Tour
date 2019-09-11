@@ -7,7 +7,7 @@ public class ClassroomAnswer : MonoBehaviour
 {
     public Text resposta; //Texto da resposta atual
     public List<string> valoresValidos; //Lista de valores válidos para o espaço, alterá-los no inspetor
-    private string respostaAtual; //Valor para consulta da string que está ativa como resposta
+    public string respostaAtual; //Valor para consulta da string que está ativa como resposta
     private int currentPosition = 0;
 
     public string GetRespostaAtual()
