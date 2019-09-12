@@ -72,7 +72,7 @@ public class Pergunta
         return alternative.Length;
     }
 
-    public void SetCorrectanswer(int value)
+    public void SetCorrectAnswer(int value)
     {
         correctAnswer = value;
     }
