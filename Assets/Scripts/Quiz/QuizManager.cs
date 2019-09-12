@@ -294,7 +294,7 @@ public class QuizManager : MonoBehaviour
 
                 if (j == questionGroup[dificulty].GetQuestion(i).GetCorrectAnswer())
                 {
-                    tempQuestion.SetCorrectanswer(selNumb);
+                    tempQuestion.SetCorrectAnswer(selNumb);
                 }
 
                 tempQuestion.SetAlternative(selNumb, questionGroup[dificulty].GetQuestion(i).GetAlternative(j));

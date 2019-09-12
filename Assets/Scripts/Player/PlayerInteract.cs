@@ -28,6 +28,7 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag("NPC_Talk")) //Se o jogador entrou no trigger de algum NPC que fala, ele recebe a referência a esse NPC
         {
             npcTalking = other.gameObject;
+            other.GetComponent<NPCBalloon>().CreateBalloon();
         }
     }
 
@@ -37,6 +38,7 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag(npcTalking.tag)) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
         {
             npcTalking = null;
+            other.GetComponent<NPCBalloon>().DestroyBalloon();
         }
     }
 
