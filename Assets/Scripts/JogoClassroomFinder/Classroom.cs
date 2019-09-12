@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class ClassRoomCollection
+public class ClassroomCollection
 {
-    public List<ClassRoom> classRooms;
+    public List<Classroom> classRooms;
 }
 
 [System.Serializable]
-public class ClassRoom
+public class Classroom
 {
     public string codSala;
     [SerializeField]
@@ -48,6 +48,14 @@ public class ClassRoom
         sala = "SALA " + sala;
     }
 
+    /// <summary>
+    /// Verifica se os valores dados a ele batem com os valores que estão nele
+    /// </summary>
+    /// <param name="bloco"></param>
+    /// <param name="torre"></param>
+    /// <param name="andar"></param>
+    /// <param name="sala"></param>
+    /// <returns>Devolve um booleano que indica se são iguais. E uma lista de string com os termos errados.</returns>
     public (bool, List<string>) GetVerification(string bloco, string torre, string andar, string sala)
     {
         List<string> camposErrados = new List<string>();

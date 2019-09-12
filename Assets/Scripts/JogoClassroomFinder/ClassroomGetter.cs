@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class ClassRoomGetter : MonoBehaviour
+public class ClassroomGetter : MonoBehaviour
 {
-    public TextAsset archive;
+    [SerializeField]
+    private TextAsset archive; //Arquivo de texto JSON, contendo um dado do tipo ClassroomCollection
 
-    public ClassRoomCollection LoadClassRoom()
+    public ClassroomCollection LoadClassRoom()
     {
-        return JsonUtility.FromJson<ClassRoomCollection>(archive.text);
+        return JsonUtility.FromJson<ClassroomCollection>(archive.text);
     }
 
     /*Criado para referência futura, qualquer coisa
