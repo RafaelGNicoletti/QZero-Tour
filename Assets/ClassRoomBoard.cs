@@ -5,7 +5,8 @@ using TMPro;
 
 public class ClassRoomBoard : MonoBehaviour
 {
-    public ClassRoomGetter classRoomGetter;
+    [SerializeField]
+    private ClassRoomGetter classRoomGetter;
     [SerializeField]
     private ClassRoomCollection salas;
     private int currentClass;
@@ -15,6 +16,7 @@ public class ClassRoomBoard : MonoBehaviour
     {
         salas = classRoomGetter.LoadClassRoom();
         ChoiceRandomNumber();
+        salas.classRooms[currentClass].FixString();
     }
         
     private void Start()
