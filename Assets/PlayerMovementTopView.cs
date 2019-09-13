@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerMovementTopView : MonoBehaviour
 {
     public float movementSpeed = 1f;
+    public float rotateSpeed = 1f;
     public Rigidbody2D rb2d;
-    public float revSpeed = 50.0f;
 
     private void Awake()
     {
@@ -20,18 +20,32 @@ public class PlayerMovementTopView : MonoBehaviour
 
     public void GetInputMovement()
     {
-        Vector2 currentPos = rb2d.position;
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        Vector2 inputVector = new Vector2(horizontalInput, verticalInput);
+
+        Move(horizontalInput, verticalInput);
+        Rotate(horizontalInput, verticalInput);
+    }
+
+    private void Move(float horizontal, float vertical)
+    {
+        Vector2 currentPos = rb2d.position;
+        Vector2 inputVector = new Vector2(horizontal, vertical);
         inputVector = Vector2.ClampMagnitude(inputVector, 1);
         Vector2 movement = inputVector * movementSpeed;
         Vector2 newPos = currentPos + movement * Time.fixedDeltaTime;
         rb2d.MovePosition(newPos);
 
-        float currentRot = rb2d.rotation;
+    }
 
-        rb2d.MoveRotation(rb2d.rotation + revSpeed * Time.fixedDeltaTime);
-
+    private void Rotate(float horizontal, float vertical)
+    {
+        if (horizontal != 0 || vertical != 0)
+        {
+            float heading = Mathf.Atan2(-horizontal, vertical);
+            Quaternion rotate = Quaternion.Euler(0f, 0f, heading * Mathf.Rad2Deg);
+            rotate = Quaternion.Lerp(transform.rotation, rotate, Time.deltaTime * rotateSpeed);
+            rb2d.MoveRotation(rotate);
+        }
     }
 }

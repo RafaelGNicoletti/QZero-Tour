@@ -380,5 +380,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
+  rotateSpeed: 6
   rb2d: {fileID: 0}
-  revSpeed: 50
