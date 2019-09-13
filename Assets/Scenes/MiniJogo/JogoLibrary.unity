@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 436182667}
   - component: {fileID: 436182666}
   - component: {fileID: 436182665}
+  - component: {fileID: 436182668}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -203,6 +204,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &436182668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436182664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a6530b1e492a9e47b68e29aeb4ca409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followTarget: {fileID: 0}
+  moveSpeed: 5
 --- !u!1 &663070824
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +337,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2142637075}
   - component: {fileID: 2142637076}
+  - component: {fileID: 2142637078}
   - component: {fileID: 2142637077}
+  - component: {fileID: 2142637079}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -382,3 +399,33 @@ MonoBehaviour:
   movementSpeed: 5
   rotateSpeed: 6
   rb2d: {fileID: 0}
+--- !u!114 &2142637078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142637074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee2a1b6ebe40ca46a1325c736d703a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInteract: {fileID: 2142637079}
+  playerMovement: {fileID: 2142637077}
+--- !u!114 &2142637079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142637074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3769db641da89b04588b0de61468e6d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcTalking: {fileID: 0}
+  playerController: {fileID: 2142637078}
+  talkTextBox: {fileID: 0}
+  keyDelay: 0.1

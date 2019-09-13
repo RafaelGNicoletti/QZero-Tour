@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovementTopView : MonoBehaviour
+public class PlayerMovementTopView : PlayerMovement
 {
-    public float movementSpeed = 1f;
     public float rotateSpeed = 1f;
     public Rigidbody2D rb2d;
 
@@ -13,12 +12,10 @@ public class PlayerMovementTopView : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate()
-    {
-        GetInputMovement();
-    }
-
-    public void GetInputMovement()
+    /// <summary>
+    /// Pega o input de movimento dado e traduz isso na translação e rotação do jogador.
+    /// </summary>
+    public override void GetInputMovement()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
@@ -27,6 +24,11 @@ public class PlayerMovementTopView : MonoBehaviour
         Rotate(horizontalInput, verticalInput);
     }
 
+    /// <summary>
+    /// Aplica os valores dados na translação.
+    /// </summary>
+    /// <param name="horizontal"></param>
+    /// <param name="vertical"></param>
     private void Move(float horizontal, float vertical)
     {
         Vector2 currentPos = rb2d.position;
@@ -38,6 +40,11 @@ public class PlayerMovementTopView : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Aplica os valores dados na rotação.
+    /// </summary>
+    /// <param name="horizontal"></param>
+    /// <param name="vertical"></param>
     private void Rotate(float horizontal, float vertical)
     {
         if (horizontal != 0 || vertical != 0)

@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerInteract : MonoBehaviour
 {
     public GameObject npcTalking = null; //Personagem com o qual o jogador está interagindo
+    public GameObject interactiveObject = null; //Objeto com o qual o jogador está interagindo
     public PlayerController playerController; //Controlador geral do jogador, refêrencia para poder alterar o estado dele
     public TalkTextBox talkTextBox; //Script do  balão de fala
     public float keyDelay = 0.1f; //Tempo de espera entre inputs consectivos (1f = 1 segundo), serve para evitar múltiplos inputs
@@ -29,6 +30,11 @@ public class PlayerInteract : MonoBehaviour
         {
             npcTalking = other.gameObject;
         }
+
+        else if (other.CompareTag("Interactive_Object"))
+        {
+            interactiveObject = other.gameObject;
+        }
     }
 
 
@@ -37,6 +43,11 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag(npcTalking.tag)) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
         {
             npcTalking = null;
+        }
+
+        if (other.CompareTag(interactiveObject.tag))
+        {
+            interactiveObject = null;
         }
     }
 
