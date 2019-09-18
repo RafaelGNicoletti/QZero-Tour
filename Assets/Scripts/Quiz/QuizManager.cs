@@ -45,10 +45,6 @@ public class QuizManager : MonoBehaviour
     [Tooltip("Tela de video de feedback/fim do quiz")]
     public GameObject tela3;
 
-    public VideoClip selecionarDificuldadeVideo;
-    public VideoClip instrucoesVideo;
-    public VideoClip textoFimDoQuiz;
-
     public Text scoreText;
     private TimeManager timeManager;
 
@@ -192,6 +188,7 @@ public class QuizManager : MonoBehaviour
             correctAnswers++;
             questionAndAnswer[index].SetIsCorrect(true);
             GameObject tempCorrectFeedback = Instantiate(correctFeedback, answerMeshText[value].transform.parent);
+            tempCorrectFeedback.transform.SetSiblingIndex(0);
             yield return new WaitForSeconds(3f);
             Destroy(tempCorrectFeedback);
         }
@@ -203,6 +200,8 @@ public class QuizManager : MonoBehaviour
             {
                 GameObject tempCorrectFeedback = Instantiate(correctFeedback, answerMeshText[selectedQuestion.GetCorrectAnswer()].transform.parent);
                 GameObject tempWrongFeedback = Instantiate(wrongFeedback, answerMeshText[value].transform.parent);
+                tempCorrectFeedback.transform.SetSiblingIndex(0);
+                tempWrongFeedback.transform.SetSiblingIndex(0);
                 yield return new WaitForSeconds(3f);
                 Destroy(tempCorrectFeedback);
                 Destroy(tempWrongFeedback);
@@ -235,11 +234,11 @@ public class QuizManager : MonoBehaviour
         }
         else if (correctAnswers == qtyQuestionsDone)
         {
-            indexOfText = 1;
+            indexOfText = 2;
         }
         else
         {
-            indexOfText = 2;
+            indexOfText = 1;
         }
 
         endOfQuizBalloon.text = endOfQuizText[indexOfText];
@@ -424,7 +423,10 @@ public class QuizManager : MonoBehaviour
 
     public void SetQuestionsToDo()
     {
-        qtyQuestionsToDo = questionGroup[dificulty].GetLenght();
+        if (qtyQuestionsToDo > questionGroup[dificulty].GetLenght())
+        {
+            qtyQuestionsToDo = questionGroup[dificulty].GetLenght();
+        }
     }
     #endregion
 }
