@@ -415,12 +415,7 @@ public class QuizManager : MonoBehaviour
         tela2.SetActive(false);
         tela3.SetActive(true);
     }
-
-    public void PlayInstructionVideo()
-    {
-        //StartCoroutine(VideoManager.instance.PlayVideo(instrucoesVideo));
-    }
-
+    
     public void SetQuestionsToDo()
     {
         if (qtyQuestionsToDo > questionGroup[dificulty].GetLenght())
