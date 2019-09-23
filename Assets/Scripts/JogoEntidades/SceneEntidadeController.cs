@@ -6,14 +6,55 @@ public class SceneEntidadeController : MonoBehaviour
 {
     public int nMaxEntidades;
     private int nEntidadesCompleted = 0;
-    /*
+    public GameObject[] duplaNomeLogo;
+    public int[] numEntidadeExibida;
+    public InfoList entidadeList;
+
     private void Awake()
     {
-        if (Flag)
+        //if (Flag)
+        //{
+        //    CompleteScene();
+        //} 
+
+        /// Utilizado para testar duplas aleátoriamentes - Duplas existentes em cada scene serão colocadas manualmente 
+        /// na variável numEntidadeExibida no inspector do UNITY na versão final
+        #region Temporário - sorteia 4 aleatórios para exibir
+        List<int> list = new List<int>();
+        for (int j = 0; j < nMaxEntidades; j++)
         {
-            CompleteScene();
-        } 
-    }*/
+            list.Add(j);
+        }
+
+        int numberSelected;
+
+        for (int k = 0; k < 4; k++)
+        {
+            if (list.Count != 0)
+            {
+                /// Seleciona o número aleatório
+                numberSelected = list[Random.Range(0, list.Count - 1)];
+                /// Remove da lisata para não ser selecionado novamente
+                list.Remove(numberSelected);
+            }
+            else
+            {
+                numberSelected = 0;
+            }
+
+            numEntidadeExibida[k] = numberSelected;
+        }
+        #endregion
+
+        int i = 0;
+        EntidadeInfo entidadeExibida;
+        foreach (GameObject dupla in duplaNomeLogo)
+        {
+            entidadeExibida = entidadeList.GetEntidade(numEntidadeExibida[i]);
+            dupla.GetComponent<PrefabEntidadeObjSelfManager>().UpdateInfo(entidadeExibida);
+            i++;
+        }
+    }
 
      /// <summary>
      /// Caso a fase já tenha sido completada, completa ela de forma manual quando o jogador entra nela.
