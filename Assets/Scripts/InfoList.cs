@@ -5,12 +5,14 @@ using UnityEngine;
 [CreateAssetMenu]
 public class InfoList : ScriptableObject
 {
-    [System.Serializable]
-    private class EntidadeInfo
-    {
-        public string id; //Identificação do dado
-        public string info; //Informação sobre o dado.
-    }
+    // Criada uma classe externa (necessidade de utilizar em outros lugares)
+    //[System.Serializable]
+    //private class EntidadeInfo
+    //{
+    //    public string id; //Identificação do dado
+    //    public UnityEngine.UI.Image img; //Imagem do dado
+    //    public string info; //Informação sobre o dado.
+    //}
 
     [SerializeField]
     private List<EntidadeInfo> entidadeInfoList;
@@ -23,5 +25,10 @@ public class InfoList : ScriptableObject
     public string GetInfo(string id)
     {
         return entidadeInfoList.Find(x => x.id.Equals(id)).info;
+    }
+
+    public EntidadeInfo GetEntidade(int i)
+    {
+        return entidadeInfoList[i];
     }
 }
