@@ -9,9 +9,10 @@ public class TutorialController : MonoBehaviour
 
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+
         if (!GameManager.instance.tutorialViewed)
         {
-            player = GameObject.FindGameObjectWithTag("Player");
             ClearSpeed();
             GameObject.Find("Canvas").GetComponent<Animator>().SetBool("FirstTime", true);
             GameManager.instance.tutorialViewed = true;
