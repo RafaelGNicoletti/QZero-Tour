@@ -9,10 +9,16 @@ public class TutorialController : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        ClearSpeed();
-        //playerSpeed = player.GetComponent<PlayerMovement>().movementSpeed;
-        //player.GetComponent<PlayerMovement>().movementSpeed = 0;
+        if (!GameManager.instance.tutorialViewed)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+            ClearSpeed();
+            GameObject.Find("Canvas").GetComponent<Animator>().SetBool("FirstTime", true);
+            GameManager.instance.tutorialViewed = true;
+        } else
+        {
+            GameObject.Find("Canvas").GetComponent<Animator>().SetBool("Tutorial", false);
+        }
     }
 
     public void ClearSpeed()
@@ -34,5 +40,15 @@ public class TutorialController : MonoBehaviour
     public void SetAnimationTrigger(string trigger)
     {
         this.GetComponent<Animator>().SetTrigger(trigger);
+    }
+
+    public void SetBoolTrue(string boolName)
+    {
+        this.GetComponent<Animator>().SetBool(boolName, true);
+    }
+
+    public void SetBoolFalse(string boolName)
+    {
+        this.GetComponent<Animator>().SetBool(boolName, false);
     }
 }

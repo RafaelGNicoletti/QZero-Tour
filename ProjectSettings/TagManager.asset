@@ -9,6 +9,7 @@ TagManager:
   - NPC_Talk
   - EncaixeLogo
   - EncaixeNome
+  - Interactable_Object
   layers:
   - Default
   - TransparentFX

@@ -10,6 +10,8 @@ public class PlayerInteract : MonoBehaviour
     public float keyDelay = 0.1f; //Tempo de espera entre inputs consectivos (1f = 1 segundo), serve para evitar múltiplos inputs
     private float timePassed = 0; //Tempo que passou desde o último input
 
+    public GameObject interactableObj = null;
+
     private void FixedUpdate()
     {
         timePassed += Time.deltaTime; //Adiciona ao tempo que passou desde o último input
@@ -30,14 +32,28 @@ public class PlayerInteract : MonoBehaviour
             npcTalking = other.gameObject;
             other.GetComponent<NPCBalloon>().CreateBalloon();
         }
+        /// Interação com outros objetos - usado para abrir os minijogos
+        /// TEMPORÁRIO
+        else if (other.CompareTag("Interactable_Object"))
+        {
+            interactableObj = other.gameObject;
+            other.GetComponent<NPCBalloon>().CreateBalloon();
+        }
     }
 
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag(npcTalking.tag)) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
+        if (npcTalking != null && other.CompareTag(npcTalking.tag)) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
         {
             npcTalking = null;
+            other.GetComponent<NPCBalloon>().DestroyBalloon();
+        }
+        /// Interação com outros objetos - usado para abrir os minijogos
+        /// TEMPORÁRIO
+        else if (other.CompareTag(interactableObj.tag))
+        {
+            interactableObj = null;
             other.GetComponent<NPCBalloon>().DestroyBalloon();
         }
     }
@@ -52,6 +68,12 @@ public class PlayerInteract : MonoBehaviour
             npcTalking.GetComponent<NPCTalk>().Talk();
             playerController.SetStatus("talking");
             ReseTime();
+        }
+        /// Interação com outros objetos - usado para abrir os minijogos
+        /// TEMPORÁRIO
+        else if (Input.GetKeyDown(KeyCode.Space) && interactableObj && timePassed >= keyDelay)
+        {
+            interactableObj.GetComponent<InteractableObject>().LoadMinigame();
         }
     }
 

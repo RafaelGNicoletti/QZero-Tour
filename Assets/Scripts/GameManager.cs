@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 
     public static GameObject gameManager;
 
+    public bool tutorialViewed = false;
+
     private int avatatarSelected = -1;
     private string playerName = "";
 

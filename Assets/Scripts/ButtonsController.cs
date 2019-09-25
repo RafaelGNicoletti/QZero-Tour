@@ -69,4 +69,9 @@ public class ButtonsController : ScriptableObject
 
     [DllImport("__Internal")]
     private static extern void openWindow(string url);
+
+    public void SetTrigger(string trigger)
+    {
+        GameObject.Find("Canvas").GetComponent<Animator>().SetTrigger(trigger);
+    }
 }
