@@ -40,12 +40,12 @@ public class PlayerInteract : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag(npcTalking.tag)) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
+        if (npcTalking && other.CompareTag(npcTalking.tag)) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
         {
             npcTalking = null;
         }
 
-        if (other.CompareTag(interactiveObject.tag))
+        if (interactiveObject && other.CompareTag(interactiveObject.tag))
         {
             interactiveObject = null;
         }
@@ -61,6 +61,11 @@ public class PlayerInteract : MonoBehaviour
             npcTalking.GetComponent<NPCTalk>().Talk();
             playerController.SetStatus("talking");
             ReseTime();
+        }
+
+        else if(Input.GetKeyDown(KeyCode.Space) && interactiveObject && timePassed >= keyDelay)
+        {
+            interactiveObject.GetComponent<InteractiveObject>().Interact();
         }
     }
 
