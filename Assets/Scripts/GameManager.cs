@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public static GameObject gameManager;
 
     public bool tutorialViewed = false;
+    [SerializeField] private Vector3 playerPositionOnMap = new Vector3();
+    [SerializeField] private Vector3 cameraPositionOnMap = new Vector3();
 
     private int avatatarSelected = -1;
     private string playerName = "";
@@ -44,6 +46,26 @@ public class GameManager : MonoBehaviour
     public string GetPlayerName()
     {
         return playerName;
+    }
+
+    public void SetPlayerPos(Vector3 newPos)
+    {
+        playerPositionOnMap = newPos;
+    }
+
+    public Vector3 GetPlayerPos()
+    {
+        return playerPositionOnMap;
+    }
+
+    public void SetCameraPos(Vector3 newPos)
+    {
+        cameraPositionOnMap = newPos;
+    }
+
+    public Vector3 GetCameraPos()
+    {
+        return cameraPositionOnMap;
     }
 
     #region Loader
