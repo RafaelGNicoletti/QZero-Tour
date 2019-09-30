@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3e62c635c5d2c4286c56132b546f45, type: 3}
+  m_Name: EntidadeInfoList
+  m_EditorClassIdentifier: 
+  entidadeInfoList:
+  - id: Leprechauns
+    spriteImg: {fileID: 21300000, guid: a8d3edad3643aa0419fb6c4e4d587660, type: 3}
+    info: "\xC9 a equipe de Rugby da UFABC que tamb\xE9m promove eventos sociais,
+      e tem como princ\xEDpio a solidariedade."
+  - id: CAN
+    spriteImg: {fileID: 21300000, guid: a6606c5389ac2be40b44eee9e1b127f4, type: 3}
+    info: "O CAN \xE9 o Centro acad\xEAmico do curso de Bacharelado em Neuroci\xEAncia,
+      representando os discentes nas quest\xF5es do curso e no mercado de trabalho."
+  - id: Clube de Anime
+    spriteImg: {fileID: 21300000, guid: 72ca53be739e84f4688245a635055bb9, type: 3}
+    info: "O Clube de Anime \xE9 um grupo que discute e apresenta aspectos gerais
+      da cultura japonesa, com foco em animes e mang\xE1s."
+  - id: IEEE
+    spriteImg: {fileID: 21300000, guid: 03008b0e69cef3b479c88fd1826c2daf, type: 3}
+    info: "\xC9 uma entidade que promove atividades que visam o desenvolvimento t\xE9cnico
+      e pessoal considerando cursos de gradua\xE7\xE3o da UFABC."
+  - id: TamanduTech
+    spriteImg: {fileID: 21300000, guid: 9368fb6e923a45e4592d4db2232b97eb, type: 3}
+    info: "\xC9 a equipe de rob\xF3tica que dissemina o ensino e aplica\xE7\xE3o da
+      rob\xF3tica, que tamb\xE9m participa de competi\xE7\xF5es nacionais de rob\xF3tica."
+  - id: Coletiva
+    spriteImg: {fileID: 21300000, guid: 204de6e005c5e6f448124166496700f8, type: 3}
+    info: "O Coletiva \xE9 um coletivo feminista criado por mulheres e para mulheres,
+      para se organizarem coletivamente contra o machismo institucional na UFABC."
+  - id: InseRI
+    spriteImg: {fileID: 21300000, guid: 5df5f28dc8b620549960f7e39e3a4c5d, type: 3}
+    info: "O InseRI \xE9 uma entidade conduzida por alunos do Bacharelado em Rela\xE7\xF5es
+      Internacionais e foi criada aumentar o escopo das atividades e auxiliar na integra\xE7\xE3o
+      ao mercado de trabalho."
+  - id: CARI
+    spriteImg: {fileID: 21300000, guid: 02f0eb3e922ef154d8e9f8023d04810b, type: 3}
+    info: "\xC9 o \xF3rg\xE3o oficial de associa\xE7\xE3o, coordena\xE7\xE3o e representa\xE7\xE3o
+      dos estudantes do curso de Rela\xE7\xF5es Internacionais da UFABC."
+  - id: Arandu
+    spriteImg: {fileID: 21300000, guid: f2da6fd8d6e57124bb4fef66f70742f6, type: 3}
+    info: "\xC9 um projeto de extens\xE3o, voltado para o ensino da engenharia b\xE1sica
+      aos alunos de 9\xBA ano do Ensino Fundamental e do Ensino M\xE9dio de escolas
+      p\xFAblicas."
+  - id: Green Reapers
+    spriteImg: {fileID: 21300000, guid: 68b1026c785bed549b0d9691f078414b, type: 3}
+    info: "\xC9 uma entidade que promove o Futebol Americano na UFABC, e vem participando
+      de diversos campeonatos no pa\xEDs."
+  - id: Harpia
+    spriteImg: {fileID: 21300000, guid: b7846ffb70e154243aab86d360890fda, type: 3}
+    info: "A Harpia \xE9 um grupo que desenvolve projetos no setor de avia\xE7\xE3o
+      e participa de campeonatos como a SAE Aerodesign."
+  - id: Green Team
+    spriteImg: {fileID: 21300000, guid: dd6e80bed39462c40ae6bd62f9f4c33b, type: 3}
+    info: "\xC9 uma comunidade para fomenta\xE7\xE3o da cultura hacker."
+  - id: SOOI
+    spriteImg: {fileID: 21300000, guid: 67a984e5d86846140a8da2077938c668, type: 3}
+    info: "Tem como objetivo principal simular o \xE2mbito das organiza\xE7\xF5es
+      internacionais, incentivando os alunos participantes a estudar, refletir, negociar
+      e construir opini\xE3o sobre a Agenda Global."
+  - id: Prisma
+    spriteImg: {fileID: 21300000, guid: 831ab11ccae473343b9302336df9e42a, type: 3}
+    info: "Dissemina informa\xE7\xF5es sobre diversidade sexual, e de g\xEAnero e
+      a integra\xE7\xE3o todos os tipos de minorias sociais e pol\xEDticas, e promove
+      atividades sociais, acad\xEAmicas e de entretenimento."
+  - id: Project Neon
+    spriteImg: {fileID: 21300000, guid: fb1d99949d0a0d64c89c928f0eea9246, type: 3}
+    info: "Busca promover inova\xE7\xE3o e desenvolvimento no cen\xE1rio de rob\xF3tica
+      no Brasil atrav\xE9s da cultura de c\xF3digo aberto."
+  - id: GEB
+    spriteImg: {fileID: 21300000, guid: e03fe457236d37e4a85857eafbe0fc55, type: 3}
+    info: "Grupo de estudantes que se re\xFAnem para discutir a f\xE9 e a espiritualidade
+      na contemporaneidade por meio da B\xEDblia."
+  - id: AXIS
+    spriteImg: {fileID: 21300000, guid: 71cb76b9e4c80a74eabf284099f858ef, type: 3}
+    info: "\xC9 respons\xE1vel pelo suporte aos esportes associados, incentivando
+      e promovendo a pr\xE1tica de esporte na UFABC."
+  - id: Seiva Jr
+    spriteImg: {fileID: 21300000, guid: 803cad944e5ffbd4d85cb51fbd43b0ea, type: 3}
+    info: "\xC9 uma empresa j\xFAnior de car\xE1ter volunt\xE1rio que preza pela proatividade,
+      dedica\xE7\xE3o e efici\xEAncia, bem como a interdisciplinaridade, integra\xE7\xE3o
+      e sustentabilidade em seus projetos."
+  - id: CAPLAN
+    spriteImg: {fileID: 21300000, guid: 1a852d5b96668dd4d825c32fb94d7581, type: 3}
+    info: "\xC9 uma entidade representativa dos estudantes e filiados ao Bacharelado
+      em Planejamento Territorial da UFABC."
+  - id: CACE
+    spriteImg: {fileID: 21300000, guid: af969910643ec314591daf9fb727fec7, type: 3}
+    info: "\xC9 respons\xE1vel pela representa\xE7\xE3o estudantil dos alunos de Economia
+      da UFABC."
+  - id: CAPOL
+    spriteImg: {fileID: 21300000, guid: 27f769d77088caf4480232bb38139514, type: 3}
+    info: "\xC9 o \xF3rg\xE3o oficial de associa\xE7\xE3o, coordena\xE7\xE3o e representa\xE7\xE3o
+      dos estudantes do curso de Pol\xEDticas P\xFAblicas da UFABC."
+  - id: UFABC Finance
+    spriteImg: {fileID: 21300000, guid: f6f32380027ada443abfd900fa109350, type: 3}
+    info: Liga de Mercado Financeiro.
+  - id: NELIE
+    spriteImg: {fileID: 21300000, guid: 4cc957af6d9cc3244a76bf7e2be65e9a, type: 3}
+    info: "O NELIE \xE9 uma entidade empreendedora formada por alunos da UFABC que
+      tem como miss\xE3o fomentar a mentalidade empreendedora dentro do ideal de liberdade
+      econ\xF4mica."
+  - id: PET
+    spriteImg: {fileID: 21300000, guid: 494c6f7835363b8418e9d731bae4280a, type: 3}
+    info: "Programa de Educa\xE7\xE3o Tutorial que desenvolve uma s\xE9rie de atividade
+      tanto na UFABC quanto extra-muros para aproximar a comunidade ao ambiente acad\xEAmico."

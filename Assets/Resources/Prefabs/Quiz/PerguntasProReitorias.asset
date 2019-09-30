@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef4f7b167f10b642a48edf3e337b501, type: 3}
+  m_Name: PerguntasProReitorias
+  m_EditorClassIdentifier: 
+  quizQuestions:
+  - theme: PROGRAD
+    question: "Qual \xE9 a divis\xE3o da PROGRAD que ser\xE1 respons\xE1vel por emitir
+      os documentos necess\xE1rios para que voc\xEA possa solicitar o seu passe escolar
+      das linhas de \xF4nibus?"
+    alternative:
+    - CAE
+    - DAC
+    - DEAT
+    - DPAG
+    correctAnswer: 0
+  - theme: PROGRAD
+    question: "Se voc\xEA possuir qualquer tipo de problema referente \xE0s matr\xEDculas
+      das disciplinas durante o quadrimestre, em qual divis\xE3o da PROGRAD voc\xEA
+      deve ir? "
+    alternative:
+    - DAC
+    - CAE
+    - DEAT
+    - DPAG
+    correctAnswer: 0
+  - theme: PROGRAD
+    question: "O Programa de Ensino e Aprendizagem Tutorial (PEAT)  realiza oficinas
+      e atividades de orienta\xE7\xE3o pedag\xF3gica voltadas para alunos de gradua\xE7\xE3o.
+      Em qual pr\xF3-reitoria o PEAT est\xE1 vinculado?"
+    alternative:
+    - PROAP
+    - PROGRAD
+    - PROEC
+    - PROPES
+    correctAnswer: 1
+  - theme: PROAP
+    question: "Qual dessas pr\xF3-reitorias \xE9 respons\xE1vel por avaliar e conceder
+      aux\xEDlios e bolsas socioecon\xF4micas?"
+    alternative:
+    - PROAP
+    - PROGRAD
+    - PROPES
+    - PROEC
+    correctAnswer: 0
+  - theme: PROAP
+    question: "Qual \xE9 a se\xE7\xE3o da PROAP que faz o acolhimento \xE0 comunidade
+      universit\xE1ria, com o objetivo de criar e aprofundar v\xEDnculos dentro do
+      ambiente universit\xE1rio?"
+    alternative:
+    - "Se\xE7\xE3o Psicossocial "
+    - "Se\xE7\xE3o de Seguran\xE7a Universit\xE1ria "
+    - "Se\xE7\xE3o de Promo\xE7\xE3o \xE0 Sa\xFAde "
+    - "N\xFAcleo de Acessibilidade Educacional "
+    correctAnswer: 0
+  - theme: PROAP
+    question: "Qual \xE9 se\xE7\xE3o da PROAP realiza a\xE7\xF5es de preven\xE7\xE3o
+      \xE0 sa\xFAde e presta atendimento b\xE1sico em casos de agravo \xE0 sa\xFAde
+      no per\xEDodo em que a pessoa est\xE1 nas depend\xEAncias da universidade?"
+    alternative:
+    - "Se\xE7\xE3o de Esportes e Lazer "
+    - "Se\xE7\xE3o Psicossocial "
+    - "Se\xE7\xE3o de Promo\xE7\xE3o \xE0 Sa\xFAde "
+    - "Se\xE7\xE3o de Seguran\xE7a Universit\xE1ria "
+    correctAnswer: 2
+  - theme: PROEC
+    question: "Qual pr\xF3-reitoria \xE9 respons\xE1vel por promover o contato entre
+      as pesquisas da universidade com o ambiente externo social? "
+    alternative:
+    - PROPES
+    - PROGRAD
+    - PROEC
+    - PROAP
+    correctAnswer: 2
+  - theme: PROEC
+    question: "O setor da PROEC respons\xE1vel por a\xE7\xF5es de car\xE1ter educativo,
+      social, desportivo, cultural, cient\xEDfico ou tecnol\xF3gico da UFABC\". \xE9
+      a divis\xE3o de:"
+    alternative:
+    - "Projetos de Extens\xE3o e Cultura "
+    - 'Entidades Culturais '
+    - "Cursos de Especializa\xE7\xE3o "
+    - "Divulga\xE7\xE3o Cient\xEDfica "
+    correctAnswer: 0
+  - theme: PROEC
+    question: "A se\xE7\xE3o da PROEC que divulga, ao p\xFAblico, a produ\xE7\xE3o
+      cient\xEDfica realizada na UFABC, contribuindo para a forma\xE7\xE3o de uma
+      sociedade mais cr\xEDtica e consciente sobre a import\xE2ncia da ci\xEAncia
+      no cotidiano \xE9:"
+    alternative:
+    - "Divis\xE3o de Cultura "
+    - "Comit\xEA de Extens\xE3o e Cultura "
+    - "Divulga\xE7\xE3o Cient\xEDfica "
+    - "Projetos de Extens\xE3o e Cultura "
+    correctAnswer: 2
+  - theme: PROPES
+    question: "Qual \xE9 a pr\xF3-reitoria respons\xE1vel por \"apoiar e estimular
+      a pesquisa na UFABC, sendo o aliado do pesquisador no ambiente acad\xEAmico\"?"
+    alternative:
+    - PROGRAD
+    - PROPES
+    - PROEC
+    - PROAP
+    correctAnswer: 1
+  - theme: PROPES
+    question: "Para obter informa\xE7\xF5es sobre o  Programa \"Pesquisando Desde
+      o Primeiro Dia\" (PDPD), que \xE9 um programa de inicia\xE7\xE3o cient\xEDfica
+      destinado aos alunos ingressantes na UFABC, voc\xEA deve buscar a:"
+    alternative:
+    - PROAP
+    - PROPES
+    - PROGRAD
+    - PROEC
+    correctAnswer: 1

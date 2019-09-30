@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cerca
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 256
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d49e65a47051ede42b1e0d616a6886fd, type: 3}
+    totalSpriteSurfaceArea: 121758
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0b363a32826306d4e8c00ed8fef797db, type: 3}
+  - {fileID: 21300000, guid: c5541eb29e3791847a2d0b9e8a25a09a, type: 3}
+  - {fileID: 21300000, guid: 6b3924c56e7c8394d91e7b34ec19405f, type: 3}
+  - {fileID: 21300000, guid: 52e18f8611c9ff84f9458337a2321b61, type: 3}
+  - {fileID: 21300000, guid: 6ccfd5f6a13988642b924a823c73e349, type: 3}
+  - {fileID: 21300000, guid: 2e3ec8076fde0a14c9de6d873ad798f8, type: 3}
+  - {fileID: 21300000, guid: 77ec14382fbb0f740aaa3d5b03cd6004, type: 3}
+  - {fileID: 21300000, guid: 965a951902f8c154b9348e3de23295d0, type: 3}
+  - {fileID: 21300000, guid: 276033699b3a02240ac193a9b37b535c, type: 3}
+  - {fileID: 21300000, guid: 512a6989d6e111143848a8aad599866b, type: 3}
+  - {fileID: 21300000, guid: d03a808a58fed85499ed7a1935b4bb3e, type: 3}
+  - {fileID: 21300000, guid: 0e0e331c477191442a53304a93b88714, type: 3}
+  - {fileID: 21300000, guid: 5d04013e28b898741bf2af9e73729d9c, type: 3}
+  - {fileID: 21300000, guid: a9d3f13e1a48f874eade64e299c8401f, type: 3}
+  - {fileID: 21300000, guid: 00d8bc0f1af871d4abfc817385c86fc4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - cerca (68 px)
+  - cerca corner right 1 (68 px)
+  - cerca horizontal corner 3
+  - cerca 2 (68 px)
+  - cerca vertical
+  - cerca vertical corner
+  - cerca corner down (136 px)
+  - cerca vertical corner 5
+  - cerca horizontal corner 2 (68 px)
+  - cerca vertical corner 6
+  - cerca horizontal corner (68 px)
+  - cerca horizontal corner 4
+  - cerca horizontal (70 px)
+  - cerca corner left 2 (68 px)
+  - cerca corner upper (136 px)
+  m_Tag: Cerca
+  m_IsVariant: 0

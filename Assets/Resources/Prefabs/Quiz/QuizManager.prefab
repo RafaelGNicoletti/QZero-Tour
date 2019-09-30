@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8582294357092426510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8582294357092426504}
+  - component: {fileID: 8582294357092426505}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8582294357092426504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8582294357092426510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.38157576, y: 0.0133885695, z: -10.484951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8582294357092426505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8582294357092426510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672827d1b70862040b0d7c471e3560b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctAnswers: 0
+  scoreIncrease: 01000000
+  dificulty: 0
+  qtyQuestionsToDo: 11
+  qtyQuestionsDone: 0
+  questionGroup:
+  - {fileID: 11400000, guid: 63ce38c7a5f558448a1382a1238cab67, type: 2}
+  questionAndAnswer: []
+  numbersList: 
+  questionMeshText: {fileID: 0}
+  answerMeshText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  correctFeedback: {fileID: 9113588699602961557, guid: 08254bf2852d4314c877f242e4890def,
+    type: 3}
+  wrongFeedback: {fileID: 5748249743277231490, guid: 4b1897fcc34bdf944a2476cce8a9014b,
+    type: 3}
+  tela1: {fileID: 0}
+  tela2: {fileID: 0}
+  tela3: {fileID: 0}
+  selecionarDificuldadeVideo: {fileID: 0}
+  instrucoesVideo: {fileID: 0}
+  textoFimDoQuiz: {fileID: 0}
+  scoreText: {fileID: 0}
+  endOfQuizText:
+  - End text here
+  - End text here
+  - End text here
+  endOfQuizBalloon: {fileID: 0}
