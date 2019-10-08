@@ -45,6 +45,8 @@ public class QuizManager : MonoBehaviour
     [Tooltip("Tela de video de feedback/fim do quiz")]
     public GameObject tela3;
 
+    public GameObject tutorialScreen;
+
     public Text scoreText;
     private TimeManager timeManager;
 
@@ -393,6 +395,11 @@ public class QuizManager : MonoBehaviour
     public int CalculateScore()
     {
         return correctAnswers * scoreIncrease[dificulty];
+    }
+
+    public void TutorialScreen(bool state)
+    {
+        tutorialScreen.SetActive(state);
     }
 
     public void TurnOnTela1()
