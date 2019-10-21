@@ -40,12 +40,13 @@ public class PlayerInteract : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (npcTalking && other.CompareTag(npcTalking.tag)) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
+        // Existe NPCTalking?    Other possuí a tag?     Other é o mesmo que estamos falando atualmente?       
+        if (npcTalking && other.CompareTag(npcTalking.tag) && other == npcTalking) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
         {
             npcTalking = null;
         }
 
-        if (interactiveObject && other.CompareTag(interactiveObject.tag))
+        else if (interactiveObject && other.CompareTag(interactiveObject.tag) && other == interactiveObject)
         {
             interactiveObject = null;
         }
@@ -79,6 +80,11 @@ public class PlayerInteract : MonoBehaviour
             talkTextBox.NextText();
             ReseTime();
         }
+    }
+
+    public void GetInputMenu()
+    {
+        GetInputTalking();
     }
 
     /// <summary>

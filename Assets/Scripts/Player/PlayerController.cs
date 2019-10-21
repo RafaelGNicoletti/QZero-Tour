@@ -7,7 +7,8 @@ using UnityEngine;
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
-    private enum Status { walking, talking } //Variavel de estado, que pode assumir os valores que estão dentro de chaves
+    private enum Status { walking, talking, menu } //Variavel de estado, que pode assumir os valores que estão dentro de chaves
+    [SerializeField]
     private Status currentStatus = Status.walking; //Estado atual do jogador
     public PlayerInteract playerInteract; //Script que realizar as ações quando o jogador está interagindo com algum objeto
     public PlayerMovement playerMovement; //Script que cuida da movimentação do jogador
@@ -25,6 +26,10 @@ public class PlayerController : MonoBehaviour
         else if (status.Equals("talking"))
         {
             currentStatus = Status.talking;
+        }
+        else if (status.Equals("menu"))
+        {
+            currentStatus = Status.menu;
         }
         else
         {
@@ -46,6 +51,10 @@ public class PlayerController : MonoBehaviour
         {
             return "walking";
         }
+        else if (currentStatus == Status.menu)
+        {
+            return "menu";
+        }
         else
         {
             return "nothing";
@@ -63,6 +72,10 @@ public class PlayerController : MonoBehaviour
 
             case Status.talking:
                 playerInteract.GetInputTalking();
+                break;
+
+            case Status.menu:
+                playerInteract.GetInputMenu();
                 break;
 
             default:
