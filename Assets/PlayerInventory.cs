@@ -92,7 +92,7 @@ public class PlayerInventory : MonoBehaviour
         return null;
     }
 
-    private bool InventoryHaveItens()
+    public bool InventoryHaveItens()
     {
         if (inventory.Count > 0)
         {

@@ -73,23 +73,18 @@ public class SceneLibraryController : MonoBehaviour
     [SerializeField]
     private string[] falasDeInicio;
     [SerializeField]
-    private string[] falaDeSucesso;
+    private string[] falasDeSucesso;
     [SerializeField]
-    private string[] falaDeFalha;
+    private string[] falasDeFalha;
+    [SerializeField]
+    private LibraryNPCSearching libraryNPCSearching;
 
     private void Start()
     {
         RandomLivroSelector();
         playerInventory = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInventory>();
         textController.ChangeCurrentLivro(null);
-        FirstConversation();
-
-    }
-
-    private void FirstConversation()
-    {
-        falaDeSucesso[0] =  falaDeSucesso[0] +" "+ correctLivro.GetNome();
-        talkTextBox.ShowTalk(falaDeSucesso);
+        libraryNPCSearching.FirstConversation(correctLivro);
     }
 
     private void GameComplete()
