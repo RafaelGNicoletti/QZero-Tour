@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public static GameObject gameManager;
-    public static GameObject soudManager;
 
     public bool tutorialViewed = false;
     [SerializeField] private Vector3 playerPositionOnMap = new Vector3();
@@ -74,16 +73,10 @@ public class GameManager : MonoBehaviour
     public static void InitializeManagers()
     {
         gameManager = Resources.Load("Prefabs/Managers/GameManager") as GameObject;
-        soudManager = Resources.Load("Prefabs/Managers/SoundManager") as GameObject;
 
         if (GameManager.instance == null)
         {
             Instantiate(gameManager);
-        }
-
-        if (SoundManager.instance == null)
-        {
-            Instantiate(soudManager);
         }
     }
     #endregion
