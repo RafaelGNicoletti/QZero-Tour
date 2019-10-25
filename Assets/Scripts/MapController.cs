@@ -8,6 +8,13 @@ public class MapController : MonoBehaviour
     private GameObject player;
     public GameObject canvas;
     public GameObject camera;
+    public GameObject[] avatar;
+
+    private void Awake()
+    {
+        avatar[GameManager.instance.GetAvatarSelectedIndex()].SetActive(true);
+        camera.GetComponent<BasicCameraFollow>().followTarget = avatar[GameManager.instance.GetAvatarSelectedIndex()].transform;
+    }
 
     private void Start()
     {
