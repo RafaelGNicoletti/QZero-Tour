@@ -7,13 +7,17 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public static GameObject gameManager;
-    public static GameObject soudManager;
 
     public bool tutorialViewed = false;
     [SerializeField] private Vector3 playerPositionOnMap = new Vector3();
     [SerializeField] private Vector3 cameraPositionOnMap = new Vector3();
 
-    private int avatatarSelected = -1;
+    /// <summary>
+    /// Posição que o jogador deve ser colocado quando ocorre a mudança de scene
+    /// </summary>
+    [SerializeField] private Vector3 playerInstantiatePos = new Vector3();
+
+    private int avatatarSelected = 0;
     private string playerName = "";
 
     private void Awake()
@@ -29,6 +33,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    #region Set/Get
     public void SetAvatarSelectedIndex(int index)
     {
         avatatarSelected = index;
@@ -68,22 +73,28 @@ public class GameManager : MonoBehaviour
     {
         return cameraPositionOnMap;
     }
+    
+    public void SetPlayerInstantiatePos(Vector3 value)
+    {
+        playerInstantiatePos = value;
+    }
+
+    public Vector3 GetPlayerInstantiatePos()
+    {
+        return playerInstantiatePos;
+    }
+
+    #endregion
 
     #region Loader
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     public static void InitializeManagers()
     {
         gameManager = Resources.Load("Prefabs/Managers/GameManager") as GameObject;
-        soudManager = Resources.Load("Prefabs/Managers/SoundManager") as GameObject;
 
         if (GameManager.instance == null)
         {
             Instantiate(gameManager);
-        }
-
-        if (SoundManager.instance == null)
-        {
-            Instantiate(soudManager);
         }
     }
     #endregion

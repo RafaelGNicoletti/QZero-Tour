@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1827203778123848921}
   - component: {fileID: 6908046858954751630}
   m_Layer: 0
-  m_Name: TamanduaRender
+  m_Name: DogRender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,9 +156,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.3}
+  m_Offset: {x: 0, y: 0.23047908}
   serializedVersion: 2
-  m_Radius: 0.09
+  m_Radius: 0.23294349
 --- !u!1 &5004987696468917413
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5004987696468917414}
   m_Layer: 0
-  m_Name: Tamandua
+  m_Name: Dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
