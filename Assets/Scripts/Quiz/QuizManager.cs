@@ -209,8 +209,7 @@ public class QuizManager : MonoBehaviour
                 Destroy(tempWrongFeedback);
             }
         }
-
-        Debug.Log("Resposta verificada");
+        
         PrepareNewQuestion();
     }
 
