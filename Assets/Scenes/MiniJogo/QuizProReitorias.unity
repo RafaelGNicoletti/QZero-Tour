@@ -792,6 +792,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
         type: 3}
+      propertyPath: teste.testeList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
+      propertyPath: testePerguntas.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
+      propertyPath: teste2.tempListPerguntas.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
       propertyPath: questionMeshText
       value: 
       objectReference: {fileID: 656326893}
@@ -865,5 +880,20 @@ PrefabInstance:
       propertyPath: tutorialScreen
       value: 
       objectReference: {fileID: 953741143}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
+      propertyPath: file
+      value: 
+      objectReference: {fileID: 4900000, guid: 0ed8223cc59ac6f4ea3a66ab026aa433, type: 3}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
+      propertyPath: testePerg.file
+      value: 
+      objectReference: {fileID: 4900000, guid: 0ed8223cc59ac6f4ea3a66ab026aa433, type: 3}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
+      propertyPath: jsonTo
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e83603be7b8c874a931d4855dc4b681, type: 3}
