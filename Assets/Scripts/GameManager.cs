@@ -12,7 +12,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Vector3 playerPositionOnMap = new Vector3();
     [SerializeField] private Vector3 cameraPositionOnMap = new Vector3();
 
-    private int avatatarSelected = -1;
+    /// <summary>
+    /// Posição que o jogador deve ser colocado quando ocorre a mudança de scene
+    /// </summary>
+    [SerializeField] private Vector3 playerInstantiatePos = new Vector3();
+
+    private int avatatarSelected = 0;
     private string playerName = "";
 
     private void Awake()
@@ -28,6 +33,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    #region Set/Get
     public void SetAvatarSelectedIndex(int index)
     {
         avatatarSelected = index;
@@ -67,6 +73,18 @@ public class GameManager : MonoBehaviour
     {
         return cameraPositionOnMap;
     }
+    
+    public void SetPlayerInstantiatePos(Vector3 value)
+    {
+        playerInstantiatePos = value;
+    }
+
+    public Vector3 GetPlayerInstantiatePos()
+    {
+        return playerInstantiatePos;
+    }
+
+    #endregion
 
     #region Loader
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]

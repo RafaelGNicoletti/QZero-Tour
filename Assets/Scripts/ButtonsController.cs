@@ -27,9 +27,16 @@ public class ButtonsController : ScriptableObject
     {
         QuizManager manager = quizManager.GetComponent<QuizManager>();
         manager.SetDificulty(0);
+        manager.TutorialScreen(false);
         manager.TurnOnTela2();
         manager.PrepareNewQuestion();
         //GameObject.Find("QuizManager").GetComponent<QuizManager>().PrepareNewQuestion();
+    }
+
+    public void OpenQuizTutorial(GameObject quizManager)
+    {
+        QuizManager manager = quizManager.GetComponent<QuizManager>();
+        manager.TutorialScreen(true);
     }
 
     public void SimpleLoadScene(string name)

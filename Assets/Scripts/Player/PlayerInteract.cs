@@ -12,6 +12,8 @@ public class PlayerInteract : MonoBehaviour
 
     public GameObject interactableObj = null;
 
+    private InteractableObject interactableObject;
+    
     private void FixedUpdate()
     {
         timePassed += Time.deltaTime; //Adiciona ao tempo que passou desde o último input
@@ -37,6 +39,9 @@ public class PlayerInteract : MonoBehaviour
         else if (other.CompareTag("Interactable_Object"))
         {
             interactableObj = other.gameObject;
+
+            interactableObject = interactableObj.GetComponent<InteractableObject>();
+
             other.GetComponent<NPCBalloon>().CreateBalloon();
         }
     }
@@ -71,9 +76,14 @@ public class PlayerInteract : MonoBehaviour
         }
         /// Interação com outros objetos - usado para abrir os minijogos
         /// TEMPORÁRIO
-        else if (Input.GetKeyDown(KeyCode.Space) && interactableObj && timePassed >= keyDelay)
+        else if (Input.GetKeyDown(KeyCode.Space) && interactableObject.GetEnterGame() && timePassed >= keyDelay)
         {
-            interactableObj.GetComponent<InteractableObject>().LoadMinigame();
+            interactableObject.LoadMinigame();
+        }
+        else if (Input.GetKeyDown(KeyCode.Space) && interactableObject.GetEnterBuilding() && timePassed >= keyDelay)
+        {
+
+            interactableObject.LoadMap();
         }
     }
 
