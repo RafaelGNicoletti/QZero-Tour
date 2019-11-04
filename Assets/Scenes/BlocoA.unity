@@ -18090,6 +18090,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.14
       objectReference: {fileID: 0}
+    - target: {fileID: 5004987696830647211, guid: f825218bd80b2a943a95d74a7164b214,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937791627233762784, guid: f825218bd80b2a943a95d74a7164b214,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.24589652
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937791627233762784, guid: f825218bd80b2a943a95d74a7164b214,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.28536278
+      objectReference: {fileID: 0}
     - target: {fileID: 7958523489139963150, guid: f825218bd80b2a943a95d74a7164b214,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18149,21 +18164,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerModel-Dog
-      objectReference: {fileID: 0}
-    - target: {fileID: 5004987696830647211, guid: f825218bd80b2a943a95d74a7164b214,
-        type: 3}
-      propertyPath: movementSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2937791627233762784, guid: f825218bd80b2a943a95d74a7164b214,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.24589652
-      objectReference: {fileID: 0}
-    - target: {fileID: 2937791627233762784, guid: f825218bd80b2a943a95d74a7164b214,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.28536278
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f825218bd80b2a943a95d74a7164b214, type: 3}
