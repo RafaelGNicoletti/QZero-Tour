@@ -8,20 +8,30 @@ public class EstanteScript : MonoBehaviour, InteractiveObject
     private Livro livro;
     private string fixedLivro;
     private PlayerInventory playerInventory;
+    private PlayerController playerController;
     [SerializeField]
     private TalkTextBox talkTextBox;
-    private string [] warning = new string[1];
+    [SerializeField]
+    private string [] warning;
+    [SerializeField]
+    private string[] getBook;
+    [SerializeField]
+    private string[] giveBook;
 
     private void Awake()
     {
-        warning[0] = "Você precisa devolver seu livro no lugar correto antes de trocar por outro!";
         fixedLivro = livro.GetNome();
+        for (int i = 0; i<getBook.Length; i++)
+        {
+            getBook[i] = string.Format(getBook[i], livro.GetNome());
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             playerInventory = collision.GetComponentInParent<PlayerInventory>();
+            playerController = collision.GetComponentInParent<PlayerController>();
         }
     }
 
@@ -30,6 +40,7 @@ public class EstanteScript : MonoBehaviour, InteractiveObject
         if (collision.CompareTag("Player"))
         {
             playerInventory = null;
+            playerController = null;
         }
     }
 
@@ -47,19 +58,28 @@ public class EstanteScript : MonoBehaviour, InteractiveObject
             livroVerify = (Livro) playerInventory.TakeFirstItem();
             if (livroVerify == null)
             {
+                TalkWithPlayer(getBook);
                 playerInventory.GiveItem(livro);
                 livro = livroVerify;
             }
             else if (livroVerify.GetNome() == fixedLivro)
             {
+                TalkWithPlayer(giveBook);
                 playerInventory.GiveItem(livro);
                 livro = livroVerify;
             }
             else
             {
+                Debug.Log("Entrou aqui");
                 playerInventory.GiveItem(livroVerify);
-                talkTextBox.ShowTalk(warning);
+                TalkWithPlayer(warning);
             }
         }
+    }
+
+    public void TalkWithPlayer(string [] s)
+    {
+        playerController.SetStatus("talking");
+        talkTextBox.ShowTalk(s);
     }
 }
