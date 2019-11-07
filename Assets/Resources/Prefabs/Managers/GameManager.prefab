@@ -43,6 +43,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63bfb929a49b8904594b221062c872e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutorialViewed: 0
-  playerPositionOnMap: {x: 0, y: 0, z: 0}
-  cameraPositionOnMap: {x: 0, y: 0, z: 0}

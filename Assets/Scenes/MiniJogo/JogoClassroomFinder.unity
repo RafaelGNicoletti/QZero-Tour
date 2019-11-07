@@ -704,8 +704,8 @@ MonoBehaviour:
   - {fileID: 1669016973}
   - {fileID: 2041266686}
   - {fileID: 1588798255}
-  classRoomBoard: {fileID: 1340608077}
-  currentClassRoom:
+  classroomBoard: {fileID: 1340608077}
+  currentClassroom:
     codSala: 
     bloco: 
     torre: 
@@ -867,7 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e7a6b1e853ddfc43a32b6ac88218c5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  classRoomGetter: {fileID: 1340608078}
+  classroomGetter: {fileID: 1340608078}
   salas:
     classRooms: []
   text: {fileID: 1084427379}
