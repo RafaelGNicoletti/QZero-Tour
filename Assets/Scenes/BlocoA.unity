@@ -743,16 +743,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 757021495}
-    - target: {fileID: 8602982822610980237, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 888677205
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982822610980237, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -760,39 +750,14 @@ PrefabInstance:
       objectReference: {fileID: 1141765863}
     - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestoreSpeed
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1141765863}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Toggle
-      objectReference: {fileID: 0}
     - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1141765863}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetBoolFalse
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 8602982821211452366, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -800,19 +765,9 @@ PrefabInstance:
       objectReference: {fileID: 1141765863}
     - target: {fileID: 8602982821211452366, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ClearSpeed
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982821211452366, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1141765863}
-    - target: {fileID: 8602982821211452366, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetBoolTrue
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e48968b77639ee7479b6a9022971c083, type: 3}
 --- !u!1 &235257946
