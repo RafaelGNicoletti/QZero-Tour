@@ -743,16 +743,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 757021495}
-    - target: {fileID: 8602982822610980237, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 888677205
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982822610980237, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -760,39 +750,14 @@ PrefabInstance:
       objectReference: {fileID: 1141765863}
     - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestoreSpeed
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1141765863}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Toggle
-      objectReference: {fileID: 0}
     - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1141765863}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetBoolFalse
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982822054463703, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 8602982821211452366, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -800,19 +765,9 @@ PrefabInstance:
       objectReference: {fileID: 1141765863}
     - target: {fileID: 8602982821211452366, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ClearSpeed
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602982821211452366, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1141765863}
-    - target: {fileID: 8602982821211452366, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetBoolTrue
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e48968b77639ee7479b6a9022971c083, type: 3}
 --- !u!1 &235257946
@@ -18090,6 +18045,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.14
       objectReference: {fileID: 0}
+    - target: {fileID: 5004987696830647211, guid: f825218bd80b2a943a95d74a7164b214,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937791627233762784, guid: f825218bd80b2a943a95d74a7164b214,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.24589652
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937791627233762784, guid: f825218bd80b2a943a95d74a7164b214,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.28536278
+      objectReference: {fileID: 0}
     - target: {fileID: 7958523489139963150, guid: f825218bd80b2a943a95d74a7164b214,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18149,21 +18119,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerModel-Dog
-      objectReference: {fileID: 0}
-    - target: {fileID: 5004987696830647211, guid: f825218bd80b2a943a95d74a7164b214,
-        type: 3}
-      propertyPath: movementSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2937791627233762784, guid: f825218bd80b2a943a95d74a7164b214,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.24589652
-      objectReference: {fileID: 0}
-    - target: {fileID: 2937791627233762784, guid: f825218bd80b2a943a95d74a7164b214,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.28536278
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f825218bd80b2a943a95d74a7164b214, type: 3}

@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BlocoA.unity
     guid: 551e6e6c8ef8639439698c17df29a3b4
   - enabled: 1
+    path: Assets/Scenes/Ginasio.unity
+    guid: c7a1f405693816649aabd388bbe6d13a
+  - enabled: 1
     path: Assets/Scenes/MiniJogo/JogoEntidades00.unity
     guid: dd55e7c91d057d048a904162b5b57117
   - enabled: 1
