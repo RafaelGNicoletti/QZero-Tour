@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     private int avatatarSelected = 0;
     private string playerName = "";
 
+    private Dictionary<string, bool> JogoEntidadeFlags = new Dictionary<string, bool>();
+
     private void Awake()
     {
         if (instance == null)
@@ -82,6 +84,27 @@ public class GameManager : MonoBehaviour
     public Vector3 GetPlayerInstantiatePos()
     {
         return playerInstantiatePos;
+    }
+
+    public void AddDataToJogoEntidadeDictionary(string key, bool value)
+    {
+        if (!JogoEntidadeFlags.ContainsKey(key))
+        {
+            JogoEntidadeFlags.Add(key, value);
+        }
+    }
+
+    public void SetDataToJogoEntidadeDictionary(string key, bool value)
+    {
+        if (JogoEntidadeFlags.ContainsKey(key))
+        {
+            JogoEntidadeFlags[key] = value;
+        }
+    }
+
+    public bool GetDataToJogoEntidadeDictionary(string key)
+    {
+        return JogoEntidadeFlags[key];
     }
 
     #endregion

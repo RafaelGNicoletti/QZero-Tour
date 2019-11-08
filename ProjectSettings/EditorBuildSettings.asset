@@ -24,6 +24,21 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniJogo/JogoEntidades00.unity
     guid: dd55e7c91d057d048a904162b5b57117
   - enabled: 1
+    path: Assets/Scenes/MiniJogo/JogoEntidades01.unity
+    guid: b346151c09d01e048ae51c65fe2bf1ee
+  - enabled: 1
+    path: Assets/Scenes/MiniJogo/JogoEntidades02.unity
+    guid: 610c60cfa40d04f418c7407f6a2187d2
+  - enabled: 1
+    path: Assets/Scenes/MiniJogo/JogoEntidades03.unity
+    guid: 2c028237a0b85684188c7ae92b83bc5d
+  - enabled: 1
+    path: Assets/Scenes/MiniJogo/JogoEntidades04.unity
+    guid: 02a922564872f4044a379a842cb1a4aa
+  - enabled: 1
+    path: Assets/Scenes/MiniJogo/JogoEntidades05.unity
+    guid: 454b8c63a1305ae459703410817ad3c8
+  - enabled: 1
     path: Assets/Scenes/MiniJogo/QuizProReitorias.unity
     guid: 359bb9adaafd57b4198feed23fa9d8ad
   m_configObjects: {}
