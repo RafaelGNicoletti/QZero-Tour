@@ -498,7 +498,7 @@ PrefabInstance:
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
       propertyPath: sceneName
-      value: JogoEntidades00
+      value: JogoEntidades04
       objectReference: {fileID: 0}
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
@@ -2283,7 +2283,7 @@ PrefabInstance:
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
       propertyPath: sceneName
-      value: JogoEntidades00
+      value: JogoEntidades01
       objectReference: {fileID: 0}
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
@@ -6883,7 +6883,7 @@ PrefabInstance:
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
       propertyPath: sceneName
-      value: JogoEntidades00
+      value: JogoEntidades05
       objectReference: {fileID: 0}
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
@@ -11006,7 +11006,7 @@ PrefabInstance:
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
       propertyPath: sceneName
-      value: JogoEntidades00
+      value: JogoEntidades02
       objectReference: {fileID: 0}
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
@@ -11324,7 +11324,7 @@ PrefabInstance:
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
       propertyPath: sceneName
-      value: JogoEntidades00
+      value: JogoEntidades03
       objectReference: {fileID: 0}
     - target: {fileID: 7584362210448758762, guid: 12c0046b10f929f4b9ecea165e6813a3,
         type: 3}
