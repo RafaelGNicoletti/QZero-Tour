@@ -183,7 +183,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   livro: {fileID: 0}
-  playerInventory: {fileID: 0}
+  talkTextBox: {fileID: 0}
+  warning:
+  - "Voc\xEA precisa devolver seu livro no lugar correto antes de trocar por outro!"
+  getBook:
+  - "Voc\xEA est\xE1 pegando o livro \"{0}\", fa\xE7a bom proveito!"
+  giveBook:
+  - "Voc\xEA devolveu o livro."
 --- !u!61 &9112403011268470874
 BoxCollider2D:
   m_ObjectHideFlags: 0
