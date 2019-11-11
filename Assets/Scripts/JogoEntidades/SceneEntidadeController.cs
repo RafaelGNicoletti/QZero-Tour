@@ -15,34 +15,34 @@ public class SceneEntidadeController : MonoBehaviour
     private void Awake()
     {
         GameManager.instance.AddDataToJogoEntidadeDictionary(keyName, false);
-        
+
         /// Utilizado para testar duplas aleátoriamentes - Duplas existentes em cada scene serão colocadas manualmente 
         /// na variável numEntidadeExibida no inspector do UNITY na versão final
         #region Temporário - sorteia 4 aleatórios para exibir
-        //List<int> list = new List<int>();
-        //for (int j = 0; j < nMaxEntidades; j++)
-        //{
-        //    list.Add(j);
-        //}
+        List<int> list = new List<int>();
+        for (int j = 0; j < nMaxEntidades; j++)
+        {
+            list.Add(j);
+        }
 
-        //int numberSelected;
+        int numberSelected;
 
-        //for (int k = 0; k < 4; k++)
-        //{
-        //    if (list.Count != 0)
-        //    {
-        //        /// Seleciona o número aleatório
-        //        numberSelected = list[Random.Range(0, list.Count - 1)];
-        //        /// Remove da lisata para não ser selecionado novamente
-        //        list.Remove(numberSelected);
-        //    }
-        //    else
-        //    {
-        //        numberSelected = 0;
-        //    }
+        for (int k = 0; k < nMaxEntidades; k++)
+        {
+            if (list.Count != 0)
+            {
+                /// Seleciona o número aleatório
+                numberSelected = list[Random.Range(0, list.Count - 1)];
+                /// Remove da lisata para não ser selecionado novamente
+                list.Remove(numberSelected);
+            }
+            else
+            {
+                numberSelected = 0;
+            }
 
-        //    numEntidadeExibida[k] = numberSelected;
-        //}
+            //Debug.Log(numberSelected);
+        }
         #endregion
 
         int i = 0;
@@ -88,6 +88,11 @@ public class SceneEntidadeController : MonoBehaviour
     public void CorrectAnswer()
     {
         nEntidadesCompleted++;
+
+        if (nEntidadesCompleted == nMaxEntidades)
+        {
+            BeatedVerify();
+        }
     }
 
     /// <summary>
