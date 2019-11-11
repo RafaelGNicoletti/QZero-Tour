@@ -1994,13 +1994,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55b767b563264df4e8b08e4ce3ceed54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nMaxEntidades: 10
+  nMaxEntidades: 4
   duplaNomeLogo:
   - {fileID: 307498470}
   - {fileID: 2036981655}
   - {fileID: 1375631998}
   - {fileID: 1809255068}
-  numEntidadeExibida: 00000000010000000200000003000000
+  numEntidadeExibida: 050000000e000000030000000d000000
   entidadeList: {fileID: 11400000, guid: f3e0846993682c24598c88f80d3db9a3, type: 2}
   keyName: Entidades00
 --- !u!1 &2036981655 stripped

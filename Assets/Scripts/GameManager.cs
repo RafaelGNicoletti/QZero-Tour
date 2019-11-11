@@ -92,6 +92,8 @@ public class GameManager : MonoBehaviour
         {
             JogoEntidadeFlags.Add(key, value);
         }
+
+        Debug.Log("Adicionado");
     }
 
     public void SetDataToJogoEntidadeDictionary(string key, bool value)
@@ -100,10 +102,14 @@ public class GameManager : MonoBehaviour
         {
             JogoEntidadeFlags[key] = value;
         }
+
+        Debug.Log("Setou");
     }
 
     public bool GetDataToJogoEntidadeDictionary(string key)
     {
+        //Debug.Log("key: " + key + " - value: " + JogoEntidadeFlags[key]);
+        
         return JogoEntidadeFlags[key];
     }
 

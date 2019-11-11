@@ -1934,7 +1934,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c2af60b855a83ec43acca2adc9152487, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99bcc0cd105dd324fb5d77e60676f776, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1994,13 +1994,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55b767b563264df4e8b08e4ce3ceed54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nMaxEntidades: 10
+  nMaxEntidades: 4
   duplaNomeLogo:
   - {fileID: 307498470}
   - {fileID: 2036981655}
   - {fileID: 1375631998}
   - {fileID: 1809255068}
-  numEntidadeExibida: 11000000120000001300000014000000
+  numEntidadeExibida: 01000000120000000200000000000000
   entidadeList: {fileID: 11400000, guid: f3e0846993682c24598c88f80d3db9a3, type: 2}
   keyName: Entidades04
 --- !u!1 &2036981655 stripped
