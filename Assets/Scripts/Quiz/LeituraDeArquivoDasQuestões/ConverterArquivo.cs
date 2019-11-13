@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestScript : MonoBehaviour
+public class ConverterArquivo : MonoBehaviour
 {
     public ClassPergunta temp;
     public Perguntas teste;
