@@ -12,6 +12,7 @@ public class PlayerInteract : MonoBehaviour
 
     public GameObject interactableObj = null;
 
+    [SerializeField]
     private InteractableObject interactableObject;
     
     private void FixedUpdate()
@@ -56,7 +57,7 @@ public class PlayerInteract : MonoBehaviour
         }
         /// Interação com outros objetos - usado para abrir os minijogos
         /// TEMPORÁRIO
-        else if (other.CompareTag(interactableObj.tag))
+        else if (interactableObj != null && other.CompareTag(interactableObj.tag))
         {
             interactableObj = null;
             other.GetComponent<NPCBalloon>().DestroyBalloon();
@@ -72,18 +73,24 @@ public class PlayerInteract : MonoBehaviour
         {
             npcTalking.GetComponent<NPCTalk>().Talk();
             playerController.SetStatus("talking");
+
+            // Player olha pra NPC e NPC olha pra player...
+            npcTalking.GetComponent<NPCTalk>().LookToPlayer(this.transform);
+
             ReseTime();
         }
         /// Interação com outros objetos - usado para abrir os minijogos
         /// TEMPORÁRIO
-        else if (Input.GetKeyDown(KeyCode.Space) && interactableObject.GetEnterGame() && timePassed >= keyDelay)
+        else if (Input.GetKeyDown(KeyCode.Space) && interactableObj && timePassed >= keyDelay)
         {
-            interactableObject.LoadMinigame();
-        }
-        else if (Input.GetKeyDown(KeyCode.Space) && interactableObject.GetEnterBuilding() && timePassed >= keyDelay)
-        {
-
-            interactableObject.LoadMap();
+            if (interactableObject.GetEnterGame())
+            {
+                interactableObject.LoadMinigame();
+            }
+            else if (interactableObject.GetEnterBuilding())
+            {
+                interactableObject.LoadMap();
+            }
         }
     }
 
