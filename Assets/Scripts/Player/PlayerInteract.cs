@@ -14,7 +14,7 @@ public class PlayerInteract : MonoBehaviour
 
     [SerializeField]
     private InteractableObject interactableObject;
-    
+
     private void FixedUpdate()
     {
         timePassed += Time.deltaTime; //Adiciona ao tempo que passou desde o último input
@@ -76,6 +76,7 @@ public class PlayerInteract : MonoBehaviour
 
             // Player olha pra NPC e NPC olha pra player...
             npcTalking.GetComponent<NPCTalk>().LookToPlayer(this.transform);
+            LookTo(npcTalking.transform);
 
             ReseTime();
         }
@@ -112,5 +113,19 @@ public class PlayerInteract : MonoBehaviour
     public void StopTalking()
     {
         playerController.SetStatus("walking");
+        npcTalking.transform.parent.parent.GetComponentInChildren<NPCMovementController>().SetIsTalking(false);
+    }
+
+    /// <summary>
+    /// Fun~ção que faz o player olhar para algo (target)
+    /// </summary>
+    /// <param name="target"></param>
+    public void LookTo(Transform target)
+    {
+        Vector2 direction = new Vector2();
+        direction = target.position - this.transform.position;
+        direction = direction.normalized;
+
+        GetComponentInChildren<PlayerCharacterRenderer>().SetDirection(direction);
     }
 }
