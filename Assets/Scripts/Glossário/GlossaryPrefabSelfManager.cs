@@ -40,7 +40,15 @@ public class GlossaryPrefabSelfManager : MonoBehaviour
         siglaText.text = glossaryElement.sigla;
         descricaoText.text = glossaryElement.descricao;
         linkText.text = glossaryElement.link;
-        logoSprite.sprite = glossaryElement.logo;
+        if (glossaryElement.logo != null)
+        {
+            logoSprite.sprite = glossaryElement.logo;
+            logoSprite.preserveAspect = true;
+        }
+        else
+        {
+            logoSprite.color = new Color(0, 0, 0, 0);
+        }
     }
 
     /// <summary>
