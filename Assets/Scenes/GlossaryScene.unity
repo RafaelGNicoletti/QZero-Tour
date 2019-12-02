@@ -395,6 +395,16 @@ PrefabInstance:
       propertyPath: m_ScrollSensitivity
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 4524977676294238235, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_VerticalScrollbarVisibility
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977676294238235, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_HorizontalScrollbarVisibility
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4524977676395288803, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_Sprite
@@ -730,6 +740,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ScrollSensitivity
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977676294238235, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_HorizontalScrollbarVisibility
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977676294238235, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_VerticalScrollbarVisibility
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4524977676395288803, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
@@ -1218,6 +1238,16 @@ PrefabInstance:
       propertyPath: m_ScrollSensitivity
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 4524977676294238235, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_VerticalScrollbarVisibility
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977676294238235, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_HorizontalScrollbarVisibility
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4524977676395288803, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_Sprite
@@ -1543,6 +1573,16 @@ PrefabInstance:
       propertyPath: m_ScrollSensitivity
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 4524977676294238235, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_VerticalScrollbarVisibility
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977676294238235, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_HorizontalScrollbarVisibility
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4524977676395288803, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_Sprite
@@ -1588,6 +1628,46 @@ PrefabInstance:
     - target: {fileID: 4524977676331663662, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675290317548, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675290317548, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675290317548, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675290317548, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977674828584924, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977674828584924, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977676395288813, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977676395288813, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
