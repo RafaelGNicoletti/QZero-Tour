@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b39b3d336b0e747b357ad443008c78, type: 3}
+  m_Name: Auxilios
+  m_EditorClassIdentifier: 
+  auxiliosList:
+  - pergunta: primeira
+    textoSim: sisi
+    textoNao: noon
+    proxPerguntaSim: 0
+    proxPerguntaNao: 0
+  - pergunta: segunda
+    textoSim: vai
+    textoNao: pula
+    proxPerguntaSim: 2
+    proxPerguntaNao: 3
+  - pergunta: "n\xE3o"
+    textoSim: kk
+    textoNao: u.u
+    proxPerguntaSim: 3
+    proxPerguntaNao: 3
+  - pergunta: pulou
+    textoSim: kk
+    textoNao: u.u
+    proxPerguntaSim: 0
+    proxPerguntaNao: 0
