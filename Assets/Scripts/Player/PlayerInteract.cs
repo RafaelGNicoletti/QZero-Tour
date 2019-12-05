@@ -92,6 +92,10 @@ public class PlayerInteract : MonoBehaviour
             {
                 interactableObject.LoadMap();
             }
+            else if (interactableObject.GetTalkTo())
+            {
+                interactableObject.PlayDialogue();
+            }
         }
     }
 

@@ -1,0 +1,88 @@
+{"auxiliosList":
+[
+ {
+   "pergunta": "Olá! Você sabia que a UFABC tem como missão promover o avanço do conhecimento por meio de ações de Ensino, Pesquisa e Extensão, tendo como fundamentos básicos a interdisciplinaridade, a excelência e a inclusão social? E o melhor de tudo: você pode fazer parte disso!",
+   "textoSim": "",
+   "textoNao": "",
+   "proxPerguntaSim": 1,
+   "proxPerguntaNao": 1
+ },
+ {
+   "pergunta": "Com base no fundamento da inclusão social, a PROAP (Pró-reitoria de Assuntos Comunitários e Políticas Afirmativas) concede alguns auxílios socioeconômicos aos estudantes para que possam participar plenamente das atividades acadêmicas. Vamos ver se você está apto a solicitá-los?",
+   "textoSim": "",
+   "textoNao": "",
+   "proxPerguntaSim": 2,
+   "proxPerguntaNao": 2
+ },
+ {
+   "pergunta": "A renda da sua família é inferior a 1,5 salário mínimo?",
+   "textoSim": "Você está apto a solicitar a Bolsa Permanência. Fique atento aos prazos e editais divulgados pela PROAP.",
+   "textoNao": "Infelizmente, você não poderá solicitar os auxílios socioeconômicos. Você pode encontrar mais informações na PROAP.",
+   "proxPerguntaSim": 3,
+   "proxPerguntaNao": 6
+ },
+ {
+   "pergunta": "Você mora a mais de 50 km ou 2h da UFABC?",
+   "textoSim": "Você está apto a solicitar o Auxílio-moradia. Fique atento aos prazos e editais divulgados pela PROAP.",
+   "textoNao": "Infelizmente, você não poderá solicitar os auxílios socioeconômicos. Você pode encontrar mais informações na PROAP.",
+   "proxPerguntaSim": 4,
+   "proxPerguntaNao": 4
+ },
+ {
+   "pergunta": "Você pretende fazer suas refeições na universidade?",
+   "textoSim": "Você está apto a solicitar o Auxílio-alimentação. Fique atento aos prazos e editais divulgados pela PROAP.",
+   "textoNao": "Infelizmente, você não poderá solicitar os auxílios socioeconômicos. Você pode encontrar mais informações na PROAP.",
+   "proxPerguntaSim": 5,
+   "proxPerguntaNao": 5
+ },
+ {
+   "pergunta": "Você tem um filho em idade pré-escolar?",
+   "textoSim": "Você está apto a solicitar o Auxílio-creche. Fique atento aos prazos e editais divulgados pela PROAP.",
+   "textoNao": "Infelizmente, você não poderá solicitar os auxílios socioeconômicos. Você pode encontrar mais informações na PROAP.",
+   "proxPerguntaSim": 6,
+   "proxPerguntaNao": 6
+ },
+ {
+   "pergunta": "Agora vamos conhecer as oportunidades de ensino, pesquisa, extensão e cultura. Você só pode receber uma bolsa dentre todas estas atividades, mas pode se inscrever como voluntário em mais de um projeto.",
+   "textoSim": "",
+   "textoNao": "",
+   "proxPerguntaSim": 7,
+   "proxPerguntaNao": 7
+ },
+ {
+   "pergunta": " Para começar, você é um aluno ingressante?",
+   "textoSim": "É necessário ficar atento aos critérios de seleção. Para os ingressantes, os critérios de seleção podem incluir a nota do ENEM, enquanto para os alunos veteranos, pode incluir o CR ou o CA.",
+   "textoNao": "É necessário ficar atento aos critérios de seleção. Para os ingressantes, os critérios de seleção podem incluir a nota do ENEM, enquanto para os alunos veteranos, pode incluir o CR ou o CA.",
+   "proxPerguntaSim": 8,
+   "proxPerguntaNao": 8
+ },
+ {
+   "pergunta": "Você já pensou em dar aulas?",
+   "textoSim": "Legal! Você pode se inscrever como monitor acadêmico ou professor na Escola Preparatória UFABC. Mais informações sobre a monitoria acadêmica estão disponíveis na PROGRAD e sobre a Escola Preparatória na PROEC.",
+   "textoNao": "Que pena! Você poderia se tornar um monitor acadêmico ou professor na Escola Preparatória UFABC. Mais informações sobre a monitoria acadêmica estão disponíveis na PROGRAD e sobre a Escola Preparatória na PROEC.",
+   "proxPerguntaSim": 9,
+   "proxPerguntaNao": 9
+ },
+ {
+   "pergunta": "Você já pensou em fazer pesquisa?",
+   "textoSim": "Eba! Na UFABC existem oportunidades para ingressantes (PDPD) e veteranos (PIC/PIBIC/PIBITI). Você pode encontrar mais informações na PROPES.",
+   "textoNao": "Ahhh! Na UFABC existem oportunidades para ingressantes (PDPD) e veteranos (PIC/PIBIC/PIBITI). Você pode encontrar mais informações na PROPES.",
+   "proxPerguntaSim": 10,
+   "proxPerguntaNao": 10
+ },
+ {
+   "pergunta": "Você se interessa por atividades de extensão e cultura?",
+   "textoSim": "Show! Existem diversos projetos de extensão e cultura na UFABC. Acompanhe na PROEC e fique atento aos prazos.",
+   "textoNao": "Sério?! Existem diversos projetos de extensão e cultura na UFABC. Acompanhe na PROEC e fique atento aos prazos.",
+   "proxPerguntaSim": 11,
+   "proxPerguntaNao": 11
+ },
+ {
+   "pergunta": "Não deixe de participar dos projetos de ensino, pesquisa e extensão e não se esqueça de solicitar os auxílios socioeconômicos, caso atenda aos requitos. Nos vemos por aí!",
+   "textoSim": "",
+   "textoNao": "",
+   "proxPerguntaSim": 12,
+   "proxPerguntaNao": 12
+ }
+]
+}
