@@ -19,13 +19,11 @@ public class AuxiliosManager : MonoBehaviour
         {
             isRunning = true;
 
-            GameObject.Find("Canvas").GetComponent<Animator>().Play("SetUI");
-            GameObject.Find("Canvas").GetComponent<Animator>().speed = -1;
             GameObject.Find("MapController").GetComponent<MapController>().ClearSpeed();
             telaAuxilio.SetActive(true);
             ResetAll();
-            ShowText(auxiliosList.GetInfo(questionIndex).GetPergunta());
-            MostraBotaoContinuar();
+
+            NextQuestion();
         }
     }
 
@@ -52,24 +50,21 @@ public class AuxiliosManager : MonoBehaviour
 
     public void NextQuestion()
     {
-        ApagaBotaoContinuar();
+        if (questionIndex < auxiliosList.GetSize())
+        {
+            ApagaBotaoContinuar();
+        
+            ShowText(auxiliosList.GetInfo(questionIndex).GetPergunta());
 
-        if (questionIndex == 0)
-        {
-            ShowText(auxiliosList.GetInfo(questionIndex + 1).GetPergunta());
-            MostraBotoesSimNao();
-            questionIndex++;
-        }
-        else if (questionIndex < auxiliosList.GetSize() - 1)
-        {
-            ShowText(auxiliosList.GetInfo(questionIndex).GetPergunta());
-            MostraBotoesSimNao();
-        }
-        else if (questionIndex == auxiliosList.GetSize() - 1)
-        {
-            ShowText(auxiliosList.GetInfo(questionIndex).GetPergunta());
-            MostraBotaoContinuar();
-            questionIndex++;
+            if (auxiliosList.SemAlternativas(questionIndex))
+            {
+                MostraBotaoContinuar();
+                questionIndex = auxiliosList.GetInfo(questionIndex).GetProxPerguntaSim();
+            }
+            else
+            {
+                MostraBotoesSimNao();
+            }
         }
         else
         {
@@ -82,9 +77,6 @@ public class AuxiliosManager : MonoBehaviour
         isRunning = false;
         telaAuxilio.SetActive(false);
         GameObject.Find("MapController").GetComponent<MapController>().RestoreSpeed();
-
-        GameObject.Find("Canvas").GetComponent<Animator>().Play("SetUI");
-        GameObject.Find("Canvas").GetComponent<Animator>().speed = 1;
     }
 
     #region Funções Auxiliares

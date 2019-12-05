@@ -16,4 +16,30 @@ public class AuxiliosInfoList : ScriptableObject
     {
         return auxiliosList.Length;
     }
+
+    public void SetAuxiliosInfoList(TempAux list)
+    {
+        auxiliosList = new AuxiliosInfo[list.auxiliosList.Length];
+
+        for (int i = 0; i < list.auxiliosList.Length; i++)
+        {
+            auxiliosList[i] = list.auxiliosList[i];
+        }
+    }
+
+    public bool SemAlternativas(int index)
+    {
+        bool temAlternativa;
+
+        if (auxiliosList[index].GetTextoSim() == "" && auxiliosList[index].GetTextoNao() == "")
+        {
+            temAlternativa = true;
+        }
+        else
+        {
+            temAlternativa = false;
+        }
+
+        return temAlternativa;
+    }
 }
