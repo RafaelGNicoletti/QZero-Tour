@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniJogo/QuizProReitorias.unity
     guid: 359bb9adaafd57b4198feed23fa9d8ad
+  - enabled: 1
+    path: Assets/Scenes/GlossaryScene.unity
+    guid: 763a89921e6d8024a8b9db9b134300d2
   m_configObjects: {}

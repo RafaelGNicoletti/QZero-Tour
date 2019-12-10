@@ -81,4 +81,9 @@ public class ButtonsController : ScriptableObject
     {
         GameObject.Find("Canvas").GetComponent<Animator>().SetTrigger(trigger);
     }
+
+    public void LoadLastScene()
+    {
+        SceneManager.LoadScene(GameManager.instance.GetLastSceneName());
+    }
 }

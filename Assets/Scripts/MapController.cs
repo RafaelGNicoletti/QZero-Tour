@@ -68,4 +68,13 @@ public class MapController : MonoBehaviour
     {
         canvas.GetComponent<Animator>().SetBool(boolName, false);
     }
+
+    public void OpenGlossary(string sceneName)
+    {
+        GameManager.instance.SetPlayerPos(player.transform.position);
+        GameManager.instance.SetCameraPos(camera.transform.position);
+        GameManager.instance.SetLastSceneName(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+    }
 }
