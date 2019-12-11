@@ -94,7 +94,6 @@ public class PlayerInteract : MonoBehaviour
             }
             else if (interactableObject.GetTalkTo())
             {
-                interactableObject.PlayDialogue();
             }
         }
     }
