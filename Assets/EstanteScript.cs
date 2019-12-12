@@ -14,16 +14,21 @@ public class EstanteScript : MonoBehaviour, InteractiveObject
     [SerializeField]
     private string [] warning;
     [SerializeField]
+    private string[] areaOfNoInterest;
+    [SerializeField]
     private string[] getBook;
     [SerializeField]
     private string[] giveBook;
 
     private void Awake()
     {
-        fixedLivro = livro.GetNome();
-        for (int i = 0; i<getBook.Length; i++)
+        if (livro)
         {
-            getBook[i] = string.Format(getBook[i], livro.GetNome());
+            fixedLivro = livro.GetNome();
+            for (int i = 0; i<getBook.Length; i++)
+            {
+                getBook[i] = string.Format(getBook[i], livro.GetNome());
+            }
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -56,7 +61,11 @@ public class EstanteScript : MonoBehaviour, InteractiveObject
         if (playerInventory)
         {
             livroVerify = (Livro) playerInventory.TakeFirstItem();
-            if (livroVerify == null)
+            if (livroVerify == null && livro == null)
+            {
+                TalkWithPlayer(areaOfNoInterest);
+            }
+            else if (livroVerify == null)
             {
                 TalkWithPlayer(getBook);
                 playerInventory.GiveItem(livro);
@@ -70,7 +79,6 @@ public class EstanteScript : MonoBehaviour, InteractiveObject
             }
             else
             {
-                Debug.Log("Entrou aqui");
                 playerInventory.GiveItem(livroVerify);
                 TalkWithPlayer(warning);
             }
