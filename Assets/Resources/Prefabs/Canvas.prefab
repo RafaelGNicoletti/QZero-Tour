@@ -389,7 +389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1363,11 +1363,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8602982822610980238}
     m_Modifications:
-    - target: {fileID: 446379368993876773, guid: 938a4523492dbcc44a4e6026ed3b983b,
-        type: 3}
-      propertyPath: m_Name
-      value: TextBoxTalking
-      objectReference: {fileID: 0}
     - target: {fileID: 446379368993876774, guid: 938a4523492dbcc44a4e6026ed3b983b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1472,6 +1467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446379368993876773, guid: 938a4523492dbcc44a4e6026ed3b983b,
+        type: 3}
+      propertyPath: m_Name
+      value: TextBoxTalking
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 938a4523492dbcc44a4e6026ed3b983b, type: 3}

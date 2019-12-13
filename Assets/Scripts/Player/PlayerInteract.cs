@@ -96,6 +96,14 @@ public class PlayerInteract : MonoBehaviour
             {
                 interactableObject.PlayDialogue();
             }
+            else if (interactableObject.GetElevator())
+            {
+                interactableObject.OpenElevator();
+                if (GameObject.FindGameObjectWithTag("PopUpBalloon"))
+                {
+                    GameObject.FindGameObjectWithTag("PopUpBalloon").SetActive(false);
+                }
+            }
         }
     }
 

@@ -40,8 +40,11 @@ public class MapController : MonoBehaviour
 
     public void ClearSpeed()
     {
-        playerSpeed = player.GetComponent<PlayerMovement>().movementSpeed;
-        player.GetComponent<PlayerMovement>().movementSpeed = 0;
+        if (player.GetComponent<PlayerMovement>().movementSpeed != 0)
+        {
+            playerSpeed = player.GetComponent<PlayerMovement>().movementSpeed;
+            player.GetComponent<PlayerMovement>().movementSpeed = 0;
+        }
     }
 
     public void RestoreSpeed()
@@ -67,5 +70,17 @@ public class MapController : MonoBehaviour
     public void SetBoolFalse(string boolName)
     {
         canvas.GetComponent<Animator>().SetBool(boolName, false);
+    }
+    
+    public void OpenElevador(GameObject tela)
+    {
+        GameObject.Find("MapController").GetComponent<MapController>().ClearSpeed();
+        tela.SetActive(true);
+    }
+
+    public void CloseElevador(GameObject tela)
+    {
+        GameObject.Find("MapController").GetComponent<MapController>().RestoreSpeed();
+        tela.SetActive(false);
     }
 }
