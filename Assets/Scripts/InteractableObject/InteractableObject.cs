@@ -15,7 +15,10 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] private bool enterBuilding;
     [SerializeField] private bool enterGame;
 
+    [SerializeField] private bool elevator;
+
     [SerializeField] private GameObject objectToTalk;
+    [SerializeField] private GameObject elevatorWindow;
 
     #region Get/Set
     public bool GetTalkTo()
@@ -31,6 +34,11 @@ public class InteractableObject : MonoBehaviour
     public bool GetEnterGame()
     {
         return enterGame;
+    }
+
+    public bool GetElevator()
+    {
+        return elevator;
     }
     #endregion
 
@@ -62,5 +70,10 @@ public class InteractableObject : MonoBehaviour
         {
             objectToTalk.GetComponent<AuxiliosManager>().StartAuxilioMinigame();
         }
+    }
+
+    public void OpenElevator()
+    {
+        GameObject.Find("MapController").GetComponent<MapController>().OpenElevador(elevatorWindow);
     }
 }

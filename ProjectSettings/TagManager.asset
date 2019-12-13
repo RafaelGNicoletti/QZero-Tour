@@ -10,6 +10,8 @@ TagManager:
   - EncaixeLogo
   - EncaixeNome
   - Interactable_Object
+  - InfoTextWindow
+  - PopUpBalloon
   layers:
   - Default
   - TransparentFX
