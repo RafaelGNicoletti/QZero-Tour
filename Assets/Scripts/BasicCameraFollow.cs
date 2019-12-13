@@ -12,7 +12,7 @@ public class BasicCameraFollow : MonoBehaviour
     }
 
 	private Vector3 startingPosition;
-    public bool usingClamp = false;
+    public bool usingClamp = false; //Decide se a câmera vai ser limitada na scene, ou se ela seguirá livremente o jogador
     public Transform followTarget;
 	private Vector3 targetPos;
     public CameraClamp clampX;

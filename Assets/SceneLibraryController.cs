@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class SceneLibraryController : MonoBehaviour
 {
+    /// <summary>
+    /// Controla o texto de status no canto superior direito
+    /// </summary>
     [System.Serializable]
     public class TextController
     {

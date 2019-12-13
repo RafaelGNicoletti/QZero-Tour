@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         switch (currentStatus) //Verifica qual dos estados é o atual e aplica as funções de verificar o input
         {

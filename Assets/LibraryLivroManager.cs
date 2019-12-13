@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Facilita na obtenção de uma lista com todos os livros.
+/// </summary>
 public class LibraryLivroManager : MonoBehaviour
 {
     private Livro[] livros;

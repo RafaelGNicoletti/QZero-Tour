@@ -8,7 +8,8 @@ public class PlayerInteract : MonoBehaviour
     public GameObject interactiveObject = null; //Objeto com o qual o jogador está interagindo
     public PlayerController playerController; //Controlador geral do jogador, refêrencia para poder alterar o estado dele
     public TalkTextBox talkTextBox; //Script do  balão de fala
-    public float keyDelay = 0.1f; //Tempo de espera entre inputs consectivos (1f = 1 segundo), serve para evitar múltiplos inputs
+    [SerializeField]
+    private float keyDelay = 0.05f; //Tempo de espera entre inputs consectivos (1f = 1 segundo), serve para evitar múltiplos inputs
     private float timePassed = 0; //Tempo que passou desde o último input
 
     private void FixedUpdate()
@@ -22,6 +23,15 @@ public class PlayerInteract : MonoBehaviour
     public void ReseTime()
     {
         timePassed = 0;
+    }
+
+    /// <summary>
+    /// Verifica se o input do jogador atende todos os requisitos para ser válido.
+    /// </summary>
+    /// <returns></returns>
+    public bool InputReady()
+    {
+        return (Input.GetKeyDown(KeyCode.Space) && timePassed >= keyDelay);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -57,16 +67,17 @@ public class PlayerInteract : MonoBehaviour
     /// </summary>
     public void GetInputInteract()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && npcTalking && timePassed >= keyDelay)
+        if(InputReady() && npcTalking)
         {
             npcTalking.GetComponent<NPCTalk>().Talk();
             playerController.SetStatus("talking");
             ReseTime();
         }
 
-        else if(Input.GetKeyDown(KeyCode.Space) && interactiveObject && timePassed >= keyDelay)
+        else if(InputReady() && interactiveObject)
         {
             interactiveObject.GetComponent<InteractiveObject>().Interact();
+            ReseTime();
         }
     }
 
@@ -75,7 +86,7 @@ public class PlayerInteract : MonoBehaviour
     /// </summary>
     public void GetInputTalking()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && timePassed >= keyDelay)
+        if (InputReady() && talkTextBox.textBoxActive)
         {
             talkTextBox.NextText();
             ReseTime();

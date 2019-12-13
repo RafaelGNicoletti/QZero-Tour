@@ -5,20 +5,20 @@ using UnityEngine;
 public class EstanteScript : MonoBehaviour, InteractiveObject
 {
     [SerializeField]
-    private Livro livro;
-    private string fixedLivro;
+    private Livro livro;  //Livro atual que está na estante
+    private string fixedLivro; //Livro que pertecente a estante
     private PlayerInventory playerInventory;
     private PlayerController playerController;
     [SerializeField]
-    private TalkTextBox talkTextBox;
+    private TalkTextBox talkTextBox; //Referencia ao talkTextBox da scene, para apresentar as falas.
     [SerializeField]
-    private string [] warning;
+    private string [] warning; //Aviso que o jogador recebe quando ele tenta devolver um livro no local errado
     [SerializeField]
-    private string[] areaOfNoInterest;
+    private string[] areaOfNoInterest; //Aviso que o jogador recebe quando o jogador não está segurando nenhum livro e a estante não tem nenhum livro.
     [SerializeField]
-    private string[] getBook;
+    private string[] getBook; //Texto quando o jogador pega um livro da estante
     [SerializeField]
-    private string[] giveBook;
+    private string[] giveBook; //Texto quando o jogador dá o livro para a estante
 
     private void Awake()
     {
@@ -54,7 +54,10 @@ public class EstanteScript : MonoBehaviour, InteractiveObject
         TradeItem();
     }
 
-    public void TradeItem()
+    /// <summary>
+    /// Função que devolve o item a estante ou então pega o item dela.
+    /// </summary>
+    private void TradeItem()
     {
         Livro livroVerify = null;
 
