@@ -1250,21 +1250,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7960043281518971758, guid: 09c834d2f78100d4bb0547232d7c52eb,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: c687af046286f064db655342e8c90583, type: 2}
-    - target: {fileID: 7960043281518971759, guid: 09c834d2f78100d4bb0547232d7c52eb,
-        type: 3}
-      propertyPath: body
-      value: 
-      objectReference: {fileID: 736788541}
-    - target: {fileID: 7960043282251670444, guid: 09c834d2f78100d4bb0547232d7c52eb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7960043281518971756, guid: 09c834d2f78100d4bb0547232d7c52eb,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -1274,6 +1259,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960043282251670444, guid: 09c834d2f78100d4bb0547232d7c52eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7960043281518971757, guid: 09c834d2f78100d4bb0547232d7c52eb,
         type: 3}
@@ -1285,6 +1275,16 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7960043281518971758, guid: 09c834d2f78100d4bb0547232d7c52eb,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c687af046286f064db655342e8c90583, type: 2}
+    - target: {fileID: 7960043281518971759, guid: 09c834d2f78100d4bb0547232d7c52eb,
+        type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 736788541}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09c834d2f78100d4bb0547232d7c52eb, type: 3}
 --- !u!1 &180548856
@@ -5864,11 +5864,6 @@ PrefabInstance:
       propertyPath: m_Navigation.m_Mode
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8602982821536917160, guid: e48968b77639ee7479b6a9022971c083,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8602982821410966436, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
       propertyPath: m_Navigation.m_Mode
@@ -5899,6 +5894,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -10.900002
       objectReference: {fileID: 0}
+    - target: {fileID: 8602982821536917160, guid: e48968b77639ee7479b6a9022971c083,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e48968b77639ee7479b6a9022971c083, type: 3}
 --- !u!1 &781972760 stripped
@@ -5907,6 +5907,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 781972759}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &781972761 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2142788524289754804, guid: e48968b77639ee7479b6a9022971c083,
+    type: 3}
+  m_PrefabInstance: {fileID: 781972759}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02453eafad24f92449288c5a3c7cf224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &781972765 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8602982822610980238, guid: e48968b77639ee7479b6a9022971c083,
@@ -7494,6 +7506,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1422453580796246709, guid: c7355c8dba30aac45b3a363e746f684e,
+        type: 3}
+      propertyPath: talkTextBox
+      value: 
+      objectReference: {fileID: 781972761}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7355c8dba30aac45b3a363e746f684e, type: 3}
 --- !u!1 &1103673140
@@ -10044,6 +10061,11 @@ PrefabInstance:
       propertyPath: movementSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5004987696830647212, guid: f825218bd80b2a943a95d74a7164b214,
+        type: 3}
+      propertyPath: talkTextBox
+      value: 
+      objectReference: {fileID: 781972761}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f825218bd80b2a943a95d74a7164b214, type: 3}
 --- !u!1 &1615405330
