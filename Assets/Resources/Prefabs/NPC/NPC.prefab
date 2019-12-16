@@ -146,7 +146,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isWalking: 0
   idleDirection: baixo
+  direction8: 0
+  movePositions: []
+  moveSpeed: 5
+  closedMovement: 0
   animatorNPC: {fileID: 7960043281518971758}
+  body: {fileID: 0}
 --- !u!1 &7960043281916484663
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,8 +245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d750a7d927e051848ab391f7b61f1d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balloon: {fileID: 100740595527546361, guid: 8666b12b4819b18418a67880e5c076f0, type: 3}
-  balloonPos: {x: 1, y: 1.5, z: 0}
+  balloon: {fileID: 1410673397959729852, guid: 84c3b3edbdf772c419e0d549c4e66f88, type: 3}
+  balloonPos: {x: 0.4, y: 1.6, z: 0}
 --- !u!114 &7960043281978481835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,6 +263,7 @@ MonoBehaviour:
   - Testeando
   - 1, 2, 3
   talkTextBox: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!114 &7960043281978481845
 MonoBehaviour:
   m_ObjectHideFlags: 0

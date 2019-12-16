@@ -5553,7 +5553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d750a7d927e051848ab391f7b61f1d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balloon: {fileID: 100740595527546361, guid: 9cad979d54336e8448ecbd07fb956fab, type: 3}
+  balloon: {fileID: 2435448221627863497, guid: a06d09ea52516214dadba65ef6891182, type: 3}
   balloonPos: {x: 0.9, y: 1.8, z: 0}
 --- !u!114 &1164546287
 MonoBehaviour:
@@ -5613,6 +5613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960043281518971759, guid: 09c834d2f78100d4bb0547232d7c52eb,
+        type: 3}
+      propertyPath: idleDirection
+      value: O
       objectReference: {fileID: 0}
     - target: {fileID: 7960043281175115916, guid: 09c834d2f78100d4bb0547232d7c52eb,
         type: 3}
@@ -5674,11 +5679,6 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 838508b46e6ee5747b1ecb00cff69d21, type: 2}
-    - target: {fileID: 7960043281518971759, guid: 09c834d2f78100d4bb0547232d7c52eb,
-        type: 3}
-      propertyPath: idleDirection
-      value: O
-      objectReference: {fileID: 0}
     - target: {fileID: 7960043281978481835, guid: 09c834d2f78100d4bb0547232d7c52eb,
         type: 3}
       propertyPath: falas.Array.size
@@ -17633,7 +17633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d750a7d927e051848ab391f7b61f1d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balloon: {fileID: 100740595527546361, guid: 9cad979d54336e8448ecbd07fb956fab, type: 3}
+  balloon: {fileID: 2435448221627863497, guid: a06d09ea52516214dadba65ef6891182, type: 3}
   balloonPos: {x: 0.9, y: 1.8, z: 0}
 --- !u!114 &1776144909
 MonoBehaviour:

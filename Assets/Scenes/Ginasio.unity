@@ -1195,6 +1195,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 7960043281518971759, guid: 09c834d2f78100d4bb0547232d7c52eb,
+        type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 736788541}
     - target: {fileID: 7960043281175115916, guid: 09c834d2f78100d4bb0547232d7c52eb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1250,6 +1255,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7960043281518971758, guid: 09c834d2f78100d4bb0547232d7c52eb,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c687af046286f064db655342e8c90583, type: 2}
     - target: {fileID: 7960043281518971756, guid: 09c834d2f78100d4bb0547232d7c52eb,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -1275,16 +1285,6 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 7960043281518971758, guid: 09c834d2f78100d4bb0547232d7c52eb,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: c687af046286f064db655342e8c90583, type: 2}
-    - target: {fileID: 7960043281518971759, guid: 09c834d2f78100d4bb0547232d7c52eb,
-        type: 3}
-      propertyPath: body
-      value: 
-      objectReference: {fileID: 736788541}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09c834d2f78100d4bb0547232d7c52eb, type: 3}
 --- !u!1 &180548856
@@ -3741,6 +3741,12 @@ PrefabInstance:
       propertyPath: newScenePlayerPos.y
       value: 4.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7584362210448758763, guid: 12c0046b10f929f4b9ecea165e6813a3,
+        type: 3}
+      propertyPath: balloon
+      value: 
+      objectReference: {fileID: 2435448221627863497, guid: a06d09ea52516214dadba65ef6891182,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12c0046b10f929f4b9ecea165e6813a3, type: 3}
 --- !u!4 &394003672 stripped
@@ -6772,6 +6778,12 @@ PrefabInstance:
       propertyPath: balloonPos.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7584362210448758763, guid: 12c0046b10f929f4b9ecea165e6813a3,
+        type: 3}
+      propertyPath: balloon
+      value: 
+      objectReference: {fileID: 7148917286727031050, guid: f273157e647b78847a54ea7d1e699e46,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12c0046b10f929f4b9ecea165e6813a3, type: 3}
 --- !u!1 &932474931
