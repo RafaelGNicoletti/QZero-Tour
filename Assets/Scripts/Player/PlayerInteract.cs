@@ -128,6 +128,7 @@ public class PlayerInteract : MonoBehaviour
         Vector2 direction = new Vector2();
         direction = target.position - this.transform.position;
         direction = direction.normalized;
+        //direction /= 100;
 
         GetComponentInChildren<PlayerCharacterRenderer>().SetDirection(direction);
     }

@@ -40,8 +40,8 @@ public class NPCMovementController : MonoBehaviour
     private int movePositionIndex = 0;
     private int openMovementDirection = 1;
     private Vector3 direction = new Vector3();
-    private string[] runDirections8 = { "N", "NL", "L", "SL", "S", "SO", "O", "NO" };
-    private string[] runDirections4 = { "N", "L", "S", "O" };
+    private string[] runDirections8 = { "N", "NO", "O", "SO", "S", "SL", "L", "NL" };
+    private string[] runDirections4 = { "N", "O", "S", "L" };
     #endregion
 
     [SerializeField]
@@ -166,7 +166,7 @@ public class NPCMovementController : MonoBehaviour
 
     public void WalkToAnimation(Vector3 direction)
     {
-        float angle = Vector3.SignedAngle(Vector3.up, direction, Vector3.up);
+        float angle = Vector3.SignedAngle(Vector3.up, direction, Vector3.forward);
 
         float sides;
         string[] directions;
