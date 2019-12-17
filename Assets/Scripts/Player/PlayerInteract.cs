@@ -116,7 +116,10 @@ public class PlayerInteract : MonoBehaviour
     public void StopTalking()
     {
         playerController.SetStatus("walking");
-        npcTalking.transform.parent.parent.GetComponentInChildren<NPCMovementController>().SetIsTalking(false);
+        if (npcTalking.transform.parent.parent)
+        {
+            npcTalking.transform.parent.parent.GetComponentInChildren<NPCMovementController>().SetIsTalking(false);
+        }
     }
 
     /// <summary>

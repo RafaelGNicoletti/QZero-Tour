@@ -601,6 +601,21 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1887159328749804214, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570703759501, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455571661458722, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3901455569877314628, guid: 4c4626bd6db46374d860f454ccdbbf25,
         type: 3}
       propertyPath: m_LocalPosition.x

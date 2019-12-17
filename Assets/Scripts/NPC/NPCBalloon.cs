@@ -8,6 +8,11 @@ public class NPCBalloon : MonoBehaviour
     public Vector3 balloonPos;
     private GameObject tempBalloon;
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        DestroyBalloon();
+    }
+
     /// <summary>
     /// Função que instancia um GameObject em uma posição definida por balloonPos
     /// </summary>

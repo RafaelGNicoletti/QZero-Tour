@@ -18,6 +18,9 @@ public class NPCTalk : MonoBehaviour
 
     public void LookToPlayer(Transform playerPos)
     {
-        controller.LookToPlayer(playerPos);
+        if (controller)
+        {
+            controller.LookToPlayer(playerPos);
+        }
     }
 }
