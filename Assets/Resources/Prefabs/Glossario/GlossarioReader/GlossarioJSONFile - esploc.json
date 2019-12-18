@@ -1,0 +1,108 @@
+{"glossary":
+[
+  {
+     "sigla":"Bloco Alfa 1"
+    ,"nome":"Bloco Alfa"
+    ,"descricao":"O Bloco Alfa, mais conhecido como A1 ou Alfa 1, se localiza no campus de São Bernardo do Campo, próximo ao  Bloco Beta e o Bloco Delta. Nele, estão presentes laborátórios didáticos, salas de aula e uma das cantinas do campus. A maioria das eleições para Centros Acadêmicos e atividades como assembléias ocorrem em seu hall."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Alfa 2"
+    ,"nome":"Bloco Tau"
+    ,"descricao":"Mais conhecido como Alfa 2 ou A2, o Bloco Tau fica localizado no campus de São Bernardo, em frente à quadra de areia. Nele, estão diversas salas de aula, laboratórios didáticos de informática e uma cantina. Neste bloco está a sala da segurança que centraliza o \"achados e perdidos\" do campus, e o espaço \"Mariele Franco\" no qual existem projetos para consolidação da sala em um ambiente infantil, onde estudantes que são mães ou pais, podem amamentar, alimentar, brincar ou acalmar seus filhos de forma lúdica dentro do ambiente universitário."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Beta"
+    ,"nome":"-"
+    ,"descricao":"O Bloco Beta é o primeiro prédio que enxergamos ao chegar na unidade de São Bernardo, pelo ponto do fretado. Muitas solenidades e eventos acontecem nele, porque estão os cinco auditórios do campus de São Bernardo do Campo. Além disso, o Beta abriga a biblioteca, perfeita para estudar em pequenos grupos."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Delta"
+    ,"nome":"-"
+    ,"descricao":"O Bloco Delta é está na parte central do campus de São Bernardo, de frente para o Bloco Beta, e em sua retaguarda está a quadra de areia. É o Bloco mais formal de todos, onde podemos resolver nossos problemas. Brincadeiras à parte, no primeiro andar está situada a enfermaria, a PROEC e alguns núcleos específicos. O segundo e o terceiro andar são destinados aos gabinetes d@s professores. Essa é uma dica, caso você precise encontrar algum deles."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Épsilon"
+    ,"nome":"Poratria de SBC"
+    ,"descricao":"O Bloco Épsilon é a portaria do campus de São Bernardo do Campo."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Gama"
+    ,"nome":"RU de SBC"
+    ,"descricao":"O Bloco Gama é prédio onde está instalado o Restaurante Universitário (RU) do campus de São Bernardo do Campo"
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Mu"
+    ,"nome":"Biotério de SBC"
+    ,"descricao":"O Bloco Mu nada mais é que o Biotério de São Bernardo do Campo"
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Ômega"
+    ,"nome":"-"
+    ,"descricao":"O Bloco Ômega é aquele que se localiza atrás da quadra de areia em São Bernardo do Campo. Ele possui diversos laboratórios de pesquisa dos cursos de Engenharia da UFABC. Se um dia tiver a oportunidade, visite-o. Você vai ver a estrutura diferenciada do bloco com armários corta-fogo e chuveiros nos corredores que podem ser  usados no caso da ocorrência de uma contaminação acidental dentro dos laboratórios."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Ômicron"
+    ,"nome":"Herbário"
+    ,"descricao":"O Bloco Ômicron é o Herbário de São Bernardo do Campo"
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Psi"
+    ,"nome":"Centro de Convivência e Lazer; Elefante Branco"
+    ,"descricao":"O Bloco Psi é o Centro de Convivência e Lazer do campus de São Bernardo do Campo e foi apelidado de Elefante Branco (nome mais conhecido).Os estudantes podem usar o espaço que sempre está aberto, tanto para atividades de lazer, para realizar reuniões com os colegas ou simplesmente expressar suas habilidades artísticas."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Bloco Zeta"
+    ,"nome":"-"
+    ,"descricao":"O Bloco Zeta é prédio ao lado do Bloco Alfa 2 e de frente para o Bloco Ômega e possui salas de aula e laborátórios de estudo."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Campus/Campi"
+    ,"nome":"-"
+    ,"descricao":"campus (singular) ou campi (plural) é o local onde uma instituição ou conjunto de instituições, de ensino tem uma parte ou a totalidade dos seus serviços. Os campi da UFABCl abrange seu conjunto de blocos, prédios, praças e ruas. A UFABC possui os campi de São Bernardo do Campo, localizado na Alameda da Universidade, s/n - Bairro Anchieta e o de Santo André, localizado na Avenida dos Estados, 5001 - Bairro Bangú."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Laboratório de Informática"
+    ,"nome":"-"
+    ,"descricao":"Um laboratório de Informática é o ambiente no qual estudantes de diversos cursos de graduação podem realizar pesquisas e trabalhos a partir de computadores com softwares avançados e de uso coletivo. Um exemplo é o Laboratório de Cartografia e Geoprocessamento, localizado no bloco Alfa 2 em São Bernardo do Campo e no bloco A, Torre 1 do campus de Santo André."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Laboratório Seco"
+    ,"nome":"-"
+    ,"descricao":"Um laboratório seco é o ambiente no qual estudantes dos cursos de graduação podem realizar experimentações, sem o uso de reagentes, a partir de equipamentos tecnológicos avançados de uso coletivo e equipamentos específicos de cada grupo de pesquisa. Um exemplo é o Laboratório de Processamento de Sinais e Comunicação, localizado no bloco A em Santo André."
+    ,"link":""
+    ,"logo":""
+  },
+  {
+     "sigla":"Laboratório Úmido"
+    ,"nome":"-"
+    ,"descricao":"Um laboratório úmido é o ambiente no qual estudantes de diversos cursos de graduação podem realizar experimentações a partir de produtos reagentes de uso coletivo, específicos de cada grupo de pesquisa. Muitas vezes, é um ambiente que precisa de refrigeramento. Um exemplo é o Laboratório de Biocombustíveis, localizado no bloco A em Santo André."
+    ,"link":""
+    ,"logo":""
+  }]
+}

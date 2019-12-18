@@ -1,0 +1,403 @@
+{"glossary":
+[
+ {
+   "sigla": "Abandono",
+   "nome": "-",
+   "descricao": "O abandono ocorre quando o aluno regular efetivo não mantém matrícula em disciplinas por 2 (dois) quadrimestres consecutivos e não solicita trancamento.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "Aluno Atleta de Alta Performance",
+   "nome": "",
+   "descricao": "Um aluno atleta de alto rendimento tem direito de cumprir apenas 50% (cinquenta por cento) da frequência total de cada disciplina quando estiver participando de competições oficiais, tanto nacionais como internacionais. Caso perca quaisquer avaliações acadêmicas será oferecida época especial para realização dessas avaliações.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "Aluno regular efetivo",
+   "nome": "-",
+   "descricao": "Discente que mantém matrícula em disciplinas em 2 (dois) quadrimestres consecutivos; apresenta, ao início do 3º quadrimestre, Coeficiente de Rendimento (CR) diferente de 0 (zero) ou pelo menos uma disciplina em seu histórico em que não tenha sido reprovado com conceito “O”.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "Aluno regular ingressante",
+   "nome": "-",
+   "descricao": "Discente que ainda não cursou dois quadrimestres consecutivos. Quando apresentar CR nulo, e/ou reprovação por conceito “O” em todas as disciplinas após (dois) quadrimestres letivos (desconsiderando-se quadrimestres trancados), terá sua matrícula cancelada.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "Aproveitamento de disciplinas",
+   "nome": "",
+   "descricao": "O estudante que tiver cursado disciplinas de pós-graduação ou extensão da UFABC, cursos de graduação, pós-graduação ou extensão de outras Instituições de Ensino Superior pode usá-los para integralizar a própria grade currícular na forma de equivalência ou de créditos livres. ",
+   "link": "http://www.ufabc.edu.br/images/stories/comunicare/boletimdeservico/boletim_servico_ufabc_869.pdf#page=72",
+   "logo": ""
+ },
+ {
+   "sigla": "Avaliação substitutiva",
+   "nome": "",
+   "descricao": "é o mecanismo de substituição que permite a realização de alguma forma de avaliação quando o discente que faltar a uma avaliação presencial de uma disciplina. Além dos critérios estabelecidos pelo professor em seu plano de ensino, a Resolução ConsEPE n° 181 estabelece as situações  que dão o direito aos mecanismo substituivos, quando comprovadas por meio de documentos.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "Bacharelado",
+   "nome": "-",
+   "descricao": "Bacharelado é um grau acadêmico que tem uma base curricular de ensino que prepara o estudante para atuar de forma mais ampla no mercado em diferentes funções desempenhadas dentro da área profissional escolhida. Na UFABC temos 20 tipos de Bacharelados específicos, sem contar os interdisciplinares de ingresso (BC&H e BC&T). E ai, já sabe qual é o seu?",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "BB",
+   "nome": "Bacharelado em Biotecnologia",
+   "descricao": "O Bacharelado em Biotecnologia é um curso de formação específica do BC&T e está associado ao desenvolvimento de tecnologias ligadas ao conhecimento das áreas da Biologia e ao estudo de organismos geneticamente modificados.",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "BCB",
+   "nome": "Bacharelado em Ciências Biológicas",
+   "descricao": "O Bacharelado em Ciências Biológicas é um curso de formação específica do BC&T e tem como objetivo formar um profissional com uma visão ampla e crítica sobre questões que envolvem os seres vivos e seu ambiente, comprometido de forma ética e responsável com a construção de uma sociedade sustentável. ",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "BCC",
+   "nome": "Bacharelado em Ciência da Computação",
+   "descricao": "O Bacharelado em Bacharelado em em Ciência da Computação é um curso de formação específica do BC&T  e tem na própria computação como atividade fim e visa a formação tomadores de decisão para o desenvolvimento científico e tecnológico da computação. Esse curso forma profissionais com caráter interdisciplinar, com base no equilíbrio de conceitos teóricos e atividades práticas que promovem o conhecimento científico e tecnológico da Computação. ",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "BCE",
+   "nome": "Bacharelado em Ciências Econômicas",
+   "descricao": "O Bacharelado em Ciências Econômicas é um curso de formação específica do BCH e inicia a formação dos alunos com o ensino das bases filosóficas e epistemológicas das ciências modernas. O aprendizado avança em busca do equilíbrio entre os conteúdos de teoria econômica por métodos quantitativos e filosófico-humanistas. Ao longo do curso, o estudante irá adquirir competências para lidar com as dimensões econômicas de problemas complexos da sociedade contemporânea.",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "BCH",
+   "nome": "Bacharelado em Ciências e Humanidades",
+   "descricao": "O Bacharelado em Ciências e Humanidades (BC&H) é um curso de formação científica geral e busca formar pessoas que compreendem o mundo sob perspectiva interdisciplinar e que perseguem soluções para problemas contemporâneos, com capacidade crítica para indagar sobre os limites das respostas encontradas e seus impactos na sociedade. A matriz curricular proporciona vivências e estudos acadêmicos que resultam em uma forte formação científica e na aquisição de habilidades para o exercício profissional relacionado às ciências humanas e sociais.",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "BCT",
+   "nome": "Bacharelado em Ciências e Tecnologia",
+   "descricao": "O Bacharelado em Ciência e Tecnologia é um curso de formação científica geral. Os estudantes têm a oportunidade de trabalhar e desenvolver temas interdisciplinares, por meio de uma metodologia que incentiva a postura investigativa, estimula a pesquisa e consequente produção científica, o que propicia os meios necessários para desencadear o processo de aprendizagem contínua no decorrer da sua futura vida acadêmica e profissional. A fim de se inserir na reorganização da ciência e na interação entre ciência e tecnologia, a UFABC organiza o BC&T a partir de seis eixos principais, com que pretende inspirar os campos de pesquisa.",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "Bacharelado em Filosofia",
+   "nome": "Bacharelado em Filosofia",
+   "descricao": "O Bacharelado em Filosofia é um curso de formação específica do BCH que pretende formar indivíduos preparados para pensar as questões filosóficas, identificar suas limites e buscar soluções por meio de métodos tipicamente filosóficos, sendo a análise conceitual, de interpretação, de argumentação e de formalização lógica, entre outros, na busca de respostas que se expressam numa linguagem racional, ainda que não precise se reportar, a evidências experimentais necessariamente. Os alunos que cursarem o Bacharelado em Filosofia serão iniciados nas técnicas de pesquisa e receberão treinamento para continuar seus estudos em níveis mais avançados.",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "Bacharelado em Física",
+   "nome": "Bacharelado em Física",
+   "descricao": "O Bacharelado em Física é um curso de formação específica do BC&T que considera tanto as perspectivas tradicionais de atuação do profissão, como as demandas emergentes nas últimas décadas. O perfil desejado do bacharel em física é o de um profissional com formação ampla e sólida, portador de habilidades e competências necessárias às expectativas atuais, conhecedor do método científico e preparado para enfrentar novos desafios. Além do conteúdo tradicional, proporciona uma visão mais ampla e moderna ao cientista.",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "BIs",
+   "nome": "Bacharelado(s) Interdisciplinar(es)",
+   "descricao": "Os Bacharelados Interdisciplinares (BIs) são cursos de graduação que permitem uma formação mais ampla e com maior flexibilidade na organização das disciplinas que se deseja cursar. Funciona assim: o aluno faz um ciclo de formação básica  em Tecnologia ou Humanidades (conforme o curso de ingresso). Durante o curso, ele estuda conteúdos gerais da área escolhida e de outras também, podendo direcionar seu currículo para um campo específico ou mesmo se aprofundar em várias áreas. Ao término do curso, o estudante decide se quer seguir para o mercado de trabalho com o diploma de bacharel na área que escolheu, e atuar como um profissional generalista, ou partir para o segundo ciclo (profissionalizante). Neste caso, ele opta por um outro curso relacionado à grande área que estudou anteriormente. ",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "BM",
+   "nome": "Bacharelado em Matemática",
+   "descricao": "O Bacharelado em Matemática é um curso de formação específica do BC&T que  visa formar um profissional que não só possua uma sólida formação em Matemática e que ela seja aliada a uma versatilidade de interagir com outros campos do conhecimento.  A formação engloba conhecimentos específicos, desenvolvimento do raciocínio lógico e da capacidade de abstração. ",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "BN",
+   "nome": "Bacharelado em Neurociência",
+   "descricao": "O Bacharelado em Neurociência é um curso de formação específica do BC&T e é o primeiro curso de graduação inteiramente dedicado à neurociência no Brasil e fornece uma formação sólida na base científica e metodológica, e nas técnicas de laboratório relevantes para esta especialização.Com uma base ampla nas áreas tradicionais da ciência, conhecimento de computação e treinamento em metodologia e comunicação científica, o egresso é um profissional flexível com competências além da neurociência, uma vez que, por exemplo, a Neurociência estuda a estrutura, os mecanismos e das funções do cérebro e do sistema nervoso em geral a partir de novas tecnologias como ressonância magnética funcional, imunohistoquímica e computação em paralelo. ",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "BPP",
+   "nome": "Bacharelado em Políticas Públicas",
+   "descricao": "O Bacharelado em Políticas Públicas é um curso de formação específica do BCH e tem como objetivo formar profissionais capacitados tecnicamente para analisar, atuar e intervir nas complexas dinâmicas que fazem parte das políticas públicas, incluindo os agentes sociais, econômicos, o Estado e as suas instituições. ",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "BPT",
+   "nome": "Bacharelado em Planejamento Territorial",
+   "descricao": "O Bacharelado em Planejamento Territorial é um curso de formação específica do BCH e é o primeiro curso de graduação inteiramente dedicado a essa temática no País. Ele oferece uma formação capaz de articular e integrar conhecimentos e instrumentos de diversas áreas disciplinares, tanto das ciências sociais aplicadas e das humanas (economia, administração, demografia, planejamento urbano e regional, ciência política, sociologia, geografia e história), quanto das ciências exatas e naturais (estatística, cartografia, geoprocessamento e ecologia). O profissional com esta formação estará apto para atuar em diferentes modalidades de planejamento e gestão territorial no setor público, na iniciativa privada ou em organizações sociais e do terceiro setor, assim como receberá uma base para prosseguir com estudos acadêmicos complementares em nível de pós-graduação.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "BQ",
+   "nome": "Bacharelado em Química",
+   "descricao": "O Bacharelado em Química é um curso de formação específica do BC&T e  é dedicado à formação de profissionais capacitados para atuar em pesquisas tecnológicas e acadêmicas, no setor de produção e desenvolvimento industrial e em atividades relacionadas à educação superior. O  bacharel em Química é o profissional capaz de intervir cientificamente em todos os assuntos relacionados com a matéria e suas transformações, podendo desempenhar tarefas operacionais, de consultoria, de pesquisa básica e aplicada. ",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "BRI",
+   "nome": "Bacharelado em Relações Internacionais",
+   "descricao": "O Bacharelado em Relações Internacionais é um curso de formação específica do BCH é focado no estudo e no ensino das dimensões políticas e econômicas da nova inserção do Brasil no sistema internacional em prol de seu desenvolvimento econômico e social. Com isso, o curso pretende formar profissionais capazes de entender e lidar com os desafios da economia globalizada e da inserção do Brasil no cenário político internacional, em particular a partir de quatro áreas de conhecimento: Geopolítica da energia e recursos naturais; Globalização produtiva, ciência, tecnologia e inovação; Integração econômica, política e cultural da América do Sul; Governança global e relações de poder.\n\n",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "CA",
+   "nome": "Coeficiente de Aproveitamento",
+   "descricao": "É um número indicativo da média dos melhores conceitos obtidos em todas as disciplinas cursadas pelo aluno. Por isso, se você fizer uma mesma matéria duas vezes, o conceito que se sobressairá no cálculo do CA, será aquele que é o melhor conceito obtido.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "Cancelamento de matrícula em disciplinas",
+   "nome": "-",
+   "descricao": "é a interrupção das atividades acadêmicas em uma disciplina de graduação, a pedido do discente, sem prejuízo das suas demais atividades acadêmicas. O discente tem direito ao cancelamento de duas disciplinas a cada quadrimestre letivo, desde que atendidas às condições estabelecidas pela PROGRAD (consulte as condições no site)",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "Certificado de conclusão",
+   "nome": "",
+   "descricao": "é o documento apto a suprir os efeitos gerados pelo diploma enquanto este não é expedido. Para retirá-lo, o estudante deve ter coeficiente de aproveitamento no curso igual ou superior a 2,0 e não estar em débito com a biblioteca.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "Colação de grau antecipada",
+   "nome": "",
+   "descricao": "É a colação de grau simples de um aluno que já integralizou todo o curso quando a cerimônia de colação de grau solente ainda não foi realizada",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "Colação de grau solene",
+   "nome": "",
+   "descricao": "Também conhecida como formatura, é uma cerimônia tradicional acadêmica de caráter obrigatório para a outorga do grau de Bacharel ou Licenciado a estudantes de ensino superior que concluíram os seus estudos. É a partir deste momento que, oficialmente, o aluno passa a obter o título de graduado, outorgado pelo diretor da Unniversidade.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "Coeficientes de desempenho",
+   "nome": "-",
+   "descricao": "são os conceitos utilizados pelos professores e pela Universidade na avaliação de desempenho de estudantes durante o curso. São atribuídos os conceitos A (desempenho exepcional), B (desempenho bom), C (desempenho médio), D (desempenho regular), F (reprovado) e O (reprovado por falta)\n\n\n",
+   "link": "https://www.youtube.com/watch?v=Zz64K9Fqr3c&list=PLnL3nwtOp1ORHsFxIsGzUbf6hlbvQUgWY&index=3",
+   "logo": ""
+ },
+ {
+   "sigla": "CPk",
+   "nome": "Coeficiente de Progressão",
+   "descricao": "O Coeficiente de Progressão (CPk) para um determinado curso (k) é a razão entre os créditos das disciplinas aprovadas e o número total de créditos exigidos para integralização de um curso. O valor do CPk aumenta à medida que você é aprovado nas disciplinas cursadas, conforme s categorias (obrigatória, opção limitada ou livre) para o curso considerado. Quando o CPk alcança o valor unitário, os créditos correspondentes às disciplinas de um curso foram concluídos",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "CR",
+   "nome": "Coeficiente de Rendimento",
+   "descricao": "indica o desenvolvimento d@ discente no curso e considera os conceitos obtidos em todas as disciplinas cursadas. Para o cálculo do CR, é realizada a média ponderada dos conceitos obtidos nas disciplinas cursadas e os respectivos créditos. Por isso, no quadrimestre de ingresso na Universidade, não temos o CR.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "Créditos",
+   "nome": "-",
+   "descricao": "É a quantidade de horas semanais de uma disciplina. Por isso, para calcular quantos créditos uma disciplina possui, basta somar as suas \"Horas de Teoria\" e \"Horas de Prática\" semanais (T+P - siglas encontradas referentes aos números que estão na frente dos nomes das disciplinas, compondo o conjunto TPI - Teoria, Prática e Individual)",
+   "link": "https://www.youtube.com/watch?v=Zz64K9Fqr3c&list=PLnL3nwtOp1ORHsFxIsGzUbf6hlbvQUgWY&index=3",
+   "logo": ""
+ },
+ {
+   "sigla": "Diploma",
+   "nome": "",
+   "descricao": "É um documento formal emitido pelas instituições de ensino com cursos reconhecidos pelo MEC (Ministério da Educação) que tornam o titular habilitado ao exercício de uma profissão além de possuir validade nacional.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "Discente",
+   "nome": "Aluna ou Aluno",
+   "descricao": "Discente é a pessoa que aprende, ou seja, o estudante. Você já é um discente da UFABC? Vem pra cá!",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "Dispensa por equivalência de disciplinas",
+   "nome": "",
+   "descricao": "é o processo de dispensa uma disciplina por equivalência, se já algum estudante cursou, em outra instituição, uma disciplina com a mesma carga horária e o seu conteúdo corresponder a, no mínimo, 75% da disciplina da UFABC. Esse processo ocorre muitas vezes com alunos oriundos de transferência.",
+   "link": "http://www.ufabc.edu.br/images/stories/comunicare/boletimdeservico/boletim_servico_ufabc_869.pdf#page=72",
+   "logo": ""
+ },
+ {
+   "sigla": "Docente",
+   "nome": "Professor, Orientador",
+   "descricao": "Docente é a pessoa que ensina, ou seja, o professor. Qual é o seu docente preferido?",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "EAU",
+   "nome": "Engenharia Ambiental e Urbana",
+   "descricao": "O curso de Engenharia Ambiental e Urbana forma um profissional capacitado para contribuir com a resolução de problemas ambientais e urbanos por meio da realização de análises, diagnósticos integrados, concepção de projetos e avaliações técnicas, socioeconômicas e de impactos nos setores e sistemas ambientais e urbanos. O profissional graduado nesse curso poderá atuar em agências reguladoras; organizações não governamentais; poder público federal, estadual e municipal; ensino e pesquisa, concessionárias de serviços públicos; agências bilaterais e multilateriais de cooperação; empresas do setor industrial, de serviços e de consultoria; e também como profissional autônomo.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "EE",
+   "nome": "Engenharia de Energia",
+   "descricao": "Engenharia de Energia é um curso de Engenharia que visa a formação de engenheir@s habilitad@s a abordar diferentes áreas de atuação no contexto energético brasileiro. Desde as fontes de energia (renováveis ou não-renováveis), conversão, transporte, distribuição, usos finais e otimização energética. O profissional  poderá trabalhar em instituições governamentais; empresas de geração, transporte e distribuição de diferentes energéticos; centros de pesquisa e em diferentes setores econômicos: agroindústrias, indústrias extrativas, siderúrgica, alimentício, de transformação; setor comercial e de serviços; em atividades relacionadas a tecnologias de conversão energética; planejamento energético; alternativas energéticas; gestão de sistemas energéticos; economia e racionalização do uso da energia.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "EG",
+   "nome": "Engenharia Gestão",
+   "descricao": "Engenharia de Gestão é um curso que tem como foco a integração sistêmica de todos os atores envolvidos no projeto e gestão dos processos de produção de bens e serviços para, por exemplo, construir modelos de sistemas de gestão otimizados para serem aplicados no processo de tomada de decisão. As áreas abarcadas pelo curso conferem aos futuros profissionais condições para que estes coloquem em prática os conhecimentos em empresas e organizações dos diversos segmentos econômicos com o -propósito de oferecer soluções sistêmicas que coadunam com as necessidades do mundo moderno.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "Egresso",
+   "nome": "-",
+   "descricao": " é quem colou grau em determinado curso e não realizou matrícula em disciplinas por dois quadrimestres letivos. Nessa situação, o vínculo com a graduação da UFABC será encerrado.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "EI",
+   "nome": "Engenharia da Informação",
+   "descricao": "Engenharia da Informação é  o curso que forma profissionais responsáveis pelo projeto, análise, desenvolvimento ou implantação de serviços ou sistemas de geração, processamento, transmissão, recepção, classificação, apresentação, armazenamento e segurança da informação nos diferentes tipos de redes globais de comunicação. A associação entre conhecimentos científicos e tecnológicos, consciência crítica, responsabilidade social e criatividade, conferem ao Engenheiro de Informação a capacidade de lidar com os novos desafios da “Era da Informação” em diferentes setores da sociedade e do mercado de trabalho.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "EIAR",
+   "nome": "Engenharia Instrumentação, Automação e Robótica",
+   "descricao": "O curso Engenharia de Instrumentação, Automação e Robótica possibilita o atendimento da necessidade do país em desenvolver mão de obra altamente especializada capaz de deter o conhecimento das tecnologias de ponta nas áreas de projeto, dimensionamento, configuração, análise de processos, manutenção dos sistemas de controle e automação e segurança, de modo a gerar a adequada independência para o desenvolvimento de equipamentos e sistemas de produção eficientes. ",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "EM",
+   "nome": "Engenharia de Materiais",
+   "descricao": "O curso de Engenharia de Materiais da UFABC tem por objetivo uma formação ampla em três áreas clássicas da engenharia de materiais: materiais poliméricos, materiais cerâmicos e materiais metálicos. A formação ampla permite ao profissional egresso ter atuaçaõ específica, definida pela área escolhida, mas em ambientes multi e interdisciplinares. Oo contexto atual da área requer que o perfil profissional do engenheiro de materiais seja o de um profissional capaz de solucionar os desafios tecnológicos que surgem a cada dia nas fábricas, institutos de pesquisa ou em órgãos governamentais, envolvendo os materiais e suas aplicações.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "Estágios",
+   "nome": "",
+   "descricao": "O programa de estágio em nossa Universidade não é obrigatório, mas desenvolvido como atividade opcional pelos alunos do BC&T e do BC&H. Ele pode ser realizado em qualquer instituição (pública ou privada), inclusive dentro da UFABC. Alguns cursos de formação específicas possuem estágio obrigatório. Para mais informações, busque a PROGRAD. ",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "Evasão",
+   "nome": "-",
+   "descricao": "Evasão é o resultado da soma do número de 'estudantes regulares efetivos' em condição de 'abandono' com estudantes regulares efetivos que tenham pedido o 'cancelamento voluntário' de sua matrícula na UFABC. ",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "Formação específica",
+   "nome": "",
+   "descricao": "Os cursos de Formação Específica são os cursos disponíveis ao estudante que concluir o interdisciplinar de ingresso na UFABC (BCH, BC&T, LCNE e LCH), também conhecidos como pós BIs e pós LIs. Por exemplo, se o estudante ingressou pelo BC&H pode escolher entre 6 cursos ferecidos pela UFABC, nas modalidades Bacharelado ou Licenciatura. É permitida a matrícula simultânea em até três cursos de formação específica.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "LCB",
+   "nome": "Licenciatura em Ciências Biológicas",
+   "descricao": "a Licenciatura em Ciências Biológicas é um curso de formação específica cujo ingresso é feito pela Licenciatural em Ciências Naturais e Exatas e proporciona uma formação ampla, diversificada e sólida no que se refere aos conhecimentos da área de Ciências Biológicas, e promove, por meio das atividades práticas e pedagógicas e dos estágios curriculares, a integralização dos conhecimentos específicos com as atividades de ensino. Busca formar o educador consciente de seu papel na formação de cidadãos sob a perspectiva educacional, científica, ambiental e social.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "Licenciatura em Filosofia",
+   "nome": "Licenciatura em Filosofia",
+   "descricao": "A Licenciatura em Filosofia é um curso de formação específica cujo ingresso é feito pela Licenciatural em Ciências Humana e propõe uma formação que concilia as reflexões sobre o ensino de Filosofia com as problematizações que caracterizam o ato de filosofar. As discussões são embasadas a partir de fundamentos teóricos imprescindíveis que versam sobre: a identidade, a função e a finalidade do ato filosófico; o que e como ensinar e; as relações entre a filosofia e sua história e entre Filosofia e Educação.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "Licenciatura em Física",
+   "nome": "Licenciatura em Física",
+   "descricao": "A Licenciatura em Física é um curso de formação específica cujo ingresso é feito pela Licenciatural em Ciências Naturais e Exatas e que proporciona uma formação nos princípios e métodos da física, que estão na raiz da compreensão do nosso universo e das profundas mudanças tecnológicas do mundo contemporâneo.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "LM",
+   "nome": "Licenciatura em Matemática",
+   "descricao": "A Licenciatura em Matemática é um curso de formação específica cujo ingresso é feito pela Licenciatural em Ciências Naturais e Exatas e é destinada à formação de profissionais que poderão atuar nas várias esferas do ensino da matemática, da computação e da estatística, incluindo o magistério, o desenvolvimento de novos métodos e técnicas de  aprendizagem e a divulgação científica. O curso oferece disciplinas matemáticas, pedagógicas, de embasamento técnico interdisciplinares e também oferece oportunidades de colocar em prática o conhecimento adquirido.",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "LQ",
+   "nome": "Licenciatura em Química",
+   "descricao": "A Licenciatura em Química é um curso de formação específica cujo ingresso é feito pela Licenciatural em Ciências Naturais e Exatas e prima por formar profissionais com  os quais alcançará as competências e habilidades necessárias para atuar no campo da Educação Básica, especificamente no Ensino Fundamental, nas áreas de Ciências Naturais e Matemática, e no Ensino Médio, na área Química. ",
+   "link": "http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/",
+   "logo": ""
+ },
+ {
+   "sigla": "Matrícula em disciplinas",
+   "nome": "-",
+   "descricao": " A solicitação da matrícula em disciplinas deverá ser feita cada período letivo nos prazos pré-fixados pelo Calendário Acadêmico. No primeiro quadrimestre letivo de alunos regulares ingressantes, a matrícula em displina é efetuada automaticamente pela Pró-Reitoria de Graduação. Na UFABC, existe um número máximo de créditos em que o aluno pode se matricular a cada quadrimestre. Consulte a PROGRAD, em caso de dúvidas.",
+   "link": "",
+   "logo": ""
+ },
+ {
+   "sigla": "Quadrimestre",
+   "nome": "-",
+   "descricao": "Carinhosamente apelidado de Quad ou Quadri, representa o período letivo na UFABC. Diferentemente da maioria das Universidades brasileiras que usam o sistema semestral com férias em julho, o ano letivo de nossa Universidade divide-se em três quadrimestres, nos quais as disciplinas desenvolvem seu programa de conteúdo. Em julho, a UFABC não pára! Consulte o Calendário Acadêmico no site da PROGRAD para mais informações.",
+   "link": "http://prograd.ufabc.edu.br/calendarios",
+   "logo": ""
+ },
+ {
+   "sigla": "REC",
+   "nome": "",
+   "descricao": "Os mecanismos de recuperação (REC) é aplicado somente a estudantes que  obtiveram os conceitos D ou reprovado com conceito F em uma disciplina. A data e os critérios dos mecanismos de recuperação deverão ser definidos pelo docente responsável pela disciplina e explicitados no Plano de Ensino que deverá ser disponibilizado aos discentes no início do quadrimestre letivo. A REC não poderá ser aplicada em período inferior a 72 horas após a divulgação dos conceitos das avaliações e tem prazo máximo a terceira semana letiva do quadrimestre seguinte.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "Trancamento de matrícula",
+   "nome": "-",
+   "descricao": "Entende-se por trancamento de matrícula a interrupção temporária das atividades acadêmicas de graduação, a pedido do aluno, sem que haja a perda do vínculo regular com a universidade. O aluno não poderá ocupar cargo representativo na UFABC nem receber qualquer tipo de bolsa durante o período em que tiver sua matrícula trancada. Para maiores detalhes, consulte a PROGRAD",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "Transferência entre BIs",
+   "nome": "",
+   "descricao": "Na UFABC é possível se transferir de um Bacharelado Interdisciplinar para outro e tem as regras definidas em editais específicos. Consulte a PROGRAD para acompanhar os processos",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ },
+ {
+   "sigla": "Vagas ociosas",
+   "nome": "-",
+   "descricao": "Vagas ociosas são aquelas não preenchidas no processo seletivo, decorrentes de matrículas eliminadas e de cancelamentos voluntários.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#part1",
+   "logo": ""
+ },
+ {
+   "sigla": "Vista de prova",
+   "nome": "",
+   "descricao": "É um direito de estudantes matriculad@s em disciplinas dos cursos de graduação fazer vista das correções de avaliações por ele realizadas durante o quadrimestre vigente. Portanto, se o discente discordar da correção realizada deverá pronunciar-se no momento da vista, solicitando ao professor a revisão imediata, à luz dos objetivos e critérios esclarecidos antes da avaliação.",
+   "link": "http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma",
+   "logo": ""
+ }
+]
+}
