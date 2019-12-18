@@ -256,12 +256,12 @@ PrefabInstance:
     - target: {fileID: 4524977675995517720, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 109.7
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 4524977675995517720, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 41.4
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4524977674627869763, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
@@ -452,6 +452,26 @@ PrefabInstance:
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Text
+      value: Estrutura Administrativa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1823b8f609c0d24691ae82fa9eca1ac, type: 3}
 --- !u!1 &216629554 stripped
@@ -602,12 +622,12 @@ PrefabInstance:
     - target: {fileID: 4524977675995517720, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 109.7
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 4524977675995517720, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 41.4
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4524977674627869763, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
@@ -798,6 +818,26 @@ PrefabInstance:
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Text
+      value: "Espa\xE7os e Locais"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1823b8f609c0d24691ae82fa9eca1ac, type: 3}
 --- !u!1 &723782467
@@ -839,11 +879,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: b99c5bd38ba885147999116c9c7c1fd5, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1099,12 +1139,12 @@ PrefabInstance:
     - target: {fileID: 4524977675995517720, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 109.7
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 4524977675995517720, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 41.4
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 4524977674627869763, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
@@ -1293,6 +1333,26 @@ PrefabInstance:
     - target: {fileID: 4524977676331663662, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Text
+      value: Outros
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1571,12 +1631,12 @@ PrefabInstance:
     - target: {fileID: 4524977675995517720, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 109.7
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 4524977675995517720, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 41.4
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 4524977674627869763, guid: e1823b8f609c0d24691ae82fa9eca1ac,
         type: 3}
@@ -1802,6 +1862,26 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Text
+      value: "Gradua\xE7\xE3o"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524977675694186297, guid: e1823b8f609c0d24691ae82fa9eca1ac,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1823b8f609c0d24691ae82fa9eca1ac, type: 3}
 --- !u!1 &1211231373 stripped
@@ -1874,11 +1954,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: b99c5bd38ba885147999116c9c7c1fd5, type: 3}
+    m_FontSize: 20
     m_FontStyle: 2
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -2706,13 +2786,13 @@ PrefabInstance:
         type: 3}
       propertyPath: glossaryList.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: cf414ac14c7452c48b974fe94be308a4,
+      objectReference: {fileID: 11400000, guid: 7dfbdba61a4e42b4d86607adf43a6f4f,
         type: 2}
     - target: {fileID: 83673084498509847, guid: 5b0f0a3f692a2fc41a64f8eededa022f,
         type: 3}
       propertyPath: glossaryList.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: cf414ac14c7452c48b974fe94be308a4,
+      objectReference: {fileID: 11400000, guid: e332cce243f7c544ca730f0dc47367e1,
         type: 2}
     - target: {fileID: 83673084498509847, guid: 5b0f0a3f692a2fc41a64f8eededa022f,
         type: 3}
@@ -2753,6 +2833,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7759522932647729399, guid: b00fc540374a1e440b09997ab0d49cbc,
         type: 3}
+    - target: {fileID: 83673084498509847, guid: 5b0f0a3f692a2fc41a64f8eededa022f,
+        type: 3}
+      propertyPath: glossaryList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3582fc190b275df47a00315cdc09a3d2,
+        type: 2}
     - target: {fileID: 83673084498509844, guid: 5b0f0a3f692a2fc41a64f8eededa022f,
         type: 3}
       propertyPath: m_LocalPosition.x

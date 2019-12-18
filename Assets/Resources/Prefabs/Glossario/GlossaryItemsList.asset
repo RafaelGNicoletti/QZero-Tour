@@ -12,14 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb54b8a49c435fa499441e4407d8e07b, type: 3}
   m_Name: GlossaryItemsList
   m_EditorClassIdentifier: 
-  glossary:
-  - nome: "Pro Reitoria de Gradua\xE7\xE3o"
-    sigla: PROGRAD
-    descricao: Lalalala
-    link: prograd.ufabc.edu.br
-    logo: {fileID: 21300000, guid: 3c68c5890f6ad224ea6e14e0b8863937, type: 3}
-  - nome: "Pro Reitoria de Gradua\xE7\xE3o"
-    sigla: roaoer
-    descricao: Lalalala
-    link: prograd.ufabc.edu.br
-    logo: {fileID: 0}
+  glossary: []

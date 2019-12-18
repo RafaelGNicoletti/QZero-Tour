@@ -9,4 +9,21 @@ using UnityEngine;
 public class GlossaryItems : ScriptableObject
 {
     public List<GlossaryElement> glossary;
+
+    public void SetGlossary(TempGlossary list)
+    {
+        glossary = new List<GlossaryElement>();
+
+        foreach(GlossaryElement item in list.glossary)
+        {
+            glossary.Add(item);
+        }
+    }
+}
+
+[System.Serializable]
+public class TempGlossary
+{
+    [SerializeField]
+    public GlossaryElement[] glossary;
 }

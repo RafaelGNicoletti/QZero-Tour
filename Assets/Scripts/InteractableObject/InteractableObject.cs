@@ -14,6 +14,7 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] private bool talkTo;
     [SerializeField] private bool enterBuilding;
     [SerializeField] private bool enterGame;
+    [SerializeField] private GameObject objectToTalk;
 
     #region Get/Set
     public bool GetTalkTo()
@@ -48,5 +49,17 @@ public class InteractableObject : MonoBehaviour
         GameManager.instance.SetCameraPos(new Vector3 (newScenePlayerPos.x, newScenePlayerPos.y, newScenePlayerPos.z-10));
 
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void PlayDialogue()
+    {
+        if (objectToTalk.GetComponent<NPCTalk>())
+        {
+
+        }
+        else if (objectToTalk.GetComponent<AuxiliosManager>())
+        {
+            objectToTalk.GetComponent<AuxiliosManager>().StartAuxilioMinigame();
+        }
     }
 }
