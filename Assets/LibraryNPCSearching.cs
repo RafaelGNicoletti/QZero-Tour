@@ -63,7 +63,6 @@ public class LibraryNPCSearching : NPCTalk
 
         else if (inventory[0].GetNome() == correctLivro.GetNome())
         {
-            //Avisar que o jogo acabou
             Talk(falasDeSucesso);
         }
 
@@ -77,7 +76,7 @@ public class LibraryNPCSearching : NPCTalk
     {
         for (int i = 0; i < falasDeInicio.Length; i++)
         {
-            s[i] = string.Format(s[i], correctLivro.GetNome());
+            s[i] = string.Format(s[i], correctLivro.GetNome(), correctLivro.GetCode());
         }
 
         return s;

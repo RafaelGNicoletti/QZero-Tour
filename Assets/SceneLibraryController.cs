@@ -72,18 +72,11 @@ public class SceneLibraryController : MonoBehaviour
     [SerializeField]
     private Livro correctLivro;
     [SerializeField]
-    private TalkTextBox talkTextBox;
-    [SerializeField]
-    private string[] falasDeInicio;
-    [SerializeField]
-    private string[] falasDeSucesso;
-    [SerializeField]
-    private string[] falasDeFalha;
-    [SerializeField]
     private LibraryNPCSearching libraryNPCSearching;
 
     private void Start()
     {
+        //Colocar função que deixa o personagem do jogador em foco.
         RandomLivroSelector();
         playerInventory = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInventory>();
         textController.ChangeCurrentLivro(null);
