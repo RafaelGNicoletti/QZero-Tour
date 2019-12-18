@@ -12,8 +12,11 @@ public class LibraryNPCSearching : NPCTalk
     private string[] falasDeFalha;
     [SerializeField]
     private string[] falasSemLivro;
-    
-    
+    [SerializeField]
+    private SceneLibraryController sceneLibraryController;
+
+
+
     public PlayerInventory playerInventory;
     [SerializeField]
     private Livro correctLivro;
@@ -64,6 +67,7 @@ public class LibraryNPCSearching : NPCTalk
         else if (inventory[0].GetNome() == correctLivro.GetNome())
         {
             Talk(falasDeSucesso);
+            sceneLibraryController.GameComplete();
         }
 
         else

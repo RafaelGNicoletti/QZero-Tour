@@ -73,6 +73,8 @@ public class SceneLibraryController : MonoBehaviour
     private Livro correctLivro;
     [SerializeField]
     private LibraryNPCSearching libraryNPCSearching;
+    [SerializeField]
+    private GameObject exitButton;
 
     private void Start()
     {
@@ -83,9 +85,10 @@ public class SceneLibraryController : MonoBehaviour
         libraryNPCSearching.FirstConversation(correctLivro);
     }
 
-    private void GameComplete()
+    public void GameComplete()
     {
-        
+        ///Setar algum bool no GameManager
+        exitButton.SetActive(true);
     }
 
     private void RandomLivroSelector()

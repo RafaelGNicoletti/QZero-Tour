@@ -370,7 +370,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 853523922}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &39221837
 PrefabInstance:
@@ -1839,6 +1839,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &199422540 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1404228485397684850, guid: fc7ded220ad763442853c4f414cda59c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1620680437}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae8548c784a7ea428387f31404071eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &207619159 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1404228485397684850, guid: fc7ded220ad763442853c4f414cda59c,
@@ -3345,7 +3357,7 @@ PrefabInstance:
         type: 3}
       propertyPath: livro
       value: 
-      objectReference: {fileID: 1930605329}
+      objectReference: {fileID: 0}
     - target: {fileID: 9112403011268470852, guid: 2172148e26a42c74395c1e033d038b3d,
         type: 3}
       propertyPath: talkTextBox
@@ -3746,8 +3758,8 @@ MonoBehaviour:
   usingClamp: 1
   followTarget: {fileID: 5004987696043650710}
   clampX:
-    min: -27.38328
-    max: 27.38328
+    min: -29
+    max: 29
   clampY:
     min: -9.458838
     max: 9.385224
@@ -4437,7 +4449,7 @@ Transform:
   - {fileID: 1804914852}
   - {fileID: 1793617268}
   m_Father: {fileID: 853523922}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &496703392
 SpriteRenderer:
@@ -5729,7 +5741,7 @@ Transform:
   - {fileID: 515975753}
   - {fileID: 1214457856}
   m_Father: {fileID: 853523922}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &631318694 stripped
 Transform:
@@ -7146,6 +7158,7 @@ MonoBehaviour:
   libraryLivroManager: {fileID: 1818933941}
   correctLivro: {fileID: 0}
   libraryNPCSearching: {fileID: 2092860152}
+  exitButton: {fileID: 1226093082}
 --- !u!4 &748602012
 Transform:
   m_ObjectHideFlags: 0
@@ -7154,11 +7167,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748602010}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.59985477, y: -0.6371987, z: -69.04458}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 853523922}
-  m_RootOrder: 9
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &757343396 stripped
 Transform:
@@ -7237,7 +7250,7 @@ PrefabInstance:
         type: 3}
       propertyPath: livro
       value: 
-      objectReference: {fileID: 1930605329}
+      objectReference: {fileID: 0}
     - target: {fileID: 9112403011268470852, guid: 2172148e26a42c74395c1e033d038b3d,
         type: 3}
       propertyPath: talkTextBox
@@ -7525,7 +7538,7 @@ PrefabInstance:
         type: 3}
       propertyPath: livro
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 199422540}
     - target: {fileID: 9112403011268470852, guid: 2172148e26a42c74395c1e033d038b3d,
         type: 3}
       propertyPath: talkTextBox
@@ -7752,7 +7765,7 @@ PrefabInstance:
     - target: {fileID: 446379368993876774, guid: 938a4523492dbcc44a4e6026ed3b983b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446379368993876774, guid: 938a4523492dbcc44a4e6026ed3b983b,
         type: 3}
@@ -7976,18 +7989,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1717566913}
-  - {fileID: 2077439788}
   - {fileID: 1349872265}
   - {fileID: 496703391}
   - {fileID: 2018527748}
   - {fileID: 627873868}
   - {fileID: 1818933942}
-  - {fileID: 2092860153}
-  - {fileID: 5004987696043650710}
-  - {fileID: 748602012}
   - {fileID: 14942090}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &854198060
 PrefabInstance:
@@ -8364,7 +8373,7 @@ PrefabInstance:
         type: 3}
       propertyPath: livro
       value: 
-      objectReference: {fileID: 1930605329}
+      objectReference: {fileID: 0}
     - target: {fileID: 9112403011268470852, guid: 2172148e26a42c74395c1e033d038b3d,
         type: 3}
       propertyPath: talkTextBox
@@ -11090,6 +11099,126 @@ Transform:
   m_Father: {fileID: 1070375190}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1226093082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1226093083}
+  - component: {fileID: 1226093086}
+  - component: {fileID: 1226093085}
+  - component: {fileID: 1226093084}
+  m_Layer: 5
+  m_Name: SairButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1226093083
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226093082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1717566913}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 60, y: -60}
+  m_SizeDelta: {x: 260.6, y: 60.6}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1226093084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226093082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1226093085}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1226093085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226093082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: e33d4b8ea2e6fd14f9d8d92e5d6d1986, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1226093086
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226093082}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1228989073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11161,7 +11290,7 @@ PrefabInstance:
         type: 3}
       propertyPath: livro
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1126341656}
     - target: {fileID: 9112403011268470852, guid: 2172148e26a42c74395c1e033d038b3d,
         type: 3}
       propertyPath: talkTextBox
@@ -12351,7 +12480,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 853523922}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1353955852
 PrefabInstance:
@@ -12549,7 +12678,7 @@ RectTransform:
   - {fileID: 213754430}
   - {fileID: 496104213}
   m_Father: {fileID: 1717566913}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -13044,7 +13173,7 @@ PrefabInstance:
         type: 3}
       propertyPath: livro
       value: 
-      objectReference: {fileID: 1930605329}
+      objectReference: {fileID: 0}
     - target: {fileID: 9112403011268470852, guid: 2172148e26a42c74395c1e033d038b3d,
         type: 3}
       propertyPath: talkTextBox
@@ -14836,7 +14965,7 @@ PrefabInstance:
         type: 3}
       propertyPath: livro
       value: 
-      objectReference: {fileID: 1930605329}
+      objectReference: {fileID: 0}
     - target: {fileID: 9112403011268470852, guid: 2172148e26a42c74395c1e033d038b3d,
         type: 3}
       propertyPath: talkTextBox
@@ -15311,8 +15440,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 2077439788}
   - {fileID: 1369735925}
   - {fileID: 531405292}
+  - {fileID: 1226093083}
   m_Father: {fileID: 853523922}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15768,7 +15899,7 @@ Transform:
   - {fileID: 2040017520}
   - {fileID: 1620680438}
   m_Father: {fileID: 853523922}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1821310054 stripped
 Transform:
@@ -15852,7 +15983,7 @@ PrefabInstance:
         type: 3}
       propertyPath: livro
       value: 
-      objectReference: {fileID: 1126341656}
+      objectReference: {fileID: 0}
     - target: {fileID: 6217443334617250392, guid: e87b2db9f7a614745be287282a53fad3,
         type: 3}
       propertyPath: m_Sprite
@@ -17159,7 +17290,7 @@ Transform:
   - {fileID: 1569260299}
   - {fileID: 1287051858}
   m_Father: {fileID: 853523922}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2040017519
 PrefabInstance:
@@ -17819,16 +17950,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077439787}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 20.955421}
-  m_LocalScale: {x: 0.016666668, y: 0.016666668, z: 0.016666668}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.80000013, y: 0.80000013, z: 0.80000013}
   m_Children: []
-  m_Father: {fileID: 853523922}
-  m_RootOrder: 1
+  m_Father: {fileID: 1717566913}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.59985477, y: -0.6371987}
-  m_SizeDelta: {x: 431.3, y: 599.99994}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 431.3, y: 119.99988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2077439789
 MonoBehaviour:
@@ -18133,10 +18264,12 @@ MonoBehaviour:
   falasDeSucesso:
   - "Parab\xE9ns, voc\xEA pegou o livro certo!"
   falasDeFalha:
-  - "Poxa, n\xE3o \xE9 esse o livro que estou procurando, o nome era {0}"
+  - "Poxa, n\xE3o \xE9 esse o livro que estou procurando, o nome era {0}, com c\xF3digo
+    {1}"
   falasSemLivro:
   - "Voc\xEA n\xE3o est\xE1 carregando nenhum livro, lembre-se, o livro que eu quero
-    \xE9 o {0}"
+    \xE9 o {0}, de c\xF3digo {1}"
+  sceneLibraryController: {fileID: 748602011}
   playerInventory: {fileID: 0}
   correctLivro: {fileID: 0}
 --- !u!4 &2092860153
@@ -18147,13 +18280,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092860150}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.700144, y: 0.66280127, z: -69.04458}
+  m_LocalPosition: {x: 30.3, y: 1.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1064725294}
   - {fileID: 1022682162}
-  m_Father: {fileID: 853523922}
-  m_RootOrder: 7
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2110692697 stripped
 Transform:
@@ -18440,7 +18573,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 853523922}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3605152715497511024, guid: fdedada4bbfab9849b17acda8c7eb22e,
         type: 3}
@@ -18450,17 +18583,17 @@ PrefabInstance:
     - target: {fileID: 3605152715497511026, guid: fdedada4bbfab9849b17acda8c7eb22e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.700144
+      value: 27.3
       objectReference: {fileID: 0}
     - target: {fileID: 3605152715497511026, guid: fdedada4bbfab9849b17acda8c7eb22e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.23719868
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3605152715497511026, guid: fdedada4bbfab9849b17acda8c7eb22e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -69.04458
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3605152715497511026, guid: fdedada4bbfab9849b17acda8c7eb22e,
         type: 3}
@@ -18485,7 +18618,7 @@ PrefabInstance:
     - target: {fileID: 3605152715497511026, guid: fdedada4bbfab9849b17acda8c7eb22e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3605152715497511026, guid: fdedada4bbfab9849b17acda8c7eb22e,
         type: 3}
