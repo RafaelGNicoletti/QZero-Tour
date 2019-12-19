@@ -10,8 +10,9 @@ public class TalkTextBox : MonoBehaviour
 
     private int currentText;
     private string[] textToShow;
+    public bool textBoxActive;
 
-    public void Start()
+    public void Awake()
     {
         SetGameObjectOff();
         playerInteract = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInteract>(); //Procura o jogador na scene
@@ -60,6 +61,7 @@ public class TalkTextBox : MonoBehaviour
     /// </summary>
     private void SetGameObjectOn()
     {
+        textBoxActive = true;
         background.SetActive(true);
         text.SetActive(true);
         continuar.SetActive(true);
@@ -70,6 +72,7 @@ public class TalkTextBox : MonoBehaviour
     /// </summary>
     private void SetGameObjectOff()
     {
+        textBoxActive = false;
         background.SetActive(false);
         text.SetActive(false);
         continuar.SetActive(false);

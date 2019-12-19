@@ -11,11 +11,16 @@ public class NPCTalk : MonoBehaviour
     /// <summary>
     /// Coloca as falas do NPC no balão
     /// </summary>
-    public void Talk()
+    public virtual void Talk()
     {
         talkTextBox.ShowTalk(falas);
     }
 
+    public virtual void Talk(string [] s)
+    {
+        talkTextBox.ShowTalk(s);
+    }
+    
     public void LookToPlayer(Transform playerPos)
     {
         controller.LookToPlayer(playerPos);

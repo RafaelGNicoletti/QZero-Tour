@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     /// <summary>
     /// Pega o input do jogador e realiza o movimento.
     /// </summary>
-    public void GetInputMovement()
+    public virtual void GetInputMovement()
     {
         // FONTE: Isometric Starter Kit do próprio Unity
 

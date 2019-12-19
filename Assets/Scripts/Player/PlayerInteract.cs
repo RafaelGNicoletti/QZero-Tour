@@ -5,9 +5,11 @@ using UnityEngine;
 public class PlayerInteract : MonoBehaviour
 {
     public GameObject npcTalking = null; //Personagem com o qual o jogador está interagindo
+    public GameObject interactiveObject = null; //Objeto com o qual o jogador está interagindo
     public PlayerController playerController; //Controlador geral do jogador, refêrencia para poder alterar o estado dele
     public TalkTextBox talkTextBox; //Script do  balão de fala
-    public float keyDelay = 0.1f; //Tempo de espera entre inputs consectivos (1f = 1 segundo), serve para evitar múltiplos inputs
+    [SerializeField]
+    private float keyDelay = 0.05f; //Tempo de espera entre inputs consectivos (1f = 1 segundo), serve para evitar múltiplos inputs
     private float timePassed = 0; //Tempo que passou desde o último input
 
     public GameObject interactableObj = null;
@@ -28,6 +30,15 @@ public class PlayerInteract : MonoBehaviour
         timePassed = 0;
     }
 
+    /// <summary>
+    /// Verifica se o input do jogador atende todos os requisitos para ser válido.
+    /// </summary>
+    /// <returns></returns>
+    public bool InputReady()
+    {
+        return (Input.GetKeyDown(KeyCode.Space) && timePassed >= keyDelay);
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("NPC_Talk")) //Se o jogador entrou no trigger de algum NPC que fala, ele recebe a referência a esse NPC
@@ -45,12 +56,18 @@ public class PlayerInteract : MonoBehaviour
 
             other.GetComponent<NPCBalloon>().CreateBalloon();
         }
+
+        else if (other.CompareTag("Interactive_Object"))
+        {
+            interactiveObject = other.gameObject;
+        }
     }
 
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (npcTalking != null && other.CompareTag(npcTalking.tag)) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
+        // Existe NPCTalking?    Other possuí a tag?     Other é o mesmo que estamos falando atualmente?
+        if (npcTalking && other.CompareTag(npcTalking.tag) && other.gameObject == npcTalking) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
         {
             npcTalking = null;
             other.GetComponent<NPCBalloon>().DestroyBalloon();
@@ -62,6 +79,11 @@ public class PlayerInteract : MonoBehaviour
             interactableObj = null;
             other.GetComponent<NPCBalloon>().DestroyBalloon();
         }
+
+        else if (interactiveObject && other.CompareTag(interactiveObject.tag) && other.gameObject == interactiveObject)
+        {
+            interactiveObject = null;
+        }
     }
 
     /// <summary>
@@ -69,7 +91,7 @@ public class PlayerInteract : MonoBehaviour
     /// </summary>
     public void GetInputInteract()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && npcTalking && timePassed >= keyDelay)
+        if(InputReady() && npcTalking)
         {
             npcTalking.GetComponent<NPCTalk>().Talk();
             playerController.SetStatus("talking");
@@ -80,6 +102,12 @@ public class PlayerInteract : MonoBehaviour
 
             ReseTime();
         }
+        else if(InputReady() && interactiveObject)
+        {
+            interactiveObject.GetComponent<InteractiveObject>().Interact();
+            ReseTime();
+        }
+        // REVER Conflito de merge (talvez de pra simplificar...)
         /// Interação com outros objetos - usado para abrir os minijogos
         /// TEMPORÁRIO
         else if (Input.GetKeyDown(KeyCode.Space) && interactableObj && timePassed >= keyDelay)
@@ -112,11 +140,16 @@ public class PlayerInteract : MonoBehaviour
     /// </summary>
     public void GetInputTalking()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && timePassed >= keyDelay)
+        if (InputReady() && talkTextBox.textBoxActive)
         {
             talkTextBox.NextText();
             ReseTime();
         }
+    }
+
+    public void GetInputMenu()
+    {
+        GetInputTalking();
     }
 
     /// <summary>
