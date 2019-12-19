@@ -15,23 +15,21 @@ public class LibraryNPCSearching : NPCTalk
     [SerializeField]
     private SceneLibraryController sceneLibraryController;
 
-
-
     public PlayerInventory playerInventory;
     [SerializeField]
     private Livro correctLivro;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.transform.parent.CompareTag("Player"))
         {
-            playerInventory = collision.GetComponentInParent<PlayerInventory>();
+            playerInventory = collision.transform.parent.GetComponent<PlayerInventory>();
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.transform.parent.CompareTag("Player"))
         {
             playerInventory = null;
         }
