@@ -12,6 +12,7 @@ TagManager:
   - Interactable_Object
   - InfoTextWindow
   - PopUpBalloon
+  - Interactive_Object
   layers:
   - Default
   - TransparentFX

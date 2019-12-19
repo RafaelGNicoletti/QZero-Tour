@@ -15,6 +15,10 @@ public class TalkTextBox : MonoBehaviour
     public void Awake()
     {
         SetGameObjectOff();
+    }
+
+    private void Start()
+    {
         playerInteract = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInteract>(); //Procura o jogador na scene
     }
 
