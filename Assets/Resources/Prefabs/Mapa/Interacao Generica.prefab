@@ -92,5 +92,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d750a7d927e051848ab391f7b61f1d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balloon: {fileID: 100740595527546361, guid: 122acdbd9043bbe4e9bd8f93eb45d831, type: 3}
+  balloon: {fileID: 8503191535615547413, guid: 94e3fe7fb0a93b647a10e5968fc1e6a2, type: 3}
   balloonPos: {x: -1, y: 1, z: 0}

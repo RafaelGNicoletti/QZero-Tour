@@ -17,11 +17,13 @@ public class GameManager : MonoBehaviour
     /// </summary>
     [SerializeField] private Vector3 playerInstantiatePos = new Vector3();
 
+    private string lastSceneName;
+
     private int avatatarSelected = 0;
     private string playerName = "";
 
-    private Dictionary<string, bool> JogoEntidadeFlags = new Dictionary<string, bool>();
-
+    [SerializeField] private Dictionary<string, bool> JogoEntidadeFlags = new Dictionary<string, bool>();
+    
     private void Awake()
     {
         if (instance == null)
@@ -111,6 +113,16 @@ public class GameManager : MonoBehaviour
         //Debug.Log("key: " + key + " - value: " + JogoEntidadeFlags[key]);
         
         return JogoEntidadeFlags[key];
+    }
+
+    public void SetLastSceneName(string sceneName)
+    {
+        lastSceneName = sceneName;
+    }
+
+    public string GetLastSceneName()
+    {
+        return lastSceneName;
     }
 
     #endregion

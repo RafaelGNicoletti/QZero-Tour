@@ -12,38 +12,16 @@ public class SceneEntidadeController : MonoBehaviour
 
     public string keyName;
 
+    // Teste
+    public GameObject[] nomeEncaixe;
+    public GameObject[] logoEncaixe;
+    public GameObject[] nome;
+    public GameObject[] logo;
+
     private void Awake()
     {
         GameManager.instance.AddDataToJogoEntidadeDictionary(keyName, false);
 
-        /// Utilizado para testar duplas aleátoriamentes - Duplas existentes em cada scene serão colocadas manualmente 
-        /// na variável numEntidadeExibida no inspector do UNITY na versão final
-        #region Temporário - sorteia 4 aleatórios para exibir
-        List<int> list = new List<int>();
-        for (int j = 0; j < nMaxEntidades; j++)
-        {
-            list.Add(j);
-        }
-
-        int numberSelected;
-
-        for (int k = 0; k < nMaxEntidades; k++)
-        {
-            if (list.Count != 0)
-            {
-                /// Seleciona o número aleatório
-                numberSelected = list[Random.Range(0, list.Count - 1)];
-                /// Remove da lisata para não ser selecionado novamente
-                list.Remove(numberSelected);
-            }
-            else
-            {
-                numberSelected = 0;
-            }
-
-            //Debug.Log(numberSelected);
-        }
-        #endregion
 
         int i = 0;
         EntidadeInfo entidadeExibida;
@@ -67,10 +45,11 @@ public class SceneEntidadeController : MonoBehaviour
     {
         ///É necessário que a scene esteja organizada em relação aos logos e nomes. Pois o primeiro nome da hirearquia será o nome[0]
         ///e o primeiro logo da hirearquia será o logo[0]
-        GameObject[] nomeEncaixe = GameObject.FindGameObjectsWithTag("EncaixeNome");
-        GameObject[] logoEncaixe = GameObject.FindGameObjectsWithTag("EncaixeLogo");
-        GameObject[] nome = GameObject.FindGameObjectsWithTag("EntidadeNome");
-        GameObject[] logo = GameObject.FindGameObjectsWithTag("EntidadeLogo");
+        /// Quando o unity faz a build, a ordem não é garantida - buga e não resolve... Tem que colocar fixo (na mão ou de outra maneira...)
+        //GameObject[] nomeEncaixe = GameObject.FindGameObjectsWithTag("EncaixeNome");
+        //GameObject[] logoEncaixe = GameObject.FindGameObjectsWithTag("EncaixeLogo");
+        //GameObject[] nome = GameObject.FindGameObjectsWithTag("EntidadeNome");
+        //GameObject[] logo = GameObject.FindGameObjectsWithTag("EntidadeLogo");
 
         ///Coloca todos os objetos nos lugares e ativa a função de colocá-los nos encaixes.
         for (int i = 0; i<nomeEncaixe.Length; i++)

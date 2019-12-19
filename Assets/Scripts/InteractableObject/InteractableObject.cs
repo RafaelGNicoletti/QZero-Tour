@@ -16,7 +16,7 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] private bool enterGame;
 
     [SerializeField] private bool elevator;
-
+    
     [SerializeField] private GameObject objectToTalk;
     [SerializeField] private GameObject elevatorWindow;
 
