@@ -1,0 +1,693 @@
+{"quizQuestions":
+[
+  {
+     "theme":"PROGRAD "
+    ,"question":"Qual é a divisão da PROGRAD responsável por emitir os documentos necessários para que você possa solicitar o seu passe escolar das linhas de ônibus?"
+    ,"alternative":["CAE", "DAC", "DEAT", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD"
+    ,"question":"O órgão da PROGRAD responsável por emitir documentos referentes à sua vida acadêmica e por esclarecer dúvidas relativas a graduação é:"
+    ,"alternative":["CAE", "DAC", "DEAT", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"Se você possuir qualquer tipo de problema referente às matrículas das disciplinas durante o quadrimestre, em qual divisão da PROGRAD você deve ir?"
+    ,"alternative":["DAC", "CAE", "DEAT", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"Para qual órgão da PROGRAD você deve enviar seus comprovantes de atividades complementares?"
+    ,"alternative":["DAC", "CAE", "DEAT", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"Qual órgão da PROGRAD é responsável por publicar a lista d@s discentes aptos à colação de grau (obtenção de diploma)?"
+    ,"alternative":["DAC", "CAE", "DEAT", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"Se você quiser migrar para outro Bacharelado Interdisciplinar, você deve procurar por qual divisão da PROGRAD? "
+    ,"alternative":["DAC", "CAE", "DEAT", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"Qual é a divisão da PROGRAD que te ajudará a migrar de turno de seu curso? "
+    ,"alternative":["DAC", "CAE", "DEAT", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"Qual é a divisão da PROGRAD que cuida de todos os processos referentes às matrículas em disciplinas?"
+    ,"alternative":["DAC", "CAE", "DEAT", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"O Programa de Ensino e Aprendizagem Tutorial (PEAT), que realiza oficinas e atividades de orientação voltadas para alun@s de graduação, está vinculado à:"
+    ,"alternative":["PROGRAD", "PROAP", "PROEC", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"Qual é a divisão da PROGRAD que realiza orientações pedagógicas para discentes da graduação?"
+    ,"alternative":["DEAT", "DAC", "CAE", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"O PADA (Programa de Apoio ao Desenvolvimento Acadêmico) pode auxiliar @s alun@s quanto ao planejamento de matrícula por exemplo e está vinculado à:"
+    ,"alternative":["DEAT", "DAC", "CAE", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"O curso de \"Leitura e Escrita na Graduação\" é oferecido por qual divisão da PROGRAD?"
+    ,"alternative":["DEAT", "DAC", "CAE", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"O \"Curso de Matemática: Revisão de Tópicos do Ensino Médio\" é organizado por qual divisão da PROGRAD?"
+    ,"alternative":["DEAT", "DAC", "CAE", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"O \"Curso de Física: Revisão de Tópicos do Ensino Médio\" é organizado por qual divisão da PROGRAD?"
+    ,"alternative":["DEAT", "DAC", "CAE", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"Qual é órgão da PROGRAD que acompanha desenvolvimento acadêmico d@s discentes de graduação por meio de orientações pedagógicas e dos programas PADA e PEAT\"?"
+    ,"alternative":["DEAT", "DAC", "CAE", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"A divisão de PROGRAD responsável pela coleta, organização e conferência dos dados pessoais d@s estudantes para expedir seus diplomas de graduação é "
+    ,"alternative":["DSSI", "DAC", "DEAT", "DPAG"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"As vistorias periódicas nas salas de aulas e laboratórios, junto à Prefeitura Universitária (PU) e a solicitação da manutenção de mobiliários são realizadas por qual divisão da PROGRAD?"
+    ,"alternative":["DPAG", "DSSI", "DAC", "DEAT"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"A 'Seção de Estágios' que tem por atribuição analisar, conferir e assinar documentações referentes aos estágios dos bacharelados interdisciplinares está vinculado ao DPAG e é uma divisão da:"
+    ,"alternative":["PROGRAD", "PROAP", "PROEC", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"A DPAG possui uma 'Seção de Monitoria Acadêmica' que tem por atribuição assinar documentações e administrar pagamentos das bolsas via UFABC e está vinculada à:"
+    ,"alternative":["PROGRAD", "PROAP", "PROEC", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROGRAD "
+    ,"question":"O Programa Institucional de Bolsa de Iniciação à Docência (PIBID) que tem por finalidade fomentar a iniciação à docência está vinculado a qual Pró-Reitoria?"
+    ,"alternative":["PROGRAD", "PROAP", "PROEC", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"O Núcleo de Acessibilidade Educacional, que tem por finalidade prestar suporte a docentes com deficiência, pertence a qual Pró-Reitoria?"
+    ,"alternative":["PROAP", "PROGRAD", "PROPES", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"A monitoria inclusiva com acompanhamento e materiais adaptados é de responsabilidade de qual eixo da PROAP?"
+    ,"alternative":["Núcleo de Acessibilidade Educacional ", "Seção de Promoção à Saúde", "Seção Psicossocial ", "Seção de Segurança Universitária"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"Uma das ações da PROAP \"minimizar os impactos sociais e econômicos que influenciam negativamente as condições de permanência do estudante na Universidade\", que é realizada por:"
+    ,"alternative":["Seção de Bolsas Socioeconômicas", "Seção Psicossocial ", "Seção de Segurança Comunitária", "Núcleo de Acessibilidade Educacional"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"A análise e a concessão de auxílios e bolsas socioeconômicas pela ‘Seção de Bolsas Socioeconômicas’ é de responsabilidade da:"
+    ,"alternative":["PROAP", "PROGRAD", "PROPES", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"A Bolsa Permanência e os Auxílios Moradia; Alimentação; Creche e Emergencial são modalidades dos Programas de Apoio oferecidas por/pela:"
+    ,"alternative":["Seção de Bolsas Socioeconômicas", "Seção Psicossocial ", "Seção de Segurança Comunitária", "Núcleo de Acessibilidade Educacional"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"O eixo da PROAP que é  responsável por \"incentivar e promover a cultura corporal de movimento na UFABC, desenvolvendo trabalhos com a prática de ginásticas, danças e esportes\" é:"
+    ,"alternative":["Seção de Esportes e Lazer", "Seção de Nutrição e Restaurantes Universitários", "Núcleo de Acessibilidade Educacional", "Seção de Promoção à Saúde"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"Os Restaurantes Universitários (RUs) oferecem uma refeição a um valor acessível e nutricionalmente balanceadas para @s alun@s e são administrados por qual Pró-Reitoria?"
+    ,"alternative":["PROAP", "PROGRAD", "PROPES", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"Qual é a seção da PROAP que é responsável por prestar atendimento básico em casos de agravo à saúde no período em que a pessoa estiver na universidade?"
+    ,"alternative":["Seção de Promoção à Saúde", "Seção Psicossocial ", "Seção de Segurança Universitária", "Núcleo de Acessibilidade Educacional"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"A distribuição permanente de preservativo feminino e masculino e panfletos informativo-educativos sobre saúde é realizada por qual seção da PROAP?"
+    ,"alternative":["Seção de Promoção à Saúde", "Seção Psicossocial ", "Seção de Segurança Universitária", "Núcleo de Acessibilidade Educacional"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"Uma das seções da PROAP eventualmente realiza testes gratuitos de HIV e Sífilis, em parceria com as secretarias municipais de saúde. Qual é ela?"
+    ,"alternative":["Seção de Promoção à Saúde", "Seção Psicossocial ", "Seção de Segurança Universitária", "Núcleo de Acessibilidade Educacional"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"O  'Acolhimento Psicossocial' é um serviço realizado por um psicólogo, que pode auxiliar no processo de reflexão e busca criar e aprofundar vínculos, e é prestado por qual seção da PROAP?"
+    ,"alternative":["Seção Psicossocial ", "Seção de Promoção à Saúde", "Seção de Segurança Universitária", "Núcleo de Acessibilidade Educacional"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"Os 'Encontros Temáticos' discutem aspectos da vida universitária vivenciados com maior frequência, como a ansiedade e é realizado por qual seção da PROAP?"
+    ,"alternative":["Seção Psicossocial ", "Seção de Promoção à Saúde", "Seção de Segurança Universitária", "Núcleo de Acessibilidade Educacional"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"A Seção Psicossocial, que entre as atividades, realiza Rodas de Conversa e Oficinas Criativas sobre temas relacionados à Saúde Mental, está vinclulada a qual Pró-Reitoria?"
+    ,"alternative":["PROAP", "PROGRAD", "PROPES", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"A PROAP deve ter como base a Resolução ConsUni Nº 88. Por isso, são candidatos aos Programas de Apoio somente os estudantes com renda familiar per capita igual ou inferior a: "
+    ,"alternative":["Um salário mínimo e meio", "Um salário mínimo", "Dois salários mínimos", "Dois salários mínimos e meio"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"Qual é o auxílio ou bolsa que é destinado aos gastos de necessidades básicas d@ discente, para que se adapte e dedique à formação acadêmica na UFABC?. "
+    ,"alternative":["Bolsa Permanência", "Auxílio Moradia", "Auxílio Permanência", "Auxílio Alimentação"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"O auxílio/bolsa destinado às despesas com habitação de estudantes que necessitem morar fora de seu domicílio familiar para estudar na UFABC é:"
+    ,"alternative":["Auxílio Moradia", "Bolsa Moradia", "Bolsa Permanência", "Auxílio Creche"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"Qual é o auxílio/bolsa destinado aos gastos com alimentação e que tem seu valor baseado nos preços das refeições dos Restaurantes Universitários da UFABC?"
+    ,"alternative":["Auxílio Alimentação", "Bolsa Alimentação", "Bolsa Permanência", "Auxílio Moradia"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"Qual é a Pró-Reitoria responsável por conceder auxílios ou bolsas para @s estudantes com comprovada necessidade?"
+    ,"alternative":["PROAP", "PROGRAD", "PROPES", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAP "
+    ,"question":"Todos os procedimentos e especificidades relacionados à Bolsa Permanência e Auxílios serão estabelecidos em Editais elaborados e divulgados por qual Pró-Reitoria?"
+    ,"alternative":["PROAP", "PROGRAD", "PROPES", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"As ações de extensão acontecem numa forma bidirecional entre universidade/sociedade. Qual Pró-Reitoria é responsável por essas ações?"
+    ,"alternative":["PROEC", "PROGRAD", "PROPES", "PROAP"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"A seção de Divulgação Científica da UFABC integra qual Pró-Reitoria?"
+    ,"alternative":["PROEC", "PROGRAD", "PROPES", "PROAP"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"Qual é a seção que tem como objetivo \"Divulgar a produção científica realizada na UFABC com a finalidade de contribuir para a formação de uma sociedade mais crítica e consciente\"?"
+    ,"alternative":["Divulgação Científica da PROEC", "Comitê de Extensão e Cultura", "Divisão de Cultura", "Projetos de Extensão e Cultura"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"O Blog \"UFABC Divulga Ciência\" reúne materiais de divulgação científica com temas que tocam o cotidiano e está relacionado a seção de Divulgação Científica de qual Pró-Reitoria? "
+    ,"alternative":["Extensão e Cultura (PROEC)", "Pesquisa (PROPES)", "Assuntos Comunitários e Políticas Afirmativas (PROAP)", "Graduação (PROGRAD) "]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"O site \"UFABCiência\" reúne uma série de artigos sobre Divulgação Científica. Está relacionado a seção de Divulgação Científica da Pró-Reitoria de:"
+    ,"alternative":["Extensão e Cultura (PROEC)", "Pesquisa (PROPES)", "Assuntos Comunitários e Políticas Afirmativas (PROAP)", "Graduação (PROGRAD) "]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"Algumas entidades culturais, como por exemplo a Infanteria (Bateria UFABC), são institucionalmente reconhecidas por qual Pró-Reitoria da Universidade?"
+    ,"alternative":["PROEC", "PROAP", "PROGRAD", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"Os cursos de extensão objetivam ampliar os conhecimentos sobre temas relativos ao campo de estudo do participante. Qual Pró-Reitoria é responsável por coordená-los?"
+    ,"alternative":["PROEC", "PROGRAD", "PROAP", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"Qual é a divisão da PROEC responsável por ações de caráter educativo, social, desportivo, cultural, científico ou tecnológico da UFABC?"
+    ,"alternative":["Projetos de Extensão e Cultura", "Entidades Culturais", "Cursos de Especialização", "Divulgação Científica"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"Os Projetos de Extensão e Cultura podem ter caráter educativo, social, desportivo, cultural, científico ou tecnológico. Qual Pró-Reitoria é responsável por coordená-los?"
+    ,"alternative":["PROEC", "PROGRAD", "PROAP", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"Os Projetos de Extensão e Cultura visam contribuir para a melhoria da qualidade de vida da população e para o desenvolvimento acadêmico da UFABC e são cadastrados na Pró-Reitoria de:"
+    ,"alternative":["Extensão e Cultura (PROEC)", "Pesquisa (PROPES)", "Assuntos Comunitários e Políticas Afirmativas (PROAP)", "Graduação (PROGRAD) "]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"Para atuar como bolsista em alguma ação de extensão ou de cultura, é preciso acompanhar os editais e processos seletivos publicados e coordenados por qual Pró-Reitorias?"
+    ,"alternative":["PROEC", "PROGRAD", "PROAP", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"A Divisão de Cultura, promove e apoia projetos, atividades e ações de cultura como por exemplo os Cineclubes e Exposições dentro da Universidade. Essa divisão pertence à:"
+    ,"alternative":["PROEC", "PROGRAD", "PROAP", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"As atividades culturais, cineclubes, ocupações artísticas, exposições, oficinas e simpósios são realizados com o apoio de qual divisão da PROEC?"
+    ,"alternative":["Divisão de Cultura", "Divulgação Científica da PROEC", "Comitê de Extensão e Cultura", "Projetos de Extensão e Cultura"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"Você sabia que a UFABC tem uma Editora (EdUFABC) que produz e distribui livros? Você acha que a EdUFABC está ligada institucionalmente a qual Pró-Reitoria?"
+    ,"alternative":["PROEC", "PROGRAD", "PROAP", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"A Escola Preparatória da UFABC (EPUFABC) oferece um cursinho gratuito.Por ser um projeto de extensão, os seus assuntos institucionais são de responsabilidade da:"
+    ,"alternative":["PROEC", "PROAP", "PROPES", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROEC"
+    ,"question":"Você sabia que é possível exercer atividades em projetos de extensão como voluntário ou como bolsista? Em qual Pró-Reitoria você buscaria informações sobre esse assunto?"
+    ,"alternative":["PROEC", "PROGRAD", "PROPES", "PROAP"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Qual é a Pró-Reitoria responsável por \"apoiar e estimular a pesquisa na UFABC, sendo o aliado do pesquisador no ambiente acadêmico\"?"
+    ,"alternative":["PROPES", "PROEC", "PROGRAD", "PROAP"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Para obter informações sobre o  Programa \"Pesquisando Desde o Primeiro Dia\" (PDPD), que é um programa de iniciação científica destinado a ingressantes na UFABC, você deve buscar a:"
+    ,"alternative":["PROPES", "PROGRAD", "PROAP", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":" “Nossa meta é que a marca registrada da pesquisa na UFABC seja uma combinação de inovação, interdisciplinaridade e excelência”. Esse pensamento pertence à:"
+    ,"alternative":["PROPES", "PROGRAD", "PROAP", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Qual é a divisão da PROPES que apoia projetos de pesquisa científica em diferentes campos do saber?"
+    ,"alternative":["Iniciação Científica", "Divulgação Científica", "Projetos de Extensão e Cultura", "Entidades Culturais"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Qualificar alun@s para os programas de mestrado e doutorado por meio de projetos de pesquisa científica é objetivo de qual divisão da PROPES?"
+    ,"alternative":["Iniciação Científica", "Divulgação Científica", "Projetos de Extensão e Cultura", "Entidades Culturais"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Os editais internos de desenvolvimento para pesquisa são de responsabilidade de qual divisão da PROPES?"
+    ,"alternative":["Iniciação Científica", "Divulgação Científica", "Projetos de Extensão e Cultura", "Entidades Culturais"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"A divisão da PROPES que apoia a pesquisa na UFABC, formalizando e providenciando vínculos às mais diversas situações é:"
+    ,"alternative":["Central de Apoio ao Pesquisador (CAP)", "Gestão de Projetos", "Iniciação Científica", "Escritório de Integridade em Pesquisa (EIP)"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"A qual Pró-Reitoria está vinculada a CAP (Central de Apoio ao Pesquisador), que é responsável pelo cadastro de todos os projetos de pesquisa desenvolvidos na UFABC?"
+    ,"alternative":["PROPES", "PROEC", "PROAP", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"A divisão da PROPES que tem a missão de formalizar e certificar os grupos de pesquisa da UFABC no Diretório de Grupos de Pesquisa do CNPq é:"
+    ,"alternative":["Central de Apoio ao Pesquisador (CAP)", "Gestão de Projetos", "Iniciação Científica", "Escritório de Integridade em Pesquisa (EIP)"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"A qual Pró-Reitoria está vinculado o Escritório de Integridade em Pesquisa (EIP), que coordena ações preventivas quanto à integridade da pesquisa realizada por pesquisadores da UFABC:"
+    ,"alternative":["PROPES", "PROEC", "PROAP", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Qual é a divisão da PROPES que tem a missão de \"examinar alegações de má conduta em pesquisa ou publicação de pesquisadores vinculados à UFABC\"?"
+    ,"alternative":["Escritório de Integridade em Pesquisa (EIP)", "Central de Apoio ao Pesquisador (CAP)", "Gestão de Projetos", "Iniciação Científica"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Qual é a divisão da PROPES que preza pela conduta ética no momentos da realização e utilização de pesquisas realizadas por pesquisador@s vinculad@s à UFABC?"
+    ,"alternative":["Escritório de Integridade em Pesquisa (EIP)", "Central de Apoio ao Pesquisador (CAP)", "Gestão de Projetos", "Iniciação Científica"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Você sabia que a UFABC possui três Biotérios de Criação e Experimentação? Você acha que os Biotérios estão vinculados à qual Pró-reitoria?"
+    ,"alternative":["PROPES", "PROEC", "PROAP", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"As Centrais Experimentais Multiusuário (CEM) são laboratórios equipados com acessórios de médio e grande porte para realização de experimentos e está vinculado à:"
+    ,"alternative":["PROPES", "PROEC", "PROAP", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"A gestão e a manutenção dos equipamentos do ‘Setor de Computação Científica’ da UFABC são realizados por qual Pró-Reitoria?"
+    ,"alternative":["PROPES", "PROEC", "PROAP", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"A divisão da PROPES conhecida por ser “o parque de equipamentos de tecnologia da informação” da UFABC é:"
+    ,"alternative":["Setor de Computação Científica", "Centrais Experimentais Multiusuário", "Biotério de Criação e Experimentação em Camundongos", "Escritório de Integridade em Pesquisa (EIP)"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"O Herbário da Universidade Federal do ABC (HUFABC) está localizado no Bloco Delta do campus de São Bernardo do Campo. Qual Pró-reitoria é responsável por ele?  "
+    ,"alternative":["PROPES", "PROEC", "PROAP", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"A PROPES é responsável por uma área que “possui uma coleção com cerca de 1.000 exsicatas vindas principalmente de Parques da região do ABC Paulista”. Esta área é:"
+    ,"alternative":["Herbário da Universidade Federal do ABC (HUFABC)", "Biotério de Criação e Experimentação em Camundongos", "Setor de Computação Científica", "Biotério de Criação de Ratos"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Os Núcleos Estratégicos de Pesquisa têm o objetivo de promover a produção do conhecimento em áreas inovadoras, com interdisciplinaridade. Estão vinculados à:"
+    ,"alternative":["PROPES", "PROEC", "PROAP", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPES"
+    ,"question":"Qual Pró-reitoria é responsável por mediar as  relações com as agências de fomento à pesquisa, como a CNPq, FAPESP, FINEP e CAPES. "
+    ,"alternative":["PROPES", "PROEC", "PROAP", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPG"
+    ,"question":"Qual Pró-Reitoria é responsável pelo oferecimento de cursos de pós-graduação stricto sensu (mestrado e doutorado)?"
+    ,"alternative":["PROPG", "PROGRAD", "PROEC ", "PROPLADI"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPG"
+    ,"question":"Os cursos de mestrado e doutorado contam com bolsas institucionais e de agências de fomento à pesquisa. Qual Pró-Reitoria é responsável por eles?"
+    ,"alternative":["PROPG", "PROGRAD", "PROPLADI", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPG"
+    ,"question":"Como a UFABC é uma Universidade Federal, os cursos de mestrado e de doutorado são gratuitos. Qual Pró-Reitoria é responsável por esses tipos de curso? "
+    ,"alternative":["PROPG", "PROGRAD", "PROPLADI", "PROEC"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAD"
+    ,"question":"Qual Pró-Reitoria tem a função de apoiar as diversas áreas da UFABC, como a PROGRAD, PROPG e PROEC?"
+    ,"alternative":["PROAD", "PROPLADI", "PROPG", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAD"
+    ,"question":"Atividades de apoio e gestão nas áreas de Finanças, Gestão Patrimonial e Administração de Contratos Nacionais e Internacionais são atribuições de qual Pró-Reitoria? "
+    ,"alternative":["PROAD", "PROPLADI", "PROPG", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAD"
+    ,"question":"A Coordenação Geral de Suprimentos e Aquisições (CGSA) é responsável por realizar as contratações de serviços demandados por todas as áreas da UFABC, e está vinculada a qual Pró-Reitoria?"
+    ,"alternative":["PROAD", "PROPLADI", "PROPG", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAD"
+    ,"question":"A Coordenação Geral de Finanças e Contabilidade (CGFC) é responsável pela gestão e execução dos recursos orçamentários e financeiros da UFABC e está vinculada a qual Pró-Reitoria?"
+    ,"alternative":["PROAD", "PROPLADI", "PROPG", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROAD"
+    ,"question":"A Divisão de Patrimônio é responsável pela entrada de bens, registro e alocação. Esta divisão está vinculada a qual Pró-Reitoria?"
+    ,"alternative":["PROAD", "PROPLADI", "PROPG", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPLADI"
+    ,"question":"Qual Pró-Reitoria tem a função de promover o planejamento institucional, econômico e organizacional da Universidade?"
+    ,"alternative":["PROPLADI", "PROGRAD", "PROAD", "PROAP"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPLADI"
+    ,"question":"O \"Plano de Gestão de Logística Sustentável\" (PLS) prevê práticas de sustentabilidade, estabelecidas no “Plano de Desenvolvimento Institucional” (PDI) e  estão vinculados a qual Pró-Reitoria?"
+    ,"alternative":["PROPLADI", "PROGRAD", "PROAD", "PROAP"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPLADI"
+    ,"question":"No ano de 2018, um total de 985 ‘Bolsas Permanência’ foram concedidas à estudantes da UFABC. Qual Pró-Reitoria é responsável por obter, analisar e divulgar esses dados?"
+    ,"alternative":["PROPLADI", "PROGRAD", "PROAD", "PROAP"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPLADI"
+    ,"question":"Qual é a Pró-Reitoria realiza a pesquisa anual com objetivo de mapear o perfil dos seus alunos de graduação, para formular políticas institucionais condizentes?"
+    ,"alternative":["PROPLADI", "PROGRAD", "PROAP", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PROPLADI"
+    ,"question":"Qual Pró-Reitoria realiza planos, projetos, previsões, e otimizações de assuntos institucionais, orçamentários e estratégicos da UFABC?"
+    ,"alternative":["PROPLADI", "PROAP", "PROAD", "PROGRAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"REITORIA"
+    ,"question":"Qual é o órgão executivo máximo da Universidade Federal do ABC?"
+    ,"alternative":["Reitoria", "Diretoria", "Gabinete", "Administração"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"REITORIA"
+    ,"question":"As Pró-Reitorias são ramificações horizontais e estratégicas de um órgão máximo da UFABC. Qual órgão é este?"
+    ,"alternative":["Reitoria", "Diretoria", "Gabinete", "Administração"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"REITORIA"
+    ,"question":"O Cerimonial é a área responsável por operacionalizar eventos oficiais que envolvem a presença de pessoas importantes. Está vinculado à qual órgão máximo da UFABC?"
+    ,"alternative":["Reitoria", "Diretoria", "Gabinete", "Administração"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"OUVIDORIA"
+    ,"question":"O órgão da UFABC que recebe e analisa as manifestações de denúncias, reclamações, elogios e sugestões recebe o nome de:"
+    ,"alternative":["Ouvidoria", "Corregedoria", "Auditoria Interna", "Procuradoria"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"OUVIDORIA"
+    ,"question":"A Ouvidoria da UFABC recebe as inúmeras formas de manifestação por meio de:"
+    ,"alternative":["Sistema Eletrônico", "Atendimento Presencial", "Atendimento Telefônico", "E-mail"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"OUVIDORIA"
+    ,"question":"Qual órgão da Universidade tem o papel de garantir a participação social por meio de manifestações, e dessa forma é uma das ferramentas de “consolidação da Democracia” na UFABC?"
+    ,"alternative":["Ouvidoria", "Corregedoria", "Auditoria Interna", "Procuradoria"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"Qual órgão suplementar da UFABC é responsável pelo planejamento, construção, conservação e manutenção das áreas físicas dos campi de SA e SBC?"
+    ,"alternative":["Prefeitura Universitária", "PROGRAD ", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"Qual órgão suplementar da UFABC é responsável por prestar de serviços de transportes, controle de pragas, vigilância e limpeza?"
+    ,"alternative":["Prefeitura Universitária", "PROGRAD ", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"Qual órgão suplementar da UFABC é responsável, junto à PROPLADI, por realizar o controle da disponibilização dos recursos orçamentários? "
+    ,"alternative":["Prefeitura Universitária", "PROGRAD ", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"O Sistema de Planejamento e Gerenciamento de Contratações acompanha a vigência dos contratos que a UFABC tem com empresas terceirizadas. Está associado à:"
+    ,"alternative":["Prefeitura Universitária", "PROGRAD ", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"Garantir o fornecimento de energia elétrica, água e coleta de esgoto são atribuições de qual órgão suplementar da UFABC?"
+    ,"alternative":["Prefeitura Universitária", "PROAP", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"A ‘Divisão de Suprimentos’ é responsável por cuidar da logística dos materiais de consumo gerais da UFABC, como a compra e armazenamento deles e pertence a qual órgão suplementar? "
+    ,"alternative":["Prefeitura Universitária", "PROAP", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"Qual é o órgão suplementar que gerencia a frota de veículos pertencentes à UFABC e as contratações dos serviços terceirizados, por meio da  ‘Divisão de Transportes’?"
+    ,"alternative":["Prefeitura Universitária", "PROAP", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"Eventualmente, alunos e professores precisam se deslocar para fora da Universidade a fim de realizar de pesquisas de campo. Podem solicitar um veículo oficial por meio da:"
+    ,"alternative":["Prefeitura Universitária", "PROGRAD ", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"Qual órgão suplementar da UFABC é responsável pelos contratos de limpeza, zeladoria, jardinagem e coleta de resíduos?"
+    ,"alternative":["Prefeitura Universitária", "PROAP", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"PREFEITURA UNIVERSITÁRIA"
+    ,"question":"Caso você perceba que algum dos elevadores da UFABC esteja apresentando problemas, a qual órgão suplementar você deve informar?"
+    ,"alternative":["Prefeitura Universitária", "PROAP", "Reitoria", "PROAD"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"NETEL"
+    ,"question":"A qual órgão executivo máximo está vinculado o Núcleo Educacional de Tecnologias e Línguas que visa construir um modelo de educação que estimule a exploração de novas possibilidades de aprendizagem. "
+    ,"alternative":["Reitoria", "Diretoria", "Gabinete", "Administração"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"NETEL"
+    ,"question":"Qual núcleo da UFABC apoia o uso da tecnologia na educação acessível e fomenta pesquisas de ponta na área de tecnologia?"
+    ,"alternative":["NETEL", "NTE", "Inova", "NTI"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"NETEL"
+    ,"question":"Qual núcleo da UFABC oferece cursos livres de capacitação na área de tecnologias educacionais e línguas?"
+    ,"alternative":["NETEL", "NTE", "Inova", "NTI"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"NETEL"
+    ,"question":"A ‘Divisão de Idiomas’ oferece cursos de inglês, francês, espanhol, italiano e ‘português para falantes de outras línguas’, de forma gratuita e presencial e está vinculado a qual núcleo da UFABC?"
+    ,"alternative":["NETEL", "Inova", "ARI", "NTI"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"NETEL"
+    ,"question":"Qual é o núcleo, vinculado à Reitoria, que oferece serviços que estão sempre relacionados à utilização e desenvolvimento de tecnologias educacionais, como ‘produção de videoaulas’?"
+    ,"alternative":["NETEL", "Inova", "NTE", "NTI"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"INOVA"
+    ,"question":"Qual é o órgão da Universidade responsável por promover o estímulo empreendedor tecnológico, interagindo com atores externos, especialmente no setor produtivo?"
+    ,"alternative":["Inova UFABC", "NETEL", "PROEC", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"INOVA"
+    ,"question":"A Incubadora de Base Tecnológica da UFABC (ITUFABC) capacita empreendedores na geração de inovações tecnológicas e fomentar o espírito empreendedor na UFABC. Ela pertence à:"
+    ,"alternative":["Inova UFABC", "PROEC", "NETEL", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"INOVA"
+    ,"question":"Para constituir uma nova 'Entidade Profissional e Empreendedora' na UFABC você deve procurar mais informações com uma agência que se chama:"
+    ,"alternative":["Inova UFABC", "NETEL", "PROEC", "PROPES"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"NTI "
+    ,"question":"Qual é o órgão da UFABC que gerencia e monitora os serviços de acesso à internet, prestando atendimento de suporte na utilização dos serviços de acesso à rede?"
+    ,"alternative":["Núcleo de Tecnologia da Informação (NTI)", "Prefeitura Universitária (PU)", "Pró-reitoria de Administração (PROAD)", "Pró-reitoria de Assuntos Comunitários e Políticas Afirmativas (PROAP)"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"NTI "
+    ,"question":"Qual é o órgão da UFABC que propõe melhorias nos sistemas operacionais dos equipamentos e microcomputadores dos usuário, seus hardwares e softwares?"
+    ,"alternative":["Núcleo de Tecnologia da Informação (NTI)", " Núcleo Educacional de Tecnologias e Línguas (NETEL)", "Pró-reitoria de Administração (PROAD)", "Pró-reitoria de Assuntos Comunitários e Políticas Afirmativas (PROAP)"]
+    ,"correctAnswer":"0"
+  },
+  {
+     "theme":"NTI "
+    ,"question":"Qual é o órgão da UFABC que presta apoio técnico para solução de problemas dos equipamentos de  informática das salas de aula e laboratórios?"
+    ,"alternative":["Núcleo de Tecnologia da Informação (NTI)", "Núcleo de Tecnologias Educacionais (NTE)", "Pró-reitoria de Administração (PROAD)", "Pró-reitoria de Assuntos Comunitários e Políticas Afirmativas (PROAP)"]
+    ,"correctAnswer":"0"
+  }]
+  }

@@ -10,14 +10,15 @@ public class GlossaryManager : MonoBehaviour
     public GlossaryManager instance;
     public GlossaryItems[] glossaryList;
 
-    public GameObject glossaryPrefab;
+    public GameObject[] glossaryPrefab;
     public GameObject[] glossaryWindow;
     public GameObject[] glossaryFolder;
 
     public UnityEngine.UI.Text searchBarText;
 
     private List<GameObject> glossaryItems = new List<GameObject>();
-    private int index = 0;
+    [Tooltip("Índice da aba visível inicialmente")]
+    public int index = 3;
     private int prevIndex = 0;
     
     void Start()
@@ -32,7 +33,8 @@ public class GlossaryManager : MonoBehaviour
         }
 
         SortGlossaryItemList(glossaryList[index]);
-        UpdateGlossaryWindow(glossaryList[index].glossary);
+        //UpdateGlossaryWindow(glossaryList[index].glossary);
+        ChangeFolder();
     }
 
     /// <summary>
@@ -55,7 +57,7 @@ public class GlossaryManager : MonoBehaviour
         for (int i = 0; i < glossaryListToShow.Count; i++)
         {
             // Instancia um novo prefab
-            GameObject temp = Instantiate(glossaryPrefab, glossaryWindow[index].transform);
+            GameObject temp = Instantiate(glossaryPrefab[index], glossaryWindow[index].transform);
             // Atualiza os valores da prefab
             temp.GetComponent<GlossaryPrefabSelfManager>().UpdatePrefabs(glossaryListToShow[i]);
             // Adiciona o elemento instânciado a lista de elementos existentes

@@ -15,6 +15,11 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] private bool enterBuilding;
     [SerializeField] private bool enterGame;
 
+    [SerializeField] private bool elevator;
+    
+    [SerializeField] private GameObject objectToTalk;
+    [SerializeField] private GameObject elevatorWindow;
+
     #region Get/Set
     public bool GetTalkTo()
     {
@@ -30,6 +35,11 @@ public class InteractableObject : MonoBehaviour
     {
         return enterGame;
     }
+
+    public bool GetElevator()
+    {
+        return elevator;
+    }
     #endregion
 
     public void LoadMinigame()
@@ -38,7 +48,7 @@ public class InteractableObject : MonoBehaviour
         camera = GameObject.Find("Main Camera");
         GameManager.instance.SetPlayerPos(player.transform.position);
         GameManager.instance.SetCameraPos(camera.transform.position);
-
+        
         SceneManager.LoadScene(sceneName);
     }
 
@@ -48,5 +58,22 @@ public class InteractableObject : MonoBehaviour
         GameManager.instance.SetCameraPos(new Vector3 (newScenePlayerPos.x, newScenePlayerPos.y, newScenePlayerPos.z-10));
 
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void PlayDialogue()
+    {
+        if (objectToTalk.GetComponent<NPCTalk>())
+        {
+
+        }
+        else if (objectToTalk.GetComponent<AuxiliosManager>())
+        {
+            objectToTalk.GetComponent<AuxiliosManager>().StartAuxilioMinigame();
+        }
+    }
+
+    public void OpenElevator()
+    {
+        GameObject.Find("MapController").GetComponent<MapController>().OpenElevador(elevatorWindow);
     }
 }

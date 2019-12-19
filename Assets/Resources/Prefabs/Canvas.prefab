@@ -389,7 +389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -630,11 +630,33 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 8602982821410966437}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: ClearSpeed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: OpenGlossary
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GlossaryScene
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &8602982821411943185
@@ -1147,8 +1169,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 6019851
-  m_SortingOrder: 0
+  m_SortingLayerID: 888677205
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!114 &8602982822610980236
 MonoBehaviour:
@@ -1363,16 +1385,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8602982822610980238}
     m_Modifications:
-    - target: {fileID: 446379368993876773, guid: 938a4523492dbcc44a4e6026ed3b983b,
-        type: 3}
-      propertyPath: m_Name
-      value: TextBoxTalking
-      objectReference: {fileID: 0}
-    - target: {fileID: 446379368993876773, guid: 938a4523492dbcc44a4e6026ed3b983b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 446379368993876774, guid: 938a4523492dbcc44a4e6026ed3b983b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1477,6 +1489,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+
+    - target: {fileID: 1442622613190002216, guid: 938a4523492dbcc44a4e6026ed3b983b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -10.900002
+
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 938a4523492dbcc44a4e6026ed3b983b, type: 3}

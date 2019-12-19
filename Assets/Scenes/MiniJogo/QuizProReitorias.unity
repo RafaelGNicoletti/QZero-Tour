@@ -601,6 +601,21 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1887159328749804214, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455570703759501, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901455571661458722, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3901455569877314628, guid: 4c4626bd6db46374d860f454ccdbbf25,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -721,6 +736,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 2079984403}
+    - target: {fileID: 5688067402136519082, guid: 4c4626bd6db46374d860f454ccdbbf25,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f973f2a00f435649aa066108a41c5e3,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4626bd6db46374d860f454ccdbbf25, type: 3}
 --- !u!1001 &8582294357551310877
@@ -873,7 +894,7 @@ PrefabInstance:
     - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
         type: 3}
       propertyPath: qtyQuestionsToDo
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
         type: 3}
@@ -895,5 +916,11 @@ PrefabInstance:
       propertyPath: jsonTo
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8582294357092426505, guid: 6e83603be7b8c874a931d4855dc4b681,
+        type: 3}
+      propertyPath: questionGroup.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d41a5d6adea39e14dbfe9c02e24ead61,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e83603be7b8c874a931d4855dc4b681, type: 3}

@@ -10,6 +10,8 @@ public class SceneClassroomFinderController : MonoBehaviour
     private ClassroomBoard classroomBoard;
     [SerializeField]
     private Classroom currentClassroom;
+    [SerializeField]
+    private ClassroomResultManager classroomResultManager;
 
     private void Start()
     {
@@ -17,7 +19,6 @@ public class SceneClassroomFinderController : MonoBehaviour
     }
     public void VerifyAnswer()
     {
-        ///Bloquear botão de confirmar
         List<string> respostas = new List<string>(); //Lista de respostas dadas, serão retiradas dos classroomAnswers
         List<string> erros;
         bool acertou;
@@ -29,11 +30,6 @@ public class SceneClassroomFinderController : MonoBehaviour
 
         (acertou, erros) = currentClassroom.GetVerification(respostas[0], respostas[1], respostas[2], respostas[3]);
 
-        //Parte de debug, depois alterar para o que será feito com a resposta:
-        Debug.Log("Você acertou = " + acertou.ToString());
-        foreach (string s in erros)
-        {
-            Debug.Log("Errou " + s);
-        }
+        classroomResultManager.ShowResult(acertou, erros);
     }
 }

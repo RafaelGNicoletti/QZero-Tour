@@ -5,7 +5,7 @@ using UnityEngine;
 public class MapController : MonoBehaviour
 {
     private float playerSpeed, tempMov;
-    private GameObject player;
+    [SerializeField] private GameObject player;
     public GameObject canvas;
     public GameObject camera;
     public GameObject[] avatar;
@@ -40,8 +40,11 @@ public class MapController : MonoBehaviour
 
     public void ClearSpeed()
     {
-        playerSpeed = player.GetComponent<PlayerMovement>().movementSpeed;
-        player.GetComponent<PlayerMovement>().movementSpeed = 0;
+        if (player.GetComponent<PlayerMovement>().movementSpeed != 0)
+        {
+            playerSpeed = player.GetComponent<PlayerMovement>().movementSpeed;
+            player.GetComponent<PlayerMovement>().movementSpeed = 0;
+        }
     }
 
     public void RestoreSpeed()
@@ -67,5 +70,26 @@ public class MapController : MonoBehaviour
     public void SetBoolFalse(string boolName)
     {
         canvas.GetComponent<Animator>().SetBool(boolName, false);
+    }
+
+    public void OpenElevador(GameObject tela)
+    {
+        GameObject.Find("MapController").GetComponent<MapController>().ClearSpeed();
+        tela.SetActive(true);
+    }
+
+    public void CloseElevador(GameObject tela)
+    {
+        GameObject.Find("MapController").GetComponent<MapController>().RestoreSpeed();
+        tela.SetActive(false);
+    }
+
+    public void OpenGlossary(string sceneName)
+    {
+        GameManager.instance.SetPlayerPos(player.transform.position);
+        GameManager.instance.SetCameraPos(camera.transform.position);
+        GameManager.instance.SetLastSceneName(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 }

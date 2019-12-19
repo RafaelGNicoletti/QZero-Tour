@@ -17,9 +17,13 @@ public class GameManager : MonoBehaviour
     /// </summary>
     [SerializeField] private Vector3 playerInstantiatePos = new Vector3();
 
+    private string lastSceneName;
+
     private int avatatarSelected = 0;
     private string playerName = "";
 
+    [SerializeField] private Dictionary<string, bool> JogoEntidadeFlags = new Dictionary<string, bool>();
+    
     private void Awake()
     {
         if (instance == null)
@@ -82,6 +86,43 @@ public class GameManager : MonoBehaviour
     public Vector3 GetPlayerInstantiatePos()
     {
         return playerInstantiatePos;
+    }
+
+    public void AddDataToJogoEntidadeDictionary(string key, bool value)
+    {
+        if (!JogoEntidadeFlags.ContainsKey(key))
+        {
+            JogoEntidadeFlags.Add(key, value);
+        }
+
+        Debug.Log("Adicionado");
+    }
+
+    public void SetDataToJogoEntidadeDictionary(string key, bool value)
+    {
+        if (JogoEntidadeFlags.ContainsKey(key))
+        {
+            JogoEntidadeFlags[key] = value;
+        }
+
+        Debug.Log("Setou");
+    }
+
+    public bool GetDataToJogoEntidadeDictionary(string key)
+    {
+        //Debug.Log("key: " + key + " - value: " + JogoEntidadeFlags[key]);
+        
+        return JogoEntidadeFlags[key];
+    }
+
+    public void SetLastSceneName(string sceneName)
+    {
+        lastSceneName = sceneName;
+    }
+
+    public string GetLastSceneName()
+    {
+        return lastSceneName;
     }
 
     #endregion

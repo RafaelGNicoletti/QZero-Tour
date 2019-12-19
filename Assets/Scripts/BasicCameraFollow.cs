@@ -5,10 +5,18 @@ using System.Collections;
 
 public class BasicCameraFollow : MonoBehaviour 
 {
+    [System.Serializable]
+    public class CameraClamp
+    {
+        public float min, max;
+    }
 
 	private Vector3 startingPosition;
-	public Transform followTarget;
+    public bool usingClamp = false; //Decide se a câmera vai ser limitada na scene, ou se ela seguirá livremente o jogador
+    public Transform followTarget;
 	private Vector3 targetPos;
+    public CameraClamp clampX;
+    public CameraClamp clampY;
 	public float moveSpeed;
 	
 	void Start()
@@ -20,7 +28,17 @@ public class BasicCameraFollow : MonoBehaviour
 	{
 		if(followTarget != null)
 		{
-			targetPos = new Vector3(followTarget.position.x, followTarget.position.y, transform.position.z);
+            if (usingClamp)
+            {
+                float positionX = Mathf.Clamp(followTarget.position.x, clampX.min, clampX.max);
+                float positionY = Mathf.Clamp(followTarget.position.y, clampY.min, clampY.max);
+                targetPos = new Vector3(positionX, positionY, transform.position.z);
+            }
+
+            else
+            {
+			    targetPos = new Vector3(followTarget.position.x, followTarget.position.y, transform.position.z);
+            }
 			Vector3 velocity = (targetPos - transform.position) * moveSpeed;
 			transform.position = Vector3.SmoothDamp (transform.position, targetPos, ref velocity, 1.0f, Time.deltaTime);
 		}
