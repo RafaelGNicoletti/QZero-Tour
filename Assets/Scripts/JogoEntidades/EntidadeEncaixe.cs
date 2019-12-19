@@ -82,4 +82,9 @@ public class EntidadeEncaixe : MonoBehaviour
             locked = true;
         }
     }
+
+    public void ClearBackground()
+    {
+        insideObject.transform.GetChild(0).gameObject.SetActive(false);
+    }
 }

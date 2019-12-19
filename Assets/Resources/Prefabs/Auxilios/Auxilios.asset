@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b39b3d336b0e747b357ad443008c78, type: 3}
+  m_Name: Auxilios
+  m_EditorClassIdentifier: 
+  auxiliosList:
+  - pergunta: "Ol\xE1! Voc\xEA sabia que a UFABC tem como miss\xE3o promover o avan\xE7o
+      do conhecimento por meio de a\xE7\xF5es de Ensino, Pesquisa e Extens\xE3o, tendo
+      como fundamentos b\xE1sicos a interdisciplinaridade, a excel\xEAncia e a inclus\xE3o
+      social? E o melhor de tudo: voc\xEA pode fazer parte disso!Com base no fundamento
+      da inclus\xE3o social, a PROAP (Pr\xF3-reitoria de Assuntos Comunit\xE1rios
+      e Pol\xEDticas Afirmativas) concede alguns aux\xEDlios socioecon\xF4micos aos
+      estudantes para que possam participar plenamente das atividades acad\xEAmicas.
+      Vamos ver se voc\xEA est\xE1 apto a solicit\xE1-los?"
+    textoSim: 
+    textoNao: 
+    proxPerguntaSim: 1
+    proxPerguntaNao: 1
+  - pergunta: "A renda da sua fam\xEDlia \xE9 inferior a 1,5 sal\xE1rio m\xEDnimo?"
+    textoSim: "Voc\xEA est\xE1 apto a solicitar a Bolsa Perman\xEAncia. Fique atento
+      aos prazos e editais divulgados pela PROAP."
+    textoNao: "Infelizmente, voc\xEA n\xE3o poder\xE1 solicitar os aux\xEDlios socioecon\xF4micos.
+      Voc\xEA pode encontrar mais informa\xE7\xF5es na PROAP."
+    proxPerguntaSim: 2
+    proxPerguntaNao: 5
+  - pergunta: "Voc\xEA mora a mais de 50 km ou 2h da UFABC?"
+    textoSim: "Voc\xEA est\xE1 apto a solicitar o Aux\xEDlio-moradia. Fique atento
+      aos prazos e editais divulgados pela PROAP."
+    textoNao: "Infelizmente, voc\xEA n\xE3o poder\xE1 solicitar os aux\xEDlios socioecon\xF4micos.
+      Voc\xEA pode encontrar mais informa\xE7\xF5es na PROAP."
+    proxPerguntaSim: 3
+    proxPerguntaNao: 3
+  - pergunta: "Voc\xEA pretende fazer suas refei\xE7\xF5es na universidade?"
+    textoSim: "Voc\xEA est\xE1 apto a solicitar o Aux\xEDlio-alimenta\xE7\xE3o. Fique
+      atento aos prazos e editais divulgados pela PROAP."
+    textoNao: "Infelizmente, voc\xEA n\xE3o poder\xE1 solicitar os aux\xEDlios socioecon\xF4micos.
+      Voc\xEA pode encontrar mais informa\xE7\xF5es na PROAP."
+    proxPerguntaSim: 4
+    proxPerguntaNao: 4
+  - pergunta: "Voc\xEA tem um filho em idade pr\xE9-escolar?"
+    textoSim: "Voc\xEA est\xE1 apto a solicitar o Aux\xEDlio-creche. Fique atento
+      aos prazos e editais divulgados pela PROAP."
+    textoNao: "Infelizmente, voc\xEA n\xE3o poder\xE1 solicitar os aux\xEDlios socioecon\xF4micos.
+      Voc\xEA pode encontrar mais informa\xE7\xF5es na PROAP."
+    proxPerguntaSim: 5
+    proxPerguntaNao: 5
+  - pergunta: "Agora vamos conhecer as oportunidades de ensino, pesquisa, extens\xE3o
+      e cultura. Voc\xEA s\xF3 pode receber uma bolsa dentre todas estas atividades,
+      mas pode se inscrever como volunt\xE1rio em mais de um projeto."
+    textoSim: 
+    textoNao: 
+    proxPerguntaSim: 6
+    proxPerguntaNao: 6
+  - pergunta: " Para come\xE7ar, voc\xEA \xE9 um aluno ingressante?"
+    textoSim: "\xC9 necess\xE1rio ficar atento aos crit\xE9rios de sele\xE7\xE3o.
+      Para os ingressantes, os crit\xE9rios de sele\xE7\xE3o podem incluir a nota
+      do ENEM, enquanto para os alunos veteranos, pode incluir o CR ou o CA."
+    textoNao: "\xC9 necess\xE1rio ficar atento aos crit\xE9rios de sele\xE7\xE3o.
+      Para os ingressantes, os crit\xE9rios de sele\xE7\xE3o podem incluir a nota
+      do ENEM, enquanto para os alunos veteranos, pode incluir o CR ou o CA."
+    proxPerguntaSim: 7
+    proxPerguntaNao: 7
+  - pergunta: "Voc\xEA j\xE1 pensou em dar aulas?"
+    textoSim: "Legal! Voc\xEA pode se inscrever como monitor acad\xEAmico ou professor
+      na Escola Preparat\xF3ria UFABC. Mais informa\xE7\xF5es sobre a monitoria acad\xEAmica
+      est\xE3o dispon\xEDveis na PROGRAD e sobre a Escola Preparat\xF3ria na PROEC."
+    textoNao: "Que pena! Voc\xEA poderia se tornar um monitor acad\xEAmico ou professor
+      na Escola Preparat\xF3ria UFABC. Mais informa\xE7\xF5es sobre a monitoria acad\xEAmica
+      est\xE3o dispon\xEDveis na PROGRAD e sobre a Escola Preparat\xF3ria na PROEC."
+    proxPerguntaSim: 8
+    proxPerguntaNao: 8
+  - pergunta: "Voc\xEA j\xE1 pensou em fazer pesquisa?"
+    textoSim: "Eba! Na UFABC existem oportunidades para ingressantes (PDPD) e veteranos
+      (PIC/PIBIC/PIBITI). Voc\xEA pode encontrar mais informa\xE7\xF5es na PROPES."
+    textoNao: "Ahhh! Na UFABC existem oportunidades para ingressantes (PDPD) e veteranos
+      (PIC/PIBIC/PIBITI). Voc\xEA pode encontrar mais informa\xE7\xF5es na PROPES."
+    proxPerguntaSim: 9
+    proxPerguntaNao: 9
+  - pergunta: "Voc\xEA se interessa por atividades de extens\xE3o e cultura?"
+    textoSim: "Show! Existem diversos projetos de extens\xE3o e cultura na UFABC.
+      Acompanhe na PROEC e fique atento aos prazos."
+    textoNao: "S\xE9rio?! Existem diversos projetos de extens\xE3o e cultura na UFABC.
+      Acompanhe na PROEC e fique atento aos prazos."
+    proxPerguntaSim: 10
+    proxPerguntaNao: 10
+  - pergunta: "N\xE3o deixe de participar dos projetos de ensino, pesquisa e extens\xE3o
+      e n\xE3o se esque\xE7a de solicitar os aux\xEDlios socioecon\xF4micos, caso
+      atenda aos requitos. Nos vemos por a\xED!"
+    textoSim: 
+    textoNao: 
+    proxPerguntaSim: 11
+    proxPerguntaNao: 11

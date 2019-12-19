@@ -1,0 +1,1124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef4f7b167f10b642a48edf3e337b501, type: 3}
+  m_Name: Perguntas
+  m_EditorClassIdentifier: 
+  quizQuestions:
+  - theme: 'PROGRAD '
+    question: "Qual \xE9 a divis\xE3o da PROGRAD respons\xE1vel por emitir os documentos
+      necess\xE1rios para que voc\xEA possa solicitar o seu passe escolar das linhas
+      de \xF4nibus?"
+    alternative:
+    - DEAT
+    - CAE
+    - DAC
+    - DPAG
+    correctAnswer: 1
+  - theme: PROGRAD
+    question: "O \xF3rg\xE3o da PROGRAD respons\xE1vel por emitir documentos referentes
+      \xE0 sua vida acad\xEAmica e por esclarecer d\xFAvidas relativas a gradua\xE7\xE3o
+      \xE9:"
+    alternative:
+    - DAC
+    - CAE
+    - DEAT
+    - DPAG
+    correctAnswer: 1
+  - theme: 'PROGRAD '
+    question: "Se voc\xEA possuir qualquer tipo de problema referente \xE0s matr\xEDculas
+      das disciplinas durante o quadrimestre, em qual divis\xE3o da PROGRAD voc\xEA
+      deve ir?"
+    alternative:
+    - CAE
+    - DEAT
+    - DAC
+    - DPAG
+    correctAnswer: 2
+  - theme: 'PROGRAD '
+    question: "Para qual \xF3rg\xE3o da PROGRAD voc\xEA deve enviar seus comprovantes
+      de atividades complementares?"
+    alternative:
+    - DAC
+    - DEAT
+    - CAE
+    - DPAG
+    correctAnswer: 0
+  - theme: 'PROGRAD '
+    question: "Qual \xF3rg\xE3o da PROGRAD \xE9 respons\xE1vel por publicar a lista
+      d@s discentes aptos \xE0 cola\xE7\xE3o de grau (obten\xE7\xE3o de diploma)?"
+    alternative:
+    - CAE
+    - DEAT
+    - DAC
+    - DPAG
+    correctAnswer: 2
+  - theme: 'PROGRAD '
+    question: "Se voc\xEA quiser migrar para outro Bacharelado Interdisciplinar, voc\xEA
+      deve procurar por qual divis\xE3o da PROGRAD? "
+    alternative:
+    - CAE
+    - DEAT
+    - DAC
+    - DPAG
+    correctAnswer: 2
+  - theme: 'PROGRAD '
+    question: "Qual \xE9 a divis\xE3o da PROGRAD que te ajudar\xE1 a migrar de turno
+      de seu curso? "
+    alternative:
+    - CAE
+    - DAC
+    - DEAT
+    - DPAG
+    correctAnswer: 1
+  - theme: 'PROGRAD '
+    question: "Qual \xE9 a divis\xE3o da PROGRAD que cuida de todos os processos referentes
+      \xE0s matr\xEDculas em disciplinas?"
+    alternative:
+    - CAE
+    - DAC
+    - DEAT
+    - DPAG
+    correctAnswer: 1
+  - theme: 'PROGRAD '
+    question: "O Programa de Ensino e Aprendizagem Tutorial (PEAT), que realiza oficinas
+      e atividades de orienta\xE7\xE3o voltadas para alun@s de gradua\xE7\xE3o, est\xE1
+      vinculado \xE0:"
+    alternative:
+    - PROGRAD
+    - PROAP
+    - PROEC
+    - PROPES
+    correctAnswer: 0
+  - theme: 'PROGRAD '
+    question: "Qual \xE9 a divis\xE3o da PROGRAD que realiza orienta\xE7\xF5es pedag\xF3gicas
+      para discentes da gradua\xE7\xE3o?"
+    alternative:
+    - DAC
+    - CAE
+    - DEAT
+    - DPAG
+    correctAnswer: 2
+  - theme: 'PROGRAD '
+    question: "O PADA (Programa de Apoio ao Desenvolvimento Acad\xEAmico) pode auxiliar
+      @s alun@s quanto ao planejamento de matr\xEDcula por exemplo e est\xE1 vinculado
+      \xE0:"
+    alternative:
+    - DAC
+    - CAE
+    - DEAT
+    - DPAG
+    correctAnswer: 2
+  - theme: 'PROGRAD '
+    question: "O curso de \"Leitura e Escrita na Gradua\xE7\xE3o\" \xE9 oferecido
+      por qual divis\xE3o da PROGRAD?"
+    alternative:
+    - DAC
+    - CAE
+    - DEAT
+    - DPAG
+    correctAnswer: 2
+  - theme: 'PROGRAD '
+    question: "O \"Curso de Matem\xE1tica: Revis\xE3o de T\xF3picos do Ensino M\xE9dio\"
+      \xE9 organizado por qual divis\xE3o da PROGRAD?"
+    alternative:
+    - DEAT
+    - CAE
+    - DAC
+    - DPAG
+    correctAnswer: 0
+  - theme: 'PROGRAD '
+    question: "O \"Curso de F\xEDsica: Revis\xE3o de T\xF3picos do Ensino M\xE9dio\"
+      \xE9 organizado por qual divis\xE3o da PROGRAD?"
+    alternative:
+    - CAE
+    - DEAT
+    - DAC
+    - DPAG
+    correctAnswer: 1
+  - theme: 'PROGRAD '
+    question: "Qual \xE9 \xF3rg\xE3o da PROGRAD que acompanha desenvolvimento acad\xEAmico
+      d@s discentes de gradua\xE7\xE3o por meio de orienta\xE7\xF5es pedag\xF3gicas
+      e dos programas PADA e PEAT\"?"
+    alternative:
+    - CAE
+    - DAC
+    - DEAT
+    - DPAG
+    correctAnswer: 2
+  - theme: 'PROGRAD '
+    question: "A divis\xE3o de PROGRAD respons\xE1vel pela coleta, organiza\xE7\xE3o
+      e confer\xEAncia dos dados pessoais d@s estudantes para expedir seus diplomas
+      de gradua\xE7\xE3o \xE9 "
+    alternative:
+    - DEAT
+    - DAC
+    - DSSI
+    - DPAG
+    correctAnswer: 2
+  - theme: 'PROGRAD '
+    question: "As vistorias peri\xF3dicas nas salas de aulas e laborat\xF3rios, junto
+      \xE0 Prefeitura Universit\xE1ria (PU) e a solicita\xE7\xE3o da manuten\xE7\xE3o
+      de mobili\xE1rios s\xE3o realizadas por qual divis\xE3o da PROGRAD?"
+    alternative:
+    - DPAG
+    - DAC
+    - DSSI
+    - DEAT
+    correctAnswer: 0
+  - theme: 'PROGRAD '
+    question: "A 'Se\xE7\xE3o de Est\xE1gios' que tem por atribui\xE7\xE3o analisar,
+      conferir e assinar documenta\xE7\xF5es referentes aos est\xE1gios dos bacharelados
+      interdisciplinares est\xE1 vinculado ao DPAG e \xE9 uma divis\xE3o da:"
+    alternative:
+    - PROAP
+    - PROGRAD
+    - PROEC
+    - PROPES
+    correctAnswer: 1
+  - theme: 'PROGRAD '
+    question: "A DPAG possui uma 'Se\xE7\xE3o de Monitoria Acad\xEAmica' que tem por
+      atribui\xE7\xE3o assinar documenta\xE7\xF5es e administrar pagamentos das bolsas
+      via UFABC e est\xE1 vinculada \xE0:"
+    alternative:
+    - PROGRAD
+    - PROAP
+    - PROEC
+    - PROPES
+    correctAnswer: 0
+  - theme: 'PROGRAD '
+    question: "O Programa Institucional de Bolsa de Inicia\xE7\xE3o \xE0 Doc\xEAncia
+      (PIBID) que tem por finalidade fomentar a inicia\xE7\xE3o \xE0 doc\xEAncia est\xE1
+      vinculado a qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROAP
+    - PROEC
+    - PROGRAD
+    - PROPES
+    correctAnswer: 2
+  - theme: 'PROAP '
+    question: "O N\xFAcleo de Acessibilidade Educacional, que tem por finalidade prestar
+      suporte a docentes com defici\xEAncia, pertence a qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROGRAD
+    - PROAP
+    - PROPES
+    - PROEC
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "A monitoria inclusiva com acompanhamento e materiais adaptados \xE9
+      de responsabilidade de qual eixo da PROAP?"
+    alternative:
+    - "Se\xE7\xE3o Psicossocial "
+    - "N\xFAcleo de Acessibilidade Educacional "
+    - "Se\xE7\xE3o de Promo\xE7\xE3o \xE0 Sa\xFAde"
+    - "Se\xE7\xE3o de Seguran\xE7a Universit\xE1ria"
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "Uma das a\xE7\xF5es da PROAP \"minimizar os impactos sociais e econ\xF4micos
+      que influenciam negativamente as condi\xE7\xF5es de perman\xEAncia do estudante
+      na Universidade\", que \xE9 realizada por:"
+    alternative:
+    - "Se\xE7\xE3o Psicossocial "
+    - "Se\xE7\xE3o de Bolsas Socioecon\xF4micas"
+    - "Se\xE7\xE3o de Seguran\xE7a Comunit\xE1ria"
+    - "N\xFAcleo de Acessibilidade Educacional"
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "A an\xE1lise e a concess\xE3o de aux\xEDlios e bolsas socioecon\xF4micas
+      pela \u2018Se\xE7\xE3o de Bolsas Socioecon\xF4micas\u2019 \xE9 de responsabilidade
+      da:"
+    alternative:
+    - PROGRAD
+    - PROPES
+    - PROAP
+    - PROEC
+    correctAnswer: 2
+  - theme: 'PROAP '
+    question: "A Bolsa Perman\xEAncia e os Aux\xEDlios Moradia; Alimenta\xE7\xE3o;
+      Creche e Emergencial s\xE3o modalidades dos Programas de Apoio oferecidas por/pela:"
+    alternative:
+    - "Se\xE7\xE3o de Bolsas Socioecon\xF4micas"
+    - "Se\xE7\xE3o Psicossocial "
+    - "Se\xE7\xE3o de Seguran\xE7a Comunit\xE1ria"
+    - "N\xFAcleo de Acessibilidade Educacional"
+    correctAnswer: 0
+  - theme: 'PROAP '
+    question: "O eixo da PROAP que \xE9  respons\xE1vel por \"incentivar e promover
+      a cultura corporal de movimento na UFABC, desenvolvendo trabalhos com a pr\xE1tica
+      de gin\xE1sticas, dan\xE7as e esportes\" \xE9:"
+    alternative:
+    - "Se\xE7\xE3o de Esportes e Lazer"
+    - "N\xFAcleo de Acessibilidade Educacional"
+    - "Se\xE7\xE3o de Nutri\xE7\xE3o e Restaurantes Universit\xE1rios"
+    - "Se\xE7\xE3o de Promo\xE7\xE3o \xE0 Sa\xFAde"
+    correctAnswer: 0
+  - theme: 'PROAP '
+    question: "Os Restaurantes Universit\xE1rios (RUs) oferecem uma refei\xE7\xE3o
+      a um valor acess\xEDvel e nutricionalmente balanceadas para @s alun@s e s\xE3o
+      administrados por qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROGRAD
+    - PROAP
+    - PROPES
+    - PROEC
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "Qual \xE9 a se\xE7\xE3o da PROAP que \xE9 respons\xE1vel por prestar
+      atendimento b\xE1sico em casos de agravo \xE0 sa\xFAde no per\xEDodo em que
+      a pessoa estiver na universidade?"
+    alternative:
+    - "Se\xE7\xE3o de Seguran\xE7a Universit\xE1ria"
+    - "Se\xE7\xE3o Psicossocial "
+    - "Se\xE7\xE3o de Promo\xE7\xE3o \xE0 Sa\xFAde"
+    - "N\xFAcleo de Acessibilidade Educacional"
+    correctAnswer: 2
+  - theme: 'PROAP '
+    question: "A distribui\xE7\xE3o permanente de preservativo feminino e masculino
+      e panfletos informativo-educativos sobre sa\xFAde \xE9 realizada por qual se\xE7\xE3o
+      da PROAP?"
+    alternative:
+    - "Se\xE7\xE3o Psicossocial "
+    - "Se\xE7\xE3o de Promo\xE7\xE3o \xE0 Sa\xFAde"
+    - "Se\xE7\xE3o de Seguran\xE7a Universit\xE1ria"
+    - "N\xFAcleo de Acessibilidade Educacional"
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "Uma das se\xE7\xF5es da PROAP eventualmente realiza testes gratuitos
+      de HIV e S\xEDfilis, em parceria com as secretarias municipais de sa\xFAde.
+      Qual \xE9 ela?"
+    alternative:
+    - "Se\xE7\xE3o de Seguran\xE7a Universit\xE1ria"
+    - "Se\xE7\xE3o de Promo\xE7\xE3o \xE0 Sa\xFAde"
+    - "Se\xE7\xE3o Psicossocial "
+    - "N\xFAcleo de Acessibilidade Educacional"
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "O  'Acolhimento Psicossocial' \xE9 um servi\xE7o realizado por um psic\xF3logo,
+      que pode auxiliar no processo de reflex\xE3o e busca criar e aprofundar v\xEDnculos,
+      e \xE9 prestado por qual se\xE7\xE3o da PROAP?"
+    alternative:
+    - "Se\xE7\xE3o de Promo\xE7\xE3o \xE0 Sa\xFAde"
+    - "Se\xE7\xE3o Psicossocial "
+    - "Se\xE7\xE3o de Seguran\xE7a Universit\xE1ria"
+    - "N\xFAcleo de Acessibilidade Educacional"
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "Os 'Encontros Tem\xE1ticos' discutem aspectos da vida universit\xE1ria
+      vivenciados com maior frequ\xEAncia, como a ansiedade e \xE9 realizado por qual
+      se\xE7\xE3o da PROAP?"
+    alternative:
+    - "Se\xE7\xE3o Psicossocial "
+    - "Se\xE7\xE3o de Promo\xE7\xE3o \xE0 Sa\xFAde"
+    - "Se\xE7\xE3o de Seguran\xE7a Universit\xE1ria"
+    - "N\xFAcleo de Acessibilidade Educacional"
+    correctAnswer: 0
+  - theme: 'PROAP '
+    question: "A Se\xE7\xE3o Psicossocial, que entre as atividades, realiza Rodas
+      de Conversa e Oficinas Criativas sobre temas relacionados \xE0 Sa\xFAde Mental,
+      est\xE1 vinclulada a qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROAP
+    - PROGRAD
+    - PROPES
+    - PROEC
+    correctAnswer: 0
+  - theme: 'PROAP '
+    question: "A PROAP deve ter como base a Resolu\xE7\xE3o ConsUni N\xBA 88. Por
+      isso, s\xE3o candidatos aos Programas de Apoio somente os estudantes com renda
+      familiar per capita igual ou inferior a: "
+    alternative:
+    - "Um sal\xE1rio m\xEDnimo"
+    - "Um sal\xE1rio m\xEDnimo e meio"
+    - "Dois sal\xE1rios m\xEDnimos"
+    - "Dois sal\xE1rios m\xEDnimos e meio"
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "Qual \xE9 o aux\xEDlio ou bolsa que \xE9 destinado aos gastos de necessidades
+      b\xE1sicas d@ discente, para que se adapte e dedique \xE0 forma\xE7\xE3o acad\xEAmica
+      na UFABC?. "
+    alternative:
+    - "Aux\xEDlio Perman\xEAncia"
+    - "Bolsa Perman\xEAncia"
+    - "Aux\xEDlio Moradia"
+    - "Aux\xEDlio Alimenta\xE7\xE3o"
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "O aux\xEDlio/bolsa destinado \xE0s despesas com habita\xE7\xE3o de
+      estudantes que necessitem morar fora de seu domic\xEDlio familiar para estudar
+      na UFABC \xE9:"
+    alternative:
+    - Bolsa Moradia
+    - "Aux\xEDlio Moradia"
+    - "Bolsa Perman\xEAncia"
+    - "Aux\xEDlio Creche"
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "Qual \xE9 o aux\xEDlio/bolsa destinado aos gastos com alimenta\xE7\xE3o
+      e que tem seu valor baseado nos pre\xE7os das refei\xE7\xF5es dos Restaurantes
+      Universit\xE1rios da UFABC?"
+    alternative:
+    - "Bolsa Perman\xEAncia"
+    - "Bolsa Alimenta\xE7\xE3o"
+    - "Aux\xEDlio Alimenta\xE7\xE3o"
+    - "Aux\xEDlio Moradia"
+    correctAnswer: 2
+  - theme: 'PROAP '
+    question: "Qual \xE9 a Pr\xF3-Reitoria respons\xE1vel por conceder aux\xEDlios
+      ou bolsas para @s estudantes com comprovada necessidade?"
+    alternative:
+    - PROGRAD
+    - PROAP
+    - PROPES
+    - PROEC
+    correctAnswer: 1
+  - theme: 'PROAP '
+    question: "Todos os procedimentos e especificidades relacionados \xE0 Bolsa Perman\xEAncia
+      e Aux\xEDlios ser\xE3o estabelecidos em Editais elaborados e divulgados por
+      qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROPES
+    - PROAP
+    - PROGRAD
+    - PROEC
+    correctAnswer: 1
+  - theme: PROEC
+    question: "As a\xE7\xF5es de extens\xE3o acontecem numa forma bidirecional entre
+      universidade/sociedade. Qual Pr\xF3-Reitoria \xE9 respons\xE1vel por essas a\xE7\xF5es?"
+    alternative:
+    - PROGRAD
+    - PROEC
+    - PROPES
+    - PROAP
+    correctAnswer: 1
+  - theme: PROEC
+    question: "A se\xE7\xE3o de Divulga\xE7\xE3o Cient\xEDfica da UFABC integra qual
+      Pr\xF3-Reitoria?"
+    alternative:
+    - PROEC
+    - PROPES
+    - PROGRAD
+    - PROAP
+    correctAnswer: 0
+  - theme: PROEC
+    question: "Qual \xE9 a se\xE7\xE3o que tem como objetivo \"Divulgar a produ\xE7\xE3o
+      cient\xEDfica realizada na UFABC com a finalidade de contribuir para a forma\xE7\xE3o
+      de uma sociedade mais cr\xEDtica e consciente\"?"
+    alternative:
+    - "Divis\xE3o de Cultura"
+    - "Divulga\xE7\xE3o Cient\xEDfica da PROEC"
+    - "Comit\xEA de Extens\xE3o e Cultura"
+    - "Projetos de Extens\xE3o e Cultura"
+    correctAnswer: 1
+  - theme: PROEC
+    question: "O Blog \"UFABC Divulga Ci\xEAncia\" re\xFAne materiais de divulga\xE7\xE3o
+      cient\xEDfica com temas que tocam o cotidiano e est\xE1 relacionado a se\xE7\xE3o
+      de Divulga\xE7\xE3o Cient\xEDfica de qual Pr\xF3-Reitoria? "
+    alternative:
+    - Pesquisa (PROPES)
+    - "Assuntos Comunit\xE1rios e Pol\xEDticas Afirmativas (PROAP)"
+    - "Extens\xE3o e Cultura (PROEC)"
+    - "Gradua\xE7\xE3o (PROGRAD) "
+    correctAnswer: 2
+  - theme: PROEC
+    question: "O site \"UFABCi\xEAncia\" re\xFAne uma s\xE9rie de artigos sobre Divulga\xE7\xE3o
+      Cient\xEDfica. Est\xE1 relacionado a se\xE7\xE3o de Divulga\xE7\xE3o Cient\xEDfica
+      da Pr\xF3-Reitoria de:"
+    alternative:
+    - Pesquisa (PROPES)
+    - "Extens\xE3o e Cultura (PROEC)"
+    - "Assuntos Comunit\xE1rios e Pol\xEDticas Afirmativas (PROAP)"
+    - "Gradua\xE7\xE3o (PROGRAD) "
+    correctAnswer: 1
+  - theme: PROEC
+    question: "Algumas entidades culturais, como por exemplo a Infanteria (Bateria
+      UFABC), s\xE3o institucionalmente reconhecidas por qual Pr\xF3-Reitoria da Universidade?"
+    alternative:
+    - PROGRAD
+    - PROAP
+    - PROEC
+    - PROPES
+    correctAnswer: 2
+  - theme: PROEC
+    question: "Os cursos de extens\xE3o objetivam ampliar os conhecimentos sobre temas
+      relativos ao campo de estudo do participante. Qual Pr\xF3-Reitoria \xE9 respons\xE1vel
+      por coorden\xE1-los?"
+    alternative:
+    - PROAP
+    - PROEC
+    - PROGRAD
+    - PROPES
+    correctAnswer: 1
+  - theme: PROEC
+    question: "Qual \xE9 a divis\xE3o da PROEC respons\xE1vel por a\xE7\xF5es de car\xE1ter
+      educativo, social, desportivo, cultural, cient\xEDfico ou tecnol\xF3gico da
+      UFABC?"
+    alternative:
+    - "Projetos de Extens\xE3o e Cultura"
+    - "Cursos de Especializa\xE7\xE3o"
+    - Entidades Culturais
+    - "Divulga\xE7\xE3o Cient\xEDfica"
+    correctAnswer: 0
+  - theme: PROEC
+    question: "Os Projetos de Extens\xE3o e Cultura podem ter car\xE1ter educativo,
+      social, desportivo, cultural, cient\xEDfico ou tecnol\xF3gico. Qual Pr\xF3-Reitoria
+      \xE9 respons\xE1vel por coorden\xE1-los?"
+    alternative:
+    - PROAP
+    - PROEC
+    - PROGRAD
+    - PROPES
+    correctAnswer: 1
+  - theme: PROEC
+    question: "Os Projetos de Extens\xE3o e Cultura visam contribuir para a melhoria
+      da qualidade de vida da popula\xE7\xE3o e para o desenvolvimento acad\xEAmico
+      da UFABC e s\xE3o cadastrados na Pr\xF3-Reitoria de:"
+    alternative:
+    - "Assuntos Comunit\xE1rios e Pol\xEDticas Afirmativas (PROAP)"
+    - Pesquisa (PROPES)
+    - "Extens\xE3o e Cultura (PROEC)"
+    - "Gradua\xE7\xE3o (PROGRAD) "
+    correctAnswer: 2
+  - theme: PROEC
+    question: "Para atuar como bolsista em alguma a\xE7\xE3o de extens\xE3o ou de
+      cultura, \xE9 preciso acompanhar os editais e processos seletivos publicados
+      e coordenados por qual Pr\xF3-Reitorias?"
+    alternative:
+    - PROEC
+    - PROAP
+    - PROGRAD
+    - PROPES
+    correctAnswer: 0
+  - theme: PROEC
+    question: "A Divis\xE3o de Cultura, promove e apoia projetos, atividades e a\xE7\xF5es
+      de cultura como por exemplo os Cineclubes e Exposi\xE7\xF5es dentro da Universidade.
+      Essa divis\xE3o pertence \xE0:"
+    alternative:
+    - PROEC
+    - PROAP
+    - PROGRAD
+    - PROPES
+    correctAnswer: 0
+  - theme: PROEC
+    question: "As atividades culturais, cineclubes, ocupa\xE7\xF5es art\xEDsticas,
+      exposi\xE7\xF5es, oficinas e simp\xF3sios s\xE3o realizados com o apoio de qual
+      divis\xE3o da PROEC?"
+    alternative:
+    - "Divulga\xE7\xE3o Cient\xEDfica da PROEC"
+    - "Comit\xEA de Extens\xE3o e Cultura"
+    - "Divis\xE3o de Cultura"
+    - "Projetos de Extens\xE3o e Cultura"
+    correctAnswer: 2
+  - theme: PROEC
+    question: "Voc\xEA sabia que a UFABC tem uma Editora (EdUFABC) que produz e distribui
+      livros? Voc\xEA acha que a EdUFABC est\xE1 ligada institucionalmente a qual
+      Pr\xF3-Reitoria?"
+    alternative:
+    - PROAP
+    - PROEC
+    - PROGRAD
+    - PROPES
+    correctAnswer: 1
+  - theme: PROEC
+    question: "A Escola Preparat\xF3ria da UFABC (EPUFABC) oferece um cursinho gratuito.Por
+      ser um projeto de extens\xE3o, os seus assuntos institucionais s\xE3o de responsabilidade
+      da:"
+    alternative:
+    - PROEC
+    - PROPES
+    - PROAP
+    - PROGRAD
+    correctAnswer: 0
+  - theme: PROEC
+    question: "Voc\xEA sabia que \xE9 poss\xEDvel exercer atividades em projetos de
+      extens\xE3o como volunt\xE1rio ou como bolsista? Em qual Pr\xF3-Reitoria voc\xEA
+      buscaria informa\xE7\xF5es sobre esse assunto?"
+    alternative:
+    - PROPES
+    - PROGRAD
+    - PROEC
+    - PROAP
+    correctAnswer: 2
+  - theme: PROPES
+    question: "Qual \xE9 a Pr\xF3-Reitoria respons\xE1vel por \"apoiar e estimular
+      a pesquisa na UFABC, sendo o aliado do pesquisador no ambiente acad\xEAmico\"?"
+    alternative:
+    - PROEC
+    - PROGRAD
+    - PROPES
+    - PROAP
+    correctAnswer: 2
+  - theme: PROPES
+    question: "Para obter informa\xE7\xF5es sobre o  Programa \"Pesquisando Desde
+      o Primeiro Dia\" (PDPD), que \xE9 um programa de inicia\xE7\xE3o cient\xEDfica
+      destinado a ingressantes na UFABC, voc\xEA deve buscar a:"
+    alternative:
+    - PROPES
+    - PROGRAD
+    - PROAP
+    - PROEC
+    correctAnswer: 0
+  - theme: PROPES
+    question: " \u201CNossa meta \xE9 que a marca registrada da pesquisa na UFABC
+      seja uma combina\xE7\xE3o de inova\xE7\xE3o, interdisciplinaridade e excel\xEAncia\u201D.
+      Esse pensamento pertence \xE0:"
+    alternative:
+    - PROPES
+    - PROGRAD
+    - PROAP
+    - PROEC
+    correctAnswer: 0
+  - theme: PROPES
+    question: "Qual \xE9 a divis\xE3o da PROPES que apoia projetos de pesquisa cient\xEDfica
+      em diferentes campos do saber?"
+    alternative:
+    - "Projetos de Extens\xE3o e Cultura"
+    - "Inicia\xE7\xE3o Cient\xEDfica"
+    - "Divulga\xE7\xE3o Cient\xEDfica"
+    - Entidades Culturais
+    correctAnswer: 1
+  - theme: PROPES
+    question: "Qualificar alun@s para os programas de mestrado e doutorado por meio
+      de projetos de pesquisa cient\xEDfica \xE9 objetivo de qual divis\xE3o da PROPES?"
+    alternative:
+    - "Divulga\xE7\xE3o Cient\xEDfica"
+    - "Inicia\xE7\xE3o Cient\xEDfica"
+    - "Projetos de Extens\xE3o e Cultura"
+    - Entidades Culturais
+    correctAnswer: 1
+  - theme: PROPES
+    question: "Os editais internos de desenvolvimento para pesquisa s\xE3o de responsabilidade
+      de qual divis\xE3o da PROPES?"
+    alternative:
+    - "Divulga\xE7\xE3o Cient\xEDfica"
+    - "Projetos de Extens\xE3o e Cultura"
+    - "Inicia\xE7\xE3o Cient\xEDfica"
+    - Entidades Culturais
+    correctAnswer: 2
+  - theme: PROPES
+    question: "A divis\xE3o da PROPES que apoia a pesquisa na UFABC, formalizando
+      e providenciando v\xEDnculos \xE0s mais diversas situa\xE7\xF5es \xE9:"
+    alternative:
+    - "Gest\xE3o de Projetos"
+    - Central de Apoio ao Pesquisador (CAP)
+    - "Inicia\xE7\xE3o Cient\xEDfica"
+    - "Escrit\xF3rio de Integridade em Pesquisa (EIP)"
+    correctAnswer: 1
+  - theme: PROPES
+    question: "A qual Pr\xF3-Reitoria est\xE1 vinculada a CAP (Central de Apoio ao
+      Pesquisador), que \xE9 respons\xE1vel pelo cadastro de todos os projetos de
+      pesquisa desenvolvidos na UFABC?"
+    alternative:
+    - PROAP
+    - PROPES
+    - PROEC
+    - PROGRAD
+    correctAnswer: 1
+  - theme: PROPES
+    question: "A divis\xE3o da PROPES que tem a miss\xE3o de formalizar e certificar
+      os grupos de pesquisa da UFABC no Diret\xF3rio de Grupos de Pesquisa do CNPq
+      \xE9:"
+    alternative:
+    - "Gest\xE3o de Projetos"
+    - "Inicia\xE7\xE3o Cient\xEDfica"
+    - Central de Apoio ao Pesquisador (CAP)
+    - "Escrit\xF3rio de Integridade em Pesquisa (EIP)"
+    correctAnswer: 2
+  - theme: PROPES
+    question: "A qual Pr\xF3-Reitoria est\xE1 vinculado o Escrit\xF3rio de Integridade
+      em Pesquisa (EIP), que coordena a\xE7\xF5es preventivas quanto \xE0 integridade
+      da pesquisa realizada por pesquisadores da UFABC:"
+    alternative:
+    - PROAP
+    - PROPES
+    - PROEC
+    - PROGRAD
+    correctAnswer: 1
+  - theme: PROPES
+    question: "Qual \xE9 a divis\xE3o da PROPES que tem a miss\xE3o de \"examinar
+      alega\xE7\xF5es de m\xE1 conduta em pesquisa ou publica\xE7\xE3o de pesquisadores
+      vinculados \xE0 UFABC\"?"
+    alternative:
+    - "Gest\xE3o de Projetos"
+    - Central de Apoio ao Pesquisador (CAP)
+    - "Escrit\xF3rio de Integridade em Pesquisa (EIP)"
+    - "Inicia\xE7\xE3o Cient\xEDfica"
+    correctAnswer: 2
+  - theme: PROPES
+    question: "Qual \xE9 a divis\xE3o da PROPES que preza pela conduta \xE9tica no
+      momentos da realiza\xE7\xE3o e utiliza\xE7\xE3o de pesquisas realizadas por
+      pesquisador@s vinculad@s \xE0 UFABC?"
+    alternative:
+    - "Gest\xE3o de Projetos"
+    - Central de Apoio ao Pesquisador (CAP)
+    - "Escrit\xF3rio de Integridade em Pesquisa (EIP)"
+    - "Inicia\xE7\xE3o Cient\xEDfica"
+    correctAnswer: 2
+  - theme: PROPES
+    question: "Voc\xEA sabia que a UFABC possui tr\xEAs Biot\xE9rios de Cria\xE7\xE3o
+      e Experimenta\xE7\xE3o? Voc\xEA acha que os Biot\xE9rios est\xE3o vinculados
+      \xE0 qual Pr\xF3-reitoria?"
+    alternative:
+    - PROAP
+    - PROEC
+    - PROPES
+    - PROGRAD
+    correctAnswer: 2
+  - theme: PROPES
+    question: "As Centrais Experimentais Multiusu\xE1rio (CEM) s\xE3o laborat\xF3rios
+      equipados com acess\xF3rios de m\xE9dio e grande porte para realiza\xE7\xE3o
+      de experimentos e est\xE1 vinculado \xE0:"
+    alternative:
+    - PROEC
+    - PROPES
+    - PROAP
+    - PROGRAD
+    correctAnswer: 1
+  - theme: PROPES
+    question: "A gest\xE3o e a manuten\xE7\xE3o dos equipamentos do \u2018Setor de
+      Computa\xE7\xE3o Cient\xEDfica\u2019 da UFABC s\xE3o realizados por qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROAP
+    - PROEC
+    - PROPES
+    - PROGRAD
+    correctAnswer: 2
+  - theme: PROPES
+    question: "A divis\xE3o da PROPES conhecida por ser \u201Co parque de equipamentos
+      de tecnologia da informa\xE7\xE3o\u201D da UFABC \xE9:"
+    alternative:
+    - "Biot\xE9rio de Cria\xE7\xE3o e Experimenta\xE7\xE3o em Camundongos"
+    - "Setor de Computa\xE7\xE3o Cient\xEDfica"
+    - "Centrais Experimentais Multiusu\xE1rio"
+    - "Escrit\xF3rio de Integridade em Pesquisa (EIP)"
+    correctAnswer: 1
+  - theme: PROPES
+    question: "O Herb\xE1rio da Universidade Federal do ABC (HUFABC) est\xE1 localizado
+      no Bloco Delta do campus de S\xE3o Bernardo do Campo. Qual Pr\xF3-reitoria \xE9
+      respons\xE1vel por ele?  "
+    alternative:
+    - PROAP
+    - PROPES
+    - PROEC
+    - PROGRAD
+    correctAnswer: 1
+  - theme: PROPES
+    question: "A PROPES \xE9 respons\xE1vel por uma \xE1rea que \u201Cpossui uma cole\xE7\xE3o
+      com cerca de 1.000 exsicatas vindas principalmente de Parques da regi\xE3o do
+      ABC Paulista\u201D. Esta \xE1rea \xE9:"
+    alternative:
+    - "Herb\xE1rio da Universidade Federal do ABC (HUFABC)"
+    - "Biot\xE9rio de Cria\xE7\xE3o e Experimenta\xE7\xE3o em Camundongos"
+    - "Setor de Computa\xE7\xE3o Cient\xEDfica"
+    - "Biot\xE9rio de Cria\xE7\xE3o de Ratos"
+    correctAnswer: 0
+  - theme: PROPES
+    question: "Os N\xFAcleos Estrat\xE9gicos de Pesquisa t\xEAm o objetivo de promover
+      a produ\xE7\xE3o do conhecimento em \xE1reas inovadoras, com interdisciplinaridade.
+      Est\xE3o vinculados \xE0:"
+    alternative:
+    - PROEC
+    - PROAP
+    - PROPES
+    - PROGRAD
+    correctAnswer: 2
+  - theme: PROPES
+    question: "Qual Pr\xF3-reitoria \xE9 respons\xE1vel por mediar as  rela\xE7\xF5es
+      com as ag\xEAncias de fomento \xE0 pesquisa, como a CNPq, FAPESP, FINEP e CAPES. "
+    alternative:
+    - PROEC
+    - PROPES
+    - PROAP
+    - PROGRAD
+    correctAnswer: 1
+  - theme: PROPG
+    question: "Qual Pr\xF3-Reitoria \xE9 respons\xE1vel pelo oferecimento de cursos
+      de p\xF3s-gradua\xE7\xE3o stricto sensu (mestrado e doutorado)?"
+    alternative:
+    - PROGRAD
+    - PROPG
+    - 'PROEC '
+    - PROPLADI
+    correctAnswer: 1
+  - theme: PROPG
+    question: "Os cursos de mestrado e doutorado contam com bolsas institucionais
+      e de ag\xEAncias de fomento \xE0 pesquisa. Qual Pr\xF3-Reitoria \xE9 respons\xE1vel
+      por eles?"
+    alternative:
+    - PROPG
+    - PROPLADI
+    - PROGRAD
+    - PROEC
+    correctAnswer: 0
+  - theme: PROPG
+    question: "Como a UFABC \xE9 uma Universidade Federal, os cursos de mestrado e
+      de doutorado s\xE3o gratuitos. Qual Pr\xF3-Reitoria \xE9 respons\xE1vel por
+      esses tipos de curso? "
+    alternative:
+    - PROGRAD
+    - PROPLADI
+    - PROPG
+    - PROEC
+    correctAnswer: 2
+  - theme: PROAD
+    question: "Qual Pr\xF3-Reitoria tem a fun\xE7\xE3o de apoiar as diversas \xE1reas
+      da UFABC, como a PROGRAD, PROPG e PROEC?"
+    alternative:
+    - PROAD
+    - PROPG
+    - PROPLADI
+    - PROGRAD
+    correctAnswer: 0
+  - theme: PROAD
+    question: "Atividades de apoio e gest\xE3o nas \xE1reas de Finan\xE7as, Gest\xE3o
+      Patrimonial e Administra\xE7\xE3o de Contratos Nacionais e Internacionais s\xE3o
+      atribui\xE7\xF5es de qual Pr\xF3-Reitoria? "
+    alternative:
+    - PROPLADI
+    - PROPG
+    - PROAD
+    - PROGRAD
+    correctAnswer: 2
+  - theme: PROAD
+    question: "A Coordena\xE7\xE3o Geral de Suprimentos e Aquisi\xE7\xF5es (CGSA)
+      \xE9 respons\xE1vel por realizar as contrata\xE7\xF5es de servi\xE7os demandados
+      por todas as \xE1reas da UFABC, e est\xE1 vinculada a qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROAD
+    - PROPLADI
+    - PROPG
+    - PROGRAD
+    correctAnswer: 0
+  - theme: PROAD
+    question: "A Coordena\xE7\xE3o Geral de Finan\xE7as e Contabilidade (CGFC) \xE9
+      respons\xE1vel pela gest\xE3o e execu\xE7\xE3o dos recursos or\xE7ament\xE1rios
+      e financeiros da UFABC e est\xE1 vinculada a qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROAD
+    - PROPG
+    - PROPLADI
+    - PROGRAD
+    correctAnswer: 0
+  - theme: PROAD
+    question: "A Divis\xE3o de Patrim\xF4nio \xE9 respons\xE1vel pela entrada de bens,
+      registro e aloca\xE7\xE3o. Esta divis\xE3o est\xE1 vinculada a qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROPG
+    - PROAD
+    - PROPLADI
+    - PROGRAD
+    correctAnswer: 1
+  - theme: PROPLADI
+    question: "Qual Pr\xF3-Reitoria tem a fun\xE7\xE3o de promover o planejamento
+      institucional, econ\xF4mico e organizacional da Universidade?"
+    alternative:
+    - PROAD
+    - PROGRAD
+    - PROPLADI
+    - PROAP
+    correctAnswer: 2
+  - theme: PROPLADI
+    question: "O \"Plano de Gest\xE3o de Log\xEDstica Sustent\xE1vel\" (PLS) prev\xEA
+      pr\xE1ticas de sustentabilidade, estabelecidas no \u201CPlano de Desenvolvimento
+      Institucional\u201D (PDI) e  est\xE3o vinculados a qual Pr\xF3-Reitoria?"
+    alternative:
+    - PROGRAD
+    - PROAD
+    - PROPLADI
+    - PROAP
+    correctAnswer: 2
+  - theme: PROPLADI
+    question: "No ano de 2018, um total de 985 \u2018Bolsas Perman\xEAncia\u2019 foram
+      concedidas \xE0 estudantes da UFABC. Qual Pr\xF3-Reitoria \xE9 respons\xE1vel
+      por obter, analisar e divulgar esses dados?"
+    alternative:
+    - PROGRAD
+    - PROPLADI
+    - PROAD
+    - PROAP
+    correctAnswer: 1
+  - theme: PROPLADI
+    question: "Qual \xE9 a Pr\xF3-Reitoria realiza a pesquisa anual com objetivo de
+      mapear o perfil dos seus alunos de gradua\xE7\xE3o, para formular pol\xEDticas
+      institucionais condizentes?"
+    alternative:
+    - PROPLADI
+    - PROGRAD
+    - PROAP
+    - PROAD
+    correctAnswer: 0
+  - theme: PROPLADI
+    question: "Qual Pr\xF3-Reitoria realiza planos, projetos, previs\xF5es, e otimiza\xE7\xF5es
+      de assuntos institucionais, or\xE7ament\xE1rios e estrat\xE9gicos da UFABC?"
+    alternative:
+    - PROAD
+    - PROAP
+    - PROPLADI
+    - PROGRAD
+    correctAnswer: 2
+  - theme: REITORIA
+    question: "Qual \xE9 o \xF3rg\xE3o executivo m\xE1ximo da Universidade Federal
+      do ABC?"
+    alternative:
+    - Reitoria
+    - Diretoria
+    - Gabinete
+    - "Administra\xE7\xE3o"
+    correctAnswer: 0
+  - theme: REITORIA
+    question: "As Pr\xF3-Reitorias s\xE3o ramifica\xE7\xF5es horizontais e estrat\xE9gicas
+      de um \xF3rg\xE3o m\xE1ximo da UFABC. Qual \xF3rg\xE3o \xE9 este?"
+    alternative:
+    - Reitoria
+    - Gabinete
+    - Diretoria
+    - "Administra\xE7\xE3o"
+    correctAnswer: 0
+  - theme: REITORIA
+    question: "O Cerimonial \xE9 a \xE1rea respons\xE1vel por operacionalizar eventos
+      oficiais que envolvem a presen\xE7a de pessoas importantes. Est\xE1 vinculado
+      \xE0 qual \xF3rg\xE3o m\xE1ximo da UFABC?"
+    alternative:
+    - Reitoria
+    - Diretoria
+    - Gabinete
+    - "Administra\xE7\xE3o"
+    correctAnswer: 0
+  - theme: OUVIDORIA
+    question: "O \xF3rg\xE3o da UFABC que recebe e analisa as manifesta\xE7\xF5es
+      de den\xFAncias, reclama\xE7\xF5es, elogios e sugest\xF5es recebe o nome de:"
+    alternative:
+    - Corregedoria
+    - Auditoria Interna
+    - Ouvidoria
+    - Procuradoria
+    correctAnswer: 2
+  - theme: OUVIDORIA
+    question: "A Ouvidoria da UFABC recebe as in\xFAmeras formas de manifesta\xE7\xE3o
+      por meio de:"
+    alternative:
+    - "Sistema Eletr\xF4nico"
+    - "Atendimento Telef\xF4nico"
+    - Atendimento Presencial
+    - E-mail
+    correctAnswer: 0
+  - theme: OUVIDORIA
+    question: "Qual \xF3rg\xE3o da Universidade tem o papel de garantir a participa\xE7\xE3o
+      social por meio de manifesta\xE7\xF5es, e dessa forma \xE9 uma das ferramentas
+      de \u201Cconsolida\xE7\xE3o da Democracia\u201D na UFABC?"
+    alternative:
+    - Auditoria Interna
+    - Corregedoria
+    - Ouvidoria
+    - Procuradoria
+    correctAnswer: 2
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "Qual \xF3rg\xE3o suplementar da UFABC \xE9 respons\xE1vel pelo planejamento,
+      constru\xE7\xE3o, conserva\xE7\xE3o e manuten\xE7\xE3o das \xE1reas f\xEDsicas
+      dos campi de SA e SBC?"
+    alternative:
+    - "Prefeitura Universit\xE1ria"
+    - Reitoria
+    - 'PROGRAD '
+    - PROAD
+    correctAnswer: 0
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "Qual \xF3rg\xE3o suplementar da UFABC \xE9 respons\xE1vel por prestar
+      de servi\xE7os de transportes, controle de pragas, vigil\xE2ncia e limpeza?"
+    alternative:
+    - Reitoria
+    - 'PROGRAD '
+    - "Prefeitura Universit\xE1ria"
+    - PROAD
+    correctAnswer: 2
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "Qual \xF3rg\xE3o suplementar da UFABC \xE9 respons\xE1vel, junto \xE0
+      PROPLADI, por realizar o controle da disponibiliza\xE7\xE3o dos recursos or\xE7ament\xE1rios? "
+    alternative:
+    - 'PROGRAD '
+    - "Prefeitura Universit\xE1ria"
+    - Reitoria
+    - PROAD
+    correctAnswer: 1
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "O Sistema de Planejamento e Gerenciamento de Contrata\xE7\xF5es acompanha
+      a vig\xEAncia dos contratos que a UFABC tem com empresas terceirizadas. Est\xE1
+      associado \xE0:"
+    alternative:
+    - Reitoria
+    - "Prefeitura Universit\xE1ria"
+    - 'PROGRAD '
+    - PROAD
+    correctAnswer: 1
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "Garantir o fornecimento de energia el\xE9trica, \xE1gua e coleta de
+      esgoto s\xE3o atribui\xE7\xF5es de qual \xF3rg\xE3o suplementar da UFABC?"
+    alternative:
+    - Reitoria
+    - "Prefeitura Universit\xE1ria"
+    - PROAP
+    - PROAD
+    correctAnswer: 1
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "A \u2018Divis\xE3o de Suprimentos\u2019 \xE9 respons\xE1vel por cuidar
+      da log\xEDstica dos materiais de consumo gerais da UFABC, como a compra e armazenamento
+      deles e pertence a qual \xF3rg\xE3o suplementar? "
+    alternative:
+    - PROAP
+    - Reitoria
+    - "Prefeitura Universit\xE1ria"
+    - PROAD
+    correctAnswer: 2
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "Qual \xE9 o \xF3rg\xE3o suplementar que gerencia a frota de ve\xEDculos
+      pertencentes \xE0 UFABC e as contrata\xE7\xF5es dos servi\xE7os terceirizados,
+      por meio da  \u2018Divis\xE3o de Transportes\u2019?"
+    alternative:
+    - Reitoria
+    - "Prefeitura Universit\xE1ria"
+    - PROAP
+    - PROAD
+    correctAnswer: 1
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "Eventualmente, alunos e professores precisam se deslocar para fora
+      da Universidade a fim de realizar de pesquisas de campo. Podem solicitar um
+      ve\xEDculo oficial por meio da:"
+    alternative:
+    - Reitoria
+    - "Prefeitura Universit\xE1ria"
+    - 'PROGRAD '
+    - PROAD
+    correctAnswer: 1
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "Qual \xF3rg\xE3o suplementar da UFABC \xE9 respons\xE1vel pelos contratos
+      de limpeza, zeladoria, jardinagem e coleta de res\xEDduos?"
+    alternative:
+    - Reitoria
+    - PROAP
+    - "Prefeitura Universit\xE1ria"
+    - PROAD
+    correctAnswer: 2
+  - theme: "PREFEITURA UNIVERSIT\xC1RIA"
+    question: "Caso voc\xEA perceba que algum dos elevadores da UFABC esteja apresentando
+      problemas, a qual \xF3rg\xE3o suplementar voc\xEA deve informar?"
+    alternative:
+    - PROAP
+    - Reitoria
+    - "Prefeitura Universit\xE1ria"
+    - PROAD
+    correctAnswer: 2
+  - theme: NETEL
+    question: "A qual \xF3rg\xE3o executivo m\xE1ximo est\xE1 vinculado o N\xFAcleo
+      Educacional de Tecnologias e L\xEDnguas que visa construir um modelo de educa\xE7\xE3o
+      que estimule a explora\xE7\xE3o de novas possibilidades de aprendizagem. "
+    alternative:
+    - Diretoria
+    - Reitoria
+    - Gabinete
+    - "Administra\xE7\xE3o"
+    correctAnswer: 1
+  - theme: NETEL
+    question: "Qual n\xFAcleo da UFABC apoia o uso da tecnologia na educa\xE7\xE3o
+      acess\xEDvel e fomenta pesquisas de ponta na \xE1rea de tecnologia?"
+    alternative:
+    - Inova
+    - NTE
+    - NETEL
+    - NTI
+    correctAnswer: 2
+  - theme: NETEL
+    question: "Qual n\xFAcleo da UFABC oferece cursos livres de capacita\xE7\xE3o
+      na \xE1rea de tecnologias educacionais e l\xEDnguas?"
+    alternative:
+    - NTE
+    - NETEL
+    - Inova
+    - NTI
+    correctAnswer: 1
+  - theme: NETEL
+    question: "A \u2018Divis\xE3o de Idiomas\u2019 oferece cursos de ingl\xEAs, franc\xEAs,
+      espanhol, italiano e \u2018portugu\xEAs para falantes de outras l\xEDnguas\u2019,
+      de forma gratuita e presencial e est\xE1 vinculado a qual n\xFAcleo da UFABC?"
+    alternative:
+    - Inova
+    - NETEL
+    - ARI
+    - NTI
+    correctAnswer: 1
+  - theme: NETEL
+    question: "Qual \xE9 o n\xFAcleo, vinculado \xE0 Reitoria, que oferece servi\xE7os
+      que est\xE3o sempre relacionados \xE0 utiliza\xE7\xE3o e desenvolvimento de
+      tecnologias educacionais, como \u2018produ\xE7\xE3o de videoaulas\u2019?"
+    alternative:
+    - Inova
+    - NTE
+    - NETEL
+    - NTI
+    correctAnswer: 2
+  - theme: INOVA
+    question: "Qual \xE9 o \xF3rg\xE3o da Universidade respons\xE1vel por promover
+      o est\xEDmulo empreendedor tecnol\xF3gico, interagindo com atores externos,
+      especialmente no setor produtivo?"
+    alternative:
+    - NETEL
+    - Inova UFABC
+    - PROEC
+    - PROPES
+    correctAnswer: 1
+  - theme: INOVA
+    question: "A Incubadora de Base Tecnol\xF3gica da UFABC (ITUFABC) capacita empreendedores
+      na gera\xE7\xE3o de inova\xE7\xF5es tecnol\xF3gicas e fomentar o esp\xEDrito
+      empreendedor na UFABC. Ela pertence \xE0:"
+    alternative:
+    - Inova UFABC
+    - NETEL
+    - PROEC
+    - PROPES
+    correctAnswer: 0
+  - theme: INOVA
+    question: "Para constituir uma nova 'Entidade Profissional e Empreendedora' na
+      UFABC voc\xEA deve procurar mais informa\xE7\xF5es com uma ag\xEAncia que se
+      chama:"
+    alternative:
+    - PROEC
+    - Inova UFABC
+    - NETEL
+    - PROPES
+    correctAnswer: 1
+  - theme: 'NTI '
+    question: "Qual \xE9 o \xF3rg\xE3o da UFABC que gerencia e monitora os servi\xE7os
+      de acesso \xE0 internet, prestando atendimento de suporte na utiliza\xE7\xE3o
+      dos servi\xE7os de acesso \xE0 rede?"
+    alternative:
+    - "Pr\xF3-reitoria de Administra\xE7\xE3o (PROAD)"
+    - "Prefeitura Universit\xE1ria (PU)"
+    - "N\xFAcleo de Tecnologia da Informa\xE7\xE3o (NTI)"
+    - "Pr\xF3-reitoria de Assuntos Comunit\xE1rios e Pol\xEDticas Afirmativas (PROAP)"
+    correctAnswer: 2
+  - theme: 'NTI '
+    question: "Qual \xE9 o \xF3rg\xE3o da UFABC que prop\xF5e melhorias nos sistemas
+      operacionais dos equipamentos e microcomputadores dos usu\xE1rio, seus hardwares
+      e softwares?"
+    alternative:
+    - "N\xFAcleo de Tecnologia da Informa\xE7\xE3o (NTI)"
+    - "Pr\xF3-reitoria de Administra\xE7\xE3o (PROAD)"
+    - " N\xFAcleo Educacional de Tecnologias e L\xEDnguas (NETEL)"
+    - "Pr\xF3-reitoria de Assuntos Comunit\xE1rios e Pol\xEDticas Afirmativas (PROAP)"
+    correctAnswer: 0
+  - theme: 'NTI '
+    question: "Qual \xE9 o \xF3rg\xE3o da UFABC que presta apoio t\xE9cnico para solu\xE7\xE3o
+      de problemas dos equipamentos de  inform\xE1tica das salas de aula e laborat\xF3rios?"
+    alternative:
+    - "Pr\xF3-reitoria de Administra\xE7\xE3o (PROAD)"
+    - "N\xFAcleo de Tecnologia da Informa\xE7\xE3o (NTI)"
+    - "N\xFAcleo de Tecnologias Educacionais (NTE)"
+    - "Pr\xF3-reitoria de Assuntos Comunit\xE1rios e Pol\xEDticas Afirmativas (PROAP)"
+    correctAnswer: 1

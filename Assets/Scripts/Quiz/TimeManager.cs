@@ -9,13 +9,9 @@ public class TimeManager : MonoBehaviour
 {
     public static TimeManager instance;
     public float timeToWait;
-    public float repeatInstances;
-    private float count;
 
     // Variável usada para armazenar uma referencia a corrotina (que deve ser interrompida caso necessário)
     private Coroutine timerCoroutineInstance = null;
-
-    public TimerAnimation timerAnimation;
 
     public UnityEngine.UI.Image progressionBar;
     public float totalTime;
@@ -62,45 +58,6 @@ public class TimeManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
             // Chama a função novamente
             timerCoroutineInstance = StartCoroutine(Timer());
-        }
-        // Caso contrário
-        else
-        {
-            // Chama a função que lida com o fim do tempo
-            StartCoroutine(EndOfTime());
-        }
-    }
-
-    /// <summary>
-    /// Função que inicia o timer animado
-    /// </summary>
-    public void StartTimer_MovingEletron()
-    {
-        // Reseta a posição inicial
-        timerAnimation.RestarAnimation();
-        // Reseta o numero de iterações
-        count = repeatInstances;
-        // Começa o timer animado
-        StartCoroutine(Timer_MovingEletron());
-    }
-    
-    /// <summary>
-    /// Função que gerencia o timer animado
-    /// </summary>
-    /// <returns></returns>
-    public IEnumerator Timer_MovingEletron()
-    {
-        // Se ainda há iterações a serem feitas
-        if (count > 0)
-        {
-            // Aguarda o tempo entre iterações
-            yield return new WaitForSeconds(timeToWait);
-            // Decrementa o numero de iterações que faltam
-            count--;
-            // Realiza a proxima transção da animação
-            timerAnimation.NextTransition();
-            // Chama a função novamente
-            timerCoroutineInstance = StartCoroutine(Timer_MovingEletron());
         }
         // Caso contrário
         else

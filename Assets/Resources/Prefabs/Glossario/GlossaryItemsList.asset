@@ -17,7 +17,7 @@ MonoBehaviour:
     sigla: PROGRAD
     descricao: Lalalala
     link: prograd.ufabc.edu.br
-    logo: {fileID: 0}
+    logo: {fileID: 21300000, guid: 3c68c5890f6ad224ea6e14e0b8863937, type: 3}
   - nome: "Pro Reitoria de Gradua\xE7\xE3o"
     sigla: roaoer
     descricao: Lalalala

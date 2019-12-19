@@ -6,6 +6,7 @@ public class NPCTalk : MonoBehaviour
 {
     public string[] falas;
     public TalkTextBox talkTextBox;
+    public NPCMovementController controller;
 
     /// <summary>
     /// Coloca as falas do NPC no balão
@@ -18,5 +19,10 @@ public class NPCTalk : MonoBehaviour
     public virtual void Talk(string [] s)
     {
         talkTextBox.ShowTalk(s);
+    }
+    
+    public void LookToPlayer(Transform playerPos)
+    {
+        controller.LookToPlayer(playerPos);
     }
 }

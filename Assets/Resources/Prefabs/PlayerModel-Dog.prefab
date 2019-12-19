@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1827203778123848921}
   - component: {fileID: 6908046858954751630}
   m_Layer: 0
-  m_Name: TamanduaRender
+  m_Name: DogRender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,8 +67,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 6019851
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8fea5cff5af82634e953c82ba27f80d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -156,9 +156,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.3}
+  m_Offset: {x: 0, y: 0.23047908}
   serializedVersion: 2
-  m_Radius: 0.09
+  m_Radius: 0.23294349
 --- !u!1 &5004987696468917413
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5004987696468917414}
   m_Layer: 0
-  m_Name: Tamandua
+  m_Name: Dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +201,6 @@ GameObject:
   - component: {fileID: 5004987696830647210}
   - component: {fileID: 5004987696830647209}
   - component: {fileID: 675342689552966288}
-  - component: {fileID: 222698162020813982}
   - component: {fileID: 5004987696830647213}
   - component: {fileID: 5004987696830647212}
   - component: {fileID: 5004987696830647211}
@@ -257,21 +256,9 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5004987696830647208}
   m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 6019851
+  m_SortingLayer: 6
   m_SortingOrder: 0
---- !u!114 &222698162020813982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5004987696830647208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0601f5b47cfbf534a8a4513f5086c555, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5004987696830647213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,6 +289,7 @@ MonoBehaviour:
   playerController: {fileID: 5004987696830647213}
   talkTextBox: {fileID: 0}
   keyDelay: 0.1
+  interactableObj: {fileID: 0}
 --- !u!114 &5004987696830647211
 MonoBehaviour:
   m_ObjectHideFlags: 0

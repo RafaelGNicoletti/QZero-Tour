@@ -9,6 +9,9 @@ TagManager:
   - NPC_Talk
   - EncaixeLogo
   - EncaixeNome
+  - Interactable_Object
+  - InfoTextWindow
+  - PopUpBalloon
   layers:
   - Default
   - TransparentFX

@@ -28,11 +28,20 @@ public class EntidadeEncaixeManager : MonoBehaviour
             encaixeLogo.GetComponent<EntidadeEncaixe>().LockObject();
             duoComplete = true;
             sceneEntidadeController.CorrectAnswer();
+            ClearBackground();
         }
     }
 
     private void Update()
     {
         CheckNames();
+    }
+
+    private void ClearBackground()
+    {
+        encaixeNome.transform.GetChild(0).gameObject.SetActive(false);
+        encaixeLogo.transform.GetChild(0).gameObject.SetActive(false);
+        encaixeNome.GetComponent<EntidadeEncaixe>().ClearBackground();
+        encaixeDescricao.transform.GetChild(0).gameObject.SetActive(false);
     }
 }

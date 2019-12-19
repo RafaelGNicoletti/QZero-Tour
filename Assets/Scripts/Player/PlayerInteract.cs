@@ -12,6 +12,11 @@ public class PlayerInteract : MonoBehaviour
     private float keyDelay = 0.05f; //Tempo de espera entre inputs consectivos (1f = 1 segundo), serve para evitar múltiplos inputs
     private float timePassed = 0; //Tempo que passou desde o último input
 
+    public GameObject interactableObj = null;
+
+    [SerializeField]
+    private InteractableObject interactableObject;
+
     private void FixedUpdate()
     {
         timePassed += Time.deltaTime; //Adiciona ao tempo que passou desde o último input
@@ -39,6 +44,17 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag("NPC_Talk")) //Se o jogador entrou no trigger de algum NPC que fala, ele recebe a referência a esse NPC
         {
             npcTalking = other.gameObject;
+            other.GetComponent<NPCBalloon>().CreateBalloon();
+        }
+        /// Interação com outros objetos - usado para abrir os minijogos
+        /// TEMPORÁRIO
+        else if (other.CompareTag("Interactable_Object"))
+        {
+            interactableObj = other.gameObject;
+
+            interactableObject = interactableObj.GetComponent<InteractableObject>();
+
+            other.GetComponent<NPCBalloon>().CreateBalloon();
         }
 
         else if (other.CompareTag("Interactive_Object"))
@@ -54,6 +70,14 @@ public class PlayerInteract : MonoBehaviour
         if (npcTalking && other.CompareTag(npcTalking.tag) && other.gameObject == npcTalking) //Se o jogador sair da trigger de algum NPC que fala, ele perde a referência ao NPC.
         {
             npcTalking = null;
+            other.GetComponent<NPCBalloon>().DestroyBalloon();
+        }
+        /// Interação com outros objetos - usado para abrir os minijogos
+        /// TEMPORÁRIO
+        else if (interactableObj != null && other.CompareTag(interactableObj.tag))
+        {
+            interactableObj = null;
+            other.GetComponent<NPCBalloon>().DestroyBalloon();
         }
 
         else if (interactiveObject && other.CompareTag(interactiveObject.tag) && other.gameObject == interactiveObject)
@@ -71,13 +95,43 @@ public class PlayerInteract : MonoBehaviour
         {
             npcTalking.GetComponent<NPCTalk>().Talk();
             playerController.SetStatus("talking");
+
+            // Player olha pra NPC e NPC olha pra player...
+            npcTalking.GetComponent<NPCTalk>().LookToPlayer(this.transform);
+            LookTo(npcTalking.transform);
+
             ReseTime();
         }
-
         else if(InputReady() && interactiveObject)
         {
             interactiveObject.GetComponent<InteractiveObject>().Interact();
             ReseTime();
+        }
+        // REVER Conflito de merge (talvez de pra simplificar...)
+        /// Interação com outros objetos - usado para abrir os minijogos
+        /// TEMPORÁRIO
+        else if (Input.GetKeyDown(KeyCode.Space) && interactableObj && timePassed >= keyDelay)
+        {
+            if (interactableObject.GetEnterGame())
+            {
+                interactableObject.LoadMinigame();
+            }
+            else if (interactableObject.GetEnterBuilding())
+            {
+                interactableObject.LoadMap();
+            }
+            else if (interactableObject.GetTalkTo())
+            {
+                interactableObject.PlayDialogue();
+            }
+            else if (interactableObject.GetElevator())
+            {
+                interactableObject.OpenElevator();
+                if (GameObject.FindGameObjectWithTag("PopUpBalloon"))
+                {
+                    GameObject.FindGameObjectWithTag("PopUpBalloon").SetActive(false);
+                }
+            }
         }
     }
 
@@ -104,5 +158,19 @@ public class PlayerInteract : MonoBehaviour
     public void StopTalking()
     {
         playerController.SetStatus("walking");
+        npcTalking.transform.parent.parent.GetComponentInChildren<NPCMovementController>().SetIsTalking(false);
+    }
+
+    /// <summary>
+    /// Fun~ção que faz o player olhar para algo (target)
+    /// </summary>
+    /// <param name="target"></param>
+    public void LookTo(Transform target)
+    {
+        Vector2 direction = new Vector2();
+        direction = target.position - this.transform.position;
+        direction = direction.normalized;
+
+        GetComponentInChildren<PlayerCharacterRenderer>().SetDirection(direction);
     }
 }
