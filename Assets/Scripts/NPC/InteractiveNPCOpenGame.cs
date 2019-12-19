@@ -5,13 +5,21 @@ using UnityEngine;
 public class InteractiveNPCOpenGame : MonoBehaviour, InteractiveObject
 {
     [SerializeField] private string gameSceneName;
+    [SerializeField] private GameObject altDialog;
+    [SerializeField] private string gameIntro;
 
     public void Interact()
     {
-        GoToGame();
+        altDialog.SetActive(true);
+        altDialog.GetComponentInChildren<UnityEngine.UI.Text>().text = gameIntro;
     }
 
-    private void GoToGame()
+    public void CancelGame()
+    {
+        altDialog.SetActive(false);
+    }
+
+    public void GoToGame()
     {
         GameManager.instance.SetPlayerPos(GameObject.FindGameObjectWithTag("Player").transform.position);
         GameManager.instance.SetCameraPos(GameObject.FindGameObjectWithTag("MainCamera").transform.position);
