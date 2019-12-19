@@ -255,7 +255,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "E \xE9 isso! Podemos come\xE7ar?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cb87b182062115a468d5e8e8830e845c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e83c6aee6ffc6a14ab55755fc3e1ed9d, type: 2}
   m_sharedMaterial: {fileID: 4336565921205585313, guid: cb87b182062115a468d5e8e8830e845c,
     type: 2}
   m_fontSharedMaterials: []
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -518,7 +518,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "Procure o livro que pe\xE7o nas prateleiras de acordo com a cor e o c\xF3digo."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cb87b182062115a468d5e8e8830e845c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e83c6aee6ffc6a14ab55755fc3e1ed9d, type: 2}
   m_sharedMaterial: {fileID: 4336565921205585313, guid: cb87b182062115a468d5e8e8830e845c,
     type: 2}
   m_fontSharedMaterials: []
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -751,7 +751,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: defe412d20128a84b84e982ed0ed6afc, type: 3}
+    m_Font: {fileID: 12800000, guid: b99c5bd38ba885147999116c9c7c1fd5, type: 3}
     m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
@@ -897,7 +897,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "Aperte <color=#FF0000>espa\xE7o</color> para interagir com pessoas e estantes."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cb87b182062115a468d5e8e8830e845c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e83c6aee6ffc6a14ab55755fc3e1ed9d, type: 2}
   m_sharedMaterial: {fileID: 4336565921205585313, guid: cb87b182062115a468d5e8e8830e845c,
     type: 2}
   m_fontSharedMaterials: []
@@ -976,7 +976,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -1347,7 +1347,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: defe412d20128a84b84e982ed0ed6afc, type: 3}
+    m_Font: {fileID: 12800000, guid: b99c5bd38ba885147999116c9c7c1fd5, type: 3}
     m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
@@ -1598,15 +1598,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1797334551}
-        m_MethodName: NextScreen
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: 1992c5a6f973b2844a474e6a094f9174, type: 2}
+        m_MethodName: SimpleLoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: JogoLibrary
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2060,7 +2060,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: defe412d20128a84b84e982ed0ed6afc, type: 3}
+    m_Font: {fileID: 12800000, guid: b99c5bd38ba885147999116c9c7c1fd5, type: 3}
     m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
@@ -2290,7 +2290,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "Esse espa\xE7o indica o item que voc\xEA est\xE1 carragando."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cb87b182062115a468d5e8e8830e845c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e83c6aee6ffc6a14ab55755fc3e1ed9d, type: 2}
   m_sharedMaterial: {fileID: 4336565921205585313, guid: cb87b182062115a468d5e8e8830e845c,
     type: 2}
   m_fontSharedMaterials: []
@@ -2369,7 +2369,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -2523,7 +2523,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: defe412d20128a84b84e982ed0ed6afc, type: 3}
+    m_Font: {fileID: 12800000, guid: b99c5bd38ba885147999116c9c7c1fd5, type: 3}
     m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
@@ -2761,7 +2761,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: defe412d20128a84b84e982ed0ed6afc, type: 3}
+    m_Font: {fileID: 12800000, guid: b99c5bd38ba885147999116c9c7c1fd5, type: 3}
     m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
@@ -2842,8 +2842,8 @@ MonoBehaviour:
   m_text: Mova o personagem com <color=#FF0000>W, A, S, D</color> ou as <color=#FF0000>setas
     do teclado</COLOR>.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cb87b182062115a468d5e8e8830e845c, type: 2}
-  m_sharedMaterial: {fileID: 4336565921205585313, guid: cb87b182062115a468d5e8e8830e845c,
+  m_fontAsset: {fileID: 11400000, guid: e83c6aee6ffc6a14ab55755fc3e1ed9d, type: 2}
+  m_sharedMaterial: {fileID: -1577886771397162121, guid: e83c6aee6ffc6a14ab55755fc3e1ed9d,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3000,7 +3000,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "Veja no banner para saber a rela\xE7\xE3o entre a cor e o c\xF3digo!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cb87b182062115a468d5e8e8830e845c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e83c6aee6ffc6a14ab55755fc3e1ed9d, type: 2}
   m_sharedMaterial: {fileID: 4336565921205585313, guid: cb87b182062115a468d5e8e8830e845c,
     type: 2}
   m_fontSharedMaterials: []
@@ -3079,7 +3079,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -3307,7 +3307,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: defe412d20128a84b84e982ed0ed6afc, type: 3}
+    m_Font: {fileID: 12800000, guid: b99c5bd38ba885147999116c9c7c1fd5, type: 3}
     m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
@@ -3319,7 +3319,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ccrto!
+  m_Text: Certo!
 --- !u!222 &1706156512
 CanvasRenderer:
   m_ObjectHideFlags: 0

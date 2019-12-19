@@ -800,7 +800,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1141765863}
-
     - target: {fileID: 8602982821410966436, guid: e48968b77639ee7479b6a9022971c083,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -820,7 +819,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: OpenGlossary
-
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e48968b77639ee7479b6a9022971c083, type: 3}
@@ -4148,7 +4146,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6530b1e492a9e47b68e29aeb4ca409, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usingClamp: 0
   followTarget: {fileID: 1163269714}
+  clampX:
+    min: 0
+    max: 0
+  clampY:
+    min: 0
+    max: 0
   moveSpeed: 10
 --- !u!1 &762550838 stripped
 GameObject:
@@ -4299,8 +4304,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -0.1397233, y: 0.6832938}
       - {x: -0.9137964, y: 0.22518349}
-      - {x: -0.23468113, y: -0.08041954}
-      - {x: 1.0967741, y: 0.6607008}
+      - {x: 0.09858608, y: -0.62985945}
+      - {x: 2.1326036, y: 0.39048386}
       - {x: 0.5083246, y: 1.0274372}
 --- !u!1 &811307473
 GameObject:

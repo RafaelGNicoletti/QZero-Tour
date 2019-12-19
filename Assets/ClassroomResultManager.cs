@@ -18,6 +18,7 @@ public class ClassroomResultManager : MonoBehaviour
         if (buttonChangeScene)
         {
             //>>>>>>LOAD SCENE ENTRA AQUI<<<<<<<
+            UnityEngine.SceneManagement.SceneManager.LoadScene(GameManager.instance.GetLastSceneName());
         }
 
         else

@@ -5,7 +5,7 @@ using UnityEngine;
 public class MapController : MonoBehaviour
 {
     private float playerSpeed, tempMov;
-    private GameObject player;
+    [SerializeField] private GameObject player;
     public GameObject canvas;
     public GameObject camera;
     public GameObject[] avatar;

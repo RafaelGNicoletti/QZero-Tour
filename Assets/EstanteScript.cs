@@ -33,7 +33,7 @@ public class EstanteScript : MonoBehaviour, InteractiveObject
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.transform.parent.CompareTag("Player"))
         {
             playerInventory = collision.GetComponentInParent<PlayerInventory>();
             playerController = collision.GetComponentInParent<PlayerController>();
@@ -42,7 +42,7 @@ public class EstanteScript : MonoBehaviour, InteractiveObject
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.transform.parent.CompareTag("Player"))
         {
             playerInventory = null;
             playerController = null;

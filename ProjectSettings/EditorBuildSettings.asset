@@ -47,4 +47,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GlossaryScene.unity
     guid: 763a89921e6d8024a8b9db9b134300d2
+  - enabled: 1
+    path: Assets/Scenes/MiniJogo/Library/JogoLibrary.unity
+    guid: f36b41c6835c1854896b5298d6a24cf7
+  - enabled: 1
+    path: Assets/Scenes/MiniJogo/Library/TutorialLibrary.unity
+    guid: 8b1713cbc12ae6144a108de6b2d72391
+  - enabled: 1
+    path: Assets/Scenes/MiniJogo/JogoClassroomFinder.unity
+    guid: bf4801fc79752824c8c9cebc212fd5c7
   m_configObjects: {}

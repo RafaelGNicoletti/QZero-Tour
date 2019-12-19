@@ -44,7 +44,7 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag("NPC_Talk")) //Se o jogador entrou no trigger de algum NPC que fala, ele recebe a referência a esse NPC
         {
             npcTalking = other.gameObject;
-            other.GetComponent<NPCBalloon>().CreateBalloon();
+            //other.GetComponent<NPCBalloon>().CreateBalloon();
         }
         /// Interação com outros objetos - usado para abrir os minijogos
         /// TEMPORÁRIO
@@ -54,13 +54,15 @@ public class PlayerInteract : MonoBehaviour
 
             interactableObject = interactableObj.GetComponent<InteractableObject>();
 
-            other.GetComponent<NPCBalloon>().CreateBalloon();
+           // other.GetComponent<NPCBalloon>().CreateBalloon();
         }
 
         else if (other.CompareTag("Interactive_Object"))
         {
             interactiveObject = other.gameObject;
         }
+
+        other.GetComponent<NPCBalloon>().CreateBalloon();
     }
 
 

@@ -1224,7 +1224,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 158762524}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 1992c5a6f973b2844a474e6a094f9174, type: 2}
+        m_MethodName: LoadLastScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &158762524
@@ -2474,7 +2485,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 442657317}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 1992c5a6f973b2844a474e6a094f9174, type: 2}
+        m_MethodName: LoadLastScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &442657317
@@ -3335,7 +3357,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 249.50002, y: 167}
-  m_SizeDelta: {x: 95, y: 24.1}
+  m_SizeDelta: {x: 23.66, y: 24.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &631333355
 MonoBehaviour:
@@ -3379,7 +3401,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 631333356}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 1992c5a6f973b2844a474e6a094f9174, type: 2}
+        m_MethodName: LoadLastScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &631333356
@@ -4921,7 +4954,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 215.3, y: 167}
-  m_SizeDelta: {x: 66.4, y: 25}
+  m_SizeDelta: {x: 28.05, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1119510406
 MonoBehaviour:
@@ -6365,7 +6398,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1318162070}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea9c5cfadbf698b4385eb33b46472439, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b8d1606547c4be4d946b7de2bb1eeea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   screenList:
@@ -8468,7 +8501,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1775124217}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 1992c5a6f973b2844a474e6a094f9174, type: 2}
+        m_MethodName: LoadLastScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1775124217
@@ -9465,7 +9509,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1908415996}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 1992c5a6f973b2844a474e6a094f9174, type: 2}
+        m_MethodName: LoadLastScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1908415996

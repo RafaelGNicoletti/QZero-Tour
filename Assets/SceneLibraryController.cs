@@ -76,6 +76,15 @@ public class SceneLibraryController : MonoBehaviour
     [SerializeField]
     private GameObject exitButton;
 
+    [SerializeField] private GameObject[] avatar;
+    [SerializeField] private GameObject camera;
+
+    private void Awake()
+    {
+        avatar[GameManager.instance.GetAvatarSelectedIndex()].SetActive(true);
+        camera.GetComponent<BasicCameraFollow>().followTarget = avatar[GameManager.instance.GetAvatarSelectedIndex()].transform;
+    }
+
     private void Start()
     {
         //Colocar função que deixa o personagem do jogador em foco.
@@ -83,6 +92,8 @@ public class SceneLibraryController : MonoBehaviour
         playerInventory = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInventory>();
         textController.ChangeCurrentLivro(null);
         libraryNPCSearching.FirstConversation(correctLivro);
+
+        playerInventory = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInventory>();
     }
 
     public void GameComplete()
@@ -99,16 +110,23 @@ public class SceneLibraryController : MonoBehaviour
     }
     private void Update()
     {
-        Livro livro = (Livro) playerInventory.GetItemByIndex(0);
-        if (livro != textController.GetCurrentLivro())
+        if (playerInventory == null)
         {
-            if (livro)
+            playerInventory = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInventory>();
+        }
+        else
+        {
+            Livro livro = (Livro) playerInventory.GetItemByIndex(0);
+            if (livro != textController.GetCurrentLivro())
             {
-                textController.ChangeCurrentLivro(livro);
-            }
-            else
-            {
-                textController.ChangeCurrentLivro(livro);
+                if (livro)
+                {
+                    textController.ChangeCurrentLivro(livro);
+                }
+                else
+                {
+                    textController.ChangeCurrentLivro(livro);
+                }
             }
         }
     }

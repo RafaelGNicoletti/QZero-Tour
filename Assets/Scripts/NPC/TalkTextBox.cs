@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class TalkTextBox : MonoBehaviour
 {
     public GameObject background, text, continuar;
-    private PlayerInteract playerInteract;
+    [SerializeField] private PlayerInteract playerInteract;
 
     private int currentText;
     private string[] textToShow;
@@ -15,6 +15,10 @@ public class TalkTextBox : MonoBehaviour
     public void Awake()
     {
         SetGameObjectOff();
+    }
+
+    private void Start()
+    {
         playerInteract = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInteract>(); //Procura o jogador na scene
     }
 
