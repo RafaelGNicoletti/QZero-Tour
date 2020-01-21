@@ -48,7 +48,9 @@ public class InteractableObject : MonoBehaviour
         camera = GameObject.Find("Main Camera");
         GameManager.instance.SetPlayerPos(player.transform.position);
         GameManager.instance.SetCameraPos(camera.transform.position);
-        
+
+        GameManager.instance.SetLastSceneName(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+
         SceneManager.LoadScene(sceneName);
     }
 

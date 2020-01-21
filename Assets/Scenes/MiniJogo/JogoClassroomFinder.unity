@@ -9301,7 +9301,7 @@ PrefabInstance:
     - target: {fileID: 3135863047184029657, guid: 050447abf68f00d4e802da7e9da06a27,
         type: 3}
       propertyPath: valoresValidos.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3135863047184029657, guid: 050447abf68f00d4e802da7e9da06a27,
         type: 3}
@@ -9351,7 +9351,7 @@ PrefabInstance:
     - target: {fileID: 3135863047184029657, guid: 050447abf68f00d4e802da7e9da06a27,
         type: 3}
       propertyPath: valoresValidos.Array.data[9]
-      value: 
+      value: Sala 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 050447abf68f00d4e802da7e9da06a27, type: 3}

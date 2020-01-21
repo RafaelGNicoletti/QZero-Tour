@@ -1,1 +1,22 @@
-{"classRooms":[{"codSala":"S002-0","bloco":"A","torre":"-","andar":"Terreo","sala":"2"},{"codSala":"S005-0","bloco":"A","torre":"-","andar":"Terreo","sala":"5"},{"codSala":"S007","bloco":"A","torre":"-","andar":"Terreo","sala":"7"},{"codSala":"S003","bloco":"A","torre":"-","andar":"Terreo","sala":"3"},{"codSala":"A101-0","bloco":"A","torre":"-","andar":"1","sala":"1"},{"codSala":"A102-0","bloco":"A","torre":"-","andar":"1","sala":"2"},{"codSala":"S209-0","bloco":"A","torre":"-","andar":"2","sala":"9"},{"codSala":"S210-0","bloco":"A","torre":"-","andar":"2","sala":"10"},{"codSala":"E201-0","bloco":"A","torre":"-","andar":"2","sala":"1"},{"codSala":"E202-0","bloco":"A","torre":"-","andar":"2","sala":"2"},{"codSala":"E203-0","bloco":"A","torre":"-","andar":"2","sala":"3"},{"codSala":"S306-1","bloco":"A","torre":"1","andar":"3","sala":"6"},{"codSala":"S507-1","bloco":"A","torre":"1","andar":"5","sala":"7"},{"codSala":"S102","bloco":"B","torre":"-","andar":"1","sala":"2"},{"codSala":"L102","bloco":"B","torre":"-","andar":"1","sala":"2"},{"codSala":"L703","bloco":"B","torre":"-","andar":"7","sala":"3"},{"codSala":"L703A","bloco":"B","torre":"-","andar":"7","sala":"3"},{"codSala":"L706","bloco":"B","torre":"-","andar":"7","sala":"6"}]}
+{"classRooms":
+	[
+		{"codSala":"S002-0","bloco":"A","torre":"-","andar":"Terreo","sala":"2"},
+		{"codSala":"S005-0","bloco":"A","torre":"-","andar":"Terreo","sala":"5"},
+		{"codSala":"S007","bloco":"A","torre":"-","andar":"Terreo","sala":"7"},
+		{"codSala":"S003","bloco":"A","torre":"-","andar":"Terreo","sala":"3"},
+		{"codSala":"A101-0","bloco":"A","torre":"-","andar":"1","sala":"1"},
+		{"codSala":"A102-0","bloco":"A","torre":"-","andar":"1","sala":"2"},
+		{"codSala":"S209-0","bloco":"A","torre":"-","andar":"2","sala":"9"},
+		{"codSala":"S210-0","bloco":"A","torre":"-","andar":"2","sala":"10"},
+		{"codSala":"E201-0","bloco":"A","torre":"-","andar":"2","sala":"1"},
+		{"codSala":"E202-0","bloco":"A","torre":"-","andar":"2","sala":"2"},
+		{"codSala":"E203-0","bloco":"A","torre":"-","andar":"2","sala":"3"},
+		{"codSala":"S306-1","bloco":"A","torre":"1","andar":"3","sala":"6"},
+		{"codSala":"S507-1","bloco":"A","torre":"1","andar":"5","sala":"7"},
+		{"codSala":"S102","bloco":"B","torre":"-","andar":"1","sala":"2"},
+		{"codSala":"L102","bloco":"B","torre":"-","andar":"1","sala":"2"},
+		{"codSala":"L703","bloco":"B","torre":"-","andar":"7","sala":"3"},
+		{"codSala":"L703A","bloco":"B","torre":"-","andar":"7","sala":"3"},
+		{"codSala":"L706","bloco":"B","torre":"-","andar":"7","sala":"6"}
+	]
+}
