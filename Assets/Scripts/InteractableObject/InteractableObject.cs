@@ -16,6 +16,7 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] private bool enterGame;
 
     [SerializeField] private bool elevator;
+    [SerializeField] private bool fretado;
     
     [SerializeField] private GameObject objectToTalk;
     [SerializeField] private GameObject elevatorWindow;
@@ -64,11 +65,12 @@ public class InteractableObject : MonoBehaviour
 
     public void PlayDialogue()
     {
-        if (objectToTalk.GetComponent<NPCTalk>())
-        {
+        //if (objectToTalk.GetComponent<NPCTalk>())
+        //{
 
-        }
-        else if (objectToTalk.GetComponent<AuxiliosManager>())
+        //}
+        //else 
+        if (objectToTalk.GetComponent<AuxiliosManager>())
         {
             objectToTalk.GetComponent<AuxiliosManager>().StartAuxilioMinigame();
         }
