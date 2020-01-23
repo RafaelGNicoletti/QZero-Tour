@@ -18,7 +18,7 @@ MonoBehaviour:
     descricao: "O abandono ocorre quando o aluno regular efetivo n\xE3o mant\xE9m
       matr\xEDcula em disciplinas por 2 (dois) quadrimestres consecutivos e n\xE3o
       solicita trancamento."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: 
     sigla: Aluno Atleta de Alta Performance
@@ -27,7 +27,7 @@ MonoBehaviour:
       participando de competi\xE7\xF5es oficiais, tanto nacionais como internacionais.
       Caso perca quaisquer avalia\xE7\xF5es acad\xEAmicas ser\xE1 oferecida \xE9poca
       especial para realiza\xE7\xE3o dessas avalia\xE7\xF5es."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: '-'
     sigla: Aluno regular efetivo
@@ -35,7 +35,7 @@ MonoBehaviour:
       consecutivos; apresenta, ao in\xEDcio do 3\xBA quadrimestre, Coeficiente de
       Rendimento (CR) diferente de 0 (zero) ou pelo menos uma disciplina em seu hist\xF3rico
       em que n\xE3o tenha sido reprovado com conceito \u201CO\u201D."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: '-'
     sigla: Aluno regular ingressante
@@ -43,7 +43,7 @@ MonoBehaviour:
       Quando apresentar CR nulo, e/ou reprova\xE7\xE3o por conceito \u201CO\u201D
       em todas as disciplinas ap\xF3s (dois) quadrimestres letivos (desconsiderando-se
       quadrimestres trancados), ter\xE1 sua matr\xEDcula cancelada."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: 
     sigla: Aproveitamento de disciplinas
@@ -52,7 +52,7 @@ MonoBehaviour:
       extens\xE3o de outras Institui\xE7\xF5es de Ensino Superior pode us\xE1-los
       para integralizar a pr\xF3pria grade curr\xEDcular na forma de equival\xEAncia
       ou de cr\xE9ditos livres. "
-    link: http://www.ufabc.edu.br/images/stories/comunicare/boletimdeservico/boletim_servico_ufabc_869.pdf#page=72
+    link: www.ufabc.edu.br/images/stories/comunicare/boletimdeservico/boletim_servico_ufabc_869.pdf#page=72
     logo: {fileID: 0}
   - nome: 
     sigla: "Avalia\xE7\xE3o substitutiva"
@@ -62,7 +62,7 @@ MonoBehaviour:
       em seu plano de ensino, a Resolu\xE7\xE3o ConsEPE n\xB0 181 estabelece as situa\xE7\xF5es
       \ que d\xE3o o direito aos mecanismo substituivos, quando comprovadas por meio
       de documentos."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: '-'
     sigla: Bacharelado
@@ -199,7 +199,7 @@ MonoBehaviour:
       a estrutura, os mecanismos e das fun\xE7\xF5es do c\xE9rebro e do sistema nervoso
       em geral a partir de novas tecnologias como resson\xE2ncia magn\xE9tica funcional,
       imunohistoqu\xEDmica e computa\xE7\xE3o em paralelo. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: "Bacharelado em Pol\xEDticas P\xFAblicas"
     sigla: BPP
@@ -208,7 +208,7 @@ MonoBehaviour:
       para analisar, atuar e intervir nas complexas din\xE2micas que fazem parte das
       pol\xEDticas p\xFAblicas, incluindo os agentes sociais, econ\xF4micos, o Estado
       e as suas institui\xE7\xF5es. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: Bacharelado em Planejamento Territorial
     sigla: BPT
@@ -224,7 +224,7 @@ MonoBehaviour:
       territorial no setor p\xFAblico, na iniciativa privada ou em organiza\xE7\xF5es
       sociais e do terceiro setor, assim como receber\xE1 uma base para prosseguir
       com estudos acad\xEAmicos complementares em n\xEDvel de p\xF3s-gradua\xE7\xE3o."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: "Bacharelado em Qu\xEDmica"
     sigla: BQ
@@ -236,7 +236,7 @@ MonoBehaviour:
       em todos os assuntos relacionados com a mat\xE9ria e suas transforma\xE7\xF5es,
       podendo desempenhar tarefas operacionais, de consultoria, de pesquisa b\xE1sica
       e aplicada. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: "Bacharelado em Rela\xE7\xF5es Internacionais"
     sigla: BRI
@@ -250,7 +250,7 @@ MonoBehaviour:
       energia e recursos naturais; Globaliza\xE7\xE3o produtiva, ci\xEAncia, tecnologia
       e inova\xE7\xE3o; Integra\xE7\xE3o econ\xF4mica, pol\xEDtica e cultural da Am\xE9rica
       do Sul; Governan\xE7a global e rela\xE7\xF5es de poder.\n\n"
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: Coeficiente de Aproveitamento
     sigla: CA
@@ -258,7 +258,7 @@ MonoBehaviour:
       em todas as disciplinas cursadas pelo aluno. Por isso, se voc\xEA fizer uma
       mesma mat\xE9ria duas vezes, o conceito que se sobressair\xE1 no c\xE1lculo
       do CA, ser\xE1 aquele que \xE9 o melhor conceito obtido."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: '-'
     sigla: "Cancelamento de matr\xEDcula em disciplinas"
@@ -267,7 +267,7 @@ MonoBehaviour:
       acad\xEAmicas. O discente tem direito ao cancelamento de duas disciplinas a
       cada quadrimestre letivo, desde que atendidas \xE0s condi\xE7\xF5es estabelecidas
       pela PROGRAD (consulte as condi\xE7\xF5es no site)"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: 
     sigla: "Certificado de conclus\xE3o"
@@ -275,14 +275,14 @@ MonoBehaviour:
       este n\xE3o \xE9 expedido. Para retir\xE1-lo, o estudante deve ter coeficiente
       de aproveitamento no curso igual ou superior a 2,0 e n\xE3o estar em d\xE9bito
       com a biblioteca."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: 
     sigla: "Cola\xE7\xE3o de grau antecipada"
     descricao: "\xC9 a cola\xE7\xE3o de grau simples de um aluno que j\xE1 integralizou
       todo o curso quando a cerim\xF4nia de cola\xE7\xE3o de grau solente ainda n\xE3o
       foi realizada"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: 
     sigla: "Cola\xE7\xE3o de grau solene"
@@ -291,15 +291,15 @@ MonoBehaviour:
       ou Licenciado a estudantes de ensino superior que conclu\xEDram os seus estudos.
       \xC9 a partir deste momento que, oficialmente, o aluno passa a obter o t\xEDtulo
       de graduado, outorgado pelo diretor da Unniversidade."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: '-'
     sigla: Coeficientes de desempenho
-    descricao: "s\xE3o os conceitos utilizados pelos professores e pela Universidade
+    descricao: "S\xE3o os conceitos utilizados pelos professores e pela Universidade
       na avalia\xE7\xE3o de desempenho de estudantes durante o curso. S\xE3o atribu\xEDdos
       os conceitos A (desempenho exepcional), B (desempenho bom), C (desempenho m\xE9dio),
       D (desempenho regular), F (reprovado) e O (reprovado por falta)\n\n\n"
-    link: https://www.youtube.com/watch?v=Zz64K9Fqr3c&list=PLnL3nwtOp1ORHsFxIsGzUbf6hlbvQUgWY&index=3
+    link: www.youtube.com/watch?v=Zz64K9Fqr3c&list=PLnL3nwtOp1ORHsFxIsGzUbf6hlbvQUgWY&index=3
     logo: {fileID: 0}
   - nome: "Coeficiente de Progress\xE3o"
     sigla: CPk
@@ -310,7 +310,7 @@ MonoBehaviour:
       conforme s categorias (obrigat\xF3ria, op\xE7\xE3o limitada ou livre) para o
       curso considerado. Quando o CPk alcan\xE7a o valor unit\xE1rio, os cr\xE9ditos
       correspondentes \xE0s disciplinas de um curso foram conclu\xEDdos"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: Coeficiente de Rendimento
     sigla: CR
@@ -319,7 +319,7 @@ MonoBehaviour:
       a m\xE9dia ponderada dos conceitos obtidos nas disciplinas cursadas e os respectivos
       cr\xE9ditos. Por isso, no quadrimestre de ingresso na Universidade, n\xE3o temos
       o CR."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: '-'
     sigla: "Cr\xE9ditos"
@@ -328,7 +328,7 @@ MonoBehaviour:
       de Teoria\" e \"Horas de Pr\xE1tica\" semanais (T+P - siglas encontradas referentes
       aos n\xFAmeros que est\xE3o na frente dos nomes das disciplinas, compondo o
       conjunto TPI - Teoria, Pr\xE1tica e Individual)"
-    link: https://www.youtube.com/watch?v=Zz64K9Fqr3c&list=PLnL3nwtOp1ORHsFxIsGzUbf6hlbvQUgWY&index=3
+    link: www.youtube.com/watch?v=Zz64K9Fqr3c&list=PLnL3nwtOp1ORHsFxIsGzUbf6hlbvQUgWY&index=3
     logo: {fileID: 0}
   - nome: 
     sigla: Diploma
@@ -336,7 +336,7 @@ MonoBehaviour:
       com cursos reconhecidos pelo MEC (Minist\xE9rio da Educa\xE7\xE3o) que tornam
       o titular habilitado ao exerc\xEDcio de uma profiss\xE3o al\xE9m de possuir
       validade nacional."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: Aluna ou Aluno
     sigla: Discente
@@ -351,7 +351,7 @@ MonoBehaviour:
       a mesma carga hor\xE1ria e o seu conte\xFAdo corresponder a, no m\xEDnimo, 75%
       da disciplina da UFABC. Esse processo ocorre muitas vezes com alunos oriundos
       de transfer\xEAncia."
-    link: http://www.ufabc.edu.br/images/stories/comunicare/boletimdeservico/boletim_servico_ufabc_869.pdf#page=72
+    link: www.ufabc.edu.br/images/stories/comunicare/boletimdeservico/boletim_servico_ufabc_869.pdf#page=72
     logo: {fileID: 0}
   - nome: Professor, Orientador
     sigla: Docente
@@ -371,7 +371,7 @@ MonoBehaviour:
       de servi\xE7os p\xFAblicos; ag\xEAncias bilaterais e multilateriais de coopera\xE7\xE3o;
       empresas do setor industrial, de servi\xE7os e de consultoria; e tamb\xE9m como
       profissional aut\xF4nomo."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: Engenharia de Energia
     sigla: EE
@@ -387,7 +387,7 @@ MonoBehaviour:
       servi\xE7os; em atividades relacionadas a tecnologias de convers\xE3o energ\xE9tica;
       planejamento energ\xE9tico; alternativas energ\xE9ticas; gest\xE3o de sistemas
       energ\xE9ticos; economia e racionaliza\xE7\xE3o do uso da energia."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: "Engenharia Gest\xE3o"
     sigla: EG
@@ -400,14 +400,14 @@ MonoBehaviour:
       e organiza\xE7\xF5es dos diversos segmentos econ\xF4micos com o -prop\xF3sito
       de oferecer solu\xE7\xF5es sist\xEAmicas que coadunam com as necessidades do
       mundo moderno."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: '-'
     sigla: Egresso
     descricao: " \xE9 quem colou grau em determinado curso e n\xE3o realizou matr\xEDcula
       em disciplinas por dois quadrimestres letivos. Nessa situa\xE7\xE3o, o v\xEDnculo
       com a gradua\xE7\xE3o da UFABC ser\xE1 encerrado."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: "Engenharia da Informa\xE7\xE3o"
     sigla: EI
@@ -420,7 +420,7 @@ MonoBehaviour:
       cr\xEDtica, responsabilidade social e criatividade, conferem ao Engenheiro de
       Informa\xE7\xE3o a capacidade de lidar com os novos desafios da \u201CEra da
       Informa\xE7\xE3o\u201D em diferentes setores da sociedade e do mercado de trabalho."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: "Engenharia Instrumenta\xE7\xE3o, Automa\xE7\xE3o e Rob\xF3tica"
     sigla: EIAR
@@ -431,7 +431,7 @@ MonoBehaviour:
       de processos, manuten\xE7\xE3o dos sistemas de controle e automa\xE7\xE3o e
       seguran\xE7a, de modo a gerar a adequada independ\xEAncia para o desenvolvimento
       de equipamentos e sistemas de produ\xE7\xE3o eficientes. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: Engenharia de Materiais
     sigla: EM
@@ -444,7 +444,7 @@ MonoBehaviour:
       seja o de um profissional capaz de solucionar os desafios tecnol\xF3gicos que
       surgem a cada dia nas f\xE1bricas, institutos de pesquisa ou em \xF3rg\xE3os
       governamentais, envolvendo os materiais e suas aplica\xE7\xF5es."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: 
     sigla: "Est\xE1gios"
@@ -453,14 +453,14 @@ MonoBehaviour:
       pode ser realizado em qualquer institui\xE7\xE3o (p\xFAblica ou privada), inclusive
       dentro da UFABC. Alguns cursos de forma\xE7\xE3o espec\xEDficas possuem est\xE1gio
       obrigat\xF3rio. Para mais informa\xE7\xF5es, busque a PROGRAD. "
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: '-'
     sigla: "Evas\xE3o"
     descricao: "Evas\xE3o \xE9 o resultado da soma do n\xFAmero de 'estudantes regulares
       efetivos' em condi\xE7\xE3o de 'abandono' com estudantes regulares efetivos
       que tenham pedido o 'cancelamento volunt\xE1rio' de sua matr\xEDcula na UFABC. "
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: 
     sigla: "Forma\xE7\xE3o espec\xEDfica"
@@ -470,7 +470,7 @@ MonoBehaviour:
       se o estudante ingressou pelo BC&H pode escolher entre 6 cursos ferecidos pela
       UFABC, nas modalidades Bacharelado ou Licenciatura. \xC9 permitida a matr\xEDcula
       simult\xE2nea em at\xE9 tr\xEAs cursos de forma\xE7\xE3o espec\xEDfica."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: "Licenciatura em Ci\xEAncias Biol\xF3gicas"
     sigla: LCB
@@ -482,7 +482,7 @@ MonoBehaviour:
       a integraliza\xE7\xE3o dos conhecimentos espec\xEDficos com as atividades de
       ensino. Busca formar o educador consciente de seu papel na forma\xE7\xE3o de
       cidad\xE3os sob a perspectiva educacional, cient\xEDfica, ambiental e social."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: Licenciatura em Filosofia
     sigla: Licenciatura em Filosofia
@@ -494,7 +494,7 @@ MonoBehaviour:
       versam sobre: a identidade, a fun\xE7\xE3o e a finalidade do ato filos\xF3fico;
       o que e como ensinar e; as rela\xE7\xF5es entre a filosofia e sua hist\xF3ria
       e entre Filosofia e Educa\xE7\xE3o."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: "Licenciatura em F\xEDsica"
     sigla: "Licenciatura em F\xEDsica"
@@ -503,7 +503,7 @@ MonoBehaviour:
       e que proporciona uma forma\xE7\xE3o nos princ\xEDpios e m\xE9todos da f\xEDsica,
       que est\xE3o na raiz da compreens\xE3o do nosso universo e das profundas mudan\xE7as
       tecnol\xF3gicas do mundo contempor\xE2neo."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: "Licenciatura em Matem\xE1tica"
     sigla: LM
@@ -515,7 +515,7 @@ MonoBehaviour:
       de  aprendizagem e a divulga\xE7\xE3o cient\xEDfica. O curso oferece disciplinas
       matem\xE1ticas, pedag\xF3gicas, de embasamento t\xE9cnico interdisciplinares
       e tamb\xE9m oferece oportunidades de colocar em pr\xE1tica o conhecimento adquirido."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: "Licenciatura em Qu\xEDmica"
     sigla: LQ
@@ -525,7 +525,7 @@ MonoBehaviour:
       e habilidades necess\xE1rias para atuar no campo da Educa\xE7\xE3o B\xE1sica,
       especificamente no Ensino Fundamental, nas \xE1reas de Ci\xEAncias Naturais
       e Matem\xE1tica, e no Ensino M\xE9dio, na \xE1rea Qu\xEDmica. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
+    link: paratodos.ufabc.edu.br/os-cursos-da-ufabc/
     logo: {fileID: 0}
   - nome: '-'
     sigla: "Matr\xEDcula em disciplinas"
@@ -545,7 +545,7 @@ MonoBehaviour:
       divide-se em tr\xEAs quadrimestres, nos quais as disciplinas desenvolvem seu
       programa de conte\xFAdo. Em julho, a UFABC n\xE3o p\xE1ra! Consulte o Calend\xE1rio
       Acad\xEAmico no site da PROGRAD para mais informa\xE7\xF5es."
-    link: http://prograd.ufabc.edu.br/calendarios
+    link: prograd.ufabc.edu.br/calendarios
     logo: {fileID: 0}
   - nome: 
     sigla: REC
@@ -557,7 +557,7 @@ MonoBehaviour:
       letivo. A REC n\xE3o poder\xE1 ser aplicada em per\xEDodo inferior a 72 horas
       ap\xF3s a divulga\xE7\xE3o dos conceitos das avalia\xE7\xF5es e tem prazo m\xE1ximo
       a terceira semana letiva do quadrimestre seguinte."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: '-'
     sigla: "Trancamento de matr\xEDcula"
@@ -567,20 +567,20 @@ MonoBehaviour:
       ocupar cargo representativo na UFABC nem receber qualquer tipo de bolsa durante
       o per\xEDodo em que tiver sua matr\xEDcula trancada. Para maiores detalhes,
       consulte a PROGRAD"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: 
     sigla: "Transfer\xEAncia entre BIs"
     descricao: "Na UFABC \xE9 poss\xEDvel se transferir de um Bacharelado Interdisciplinar
       para outro e tem as regras definidas em editais espec\xEDficos. Consulte a PROGRAD
       para acompanhar os processos"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: /prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}
   - nome: '-'
     sigla: Vagas ociosas
     descricao: "Vagas ociosas s\xE3o aquelas n\xE3o preenchidas no processo seletivo,
       decorrentes de matr\xEDculas eliminadas e de cancelamentos volunt\xE1rios."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    link: /prograd.ufabc.edu.br/guia-da-graduacao#part1
     logo: {fileID: 0}
   - nome: 
     sigla: Vista de prova
@@ -590,5 +590,5 @@ MonoBehaviour:
       da corre\xE7\xE3o realizada dever\xE1 pronunciar-se no momento da vista, solicitando
       ao professor a revis\xE3o imediata, \xE0 luz dos objetivos e crit\xE9rios esclarecidos
       antes da avalia\xE7\xE3o."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    link: prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
     logo: {fileID: 0}

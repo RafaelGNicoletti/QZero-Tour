@@ -80,4 +80,6 @@ public class InteractableObject : MonoBehaviour
     {
         GameObject.Find("MapController").GetComponent<MapController>().OpenElevador(elevatorWindow);
     }
+
+
 }
