@@ -19,7 +19,7 @@ public class AuxiliosManager : MonoBehaviour
         {
             isRunning = true;
 
-            GameObject.Find("MapController").GetComponent<MapController>().ClearSpeed();
+            MapController.instance.ClearSpeed();
             telaAuxilio.SetActive(true);
             ResetAll();
 
@@ -76,7 +76,7 @@ public class AuxiliosManager : MonoBehaviour
     {
         isRunning = false;
         telaAuxilio.SetActive(false);
-        GameObject.Find("MapController").GetComponent<MapController>().RestoreSpeed();
+        MapController.instance.RestoreSpeed();
     }
 
     #region Funções Auxiliares
