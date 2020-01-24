@@ -73,7 +73,7 @@ public class ButtonsController : ScriptableObject
       openWindow(siteName);
 #endif
     }
-    //"http://"+
+
     [DllImport("__Internal")]
     private static extern void openWindow(string url);
 
