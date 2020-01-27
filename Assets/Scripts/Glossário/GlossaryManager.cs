@@ -130,16 +130,28 @@ public class GlossaryManager : MonoBehaviour
         UpdateGlossaryWindow(SearchExpression(glossaryList[index], searchBarText.text));
     }
 
+    /// <summary>
+    /// Função que recebe o indice i da aba escolhida e armazena
+    /// </summary>
+    /// <param name="i"></param>
     public void GetFolderIndex(int i)
     {
+        // Guarda a informação de qual aba esta aberta
         prevIndex = index;
+        // E qual foi selecionada
         index = i;
     }
 
+    /// <summary>
+    /// Função que abre a nova aba selecionada
+    /// </summary>
     public void ChangeFolder()
     {
+        // Fecha a aba aberta
         glossaryFolder[prevIndex].transform.GetChild(0).gameObject.SetActive(false);
+        // Abre a aba selecionada
         glossaryFolder[index].transform.GetChild(0).gameObject.SetActive(true);
+        // Exibe o conteúdo da aba selecionada
         UpdateGlossaryWindow(glossaryList[index].glossary);
     }
 }

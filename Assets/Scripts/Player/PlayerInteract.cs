@@ -65,7 +65,6 @@ public class PlayerInteract : MonoBehaviour
         other.GetComponent<NPCBalloon>().CreateBalloon();
     }
 
-
     private void OnTriggerExit2D(Collider2D other)
     {
         // Existe NPCTalking?    Other possuí a tag?     Other é o mesmo que estamos falando atualmente?

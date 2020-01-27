@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Classe que contém as reações de objetos com o qual o player pode interagir
+/// </summary>
 public class InteractableObject : MonoBehaviour
 {
     public string sceneName;

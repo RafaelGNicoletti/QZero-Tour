@@ -2,17 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Classe para converter de um arquivo de texto em JSON para a classe ClassPergunta
+/// </summary>
 public class ConverterArquivo : MonoBehaviour
 {
     public ClassPergunta temp;
-    public Perguntas teste;
+    public Perguntas perguntas;
     public TextAsset file;
 
-    // Start is called before the first frame update
     void Start()
     {
+        // Cria o conversor
         ConverterFromJson<ClassPergunta> converter = new ConverterFromJson<ClassPergunta>();
+        // Converte o arquivo
         temp = converter.Convert(file);
-        teste.SetQuizQuestions(temp);
+        // Guarda no objeto
+        perguntas.SetQuizQuestions(temp);
     }
 }

@@ -820,6 +820,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: OpenGlossary
       objectReference: {fileID: 0}
+    - target: {fileID: 1758229432, guid: e48968b77639ee7479b6a9022971c083, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1758229433, guid: e48968b77639ee7479b6a9022971c083, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e48968b77639ee7479b6a9022971c083, type: 3}
 --- !u!1 &235257946
