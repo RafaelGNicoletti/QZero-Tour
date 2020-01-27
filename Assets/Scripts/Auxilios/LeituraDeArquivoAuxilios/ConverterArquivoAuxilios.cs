@@ -2,21 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Função que converte um arquivo JSON com informações do tipo AuxiliosInfoList em uma AuxiliosInfoList
+/// </summary>
 public class ConverterArquivoAuxilios : MonoBehaviour
 {
     public TempAux temp;
-    public AuxiliosInfoList teste;
+    public AuxiliosInfoList auxList;
     public TextAsset file;
 
-    // Start is called before the first frame update
     void Start()
     {
+        // Cria o conversor
         ConverterFromJson<TempAux> converter = new ConverterFromJson<TempAux>();
+        // Converte para o arquivo temporário
         temp = converter.Convert(file);
-        teste.SetAuxiliosInfoList(temp);
+        // Grava no AuxiliosInfoList
+        auxList.SetAuxiliosInfoList(temp);
     }
 }
 
+/// <summary>
+/// Lista de auxilios temporária
+/// </summary>
 [System.Serializable]
 public class TempAux
 {
