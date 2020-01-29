@@ -13,582 +13,131 @@ MonoBehaviour:
   m_Name: GlossaryItemsListEspacosELocais
   m_EditorClassIdentifier: 
   glossary:
-  - nome: '-'
-    sigla: Abandono
-    descricao: "O abandono ocorre quando o aluno regular efetivo n\xE3o mant\xE9m
-      matr\xEDcula em disciplinas por 2 (dois) quadrimestres consecutivos e n\xE3o
-      solicita trancamento."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
-    logo: {fileID: 0}
-  - nome: 
-    sigla: Aluno Atleta de Alta Performance
-    descricao: "Um aluno atleta de alto rendimento tem direito de cumprir apenas 50%
-      (cinquenta por cento) da frequ\xEAncia total de cada disciplina quando estiver
-      participando de competi\xE7\xF5es oficiais, tanto nacionais como internacionais.
-      Caso perca quaisquer avalia\xE7\xF5es acad\xEAmicas ser\xE1 oferecida \xE9poca
-      especial para realiza\xE7\xE3o dessas avalia\xE7\xF5es."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
-    logo: {fileID: 0}
-  - nome: '-'
-    sigla: Aluno regular efetivo
-    descricao: "Discente que mant\xE9m matr\xEDcula em disciplinas em 2 (dois) quadrimestres
-      consecutivos; apresenta, ao in\xEDcio do 3\xBA quadrimestre, Coeficiente de
-      Rendimento (CR) diferente de 0 (zero) ou pelo menos uma disciplina em seu hist\xF3rico
-      em que n\xE3o tenha sido reprovado com conceito \u201CO\u201D."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
-    logo: {fileID: 0}
-  - nome: '-'
-    sigla: Aluno regular ingressante
-    descricao: "Discente que ainda n\xE3o cursou dois quadrimestres consecutivos.
-      Quando apresentar CR nulo, e/ou reprova\xE7\xE3o por conceito \u201CO\u201D
-      em todas as disciplinas ap\xF3s (dois) quadrimestres letivos (desconsiderando-se
-      quadrimestres trancados), ter\xE1 sua matr\xEDcula cancelada."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
-    logo: {fileID: 0}
-  - nome: 
-    sigla: Aproveitamento de disciplinas
-    descricao: "O estudante que tiver cursado disciplinas de p\xF3s-gradua\xE7\xE3o
-      ou extens\xE3o da UFABC, cursos de gradua\xE7\xE3o, p\xF3s-gradua\xE7\xE3o ou
-      extens\xE3o de outras Institui\xE7\xF5es de Ensino Superior pode us\xE1-los
-      para integralizar a pr\xF3pria grade curr\xEDcular na forma de equival\xEAncia
-      ou de cr\xE9ditos livres. "
-    link: http://www.ufabc.edu.br/images/stories/comunicare/boletimdeservico/boletim_servico_ufabc_869.pdf#page=72
-    logo: {fileID: 0}
-  - nome: 
-    sigla: "Avalia\xE7\xE3o substitutiva"
-    descricao: "\xE9 o mecanismo de substitui\xE7\xE3o que permite a realiza\xE7\xE3o
-      de alguma forma de avalia\xE7\xE3o quando o discente que faltar a uma avalia\xE7\xE3o
-      presencial de uma disciplina. Al\xE9m dos crit\xE9rios estabelecidos pelo professor
-      em seu plano de ensino, a Resolu\xE7\xE3o ConsEPE n\xB0 181 estabelece as situa\xE7\xF5es
-      \ que d\xE3o o direito aos mecanismo substituivos, quando comprovadas por meio
-      de documentos."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
-    logo: {fileID: 0}
-  - nome: '-'
-    sigla: Bacharelado
-    descricao: "Bacharelado \xE9 um grau acad\xEAmico que tem uma base curricular
-      de ensino que prepara o estudante para atuar de forma mais ampla no mercado
-      em diferentes fun\xE7\xF5es desempenhadas dentro da \xE1rea profissional escolhida.
-      Na UFABC temos 20 tipos de Bacharelados espec\xEDficos, sem contar os interdisciplinares
-      de ingresso (BC&H e BC&T). E ai, j\xE1 sabe qual \xE9 o seu?"
+  - nome: Bloco Alfa
+    sigla: Bloco Alfa 1
+    descricao: "O Bloco Alfa, mais conhecido como A1 ou Alfa 1, se localiza no campus
+      de S\xE3o Bernardo do Campo, pr\xF3ximo ao  Bloco Beta e o Bloco Delta. Nele,
+      est\xE3o presentes labor\xE1t\xF3rios did\xE1ticos, salas de aula e uma das
+      cantinas do campus. A maioria das elei\xE7\xF5es para Centros Acad\xEAmicos
+      e atividades como assembl\xE9ias ocorrem em seu hall."
     link: 
     logo: {fileID: 0}
-  - nome: Bacharelado em Biotecnologia
-    sigla: BB
-    descricao: "O Bacharelado em Biotecnologia \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      do BC&T e est\xE1 associado ao desenvolvimento de tecnologias ligadas ao conhecimento
-      das \xE1reas da Biologia e ao estudo de organismos geneticamente modificados."
-    link: 
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Ci\xEAncias Biol\xF3gicas"
-    sigla: BCB
-    descricao: "O Bacharelado em Ci\xEAncias Biol\xF3gicas \xE9 um curso de forma\xE7\xE3o
-      espec\xEDfica do BC&T e tem como objetivo formar um profissional com uma vis\xE3o
-      ampla e cr\xEDtica sobre quest\xF5es que envolvem os seres vivos e seu ambiente,
-      comprometido de forma \xE9tica e respons\xE1vel com a constru\xE7\xE3o de uma
-      sociedade sustent\xE1vel. "
-    link: 
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Ci\xEAncia da Computa\xE7\xE3o"
-    sigla: BCC
-    descricao: "O Bacharelado em Bacharelado em em Ci\xEAncia da Computa\xE7\xE3o
-      \xE9 um curso de forma\xE7\xE3o espec\xEDfica do BC&T  e tem na pr\xF3pria computa\xE7\xE3o
-      como atividade fim e visa a forma\xE7\xE3o tomadores de decis\xE3o para o desenvolvimento
-      cient\xEDfico e tecnol\xF3gico da computa\xE7\xE3o. Esse curso forma profissionais
-      com car\xE1ter interdisciplinar, com base no equil\xEDbrio de conceitos te\xF3ricos
-      e atividades pr\xE1ticas que promovem o conhecimento cient\xEDfico e tecnol\xF3gico
-      da Computa\xE7\xE3o. "
-    link: 
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Ci\xEAncias Econ\xF4micas"
-    sigla: BCE
-    descricao: "O Bacharelado em Ci\xEAncias Econ\xF4micas \xE9 um curso de forma\xE7\xE3o
-      espec\xEDfica do BCH e inicia a forma\xE7\xE3o dos alunos com o ensino das bases
-      filos\xF3ficas e epistemol\xF3gicas das ci\xEAncias modernas. O aprendizado
-      avan\xE7a em busca do equil\xEDbrio entre os conte\xFAdos de teoria econ\xF4mica
-      por m\xE9todos quantitativos e filos\xF3fico-humanistas. Ao longo do curso,
-      o estudante ir\xE1 adquirir compet\xEAncias para lidar com as dimens\xF5es econ\xF4micas
-      de problemas complexos da sociedade contempor\xE2nea."
-    link: 
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Ci\xEAncias e Humanidades"
-    sigla: BCH
-    descricao: "O Bacharelado em Ci\xEAncias e Humanidades (BC&H) \xE9 um curso de
-      forma\xE7\xE3o cient\xEDfica geral e busca formar pessoas que compreendem o
-      mundo sob perspectiva interdisciplinar e que perseguem solu\xE7\xF5es para problemas
-      contempor\xE2neos, com capacidade cr\xEDtica para indagar sobre os limites das
-      respostas encontradas e seus impactos na sociedade. A matriz curricular proporciona
-      viv\xEAncias e estudos acad\xEAmicos que resultam em uma forte forma\xE7\xE3o
-      cient\xEDfica e na aquisi\xE7\xE3o de habilidades para o exerc\xEDcio profissional
-      relacionado \xE0s ci\xEAncias humanas e sociais."
-    link: 
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Ci\xEAncias e Tecnologia"
-    sigla: BCT
-    descricao: "O Bacharelado em Ci\xEAncia e Tecnologia \xE9 um curso de forma\xE7\xE3o
-      cient\xEDfica geral. Os estudantes t\xEAm a oportunidade de trabalhar e desenvolver
-      temas interdisciplinares, por meio de uma metodologia que incentiva a postura
-      investigativa, estimula a pesquisa e consequente produ\xE7\xE3o cient\xEDfica,
-      o que propicia os meios necess\xE1rios para desencadear o processo de aprendizagem
-      cont\xEDnua no decorrer da sua futura vida acad\xEAmica e profissional. A fim
-      de se inserir na reorganiza\xE7\xE3o da ci\xEAncia e na intera\xE7\xE3o entre
-      ci\xEAncia e tecnologia, a UFABC organiza o BC&T a partir de seis eixos principais,
-      com que pretende inspirar os campos de pesquisa."
-    link: 
-    logo: {fileID: 0}
-  - nome: Bacharelado em Filosofia
-    sigla: Bacharelado em Filosofia
-    descricao: "O Bacharelado em Filosofia \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      do BCH que pretende formar indiv\xEDduos preparados para pensar as quest\xF5es
-      filos\xF3ficas, identificar suas limites e buscar solu\xE7\xF5es por meio de
-      m\xE9todos tipicamente filos\xF3ficos, sendo a an\xE1lise conceitual, de interpreta\xE7\xE3o,
-      de argumenta\xE7\xE3o e de formaliza\xE7\xE3o l\xF3gica, entre outros, na busca
-      de respostas que se expressam numa linguagem racional, ainda que n\xE3o precise
-      se reportar, a evid\xEAncias experimentais necessariamente. Os alunos que cursarem
-      o Bacharelado em Filosofia ser\xE3o iniciados nas t\xE9cnicas de pesquisa e
-      receber\xE3o treinamento para continuar seus estudos em n\xEDveis mais avan\xE7ados."
-    link: 
-    logo: {fileID: 0}
-  - nome: "Bacharelado em F\xEDsica"
-    sigla: "Bacharelado em F\xEDsica"
-    descricao: "O Bacharelado em F\xEDsica \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      do BC&T que considera tanto as perspectivas tradicionais de atua\xE7\xE3o do
-      profiss\xE3o, como as demandas emergentes nas \xFAltimas d\xE9cadas. O perfil
-      desejado do bacharel em f\xEDsica \xE9 o de um profissional com forma\xE7\xE3o
-      ampla e s\xF3lida, portador de habilidades e compet\xEAncias necess\xE1rias
-      \xE0s expectativas atuais, conhecedor do m\xE9todo cient\xEDfico e preparado
-      para enfrentar novos desafios. Al\xE9m do conte\xFAdo tradicional, proporciona
-      uma vis\xE3o mais ampla e moderna ao cientista."
-    link: 
-    logo: {fileID: 0}
-  - nome: Bacharelado(s) Interdisciplinar(es)
-    sigla: BIs
-    descricao: "Os Bacharelados Interdisciplinares (BIs) s\xE3o cursos de gradua\xE7\xE3o
-      que permitem uma forma\xE7\xE3o mais ampla e com maior flexibilidade na organiza\xE7\xE3o
-      das disciplinas que se deseja cursar. Funciona assim: o aluno faz um ciclo de
-      forma\xE7\xE3o b\xE1sica  em Tecnologia ou Humanidades (conforme o curso de
-      ingresso). Durante o curso, ele estuda conte\xFAdos gerais da \xE1rea escolhida
-      e de outras tamb\xE9m, podendo direcionar seu curr\xEDculo para um campo espec\xEDfico
-      ou mesmo se aprofundar em v\xE1rias \xE1reas. Ao t\xE9rmino do curso, o estudante
-      decide se quer seguir para o mercado de trabalho com o diploma de bacharel na
-      \xE1rea que escolheu, e atuar como um profissional generalista, ou partir para
-      o segundo ciclo (profissionalizante). Neste caso, ele opta por um outro curso
-      relacionado \xE0 grande \xE1rea que estudou anteriormente. "
-    link: 
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Matem\xE1tica"
-    sigla: BM
-    descricao: "O Bacharelado em Matem\xE1tica \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      do BC&T que  visa formar um profissional que n\xE3o s\xF3 possua uma s\xF3lida
-      forma\xE7\xE3o em Matem\xE1tica e que ela seja aliada a uma versatilidade de
-      interagir com outros campos do conhecimento.  A forma\xE7\xE3o engloba conhecimentos
-      espec\xEDficos, desenvolvimento do racioc\xEDnio l\xF3gico e da capacidade de
-      abstra\xE7\xE3o. "
-    link: 
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Neuroci\xEAncia"
-    sigla: BN
-    descricao: "O Bacharelado em Neuroci\xEAncia \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      do BC&T e \xE9 o primeiro curso de gradua\xE7\xE3o inteiramente dedicado \xE0
-      neuroci\xEAncia no Brasil e fornece uma forma\xE7\xE3o s\xF3lida na base cient\xEDfica
-      e metodol\xF3gica, e nas t\xE9cnicas de laborat\xF3rio relevantes para esta
-      especializa\xE7\xE3o.Com uma base ampla nas \xE1reas tradicionais da ci\xEAncia,
-      conhecimento de computa\xE7\xE3o e treinamento em metodologia e comunica\xE7\xE3o
-      cient\xEDfica, o egresso \xE9 um profissional flex\xEDvel com compet\xEAncias
-      al\xE9m da neuroci\xEAncia, uma vez que, por exemplo, a Neuroci\xEAncia estuda
-      a estrutura, os mecanismos e das fun\xE7\xF5es do c\xE9rebro e do sistema nervoso
-      em geral a partir de novas tecnologias como resson\xE2ncia magn\xE9tica funcional,
-      imunohistoqu\xEDmica e computa\xE7\xE3o em paralelo. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Pol\xEDticas P\xFAblicas"
-    sigla: BPP
-    descricao: "O Bacharelado em Pol\xEDticas P\xFAblicas \xE9 um curso de forma\xE7\xE3o
-      espec\xEDfica do BCH e tem como objetivo formar profissionais capacitados tecnicamente
-      para analisar, atuar e intervir nas complexas din\xE2micas que fazem parte das
-      pol\xEDticas p\xFAblicas, incluindo os agentes sociais, econ\xF4micos, o Estado
-      e as suas institui\xE7\xF5es. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: Bacharelado em Planejamento Territorial
-    sigla: BPT
-    descricao: "O Bacharelado em Planejamento Territorial \xE9 um curso de forma\xE7\xE3o
-      espec\xEDfica do BCH e \xE9 o primeiro curso de gradua\xE7\xE3o inteiramente
-      dedicado a essa tem\xE1tica no Pa\xEDs. Ele oferece uma forma\xE7\xE3o capaz
-      de articular e integrar conhecimentos e instrumentos de diversas \xE1reas disciplinares,
-      tanto das ci\xEAncias sociais aplicadas e das humanas (economia, administra\xE7\xE3o,
-      demografia, planejamento urbano e regional, ci\xEAncia pol\xEDtica, sociologia,
-      geografia e hist\xF3ria), quanto das ci\xEAncias exatas e naturais (estat\xEDstica,
-      cartografia, geoprocessamento e ecologia). O profissional com esta forma\xE7\xE3o
-      estar\xE1 apto para atuar em diferentes modalidades de planejamento e gest\xE3o
-      territorial no setor p\xFAblico, na iniciativa privada ou em organiza\xE7\xF5es
-      sociais e do terceiro setor, assim como receber\xE1 uma base para prosseguir
-      com estudos acad\xEAmicos complementares em n\xEDvel de p\xF3s-gradua\xE7\xE3o."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Qu\xEDmica"
-    sigla: BQ
-    descricao: "O Bacharelado em Qu\xEDmica \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      do BC&T e  \xE9 dedicado \xE0 forma\xE7\xE3o de profissionais capacitados para
-      atuar em pesquisas tecnol\xF3gicas e acad\xEAmicas, no setor de produ\xE7\xE3o
-      e desenvolvimento industrial e em atividades relacionadas \xE0 educa\xE7\xE3o
-      superior. O  bacharel em Qu\xEDmica \xE9 o profissional capaz de intervir cientificamente
-      em todos os assuntos relacionados com a mat\xE9ria e suas transforma\xE7\xF5es,
-      podendo desempenhar tarefas operacionais, de consultoria, de pesquisa b\xE1sica
-      e aplicada. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: "Bacharelado em Rela\xE7\xF5es Internacionais"
-    sigla: BRI
-    descricao: "O Bacharelado em Rela\xE7\xF5es Internacionais \xE9 um curso de forma\xE7\xE3o
-      espec\xEDfica do BCH \xE9 focado no estudo e no ensino das dimens\xF5es pol\xEDticas
-      e econ\xF4micas da nova inser\xE7\xE3o do Brasil no sistema internacional em
-      prol de seu desenvolvimento econ\xF4mico e social. Com isso, o curso pretende
-      formar profissionais capazes de entender e lidar com os desafios da economia
-      globalizada e da inser\xE7\xE3o do Brasil no cen\xE1rio pol\xEDtico internacional,
-      em particular a partir de quatro \xE1reas de conhecimento: Geopol\xEDtica da
-      energia e recursos naturais; Globaliza\xE7\xE3o produtiva, ci\xEAncia, tecnologia
-      e inova\xE7\xE3o; Integra\xE7\xE3o econ\xF4mica, pol\xEDtica e cultural da Am\xE9rica
-      do Sul; Governan\xE7a global e rela\xE7\xF5es de poder.\n\n"
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: Coeficiente de Aproveitamento
-    sigla: CA
-    descricao: "\xC9 um n\xFAmero indicativo da m\xE9dia dos melhores conceitos obtidos
-      em todas as disciplinas cursadas pelo aluno. Por isso, se voc\xEA fizer uma
-      mesma mat\xE9ria duas vezes, o conceito que se sobressair\xE1 no c\xE1lculo
-      do CA, ser\xE1 aquele que \xE9 o melhor conceito obtido."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
-    logo: {fileID: 0}
-  - nome: '-'
-    sigla: "Cancelamento de matr\xEDcula em disciplinas"
-    descricao: "\xE9 a interrup\xE7\xE3o das atividades acad\xEAmicas em uma disciplina
-      de gradua\xE7\xE3o, a pedido do discente, sem preju\xEDzo das suas demais atividades
-      acad\xEAmicas. O discente tem direito ao cancelamento de duas disciplinas a
-      cada quadrimestre letivo, desde que atendidas \xE0s condi\xE7\xF5es estabelecidas
-      pela PROGRAD (consulte as condi\xE7\xF5es no site)"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
-    logo: {fileID: 0}
-  - nome: 
-    sigla: "Certificado de conclus\xE3o"
-    descricao: "\xE9 o documento apto a suprir os efeitos gerados pelo diploma enquanto
-      este n\xE3o \xE9 expedido. Para retir\xE1-lo, o estudante deve ter coeficiente
-      de aproveitamento no curso igual ou superior a 2,0 e n\xE3o estar em d\xE9bito
-      com a biblioteca."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
-    logo: {fileID: 0}
-  - nome: 
-    sigla: "Cola\xE7\xE3o de grau antecipada"
-    descricao: "\xC9 a cola\xE7\xE3o de grau simples de um aluno que j\xE1 integralizou
-      todo o curso quando a cerim\xF4nia de cola\xE7\xE3o de grau solente ainda n\xE3o
-      foi realizada"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
-    logo: {fileID: 0}
-  - nome: 
-    sigla: "Cola\xE7\xE3o de grau solene"
-    descricao: "Tamb\xE9m conhecida como formatura, \xE9 uma cerim\xF4nia tradicional
-      acad\xEAmica de car\xE1ter obrigat\xF3rio para a outorga do grau de Bacharel
-      ou Licenciado a estudantes de ensino superior que conclu\xEDram os seus estudos.
-      \xC9 a partir deste momento que, oficialmente, o aluno passa a obter o t\xEDtulo
-      de graduado, outorgado pelo diretor da Unniversidade."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
-    logo: {fileID: 0}
-  - nome: '-'
-    sigla: Coeficientes de desempenho
-    descricao: "s\xE3o os conceitos utilizados pelos professores e pela Universidade
-      na avalia\xE7\xE3o de desempenho de estudantes durante o curso. S\xE3o atribu\xEDdos
-      os conceitos A (desempenho exepcional), B (desempenho bom), C (desempenho m\xE9dio),
-      D (desempenho regular), F (reprovado) e O (reprovado por falta)\n\n\n"
-    link: https://www.youtube.com/watch?v=Zz64K9Fqr3c&list=PLnL3nwtOp1ORHsFxIsGzUbf6hlbvQUgWY&index=3
-    logo: {fileID: 0}
-  - nome: "Coeficiente de Progress\xE3o"
-    sigla: CPk
-    descricao: "O Coeficiente de Progress\xE3o (CPk) para um determinado curso (k)
-      \xE9 a raz\xE3o entre os cr\xE9ditos das disciplinas aprovadas e o n\xFAmero
-      total de cr\xE9ditos exigidos para integraliza\xE7\xE3o de um curso. O valor
-      do CPk aumenta \xE0 medida que voc\xEA \xE9 aprovado nas disciplinas cursadas,
-      conforme s categorias (obrigat\xF3ria, op\xE7\xE3o limitada ou livre) para o
-      curso considerado. Quando o CPk alcan\xE7a o valor unit\xE1rio, os cr\xE9ditos
-      correspondentes \xE0s disciplinas de um curso foram conclu\xEDdos"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
-    logo: {fileID: 0}
-  - nome: Coeficiente de Rendimento
-    sigla: CR
-    descricao: "indica o desenvolvimento d@ discente no curso e considera os conceitos
-      obtidos em todas as disciplinas cursadas. Para o c\xE1lculo do CR, \xE9 realizada
-      a m\xE9dia ponderada dos conceitos obtidos nas disciplinas cursadas e os respectivos
-      cr\xE9ditos. Por isso, no quadrimestre de ingresso na Universidade, n\xE3o temos
-      o CR."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
-    logo: {fileID: 0}
-  - nome: '-'
-    sigla: "Cr\xE9ditos"
-    descricao: "\xC9 a quantidade de horas semanais de uma disciplina. Por isso, para
-      calcular quantos cr\xE9ditos uma disciplina possui, basta somar as suas \"Horas
-      de Teoria\" e \"Horas de Pr\xE1tica\" semanais (T+P - siglas encontradas referentes
-      aos n\xFAmeros que est\xE3o na frente dos nomes das disciplinas, compondo o
-      conjunto TPI - Teoria, Pr\xE1tica e Individual)"
-    link: https://www.youtube.com/watch?v=Zz64K9Fqr3c&list=PLnL3nwtOp1ORHsFxIsGzUbf6hlbvQUgWY&index=3
-    logo: {fileID: 0}
-  - nome: 
-    sigla: Diploma
-    descricao: "\xC9 um documento formal emitido pelas institui\xE7\xF5es de ensino
-      com cursos reconhecidos pelo MEC (Minist\xE9rio da Educa\xE7\xE3o) que tornam
-      o titular habilitado ao exerc\xEDcio de uma profiss\xE3o al\xE9m de possuir
-      validade nacional."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
-    logo: {fileID: 0}
-  - nome: Aluna ou Aluno
-    sigla: Discente
-    descricao: "Discente \xE9 a pessoa que aprende, ou seja, o estudante. Voc\xEA
-      j\xE1 \xE9 um discente da UFABC? Vem pra c\xE1!"
-    link: 
-    logo: {fileID: 0}
-  - nome: 
-    sigla: "Dispensa por equival\xEAncia de disciplinas"
-    descricao: "\xE9 o processo de dispensa uma disciplina por equival\xEAncia, se
-      j\xE1 algum estudante cursou, em outra institui\xE7\xE3o, uma disciplina com
-      a mesma carga hor\xE1ria e o seu conte\xFAdo corresponder a, no m\xEDnimo, 75%
-      da disciplina da UFABC. Esse processo ocorre muitas vezes com alunos oriundos
-      de transfer\xEAncia."
-    link: http://www.ufabc.edu.br/images/stories/comunicare/boletimdeservico/boletim_servico_ufabc_869.pdf#page=72
-    logo: {fileID: 0}
-  - nome: Professor, Orientador
-    sigla: Docente
-    descricao: "Docente \xE9 a pessoa que ensina, ou seja, o professor. Qual \xE9
-      o seu docente preferido?"
-    link: 
-    logo: {fileID: 0}
-  - nome: Engenharia Ambiental e Urbana
-    sigla: EAU
-    descricao: "O curso de Engenharia Ambiental e Urbana forma um profissional capacitado
-      para contribuir com a resolu\xE7\xE3o de problemas ambientais e urbanos por
-      meio da realiza\xE7\xE3o de an\xE1lises, diagn\xF3sticos integrados, concep\xE7\xE3o
-      de projetos e avalia\xE7\xF5es t\xE9cnicas, socioecon\xF4micas e de impactos
-      nos setores e sistemas ambientais e urbanos. O profissional graduado nesse curso
-      poder\xE1 atuar em ag\xEAncias reguladoras; organiza\xE7\xF5es n\xE3o governamentais;
-      poder p\xFAblico federal, estadual e municipal; ensino e pesquisa, concession\xE1rias
-      de servi\xE7os p\xFAblicos; ag\xEAncias bilaterais e multilateriais de coopera\xE7\xE3o;
-      empresas do setor industrial, de servi\xE7os e de consultoria; e tamb\xE9m como
-      profissional aut\xF4nomo."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: Engenharia de Energia
-    sigla: EE
-    descricao: "Engenharia de Energia \xE9 um curso de Engenharia que visa a forma\xE7\xE3o
-      de engenheir@s habilitad@s a abordar diferentes \xE1reas de atua\xE7\xE3o no
-      contexto energ\xE9tico brasileiro. Desde as fontes de energia (renov\xE1veis
-      ou n\xE3o-renov\xE1veis), convers\xE3o, transporte, distribui\xE7\xE3o, usos
-      finais e otimiza\xE7\xE3o energ\xE9tica. O profissional  poder\xE1 trabalhar
-      em institui\xE7\xF5es governamentais; empresas de gera\xE7\xE3o, transporte
-      e distribui\xE7\xE3o de diferentes energ\xE9ticos; centros de pesquisa e em
-      diferentes setores econ\xF4micos: agroind\xFAstrias, ind\xFAstrias extrativas,
-      sider\xFArgica, aliment\xEDcio, de transforma\xE7\xE3o; setor comercial e de
-      servi\xE7os; em atividades relacionadas a tecnologias de convers\xE3o energ\xE9tica;
-      planejamento energ\xE9tico; alternativas energ\xE9ticas; gest\xE3o de sistemas
-      energ\xE9ticos; economia e racionaliza\xE7\xE3o do uso da energia."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: "Engenharia Gest\xE3o"
-    sigla: EG
-    descricao: "Engenharia de Gest\xE3o \xE9 um curso que tem como foco a integra\xE7\xE3o
-      sist\xEAmica de todos os atores envolvidos no projeto e gest\xE3o dos processos
-      de produ\xE7\xE3o de bens e servi\xE7os para, por exemplo, construir modelos
-      de sistemas de gest\xE3o otimizados para serem aplicados no processo de tomada
-      de decis\xE3o. As \xE1reas abarcadas pelo curso conferem aos futuros profissionais
-      condi\xE7\xF5es para que estes coloquem em pr\xE1tica os conhecimentos em empresas
-      e organiza\xE7\xF5es dos diversos segmentos econ\xF4micos com o -prop\xF3sito
-      de oferecer solu\xE7\xF5es sist\xEAmicas que coadunam com as necessidades do
-      mundo moderno."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: '-'
-    sigla: Egresso
-    descricao: " \xE9 quem colou grau em determinado curso e n\xE3o realizou matr\xEDcula
-      em disciplinas por dois quadrimestres letivos. Nessa situa\xE7\xE3o, o v\xEDnculo
-      com a gradua\xE7\xE3o da UFABC ser\xE1 encerrado."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
-    logo: {fileID: 0}
-  - nome: "Engenharia da Informa\xE7\xE3o"
-    sigla: EI
-    descricao: "Engenharia da Informa\xE7\xE3o \xE9  o curso que forma profissionais
-      respons\xE1veis pelo projeto, an\xE1lise, desenvolvimento ou implanta\xE7\xE3o
-      de servi\xE7os ou sistemas de gera\xE7\xE3o, processamento, transmiss\xE3o,
-      recep\xE7\xE3o, classifica\xE7\xE3o, apresenta\xE7\xE3o, armazenamento e seguran\xE7a
-      da informa\xE7\xE3o nos diferentes tipos de redes globais de comunica\xE7\xE3o.
-      A associa\xE7\xE3o entre conhecimentos cient\xEDficos e tecnol\xF3gicos, consci\xEAncia
-      cr\xEDtica, responsabilidade social e criatividade, conferem ao Engenheiro de
-      Informa\xE7\xE3o a capacidade de lidar com os novos desafios da \u201CEra da
-      Informa\xE7\xE3o\u201D em diferentes setores da sociedade e do mercado de trabalho."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: "Engenharia Instrumenta\xE7\xE3o, Automa\xE7\xE3o e Rob\xF3tica"
-    sigla: EIAR
-    descricao: "O curso Engenharia de Instrumenta\xE7\xE3o, Automa\xE7\xE3o e Rob\xF3tica
-      possibilita o atendimento da necessidade do pa\xEDs em desenvolver m\xE3o de
-      obra altamente especializada capaz de deter o conhecimento das tecnologias de
-      ponta nas \xE1reas de projeto, dimensionamento, configura\xE7\xE3o, an\xE1lise
-      de processos, manuten\xE7\xE3o dos sistemas de controle e automa\xE7\xE3o e
-      seguran\xE7a, de modo a gerar a adequada independ\xEAncia para o desenvolvimento
-      de equipamentos e sistemas de produ\xE7\xE3o eficientes. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: Engenharia de Materiais
-    sigla: EM
-    descricao: "O curso de Engenharia de Materiais da UFABC tem por objetivo uma forma\xE7\xE3o
-      ampla em tr\xEAs \xE1reas cl\xE1ssicas da engenharia de materiais: materiais
-      polim\xE9ricos, materiais cer\xE2micos e materiais met\xE1licos. A forma\xE7\xE3o
-      ampla permite ao profissional egresso ter atua\xE7a\xF5 espec\xEDfica, definida
-      pela \xE1rea escolhida, mas em ambientes multi e interdisciplinares. Oo contexto
-      atual da \xE1rea requer que o perfil profissional do engenheiro de materiais
-      seja o de um profissional capaz de solucionar os desafios tecnol\xF3gicos que
-      surgem a cada dia nas f\xE1bricas, institutos de pesquisa ou em \xF3rg\xE3os
-      governamentais, envolvendo os materiais e suas aplica\xE7\xF5es."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: 
-    sigla: "Est\xE1gios"
-    descricao: "O programa de est\xE1gio em nossa Universidade n\xE3o \xE9 obrigat\xF3rio,
-      mas desenvolvido como atividade opcional pelos alunos do BC&T e do BC&H. Ele
-      pode ser realizado em qualquer institui\xE7\xE3o (p\xFAblica ou privada), inclusive
-      dentro da UFABC. Alguns cursos de forma\xE7\xE3o espec\xEDficas possuem est\xE1gio
-      obrigat\xF3rio. Para mais informa\xE7\xF5es, busque a PROGRAD. "
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
-    logo: {fileID: 0}
-  - nome: '-'
-    sigla: "Evas\xE3o"
-    descricao: "Evas\xE3o \xE9 o resultado da soma do n\xFAmero de 'estudantes regulares
-      efetivos' em condi\xE7\xE3o de 'abandono' com estudantes regulares efetivos
-      que tenham pedido o 'cancelamento volunt\xE1rio' de sua matr\xEDcula na UFABC. "
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
-    logo: {fileID: 0}
-  - nome: 
-    sigla: "Forma\xE7\xE3o espec\xEDfica"
-    descricao: "Os cursos de Forma\xE7\xE3o Espec\xEDfica s\xE3o os cursos dispon\xEDveis
-      ao estudante que concluir o interdisciplinar de ingresso na UFABC (BCH, BC&T,
-      LCNE e LCH), tamb\xE9m conhecidos como p\xF3s BIs e p\xF3s LIs. Por exemplo,
-      se o estudante ingressou pelo BC&H pode escolher entre 6 cursos ferecidos pela
-      UFABC, nas modalidades Bacharelado ou Licenciatura. \xC9 permitida a matr\xEDcula
-      simult\xE2nea em at\xE9 tr\xEAs cursos de forma\xE7\xE3o espec\xEDfica."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
-    logo: {fileID: 0}
-  - nome: "Licenciatura em Ci\xEAncias Biol\xF3gicas"
-    sigla: LCB
-    descricao: "a Licenciatura em Ci\xEAncias Biol\xF3gicas \xE9 um curso de forma\xE7\xE3o
-      espec\xEDfica cujo ingresso \xE9 feito pela Licenciatural em Ci\xEAncias Naturais
-      e Exatas e proporciona uma forma\xE7\xE3o ampla, diversificada e s\xF3lida no
-      que se refere aos conhecimentos da \xE1rea de Ci\xEAncias Biol\xF3gicas, e promove,
-      por meio das atividades pr\xE1ticas e pedag\xF3gicas e dos est\xE1gios curriculares,
-      a integraliza\xE7\xE3o dos conhecimentos espec\xEDficos com as atividades de
-      ensino. Busca formar o educador consciente de seu papel na forma\xE7\xE3o de
-      cidad\xE3os sob a perspectiva educacional, cient\xEDfica, ambiental e social."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: Licenciatura em Filosofia
-    sigla: Licenciatura em Filosofia
-    descricao: "A Licenciatura em Filosofia \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      cujo ingresso \xE9 feito pela Licenciatural em Ci\xEAncias Humana e prop\xF5e
-      uma forma\xE7\xE3o que concilia as reflex\xF5es sobre o ensino de Filosofia
-      com as problematiza\xE7\xF5es que caracterizam o ato de filosofar. As discuss\xF5es
-      s\xE3o embasadas a partir de fundamentos te\xF3ricos imprescind\xEDveis que
-      versam sobre: a identidade, a fun\xE7\xE3o e a finalidade do ato filos\xF3fico;
-      o que e como ensinar e; as rela\xE7\xF5es entre a filosofia e sua hist\xF3ria
-      e entre Filosofia e Educa\xE7\xE3o."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: "Licenciatura em F\xEDsica"
-    sigla: "Licenciatura em F\xEDsica"
-    descricao: "A Licenciatura em F\xEDsica \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      cujo ingresso \xE9 feito pela Licenciatural em Ci\xEAncias Naturais e Exatas
-      e que proporciona uma forma\xE7\xE3o nos princ\xEDpios e m\xE9todos da f\xEDsica,
-      que est\xE3o na raiz da compreens\xE3o do nosso universo e das profundas mudan\xE7as
-      tecnol\xF3gicas do mundo contempor\xE2neo."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: "Licenciatura em Matem\xE1tica"
-    sigla: LM
-    descricao: "A Licenciatura em Matem\xE1tica \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      cujo ingresso \xE9 feito pela Licenciatural em Ci\xEAncias Naturais e Exatas
-      e \xE9 destinada \xE0 forma\xE7\xE3o de profissionais que poder\xE3o atuar nas
-      v\xE1rias esferas do ensino da matem\xE1tica, da computa\xE7\xE3o e da estat\xEDstica,
-      incluindo o magist\xE9rio, o desenvolvimento de novos m\xE9todos e t\xE9cnicas
-      de  aprendizagem e a divulga\xE7\xE3o cient\xEDfica. O curso oferece disciplinas
-      matem\xE1ticas, pedag\xF3gicas, de embasamento t\xE9cnico interdisciplinares
-      e tamb\xE9m oferece oportunidades de colocar em pr\xE1tica o conhecimento adquirido."
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: "Licenciatura em Qu\xEDmica"
-    sigla: LQ
-    descricao: "A Licenciatura em Qu\xEDmica \xE9 um curso de forma\xE7\xE3o espec\xEDfica
-      cujo ingresso \xE9 feito pela Licenciatural em Ci\xEAncias Naturais e Exatas
-      e prima por formar profissionais com  os quais alcan\xE7ar\xE1 as compet\xEAncias
-      e habilidades necess\xE1rias para atuar no campo da Educa\xE7\xE3o B\xE1sica,
-      especificamente no Ensino Fundamental, nas \xE1reas de Ci\xEAncias Naturais
-      e Matem\xE1tica, e no Ensino M\xE9dio, na \xE1rea Qu\xEDmica. "
-    link: http://paratodos.ufabc.edu.br/os-cursos-da-ufabc/
-    logo: {fileID: 0}
-  - nome: '-'
-    sigla: "Matr\xEDcula em disciplinas"
-    descricao: " A solicita\xE7\xE3o da matr\xEDcula em disciplinas dever\xE1 ser
-      feita cada per\xEDodo letivo nos prazos pr\xE9-fixados pelo Calend\xE1rio Acad\xEAmico.
-      No primeiro quadrimestre letivo de alunos regulares ingressantes, a matr\xEDcula
-      em displina \xE9 efetuada automaticamente pela Pr\xF3-Reitoria de Gradua\xE7\xE3o.
-      Na UFABC, existe um n\xFAmero m\xE1ximo de cr\xE9ditos em que o aluno pode se
-      matricular a cada quadrimestre. Consulte a PROGRAD, em caso de d\xFAvidas."
+  - nome: Bloco Tau
+    sigla: Bloco Alfa 2
+    descricao: "Mais conhecido como Alfa 2 ou A2, o Bloco Tau fica localizado no campus
+      de S\xE3o Bernardo, em frente \xE0 quadra de areia. Nele, est\xE3o diversas
+      salas de aula, laborat\xF3rios did\xE1ticos de inform\xE1tica e uma cantina.
+      Neste bloco est\xE1 a sala da seguran\xE7a que centraliza o \"achados e perdidos\"
+      do campus, e o espa\xE7o \"Mariele Franco\" no qual existem projetos para consolida\xE7\xE3o
+      da sala em um ambiente infantil, onde estudantes que s\xE3o m\xE3es ou pais,
+      podem amamentar, alimentar, brincar ou acalmar seus filhos de forma l\xFAdica
+      dentro do ambiente universit\xE1rio."
     link: 
     logo: {fileID: 0}
   - nome: '-'
-    sigla: Quadrimestre
-    descricao: "Carinhosamente apelidado de Quad ou Quadri, representa o per\xEDodo
-      letivo na UFABC. Diferentemente da maioria das Universidades brasileiras que
-      usam o sistema semestral com f\xE9rias em julho, o ano letivo de nossa Universidade
-      divide-se em tr\xEAs quadrimestres, nos quais as disciplinas desenvolvem seu
-      programa de conte\xFAdo. Em julho, a UFABC n\xE3o p\xE1ra! Consulte o Calend\xE1rio
-      Acad\xEAmico no site da PROGRAD para mais informa\xE7\xF5es."
-    link: http://prograd.ufabc.edu.br/calendarios
-    logo: {fileID: 0}
-  - nome: 
-    sigla: REC
-    descricao: "Os mecanismos de recupera\xE7\xE3o (REC) \xE9 aplicado somente a estudantes
-      que  obtiveram os conceitos D ou reprovado com conceito F em uma disciplina.
-      A data e os crit\xE9rios dos mecanismos de recupera\xE7\xE3o dever\xE3o ser
-      definidos pelo docente respons\xE1vel pela disciplina e explicitados no Plano
-      de Ensino que dever\xE1 ser disponibilizado aos discentes no in\xEDcio do quadrimestre
-      letivo. A REC n\xE3o poder\xE1 ser aplicada em per\xEDodo inferior a 72 horas
-      ap\xF3s a divulga\xE7\xE3o dos conceitos das avalia\xE7\xF5es e tem prazo m\xE1ximo
-      a terceira semana letiva do quadrimestre seguinte."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+    sigla: Bloco Beta
+    descricao: "O Bloco Beta \xE9 o primeiro pr\xE9dio que enxergamos ao chegar na
+      unidade de S\xE3o Bernardo, pelo ponto do fretado. Muitas solenidades e eventos
+      acontecem nele, porque est\xE3o os cinco audit\xF3rios do campus de S\xE3o Bernardo
+      do Campo. Al\xE9m disso, o Beta abriga a biblioteca, perfeita para estudar em
+      pequenos grupos."
+    link: 
     logo: {fileID: 0}
   - nome: '-'
-    sigla: "Trancamento de matr\xEDcula"
-    descricao: "Entende-se por trancamento de matr\xEDcula a interrup\xE7\xE3o tempor\xE1ria
-      das atividades acad\xEAmicas de gradua\xE7\xE3o, a pedido do aluno, sem que
-      haja a perda do v\xEDnculo regular com a universidade. O aluno n\xE3o poder\xE1
-      ocupar cargo representativo na UFABC nem receber qualquer tipo de bolsa durante
-      o per\xEDodo em que tiver sua matr\xEDcula trancada. Para maiores detalhes,
-      consulte a PROGRAD"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    sigla: Bloco Delta
+    descricao: "O Bloco Delta \xE9 est\xE1 na parte central do campus de S\xE3o Bernardo,
+      de frente para o Bloco Beta, e em sua retaguarda est\xE1 a quadra de areia.
+      \xC9 o Bloco mais formal de todos, onde podemos resolver nossos problemas. Brincadeiras
+      \xE0 parte, no primeiro andar est\xE1 situada a enfermaria, a PROEC e alguns
+      n\xFAcleos espec\xEDficos. O segundo e o terceiro andar s\xE3o destinados aos
+      gabinetes d@s professores. Essa \xE9 uma dica, caso voc\xEA precise encontrar
+      algum deles."
+    link: 
     logo: {fileID: 0}
-  - nome: 
-    sigla: "Transfer\xEAncia entre BIs"
-    descricao: "Na UFABC \xE9 poss\xEDvel se transferir de um Bacharelado Interdisciplinar
-      para outro e tem as regras definidas em editais espec\xEDficos. Consulte a PROGRAD
-      para acompanhar os processos"
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+  - nome: Poratria de SBC
+    sigla: "Bloco \xC9psilon"
+    descricao: "O Bloco \xC9psilon \xE9 a portaria do campus de S\xE3o Bernardo do
+      Campo."
+    link: 
+    logo: {fileID: 0}
+  - nome: RU de SBC
+    sigla: Bloco Gama
+    descricao: "O Bloco Gama \xE9 pr\xE9dio onde est\xE1 instalado o Restaurante Universit\xE1rio
+      (RU) do campus de S\xE3o Bernardo do Campo"
+    link: 
+    logo: {fileID: 0}
+  - nome: "Biot\xE9rio de SBC"
+    sigla: Bloco Mu
+    descricao: "O Bloco Mu nada mais \xE9 que o Biot\xE9rio de S\xE3o Bernardo do
+      Campo"
+    link: 
     logo: {fileID: 0}
   - nome: '-'
-    sigla: Vagas ociosas
-    descricao: "Vagas ociosas s\xE3o aquelas n\xE3o preenchidas no processo seletivo,
-      decorrentes de matr\xEDculas eliminadas e de cancelamentos volunt\xE1rios."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#part1
+    sigla: "Bloco \xD4mega"
+    descricao: "O Bloco \xD4mega \xE9 aquele que se localiza atr\xE1s da quadra de
+      areia em S\xE3o Bernardo do Campo. Ele possui diversos laborat\xF3rios de pesquisa
+      dos cursos de Engenharia da UFABC. Se um dia tiver a oportunidade, visite-o.
+      Voc\xEA vai ver a estrutura diferenciada do bloco com arm\xE1rios corta-fogo
+      e chuveiros nos corredores que podem ser  usados no caso da ocorr\xEAncia de
+      uma contamina\xE7\xE3o acidental dentro dos laborat\xF3rios."
+    link: 
     logo: {fileID: 0}
-  - nome: 
-    sigla: Vista de prova
-    descricao: "\xC9 um direito de estudantes matriculad@s em disciplinas dos cursos
-      de gradua\xE7\xE3o fazer vista das corre\xE7\xF5es de avalia\xE7\xF5es por ele
-      realizadas durante o quadrimestre vigente. Portanto, se o discente discordar
-      da corre\xE7\xE3o realizada dever\xE1 pronunciar-se no momento da vista, solicitando
-      ao professor a revis\xE3o imediata, \xE0 luz dos objetivos e crit\xE9rios esclarecidos
-      antes da avalia\xE7\xE3o."
-    link: http://prograd.ufabc.edu.br/guia-da-graduacao#certificado-colacao-diploma
+  - nome: "Herb\xE1rio"
+    sigla: "Bloco \xD4micron"
+    descricao: "O Bloco \xD4micron \xE9 o Herb\xE1rio de S\xE3o Bernardo do Campo"
+    link: 
+    logo: {fileID: 0}
+  - nome: "Centro de Conviv\xEAncia e Lazer; Elefante Branco"
+    sigla: Bloco Psi
+    descricao: "O Bloco Psi \xE9 o Centro de Conviv\xEAncia e Lazer do campus de S\xE3o
+      Bernardo do Campo e foi apelidado de Elefante Branco (nome mais conhecido).Os
+      estudantes podem usar o espa\xE7o que sempre est\xE1 aberto, tanto para atividades
+      de lazer, para realizar reuni\xF5es com os colegas ou simplesmente expressar
+      suas habilidades art\xEDsticas."
+    link: 
+    logo: {fileID: 0}
+  - nome: '-'
+    sigla: Bloco Zeta
+    descricao: "O Bloco Zeta \xE9 pr\xE9dio ao lado do Bloco Alfa 2 e de frente para
+      o Bloco \xD4mega e possui salas de aula e labor\xE1t\xF3rios de estudo."
+    link: 
+    logo: {fileID: 0}
+  - nome: '-'
+    sigla: Campus/Campi
+    descricao: "campus (singular) ou campi (plural) \xE9 o local onde uma institui\xE7\xE3o
+      ou conjunto de institui\xE7\xF5es, de ensino tem uma parte ou a totalidade dos
+      seus servi\xE7os. Os campi da UFABCl abrange seu conjunto de blocos, pr\xE9dios,
+      pra\xE7as e ruas. A UFABC possui os campi de S\xE3o Bernardo do Campo, localizado
+      na Alameda da Universidade, s/n - Bairro Anchieta e o de Santo Andr\xE9, localizado
+      na Avenida dos Estados, 5001 - Bairro Bang\xFA."
+    link: 
+    logo: {fileID: 0}
+  - nome: '-'
+    sigla: "Laborat\xF3rio de Inform\xE1tica"
+    descricao: "Um laborat\xF3rio de Inform\xE1tica \xE9 o ambiente no qual estudantes
+      de diversos cursos de gradua\xE7\xE3o podem realizar pesquisas e trabalhos a
+      partir de computadores com softwares avan\xE7ados e de uso coletivo. Um exemplo
+      \xE9 o Laborat\xF3rio de Cartografia e Geoprocessamento, localizado no bloco
+      Alfa 2 em S\xE3o Bernardo do Campo e no bloco A, Torre 1 do campus de Santo
+      Andr\xE9."
+    link: 
+    logo: {fileID: 0}
+  - nome: '-'
+    sigla: "Laborat\xF3rio Seco"
+    descricao: "Um laborat\xF3rio seco \xE9 o ambiente no qual estudantes dos cursos
+      de gradua\xE7\xE3o podem realizar experimenta\xE7\xF5es, sem o uso de reagentes,
+      a partir de equipamentos tecnol\xF3gicos avan\xE7ados de uso coletivo e equipamentos
+      espec\xEDficos de cada grupo de pesquisa. Um exemplo \xE9 o Laborat\xF3rio de
+      Processamento de Sinais e Comunica\xE7\xE3o, localizado no bloco A em Santo
+      Andr\xE9."
+    link: 
+    logo: {fileID: 0}
+  - nome: '-'
+    sigla: "Laborat\xF3rio \xDAmido"
+    descricao: "Um laborat\xF3rio \xFAmido \xE9 o ambiente no qual estudantes de diversos
+      cursos de gradua\xE7\xE3o podem realizar experimenta\xE7\xF5es a partir de produtos
+      reagentes de uso coletivo, espec\xEDficos de cada grupo de pesquisa. Muitas
+      vezes, \xE9 um ambiente que precisa de refrigeramento. Um exemplo \xE9 o Laborat\xF3rio
+      de Biocombust\xEDveis, localizado no bloco A em Santo Andr\xE9."
+    link: 
     logo: {fileID: 0}

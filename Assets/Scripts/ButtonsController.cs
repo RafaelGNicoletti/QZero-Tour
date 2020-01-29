@@ -94,7 +94,7 @@ public class ButtonsController : ScriptableObject
     public void OpenLinkJSPlugin(string siteName)
     {
 #if !UNITY_EDITOR
-      openWindow("http://"+siteName);
+      openWindow(siteName);
 #endif
     }
 
