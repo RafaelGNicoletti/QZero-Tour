@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7584362210448758763}
   m_Layer: 0
   m_Name: Interacao Generica
-  m_TagString: Interactable_Object
+  m_TagString: Interactive_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,6 +80,9 @@ MonoBehaviour:
   talkTo: 0
   enterBuilding: 0
   enterGame: 0
+  elevator: 0
+  objectToTalk: {fileID: 0}
+  elevatorWindow: {fileID: 0}
 --- !u!114 &7584362210448758763
 MonoBehaviour:
   m_ObjectHideFlags: 0

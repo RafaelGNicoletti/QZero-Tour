@@ -33,7 +33,7 @@ public class EntidadeObjInterativo : Drag
     {
         if (moveable)
         {
-            Debug.Log("Entrou");
+            //Debug.Log("Entrou");
             OnMouseDrag();
         }
     }
