@@ -65,7 +65,6 @@ public class PlayerInteract : MonoBehaviour
         other.GetComponent<NPCBalloon>().CreateBalloon();
     }
 
-
     private void OnTriggerExit2D(Collider2D other)
     {
         // Existe NPCTalking?    Other possuí a tag?     Other é o mesmo que estamos falando atualmente?
@@ -114,19 +113,19 @@ public class PlayerInteract : MonoBehaviour
         /// TEMPORÁRIO
         else if (Input.GetKeyDown(KeyCode.Space) && interactableObj && timePassed >= keyDelay)
         {
-            if (interactableObject.GetEnterGame())
+            if (interactableObject.GetEnterGame()) // Muda de scene
             {
                 interactableObject.LoadMinigame();
             }
-            else if (interactableObject.GetEnterBuilding())
+            else if (interactableObject.GetEnterBuilding()) // Muda de scene
             {
                 interactableObject.LoadMap();
             }
-            else if (interactableObject.GetTalkTo())
+            else if (interactableObject.GetTalkTo()) // Jogo auxilios
             {
                 interactableObject.PlayDialogue();
             }
-            else if (interactableObject.GetElevator())
+            else if (interactableObject.GetElevator()) // Elevador
             {
                 interactableObject.OpenElevator();
                 if (GameObject.FindGameObjectWithTag("PopUpBalloon"))

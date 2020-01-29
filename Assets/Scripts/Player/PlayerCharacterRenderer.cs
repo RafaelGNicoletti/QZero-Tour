@@ -20,7 +20,6 @@ public class PlayerCharacterRenderer : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-
     public void SetDirection(Vector2 direction){
         //use the Run states by default
 
@@ -70,13 +69,7 @@ public class PlayerCharacterRenderer : MonoBehaviour
         //round it, and we have the answer!
         return Mathf.FloorToInt(stepCount);
     }
-
-
-
-
-
-
-
+    
     //this function converts a string array to a int (animator hash) array.
     public static int[] AnimatorStringArrayToHashArray(string[] animationArray)
     {
@@ -91,5 +84,4 @@ public class PlayerCharacterRenderer : MonoBehaviour
         //we're done!
         return hashArray;
     }
-
 }

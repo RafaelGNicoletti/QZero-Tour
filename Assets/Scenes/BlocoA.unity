@@ -820,6 +820,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: OpenGlossary
       objectReference: {fileID: 0}
+    - target: {fileID: 1758229433, guid: e48968b77639ee7479b6a9022971c083, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1758229432, guid: e48968b77639ee7479b6a9022971c083, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 225855213, guid: e48968b77639ee7479b6a9022971c083, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e48968b77639ee7479b6a9022971c083, type: 3}
 --- !u!1 &235257946
@@ -900,11 +912,11 @@ GameObject:
   m_Component:
   - component: {fileID: 335149013}
   - component: {fileID: 335149016}
-  - component: {fileID: 335149015}
   - component: {fileID: 335149014}
+  - component: {fileID: 335149017}
   m_Layer: 0
   m_Name: ElevadorUIActive
-  m_TagString: Interactable_Object
+  m_TagString: Interactive_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -937,26 +949,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   balloon: {fileID: 100740595527546361, guid: 122acdbd9043bbe4e9bd8f93eb45d831, type: 3}
   balloonPos: {x: -1, y: 1, z: 0}
---- !u!114 &335149015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335149012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e85e8ee02e42db041ac7438db28dbac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 
-  newScenePlayerPos: {x: 0, y: 0, z: 0}
-  talkTo: 0
-  enterBuilding: 0
-  enterGame: 0
-  elevator: 1
-  objectToTalk: {fileID: 0}
-  elevatorWindow: {fileID: 1842171773}
 --- !u!60 &335149016
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -987,6 +979,19 @@ PolygonCollider2D:
       - {x: -0.6050129, y: -1.1018004}
       - {x: -0.061375618, y: -0.7723174}
       - {x: -1.1327496, y: -0.19834423}
+--- !u!114 &335149017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335149012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f16d958e94251941b40ab65b23dba69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elevatorWindow: {fileID: 1842171773}
 --- !u!1001 &360986841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4319,9 +4324,10 @@ GameObject:
   - component: {fileID: 811307475}
   - component: {fileID: 811307476}
   - component: {fileID: 811307477}
+  - component: {fileID: 811307478}
   m_Layer: 0
   m_Name: EntradaQuiz
-  m_TagString: Interactable_Object
+  m_TagString: Interactive_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4404,6 +4410,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   balloon: {fileID: 100740595527546361, guid: 122acdbd9043bbe4e9bd8f93eb45d831, type: 3}
   balloonPos: {x: -1, y: 1, z: 0}
+--- !u!114 &811307478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811307473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27818fa672138bf4eb262609ff767efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameSceneName: QuizProReitorias
+  altDialog: {fileID: 1164374221}
+  gameIntro: Quer conhecer mais sobre a UFABC?
+  confirmText: Sim
+  cancelText: "Agora n\xE3o..."
 --- !u!1001 &815257047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5623,6 +5646,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2140902395}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1164374221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 225855212, guid: e48968b77639ee7479b6a9022971c083,
+    type: 3}
+  m_PrefabInstance: {fileID: 194648830}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1164546284
 GameObject:
   m_ObjectHideFlags: 0
@@ -5633,11 +5662,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1164546285}
   - component: {fileID: 1164546288}
-  - component: {fileID: 1164546287}
   - component: {fileID: 1164546286}
+  - component: {fileID: 1164546289}
   m_Layer: 0
   m_Name: SaidaBlocoA
-  m_TagString: Interactable_Object
+  m_TagString: Interactive_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5670,26 +5699,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   balloon: {fileID: 2435448221627863497, guid: a06d09ea52516214dadba65ef6891182, type: 3}
   balloonPos: {x: 0.9, y: 1.8, z: 0}
---- !u!114 &1164546287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164546284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e85e8ee02e42db041ac7438db28dbac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: MapaSA
-  newScenePlayerPos: {x: -13, y: 5.8, z: 0}
-  talkTo: 0
-  enterBuilding: 1
-  enterGame: 0
-  elevator: 0
-  objectToTalk: {fileID: 0}
-  elevatorWindow: {fileID: 0}
 --- !u!60 &1164546288
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5720,6 +5729,24 @@ PolygonCollider2D:
       - {x: 0.7282231, y: 0.47625685}
       - {x: 1.8819458, y: -0.13669538}
       - {x: 2.489795, y: 0.19023895}
+--- !u!114 &1164546289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164546284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a729875f31679a4495e1247382a2ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameSceneName: MapaSA
+  newScenePosition: {x: -13, y: 5.8, z: 0}
+  altDialog: {fileID: 1164374221}
+  gameIntro: Deseja sair?
+  confirmText: Sim
+  cancelText: "N\xE3o"
 --- !u!1001 &1240867498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5731,11 +5758,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7960043281518971759, guid: 09c834d2f78100d4bb0547232d7c52eb,
-        type: 3}
-      propertyPath: idleDirection
-      value: O
       objectReference: {fileID: 0}
     - target: {fileID: 7960043281175115916, guid: 09c834d2f78100d4bb0547232d7c52eb,
         type: 3}
@@ -5817,6 +5839,11 @@ PrefabInstance:
       propertyPath: falas.Array.data[0]
       value: "V\xE1rias entidades estudantis t\xEAm uma salinha no piso vermelho,
         como o Diret\xF3rio Central Estudantil (DCE) e a Atl\xE9tica (AXIS)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960043281518971759, guid: 09c834d2f78100d4bb0547232d7c52eb,
+        type: 3}
+      propertyPath: idleDirection
+      value: O
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09c834d2f78100d4bb0547232d7c52eb, type: 3}
@@ -17716,11 +17743,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1776144907}
   - component: {fileID: 1776144910}
-  - component: {fileID: 1776144909}
   - component: {fileID: 1776144908}
+  - component: {fileID: 1776144911}
   m_Layer: 0
   m_Name: SaidaBlocoA (1)
-  m_TagString: Interactable_Object
+  m_TagString: Interactive_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17753,26 +17780,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   balloon: {fileID: 2435448221627863497, guid: a06d09ea52516214dadba65ef6891182, type: 3}
   balloonPos: {x: 0.9, y: 1.8, z: 0}
---- !u!114 &1776144909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776144906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e85e8ee02e42db041ac7438db28dbac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: MapaSA
-  newScenePlayerPos: {x: -3.6, y: 11.3, z: 0}
-  talkTo: 0
-  enterBuilding: 1
-  enterGame: 0
-  elevator: 0
-  objectToTalk: {fileID: 0}
-  elevatorWindow: {fileID: 0}
 --- !u!60 &1776144910
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -17803,6 +17810,24 @@ PolygonCollider2D:
       - {x: 0.7282231, y: 0.47625685}
       - {x: 1.4609265, y: 0.094186544}
       - {x: 2.0008698, y: 0.39395785}
+--- !u!114 &1776144911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776144906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a729875f31679a4495e1247382a2ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameSceneName: MapaSA
+  newScenePosition: {x: -3.6, y: 11.3, z: 0}
+  altDialog: {fileID: 1164374221}
+  gameIntro: Deseja sair?
+  confirmText: Sim
+  cancelText: "N\xE3o"
 --- !u!1 &1785603791
 GameObject:
   m_ObjectHideFlags: 0
@@ -17914,11 +17939,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1817330052}
   - component: {fileID: 1817330055}
-  - component: {fileID: 1817330054}
   - component: {fileID: 1817330053}
+  - component: {fileID: 1817330054}
   m_Layer: 0
   m_Name: ElevadorUIActive (1)
-  m_TagString: Interactable_Object
+  m_TagString: Interactive_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17960,16 +17985,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1817330051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e85e8ee02e42db041ac7438db28dbac2, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f16d958e94251941b40ab65b23dba69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
-  newScenePlayerPos: {x: 0, y: 0, z: 0}
-  talkTo: 0
-  enterBuilding: 0
-  enterGame: 0
-  elevator: 1
-  objectToTalk: {fileID: 0}
   elevatorWindow: {fileID: 1842171773}
 --- !u!60 &1817330055
 PolygonCollider2D:
