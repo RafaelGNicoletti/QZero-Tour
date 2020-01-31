@@ -262,7 +262,7 @@ MonoBehaviour:
   - Testeando
   - 1, 2, 3
   talkTextBox: {fileID: 0}
-  controller: {fileID: 0}
+  controller: {fileID: 7960043281518971759}
 --- !u!1 &7960043281980067767
 GameObject:
   m_ObjectHideFlags: 0
