@@ -65,7 +65,6 @@ public class PlayerInteract : MonoBehaviour
         other.GetComponent<NPCBalloon>().CreateBalloon();
     }
 
-
     private void OnTriggerExit2D(Collider2D other)
     {
         // Existe NPCTalking?    Other possuí a tag?     Other é o mesmo que estamos falando atualmente?
@@ -112,29 +111,29 @@ public class PlayerInteract : MonoBehaviour
         // REVER Conflito de merge (talvez de pra simplificar...)
         /// Interação com outros objetos - usado para abrir os minijogos
         /// TEMPORÁRIO
-        else if (Input.GetKeyDown(KeyCode.Space) && interactableObj && timePassed >= keyDelay)
-        {
-            if (interactableObject.GetEnterGame())
-            {
-                interactableObject.LoadMinigame();
-            }
-            else if (interactableObject.GetEnterBuilding())
-            {
-                interactableObject.LoadMap();
-            }
-            else if (interactableObject.GetTalkTo())
-            {
-                interactableObject.PlayDialogue();
-            }
-            else if (interactableObject.GetElevator())
-            {
-                interactableObject.OpenElevator();
-                if (GameObject.FindGameObjectWithTag("PopUpBalloon"))
-                {
-                    GameObject.FindGameObjectWithTag("PopUpBalloon").SetActive(false);
-                }
-            }
-        }
+        //else if (Input.GetKeyDown(KeyCode.Space) && interactableObj && timePassed >= keyDelay)
+        //{
+        //    if (interactableObject.GetEnterGame()) // Muda de scene
+        //    {
+        //        interactableObject.LoadMinigame();
+        //    }
+        //    else if (interactableObject.GetEnterBuilding()) // Muda de scene
+        //    {
+        //        interactableObject.LoadMap();
+        //    }
+        //    else if (interactableObject.GetTalkTo()) // Jogo auxilios
+        //    {
+        //        interactableObject.PlayDialogue();
+        //    }
+        //    else if (interactableObject.GetElevator()) // Elevador
+        //    {
+        //        interactableObject.OpenElevator();
+        //        if (GameObject.FindGameObjectWithTag("PopUpBalloon"))
+        //        {
+        //            GameObject.FindGameObjectWithTag("PopUpBalloon").SetActive(false);
+        //        }
+        //    }
+        //}
     }
 
     /// <summary>

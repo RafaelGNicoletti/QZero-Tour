@@ -21,6 +21,9 @@ public class GlossaryItems : ScriptableObject
     }
 }
 
+/// <summary>
+/// Classe temporária para auxiliar na conversão do arquivo JSON
+/// </summary>
 [System.Serializable]
 public class TempGlossary
 {

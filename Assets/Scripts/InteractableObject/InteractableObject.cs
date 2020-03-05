@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Classe que contém as reações de objetos com o qual o player pode interagir
+/// </summary>
 public class InteractableObject : MonoBehaviour
 {
     public string sceneName;
@@ -16,6 +19,7 @@ public class InteractableObject : MonoBehaviour
     [SerializeField] private bool enterGame;
 
     [SerializeField] private bool elevator;
+    [SerializeField] private bool fretado;
     
     [SerializeField] private GameObject objectToTalk;
     [SerializeField] private GameObject elevatorWindow;
@@ -48,7 +52,9 @@ public class InteractableObject : MonoBehaviour
         camera = GameObject.Find("Main Camera");
         GameManager.instance.SetPlayerPos(player.transform.position);
         GameManager.instance.SetCameraPos(camera.transform.position);
-        
+
+        GameManager.instance.SetLastSceneName(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+
         SceneManager.LoadScene(sceneName);
     }
 
@@ -62,11 +68,12 @@ public class InteractableObject : MonoBehaviour
 
     public void PlayDialogue()
     {
-        if (objectToTalk.GetComponent<NPCTalk>())
-        {
+        //if (objectToTalk.GetComponent<NPCTalk>())
+        //{
 
-        }
-        else if (objectToTalk.GetComponent<AuxiliosManager>())
+        //}
+        //else 
+        if (objectToTalk.GetComponent<AuxiliosManager>())
         {
             objectToTalk.GetComponent<AuxiliosManager>().StartAuxilioMinigame();
         }
@@ -74,6 +81,8 @@ public class InteractableObject : MonoBehaviour
 
     public void OpenElevator()
     {
-        GameObject.Find("MapController").GetComponent<MapController>().OpenElevador(elevatorWindow);
+        MapController.instance.OpenElevador(elevatorWindow);
     }
+
+
 }
