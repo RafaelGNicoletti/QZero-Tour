@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7584362210448758764}
   - component: {fileID: 7584362210448758765}
-  - component: {fileID: 7584362210448758762}
   - component: {fileID: 7584362210448758763}
   m_Layer: 0
   m_Name: Interacao Generica
@@ -63,26 +62,6 @@ PolygonCollider2D:
       - {x: -1.3125868, y: -0.7908969}
       - {x: -0.60813713, y: -0.4828558}
       - {x: -1.1327496, y: -0.19834423}
---- !u!114 &7584362210448758762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7584362210448758767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e85e8ee02e42db041ac7438db28dbac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 
-  newScenePlayerPos: {x: 0, y: 0, z: 0}
-  talkTo: 0
-  enterBuilding: 0
-  enterGame: 0
-  elevator: 0
-  objectToTalk: {fileID: 0}
-  elevatorWindow: {fileID: 0}
 --- !u!114 &7584362210448758763
 MonoBehaviour:
   m_ObjectHideFlags: 0
